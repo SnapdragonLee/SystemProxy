@@ -5,28 +5,82 @@ mixed-port: 7890
 mode: Rule
 proxies:
 - cipher: aes-256-gcm
-  name: US_35_0@34
+  name: US_26_0@25
+  password: g5MeD6Ft3CWlJId
+  port: 5003
+  server: 38.75.136.21
+  type: ss
+- cipher: aes-256-gcm
+  name: US_27_0@26
+  password: KixLvKzwjekG00rm
+  port: 8080
+  server: 38.114.114.104
+  type: ss
+- cipher: aes-256-gcm
+  name: US_28_0@27
+  password: kDWvXYZoTBcGkC4
+  port: 8881
+  server: 38.121.43.97
+  type: ss
+- cipher: aes-256-gcm
+  name: US_29_0@28
   password: Y6R9pAtvxxzmGC
   port: 5001
   server: 38.114.114.104
   type: ss
 - cipher: aes-256-gcm
-  name: US_36_0@35
-  password: kDWvXYZoTBcGkC4
-  port: 8881
+  name: US_30_0@29
+  password: TEzjfAYq2IjtuoS
+  port: 6697
+  server: 38.121.43.97
+  type: ss
+- cipher: aes-256-gcm
+  name: US_31_0@30
+  password: g5MeD6Ft3CWlJId
+  port: 5003
+  server: 172.99.190.39
+  type: ss
+- cipher: aes-256-gcm
+  name: US_32_0@31
+  password: KixLvKzwjekG00rm
+  port: 5500
+  server: 172.99.190.39
+  type: ss
+- cipher: aes-256-gcm
+  name: US_33_0@32
+  password: KixLvKzwjekG00rm
+  port: 8080
+  server: 167.88.61.175
+  type: ss
+- cipher: aes-256-gcm
+  name: US_34_0@33
+  password: cdBIDV42DCwnfIN
+  port: 8118
+  server: 38.143.66.99
+  type: ss
+- cipher: aes-256-gcm
+  name: US_35_0@34
+  password: RexnBgU7EV5ADxG
+  port: 7001
   server: 38.114.114.104
+  type: ss
+- cipher: aes-256-gcm
+  name: US_36_0@35
+  password: Y6R9pAtvxxzmGC
+  port: 5001
+  server: 38.143.66.99
   type: ss
 - cipher: aes-256-gcm
   name: US_37_0@36
   password: PCnnH6SQSnfoS27
-  port: 8090
-  server: 38.114.114.104
+  port: 8091
+  server: 38.121.43.97
   type: ss
-- cipher: chacha20-ietf-poly1305
+- cipher: aes-256-gcm
   name: US_38_0@37
-  password: 70b2198e-ccef-4e8b-b030-b1b03d7f4175
-  port: 17081
-  server: cne.cloudorg.uk
+  password: KixLvKzwjekG00rm
+  port: 8080
+  server: 38.75.136.21
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: US_39_0@38
@@ -36,170 +90,127 @@ proxies:
   type: ss
 - cipher: aes-256-gcm
   name: US_40_0@39
-  password: KixLvKzwjekG00rm
-  port: 8080
-  server: 38.114.114.104
-  type: ss
-- cipher: aes-256-gcm
-  name: US_41_0@40
-  password: Y6R9pAtvxxzmGC
-  port: 5001
-  server: 38.143.66.99
-  type: ss
-- cipher: aes-256-gcm
-  name: US_42_0@41
-  password: Y6R9pAtvxxzmGC
-  port: 5601
-  server: 38.114.114.19
-  type: ss
-- cipher: aes-256-gcm
-  name: US_43_0@42
-  password: kDWvXYZoTBcGkC4
-  port: 8882
-  server: 38.121.43.71
-  type: ss
-- cipher: aes-256-gcm
-  name: US_44_0@43
-  password: Y6R9pAtvxxzmGC
-  port: 5001
-  server: 38.75.136.21
-  type: ss
-- cipher: aes-256-gcm
-  name: US_45_0@44
-  password: TEzjfAYq2IjtuoS
-  port: 6697
-  server: 38.121.43.97
-  type: ss
-- cipher: aes-256-gcm
-  name: US_46_0@45
-  password: pKEW8JPByTVTLtM
-  port: 443
-  server: 38.114.114.19
-  type: ss
-- cipher: aes-256-gcm
-  name: US_47_0@46
-  password: cdBIDV42DCwnfIN
-  port: 8118
-  server: 38.143.66.99
-  type: ss
-- cipher: aes-256-gcm
-  name: US_48_0@47
-  password: g5MeD6Ft3CWlJId
-  port: 5003
-  server: 38.75.136.21
-  type: ss
-- cipher: aes-256-gcm
-  name: US_49_0@48
-  password: KixLvKzwjekG00rm
-  port: 8080
-  server: 38.121.43.97
-  type: ss
-- cipher: aes-256-gcm
-  name: US_50_0@49
-  password: KixLvKzwjekG00rm
-  port: 5500
-  server: 38.68.135.18
-  type: ss
-- cipher: aes-256-gcm
-  name: US_51_0@50
-  password: KixLvKzwjekG00rm
-  port: 5500
-  server: 172.99.190.39
-  type: ss
-- cipher: aes-256-gcm
-  name: US_52_0@51
-  password: Y6R9pAtvxxzmGC
-  port: 3306
-  server: 167.88.63.79
-  type: ss
-- cipher: aes-256-gcm
-  name: US_53_0@52
-  password: PCnnH6SQSnfoS27
-  port: 8091
-  server: 38.121.43.97
-  type: ss
-- cipher: aes-256-gcm
-  name: US_54_0@53
-  password: Y6R9pAtvxxzmGC
-  port: 5600
-  server: 38.68.134.85
-  type: ss
-- cipher: aes-256-gcm
-  name: US_55_0@54
-  password: g5MeD6Ft3CWlJId
-  port: 5003
-  server: 172.99.190.39
-  type: ss
-- cipher: aes-256-gcm
-  name: US_56_0@55
-  password: FoOiGlkAA9yPEGP
-  port: 7306
-  server: 38.114.114.104
-  type: ss
-- cipher: aes-256-gcm
-  name: US_57_0@56
-  password: KixLvKzwjekG00rm
-  port: 8080
-  server: 167.88.61.175
-  type: ss
-- cipher: aes-256-gcm
-  name: US_58_0@57
   password: cdBIDV42DCwnfIN
   port: 8119
   server: 38.121.43.71
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: US_59_0@58
-  password: Zd07906YjHbCki4wC6UB
-  port: 56115
-  server: iq0m0t3xlr3f.cf
-  type: ss
 - cipher: aes-256-gcm
-  name: US_60_0@59
-  password: RexnBgU7EV5ADxG
-  port: 7001
+  name: US_41_0@40
+  password: PCnnH6SQSnfoS27
+  port: 8090
   server: 38.114.114.104
   type: ss
 - cipher: aes-256-gcm
-  name: US_61_0@60
+  name: US_42_0@41
+  password: cdBIDV42DCwnfIN
+  port: 8118
+  server: 38.114.114.104
+  type: ss
+- cipher: aes-256-gcm
+  name: US_43_0@42
   password: TEzjfAYq2IjtuoS
   port: 6697
   server: 38.114.114.67
   type: ss
 - cipher: aes-256-gcm
-  name: US_62_0@61
-  password: cdBIDV42DCwnfIN
-  port: 8118
-  server: 38.114.114.104
+  name: US_44_0@43
+  password: Y6R9pAtvxxzmGC
+  port: 3306
+  server: 167.88.63.79
   type: ss
 - cipher: aes-256-gcm
-  name: US_63_0@62
+  name: US_45_0@44
   password: TEzjfAYq2IjtuoS
   port: 6679
   server: 38.68.134.85
   type: ss
 - cipher: aes-256-gcm
-  name: US_64_0@63
+  name: US_46_0@45
+  password: KixLvKzwjekG00rm
+  port: 5500
+  server: 38.68.135.18
+  type: ss
+- cipher: aes-256-gcm
+  name: US_47_0@46
   password: KixLvKzwjekG00rm
   port: 8080
   server: 38.64.138.145
   type: ss
 - cipher: aes-256-gcm
-  name: US_65_0@64
-  password: KixLvKzwjekG00rm
-  port: 8080
+  name: US_48_0@47
+  password: Y6R9pAtvxxzmGC
+  port: 5600
+  server: 38.68.134.85
+  type: ss
+- cipher: aes-256-gcm
+  name: US_49_0@48
+  password: Y6R9pAtvxxzmGC
+  port: 5001
   server: 38.75.136.21
   type: ss
 - cipher: aes-256-gcm
-  name: US_66_0@65
+  name: US_50_0@49
+  password: FoOiGlkAA9yPEGP
+  port: 7306
+  server: 38.114.114.104
+  type: ss
+- cipher: aes-256-gcm
+  name: US_51_0@50
+  password: pKEW8JPByTVTLtM
+  port: 443
+  server: 38.114.114.19
+  type: ss
+- cipher: aes-256-gcm
+  name: US_52_0@51
+  password: Y6R9pAtvxxzmGC
+  port: 5601
+  server: 38.114.114.19
+  type: ss
+- cipher: aes-256-gcm
+  name: US_53_0@52
+  password: KixLvKzwjekG00rm
+  port: 8080
+  server: 38.121.43.97
+  type: ss
+- cipher: aes-256-gcm
+  name: US_54_0@53
+  password: kDWvXYZoTBcGkC4
+  port: 8882
+  server: 38.121.43.71
+  type: ss
+- cipher: aes-256-gcm
+  name: US_55_0@54
   password: kDWvXYZoTBcGkC4
   port: 8881
-  server: 38.121.43.97
+  server: 38.114.114.104
   type: ss
 - alterId: 0
   cipher: auto
   http-opts: {}
-  name: US_67_0@66
+  name: US_56_0@55
+  network: tcp
+  port: 443
+  server: 51.81.223.10
+  servername: 51.81.223.10
+  skip-cert-verify: true
+  type: vmess
+  uuid: c0156451-4efb-45e2-84fc-8d315c4650db
+  ws-path: /
+- alterId: 32
+  cipher: auto
+  http-opts: {}
+  name: US_57_0@56
+  network: tcp
+  port: 443
+  server: 51.81.223.22
+  skip-cert-verify: true
+  type: vmess
+  uuid: c0156451-4efb-45e2-84fc-8d315c4650db
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  http-opts: {}
+  name: US_58_0@57
   network: tcp
   port: 443
   server: 51.81.223.26
@@ -211,7 +222,18 @@ proxies:
 - alterId: 0
   cipher: auto
   http-opts: {}
-  name: US_68_0@67
+  name: US_59_0@58
+  network: tcp
+  port: 1069
+  server: 152.69.197.60
+  skip-cert-verify: true
+  type: vmess
+  uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  http-opts: {}
+  name: US_60_0@59
   network: tcp
   port: 443
   server: 51.81.223.20
@@ -220,135 +242,80 @@ proxies:
   type: vmess
   uuid: c0156451-4efb-45e2-84fc-8d315c4650db
   ws-path: /
-- alterId: 0
-  cipher: auto
-  http-opts: {}
-  name: US_69_0@68
-  network: tcp
-  port: 1069
-  server: 152.69.197.60
-  skip-cert-verify: true
-  type: vmess
-  uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf
-  ws-path: /
-- alterId: 32
-  cipher: auto
-  http-opts: {}
-  name: US_70_0@69
-  network: tcp
-  port: 443
-  server: 51.81.223.22
-  skip-cert-verify: true
-  type: vmess
-  uuid: c0156451-4efb-45e2-84fc-8d315c4650db
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  http-opts: {}
-  name: US_71_0@70
-  network: tcp
-  port: 443
-  server: 51.81.223.10
-  servername: 51.81.223.10
-  skip-cert-verify: true
-  type: vmess
-  uuid: c0156451-4efb-45e2-84fc-8d315c4650db
-  ws-path: /
-- name: US_72_0@71
-  password: 935f34c1-1713-402c-bfe1-f051cf49d370
-  port: 23313
-  server: lswjs.hootfun.top
+- name: US_61_0@60
+  password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e
+  port: 3052
+  server: kr05.wangxd.life
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: US_73_0@72
-  password: dd8a44f9-7c1d-4286-8f6f-4e4f19cb7998
-  port: 31324
-  server: dg.hootfun.top
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: US_74_0@73
-  password: ZVqSTHcLasKIKGnzjnr8aHRPATiaTj5U
-  port: 443
-  server: texas.missionsec.us
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: US_75_0@74
-  password: ZVqSTHcLasKIKGnzjnr8aHRPATiaTj5U
-  port: 443
-  server: florida.missionsec.us
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: US_76_0@75
-  password: b291d129-ee55-4801-a9b8-b5316e5c37b7
-  port: 443
-  server: jgwcc3.gaox.ml
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: US_77_0@76
+- name: US_62_0@61
   password: ZVqSTHcLasKIKGnzjnr8aHRPATiaTj5U
   port: 443
   server: kansas.missionsec.us
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: US_78_0@77
-  password: 9c822f05-cfdc-479a-9534-60f3d4127435
-  port: 443
-  server: jgwcc2.gaox.ml
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: US_79_0@78
-  password: dd8a44f9-7c1d-4286-8f6f-4e4f19cb7998
-  port: 32451
-  server: dg.hootfun.top
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: US_81_0@80
-  password: 77065fa6-b38e-302c-beea-4b047967af01
-  port: 6523
-  server: jp.useanlo.cf
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: US_82_0@81
+- name: US_63_0@62
   password: 935f34c1-1713-402c-bfe1-f051cf49d370
-  port: 32444
-  server: us218.hootfun.top
+  port: 23313
+  server: lswjs.hootfun.top
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: US_83_0@82
+- name: US_64_0@63
+  password: b291d129-ee55-4801-a9b8-b5316e5c37b7
+  port: 443
+  server: jgwcc3.gaox.ml
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_65_0@64
   password: ZVqSTHcLasKIKGnzjnr8aHRPATiaTj5U
   port: 443
-  server: pride.missionsec.us
+  server: texas.missionsec.us
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: US_84_0@83
+- name: US_66_0@65
   password: 54080134-2cba-4535-8599-95650bd9aa54
   port: 443
   server: jgwhdlb2.gaox.ml
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: US_85_0@84
-  password: 208d536b-a83e-3006-97d7-9c5e15dc3669
+- name: US_67_0@66
+  password: 9c822f05-cfdc-479a-9534-60f3d4127435
   port: 443
-  server: v2sg02.connauto.com
+  server: jgwcc2.gaox.ml
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: US_86_0@85
-  password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e
-  port: 3052
-  server: kr05.wangxd.life
+- name: US_68_0@67
+  password: ZVqSTHcLasKIKGnzjnr8aHRPATiaTj5U
+  port: 443
+  server: florida.missionsec.us
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_69_0@68
+  password: 77065fa6-b38e-302c-beea-4b047967af01
+  port: 6523
+  server: jp.useanlo.cf
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_70_0@69
+  password: ZVqSTHcLasKIKGnzjnr8aHRPATiaTj5U
+  port: 443
+  server: pride.missionsec.us
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_71_0@70
+  password: dd8a44f9-7c1d-4286-8f6f-4e4f19cb7998
+  port: 32451
+  server: dg.hootfun.top
   skip-cert-verify: true
   type: trojan
   udp: true
@@ -357,6 +324,15 @@ proxy-groups:
   proxies:
   - ♻️ 自动选择
   - DIRECT
+  - US_26_0@25
+  - US_27_0@26
+  - US_28_0@27
+  - US_29_0@28
+  - US_30_0@29
+  - US_31_0@30
+  - US_32_0@31
+  - US_33_0@32
+  - US_34_0@33
   - US_35_0@34
   - US_36_0@35
   - US_37_0@36
@@ -394,24 +370,19 @@ proxy-groups:
   - US_69_0@68
   - US_70_0@69
   - US_71_0@70
-  - US_72_0@71
-  - US_73_0@72
-  - US_74_0@73
-  - US_75_0@74
-  - US_76_0@75
-  - US_77_0@76
-  - US_78_0@77
-  - US_79_0@78
-  - US_81_0@80
-  - US_82_0@81
-  - US_83_0@82
-  - US_84_0@83
-  - US_85_0@84
-  - US_86_0@85
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
+  - US_26_0@25
+  - US_27_0@26
+  - US_28_0@27
+  - US_29_0@28
+  - US_30_0@29
+  - US_31_0@30
+  - US_32_0@31
+  - US_33_0@32
+  - US_34_0@33
   - US_35_0@34
   - US_36_0@35
   - US_37_0@36
@@ -449,20 +420,6 @@ proxy-groups:
   - US_69_0@68
   - US_70_0@69
   - US_71_0@70
-  - US_72_0@71
-  - US_73_0@72
-  - US_74_0@73
-  - US_75_0@74
-  - US_76_0@75
-  - US_77_0@76
-  - US_78_0@77
-  - US_79_0@78
-  - US_81_0@80
-  - US_82_0@81
-  - US_83_0@82
-  - US_84_0@83
-  - US_85_0@84
-  - US_86_0@85
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -471,6 +428,15 @@ proxy-groups:
   - ♻️ 自动选择
   - 🚀 节点选择
   - 🎯 全球直连
+  - US_26_0@25
+  - US_27_0@26
+  - US_28_0@27
+  - US_29_0@28
+  - US_30_0@29
+  - US_31_0@30
+  - US_32_0@31
+  - US_33_0@32
+  - US_34_0@33
   - US_35_0@34
   - US_36_0@35
   - US_37_0@36
@@ -508,25 +474,20 @@ proxy-groups:
   - US_69_0@68
   - US_70_0@69
   - US_71_0@70
-  - US_72_0@71
-  - US_73_0@72
-  - US_74_0@73
-  - US_75_0@74
-  - US_76_0@75
-  - US_77_0@76
-  - US_78_0@77
-  - US_79_0@78
-  - US_81_0@80
-  - US_82_0@81
-  - US_83_0@82
-  - US_84_0@83
-  - US_85_0@84
-  - US_86_0@85
   type: select
 - name: 📲 电报信息
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
+  - US_26_0@25
+  - US_27_0@26
+  - US_28_0@27
+  - US_29_0@28
+  - US_30_0@29
+  - US_31_0@30
+  - US_32_0@31
+  - US_33_0@32
+  - US_34_0@33
   - US_35_0@34
   - US_36_0@35
   - US_37_0@36
@@ -564,25 +525,20 @@ proxy-groups:
   - US_69_0@68
   - US_70_0@69
   - US_71_0@70
-  - US_72_0@71
-  - US_73_0@72
-  - US_74_0@73
-  - US_75_0@74
-  - US_76_0@75
-  - US_77_0@76
-  - US_78_0@77
-  - US_79_0@78
-  - US_81_0@80
-  - US_82_0@81
-  - US_83_0@82
-  - US_84_0@83
-  - US_85_0@84
-  - US_86_0@85
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
   - 🎯 全球直连
   - 🚀 节点选择
+  - US_26_0@25
+  - US_27_0@26
+  - US_28_0@27
+  - US_29_0@28
+  - US_30_0@29
+  - US_31_0@30
+  - US_32_0@31
+  - US_33_0@32
+  - US_34_0@33
   - US_35_0@34
   - US_36_0@35
   - US_37_0@36
@@ -620,25 +576,20 @@ proxy-groups:
   - US_69_0@68
   - US_70_0@69
   - US_71_0@70
-  - US_72_0@71
-  - US_73_0@72
-  - US_74_0@73
-  - US_75_0@74
-  - US_76_0@75
-  - US_77_0@76
-  - US_78_0@77
-  - US_79_0@78
-  - US_81_0@80
-  - US_82_0@81
-  - US_83_0@82
-  - US_84_0@83
-  - US_85_0@84
-  - US_86_0@85
   type: select
 - name: 🍎 苹果服务
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
+  - US_26_0@25
+  - US_27_0@26
+  - US_28_0@27
+  - US_29_0@28
+  - US_30_0@29
+  - US_31_0@30
+  - US_32_0@31
+  - US_33_0@32
+  - US_34_0@33
   - US_35_0@34
   - US_36_0@35
   - US_37_0@36
@@ -676,20 +627,6 @@ proxy-groups:
   - US_69_0@68
   - US_70_0@69
   - US_71_0@70
-  - US_72_0@71
-  - US_73_0@72
-  - US_74_0@73
-  - US_75_0@74
-  - US_76_0@75
-  - US_77_0@76
-  - US_78_0@77
-  - US_79_0@78
-  - US_81_0@80
-  - US_82_0@81
-  - US_83_0@82
-  - US_84_0@83
-  - US_85_0@84
-  - US_86_0@85
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -712,6 +649,15 @@ proxy-groups:
   - ♻️ 自动选择
   - 🚀 节点选择
   - 🎯 全球直连
+  - US_26_0@25
+  - US_27_0@26
+  - US_28_0@27
+  - US_29_0@28
+  - US_30_0@29
+  - US_31_0@30
+  - US_32_0@31
+  - US_33_0@32
+  - US_34_0@33
   - US_35_0@34
   - US_36_0@35
   - US_37_0@36
@@ -749,20 +695,6 @@ proxy-groups:
   - US_69_0@68
   - US_70_0@69
   - US_71_0@70
-  - US_72_0@71
-  - US_73_0@72
-  - US_74_0@73
-  - US_75_0@74
-  - US_76_0@75
-  - US_77_0@76
-  - US_78_0@77
-  - US_79_0@78
-  - US_81_0@80
-  - US_82_0@81
-  - US_83_0@82
-  - US_84_0@83
-  - US_85_0@84
-  - US_86_0@85
   type: select
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
