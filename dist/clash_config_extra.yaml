@@ -12,64 +12,39 @@ proxies:
   type: ss
 - cipher: aes-256-cfb
   name: AU_2_0@1
+  password: KnJGad3FqTvjqbaX
+  port: 9014
+  server: 185.167.116.253
+  type: ss
+- cipher: aes-256-cfb
+  name: AU_3_0@2
   password: FG5ddLsMPbV5CutE
   port: 9050
   server: 185.167.116.253
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: CA_3_0@2
+  name: CA_4_0@3
   password: G!yBwPWH3Vao
   port: 800
   server: 196.247.59.154
   type: ss
-- alterId: 0
-  cipher: auto
-  http-opts: {}
-  name: CN_4_0@3
-  network: ws
-  port: 888
-  server: hk-hkg-hgc-a-v2.node.inforun.work
-  servername: cdn.savoy.click
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: b46e5bfe-739c-4026-91fd-686209ce6d85
-  ws-headers:
-    HOST: cdn.savoy.click
-  ws-path: /je5x3pBN1vez3NQudNkB
-- alterId: 0
-  cipher: auto
-  http-opts: {}
-  name: CN_5_0@4
-  network: tcp
-  port: 9006
-  server: aliyun.moble.vnupgcn.cn
-  servername: 147.139.7.71
-  skip-cert-verify: true
-  type: vmess
-  uuid: 0253b574-8020-3186-a647-0267295ac9bb
-  ws-headers:
-    HOST: 147.139.7.71
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  http-opts: {}
-  name: CN_6_0@5
-  network: tcp
-  port: 9002
-  server: aliyun.moble.vnupgcn.cn
-  servername: 147.139.7.71
-  skip-cert-verify: true
-  type: vmess
-  uuid: 0253b574-8020-3186-a647-0267295ac9bb
-  ws-headers:
-    HOST: 147.139.7.71
-  ws-path: /
 - cipher: aes-256-gcm
-  name: DE_7_0@6
+  name: DE_5_0@4
   password: KixLvKzwjekG00rm
   port: 5500
   server: 193.108.118.30
+  type: ss
+- cipher: aes-256-gcm
+  name: FR_6_0@5
+  password: Y6R9pAtvxxzmGC
+  port: 8888
+  server: 145.239.1.100
+  type: ss
+- cipher: aes-256-gcm
+  name: FR_7_0@6
+  password: kDWvXYZoTBcGkC4
+  port: 8882
+  server: 145.239.1.100
   type: ss
 - cipher: aes-256-gcm
   name: FR_8_0@7
@@ -79,35 +54,23 @@ proxies:
   type: ss
 - cipher: aes-256-gcm
   name: FR_9_0@8
-  password: kDWvXYZoTBcGkC4
-  port: 8882
-  server: 145.239.1.100
+  password: TEzjfAYq2IjtuoS
+  port: 6697
+  server: 149.202.82.172
   type: ss
 - cipher: aes-256-gcm
   name: FR_10_0@9
-  password: KixLvKzwjekG00rm
-  port: 8080
-  server: 145.239.1.100
-  type: ss
-- cipher: aes-256-gcm
-  name: FR_11_0@10
-  password: Y6R9pAtvxxzmGC
-  port: 8888
-  server: 145.239.1.100
-  type: ss
-- cipher: aes-256-gcm
-  name: FR_12_0@11
   password: faBAoD54k87UJG7
   port: 2376
   server: 195.154.200.150
   type: ss
 - cipher: aes-256-gcm
-  name: FR_13_0@12
-  password: TEzjfAYq2IjtuoS
-  port: 6697
-  server: 149.202.82.172
+  name: FR_11_0@10
+  password: KixLvKzwjekG00rm
+  port: 8080
+  server: 145.239.1.100
   type: ss
-- name: HK_14_0@13
+- name: HK_12_0@11
   password: b3f3d494-d74d-4c03-9931-5c7efb75d980
   port: 443
   server: solink.ga
@@ -115,103 +78,111 @@ proxies:
   type: trojan
   udp: true
 - cipher: aes-256-cfb
+  name: LT_13_0@12
+  password: wjTugX3ZtHMB9c3Z
+  port: 9057
+  server: 213.183.53.198
+  type: ss
+- cipher: aes-256-cfb
+  name: LT_14_0@13
+  password: XPtzA9sCug3SPR4c
+  port: 9025
+  server: 213.183.53.198
+  type: ss
+- cipher: aes-256-cfb
   name: LT_15_0@14
   password: f63gg8EruDnUrmz4
   port: 9010
   server: 213.183.53.198
   type: ss
 - cipher: aes-256-cfb
-  name: LT_16_0@15
-  password: XPtzA9sCug3SPR4c
-  port: 9025
-  server: 213.183.53.198
+  name: NL_16_0@15
+  password: bf7v334KKDV3YDhH
+  port: 9070
+  server: 213.183.59.211
   type: ss
-- cipher: aes-256-cfb
+- cipher: aes-256-gcm
   name: NL_17_0@16
-  password: f63gg8EruDnUrmz4
-  port: 9010
-  server: 213.183.59.211
-  type: ss
-- cipher: aes-256-gcm
-  name: NL_18_0@17
-  password: Y6R9pAtvxxzmGC
-  port: 5000
-  server: 85.208.108.19
-  type: ss
-- cipher: aes-256-cfb
-  name: NL_19_0@18
-  password: daFYagqDdBdA6VTX
-  port: 9073
-  server: 213.183.59.211
-  type: ss
-- cipher: aes-256-gcm
-  name: NL_20_0@19
-  password: kDWvXYZoTBcGkC4
-  port: 8881
-  server: 85.208.108.93
-  type: ss
-- cipher: aes-256-cfb
-  name: NL_21_0@20
-  password: bf7v334KKDV3YDhH
-  port: 9070
-  server: 213.183.59.211
-  type: ss
-- cipher: aes-256-gcm
-  name: NL_22_0@21
-  password: cdBIDV42DCwnfIN
-  port: 8118
-  server: 85.208.108.19
-  type: ss
-- cipher: aes-256-cfb
-  name: NL_23_0@22
-  password: f63gg8EruDnUrmz4
-  port: 9010
-  server: 213.183.59.214
-  type: ss
-- cipher: aes-256-gcm
-  name: NL_24_0@23
-  password: zDNVedRFPQexG9v
-  port: 6379
-  server: 85.208.108.93
-  type: ss
-- cipher: aes-256-cfb
-  name: NL_25_0@24
-  password: HSZuyJQcWe8dxNdF
-  port: 9043
-  server: 213.183.59.218
-  type: ss
-- cipher: aes-256-cfb
-  name: NL_26_0@25
-  password: bf7v334KKDV3YDhH
-  port: 9070
-  server: 213.183.59.218
-  type: ss
-- cipher: aes-256-cfb
-  name: NL_27_0@26
-  password: S7KwUu7yBy58S3Ga
-  port: 9042
-  server: 213.183.59.211
-  type: ss
-- cipher: aes-256-gcm
-  name: NL_28_0@27
   password: Y6R9pAtvxxzmGC
   port: 3389
   server: 85.208.108.19
   type: ss
 - cipher: aes-256-gcm
-  name: NL_29_0@28
+  name: NL_18_0@17
   password: TEzjfAYq2IjtuoS
   port: 6679
   server: 85.208.108.93
   type: ss
 - cipher: aes-256-gcm
-  name: NL_30_0@29
+  name: NL_19_0@18
+  password: zDNVedRFPQexG9v
+  port: 6379
+  server: 85.208.108.93
+  type: ss
+- cipher: aes-256-gcm
+  name: NL_20_0@19
   password: cdBIDV42DCwnfIN
   port: 8118
   server: 85.208.108.93
   type: ss
+- cipher: aes-256-gcm
+  name: NL_21_0@20
+  password: kDWvXYZoTBcGkC4
+  port: 8881
+  server: 85.208.108.93
+  type: ss
 - cipher: aes-256-cfb
-  name: NL_31_0@30
+  name: NL_22_0@21
+  password: daFYagqDdBdA6VTX
+  port: 9073
+  server: 213.183.59.211
+  type: ss
+- cipher: aes-256-cfb
+  name: NL_23_0@22
+  password: bf7v334KKDV3YDhH
+  port: 9070
+  server: 213.183.59.218
+  type: ss
+- cipher: aes-256-cfb
+  name: NL_24_0@23
+  password: daFYagqDdBdA6VTX
+  port: 9073
+  server: 213.183.59.191
+  type: ss
+- cipher: aes-256-cfb
+  name: NL_25_0@24
+  password: f63gg8EruDnUrmz4
+  port: 9010
+  server: 213.183.59.211
+  type: ss
+- cipher: aes-256-cfb
+  name: NL_26_0@25
+  password: HSZuyJQcWe8dxNdF
+  port: 9043
+  server: 213.183.59.218
+  type: ss
+- cipher: aes-256-gcm
+  name: NL_27_0@26
+  password: Y6R9pAtvxxzmGC
+  port: 5000
+  server: 85.208.108.19
+  type: ss
+- cipher: aes-256-gcm
+  name: NL_28_0@27
+  password: cdBIDV42DCwnfIN
+  port: 8118
+  server: 85.208.108.19
+  type: ss
+- cipher: aes-256-cfb
+  name: NL_29_0@28
+  obfs: plain
+  password: cp8pRSUAyLhTfVWH
+  port: 9064
+  protocol: origin
+  server: 213.183.59.211
+  type: ssr
+- cipher: aes-256-cfb
+  name: NL_30_0@29
   obfs: plain
   password: a3GFYt36Sm82Vys9
   port: 9000
@@ -219,7 +190,7 @@ proxies:
   server: 213.183.59.214
   type: ssr
 - cipher: aes-256-cfb
-  name: RO_32_0@31
+  name: RO_31_0@30
   obfs: plain
   password: UTJA57ypk2XKQpnm
   port: 9033
@@ -227,64 +198,70 @@ proxies:
   server: 185.126.116.125
   type: ssr
 - cipher: aes-256-gcm
-  name: US_33_0@32
-  password: KixLvKzwjekG00rm
-  port: 8080
-  server: 38.75.136.34
-  type: ss
-- cipher: aes-256-gcm
-  name: US_34_0@33
-  password: e4FCWrgpkji3QY
-  port: 9101
-  server: 38.75.136.34
-  type: ss
-- cipher: aes-256-gcm
-  name: US_35_0@34
+  name: US_32_0@31
   password: cdBIDV42DCwnfIN
   port: 8118
   server: 38.143.66.99
   type: ss
 - cipher: aes-256-gcm
-  name: US_36_0@35
+  name: US_33_0@32
   password: KixLvKzwjekG00rm
   port: 8080
-  server: 167.88.61.175
+  server: 38.75.136.21
   type: ss
-- cipher: chacha20-ietf-poly1305
+- cipher: aes-256-gcm
+  name: US_34_0@33
+  password: PCnnH6SQSnfoS27
+  port: 8090
+  server: 38.68.135.18
+  type: ss
+- cipher: aes-256-gcm
+  name: US_35_0@34
+  password: RexnBgU7EV5ADxG
+  port: 7001
+  server: 38.91.107.37
+  type: ss
+- cipher: aes-256-gcm
+  name: US_36_0@35
+  password: KixLvKzwjekG00rm
+  port: 5500
+  server: 38.68.135.18
+  type: ss
+- cipher: aes-256-gcm
   name: US_37_0@36
-  password: Ultr@r00t_2017
-  port: 811
-  server: 138.68.248.130
+  password: Y6R9pAtvxxzmGC
+  port: 3306
+  server: 167.88.63.79
   type: ss
 - cipher: aes-256-gcm
   name: US_38_0@37
-  password: PCnnH6SQSnfoS27
-  port: 8090
-  server: 38.75.136.34
+  password: XKFKl2rULjIp74
+  port: 8009
+  server: 38.121.43.204
   type: ss
 - cipher: aes-256-gcm
   name: US_39_0@38
-  password: kDWvXYZoTBcGkC4
-  port: 8882
-  server: 38.121.43.71
+  password: Y6R9pAtvxxzmGC
+  port: 5601
+  server: 38.114.114.19
   type: ss
 - cipher: aes-256-gcm
   name: US_40_0@39
   password: KixLvKzwjekG00rm
   port: 5500
-  server: 38.75.136.34
+  server: 172.99.190.39
   type: ss
 - cipher: aes-256-gcm
   name: US_41_0@40
   password: KixLvKzwjekG00rm
   port: 8080
-  server: 38.64.138.145
+  server: 38.75.136.34
   type: ss
 - cipher: aes-256-gcm
   name: US_42_0@41
-  password: XKFKl2rULjIp74
-  port: 8009
-  server: 38.68.135.18
+  password: e4FCWrgpkji3QY
+  port: 9101
+  server: 38.75.136.34
   type: ss
 - cipher: aes-256-gcm
   name: US_43_0@42
@@ -294,144 +271,138 @@ proxies:
   type: ss
 - cipher: aes-256-gcm
   name: US_44_0@43
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  server: 38.91.107.37
-  type: ss
-- cipher: aes-256-gcm
-  name: US_45_0@44
-  password: Y6R9pAtvxxzmGC
-  port: 5001
-  server: 38.143.66.99
-  type: ss
-- cipher: aes-256-gcm
-  name: US_46_0@45
-  password: Y6R9pAtvxxzmGC
-  port: 3306
-  server: 167.88.63.79
-  type: ss
-- cipher: aes-256-gcm
-  name: US_47_0@46
-  password: TEzjfAYq2IjtuoS
-  port: 6697
-  server: 38.68.135.18
-  type: ss
-- cipher: aes-256-gcm
-  name: US_48_0@47
-  password: g5MeD6Ft3CWlJId
-  port: 5003
-  server: 38.75.136.21
-  type: ss
-- cipher: aes-256-gcm
-  name: US_49_0@48
-  password: Y6R9pAtvxxzmGC
-  port: 5601
-  server: 38.114.114.19
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: US_50_0@49
-  password: 9682edd6-89e6-4e6a-b31d-271089771d87
-  port: 10365
-  server: do.cloudorg.uk
-  type: ss
-- cipher: aes-256-gcm
-  name: US_51_0@50
-  password: KixLvKzwjekG00rm
-  port: 5500
-  server: 172.99.190.39
-  type: ss
-- cipher: aes-256-gcm
-  name: US_52_0@51
-  password: KixLvKzwjekG00rm
-  port: 5500
-  server: 38.68.135.18
-  type: ss
-- cipher: aes-256-gcm
-  name: US_53_0@52
-  password: KixLvKzwjekG00rm
-  port: 8080
-  server: 38.75.136.21
-  type: ss
-- cipher: aes-256-gcm
-  name: US_54_0@53
-  password: TEzjfAYq2IjtuoS
-  port: 6679
-  server: 38.68.134.85
-  type: ss
-- cipher: aes-256-gcm
-  name: US_55_0@54
   password: cdBIDV42DCwnfIN
   port: 8119
   server: 38.121.43.71
   type: ss
 - cipher: aes-256-gcm
-  name: US_56_0@55
-  password: Y6R9pAtvxxzmGC
-  port: 5001
-  server: 38.75.136.21
+  name: US_45_0@44
+  password: TEzjfAYq2IjtuoS
+  port: 6697
+  server: 38.68.135.18
   type: ss
 - cipher: aes-256-gcm
-  name: US_57_0@56
+  name: US_46_0@45
+  password: XKFKl2rULjIp74
+  port: 8009
+  server: 38.68.135.18
+  type: ss
+- cipher: aes-256-gcm
+  name: US_47_0@46
+  password: faBAoD54k87UJG7
+  port: 2375
+  server: 38.121.43.65
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: US_48_0@47
+  password: 9682edd6-89e6-4e6a-b31d-271089771d87
+  port: 10365
+  server: do.cloudorg.uk
+  type: ss
+- cipher: aes-256-gcm
+  name: US_49_0@48
+  password: KixLvKzwjekG00rm
+  port: 8080
+  server: 38.64.138.145
+  type: ss
+- cipher: aes-256-gcm
+  name: US_50_0@49
   password: Y6R9pAtvxxzmGC
   port: 5600
   server: 38.68.134.85
   type: ss
+- cipher: aes-256-gcm
+  name: US_51_0@50
+  password: kDWvXYZoTBcGkC4
+  port: 8882
+  server: 38.121.43.71
+  type: ss
+- cipher: aes-256-gcm
+  name: US_52_0@51
+  password: PCnnH6SQSnfoS27
+  port: 8090
+  server: 38.75.136.34
+  type: ss
+- cipher: aes-256-gcm
+  name: US_53_0@52
+  password: g5MeD6Ft3CWlJId
+  port: 5003
+  server: 38.75.136.21
+  type: ss
+- cipher: aes-256-gcm
+  name: US_54_0@53
+  password: g5MeD6Ft3CWlJId
+  port: 5003
+  server: 38.91.107.37
+  type: ss
 - cipher: chacha20-ietf-poly1305
+  name: US_55_0@54
+  password: Ultr@r00t_2017
+  port: 811
+  server: 138.68.248.130
+  type: ss
+- cipher: aes-256-gcm
+  name: US_56_0@55
+  password: KixLvKzwjekG00rm
+  port: 8080
+  server: 167.88.61.175
+  type: ss
+- cipher: aes-256-gcm
+  name: US_57_0@56
+  password: TEzjfAYq2IjtuoS
+  port: 6679
+  server: 38.68.134.85
+  type: ss
+- cipher: aes-256-gcm
   name: US_58_0@57
+  password: Y6R9pAtvxxzmGC
+  port: 5001
+  server: 38.143.66.99
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: US_59_0@58
   password: 9682edd6-89e6-4e6a-b31d-271089771d87
   port: 10365
   server: 137.184.93.209
   type: ss
 - cipher: aes-256-gcm
-  name: US_59_0@58
-  password: TEzjfAYq2IjtuoS
-  port: 6697
-  server: 38.114.114.67
-  type: ss
-- cipher: aes-256-gcm
   name: US_60_0@59
-  password: XKFKl2rULjIp74
-  port: 8009
-  server: 38.121.43.204
-  type: ss
-- cipher: aes-256-gcm
-  name: US_61_0@60
-  password: faBAoD54k87UJG7
-  port: 2375
-  server: 38.121.43.65
-  type: ss
-- cipher: aes-256-gcm
-  name: US_62_0@61
   password: g5MeD6Ft3CWlJId
   port: 5003
   server: 172.99.190.39
   type: ss
 - cipher: aes-256-gcm
+  name: US_61_0@60
+  password: Y6R9pAtvxxzmGC
+  port: 5001
+  server: 38.75.136.21
+  type: ss
+- cipher: aes-256-gcm
+  name: US_62_0@61
+  password: TEzjfAYq2IjtuoS
+  port: 6697
+  server: 38.114.114.67
+  type: ss
+- cipher: aes-256-gcm
   name: US_63_0@62
-  password: g5MeD6Ft3CWlJId
-  port: 5003
-  server: 38.91.107.37
-  type: ss
-- cipher: aes-256-gcm
-  name: US_64_0@63
-  password: PCnnH6SQSnfoS27
-  port: 8090
-  server: 38.68.135.18
-  type: ss
-- cipher: aes-256-gcm
-  name: US_65_0@64
   password: pKEW8JPByTVTLtM
   port: 443
   server: 38.114.114.19
   type: ss
+- cipher: aes-256-gcm
+  name: US_64_0@63
+  password: KixLvKzwjekG00rm
+  port: 5500
+  server: 38.75.136.34
+  type: ss
 - alterId: 0
   cipher: auto
   http-opts: {}
-  name: US_66_0@65
+  name: US_65_0@64
   network: tcp
   port: 443
-  server: 51.81.223.10
-  servername: 51.81.223.10
+  server: 51.81.223.20
+  servername: 51.81.223.20
   skip-cert-verify: true
   type: vmess
   uuid: c0156451-4efb-45e2-84fc-8d315c4650db
@@ -439,7 +410,7 @@ proxies:
 - alterId: 32
   cipher: auto
   http-opts: {}
-  name: US_67_0@66
+  name: US_66_0@65
   network: tcp
   port: 443
   server: 51.81.223.22
@@ -450,39 +421,54 @@ proxies:
 - alterId: 0
   cipher: auto
   http-opts: {}
+  name: US_67_0@66
+  network: tcp
+  port: 443
+  server: 51.81.223.10
+  servername: 51.81.223.10
+  skip-cert-verify: true
+  type: vmess
+  uuid: c0156451-4efb-45e2-84fc-8d315c4650db
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  http-opts: {}
   name: US_68_0@67
+  network: tcp
+  port: 18057
+  server: 144.126.223.250
+  servername: vjp1.0bad.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: e178cdaa-9dfb-4350-d235-a1edb18e9bd1
+  ws-headers:
+    HOST: vjp1.0bad.com
+  ws-path: /chat
+- alterId: 0
+  cipher: auto
+  http-opts: {}
+  name: US_69_0@68
+  network: ws
+  port: 443
+  server: baipiaob.ml
+  servername: baipiaob.ml
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: d7a42c5b-f6ff-448a-c1d7-f97e0c500d44
+  ws-headers:
+    HOST: baipiaob.ml
+  ws-path: /baipiaob
+- alterId: 0
+  cipher: auto
+  http-opts: {}
+  name: US_70_0@69
   network: tcp
   port: 1069
   server: 152.69.197.60
   skip-cert-verify: true
   type: vmess
   uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  http-opts: {}
-  name: US_69_0@68
-  network: tcp
-  port: 21365
-  server: 168.138.207.66
-  servername: 120.240.55.137
-  skip-cert-verify: true
-  type: vmess
-  uuid: 905f99b1-e7ba-45e0-ae4d-b0ffdf0ad245
-  ws-headers:
-    HOST: 120.240.55.137
-  ws-path: /hls/cctv5phd.m3u8
-- alterId: 0
-  cipher: auto
-  http-opts: {}
-  name: US_70_0@69
-  network: tcp
-  port: 443
-  server: 51.81.223.20
-  servername: 51.81.223.20
-  skip-cert-verify: true
-  type: vmess
-  uuid: c0156451-4efb-45e2-84fc-8d315c4650db
   ws-path: /
 - alterId: 0
   cipher: auto
@@ -509,6 +495,12 @@ proxies:
   port: 7307
   server: 134.195.196.149
   type: ss
+- cipher: aes-256-gcm
+  name: ZZ_74_0@73
+  password: Y6R9pAtvxxzmGC
+  port: 5001
+  server: 134.195.196.85
+  type: ss
 proxy-groups:
 - name: 🚀 节点选择
   proxies:
@@ -516,20 +508,20 @@ proxy-groups:
   - DIRECT
   - AU_1_0@0
   - AU_2_0@1
-  - CA_3_0@2
-  - CN_4_0@3
-  - CN_5_0@4
-  - CN_6_0@5
-  - DE_7_0@6
+  - AU_3_0@2
+  - CA_4_0@3
+  - DE_5_0@4
+  - FR_6_0@5
+  - FR_7_0@6
   - FR_8_0@7
   - FR_9_0@8
   - FR_10_0@9
   - FR_11_0@10
-  - FR_12_0@11
-  - FR_13_0@12
-  - HK_14_0@13
+  - HK_12_0@11
+  - LT_13_0@12
+  - LT_14_0@13
   - LT_15_0@14
-  - LT_16_0@15
+  - NL_16_0@15
   - NL_17_0@16
   - NL_18_0@17
   - NL_19_0@18
@@ -544,8 +536,8 @@ proxy-groups:
   - NL_28_0@27
   - NL_29_0@28
   - NL_30_0@29
-  - NL_31_0@30
-  - RO_32_0@31
+  - RO_31_0@30
+  - US_32_0@31
   - US_33_0@32
   - US_34_0@33
   - US_35_0@34
@@ -587,26 +579,27 @@ proxy-groups:
   - US_71_0@70
   - US_72_0@71
   - ZZ_73_0@72
+  - ZZ_74_0@73
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
   - AU_1_0@0
   - AU_2_0@1
-  - CA_3_0@2
-  - CN_4_0@3
-  - CN_5_0@4
-  - CN_6_0@5
-  - DE_7_0@6
+  - AU_3_0@2
+  - CA_4_0@3
+  - DE_5_0@4
+  - FR_6_0@5
+  - FR_7_0@6
   - FR_8_0@7
   - FR_9_0@8
   - FR_10_0@9
   - FR_11_0@10
-  - FR_12_0@11
-  - FR_13_0@12
-  - HK_14_0@13
+  - HK_12_0@11
+  - LT_13_0@12
+  - LT_14_0@13
   - LT_15_0@14
-  - LT_16_0@15
+  - NL_16_0@15
   - NL_17_0@16
   - NL_18_0@17
   - NL_19_0@18
@@ -621,8 +614,8 @@ proxy-groups:
   - NL_28_0@27
   - NL_29_0@28
   - NL_30_0@29
-  - NL_31_0@30
-  - RO_32_0@31
+  - RO_31_0@30
+  - US_32_0@31
   - US_33_0@32
   - US_34_0@33
   - US_35_0@34
@@ -664,6 +657,7 @@ proxy-groups:
   - US_71_0@70
   - US_72_0@71
   - ZZ_73_0@72
+  - ZZ_74_0@73
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -674,20 +668,20 @@ proxy-groups:
   - 🎯 全球直连
   - AU_1_0@0
   - AU_2_0@1
-  - CA_3_0@2
-  - CN_4_0@3
-  - CN_5_0@4
-  - CN_6_0@5
-  - DE_7_0@6
+  - AU_3_0@2
+  - CA_4_0@3
+  - DE_5_0@4
+  - FR_6_0@5
+  - FR_7_0@6
   - FR_8_0@7
   - FR_9_0@8
   - FR_10_0@9
   - FR_11_0@10
-  - FR_12_0@11
-  - FR_13_0@12
-  - HK_14_0@13
+  - HK_12_0@11
+  - LT_13_0@12
+  - LT_14_0@13
   - LT_15_0@14
-  - LT_16_0@15
+  - NL_16_0@15
   - NL_17_0@16
   - NL_18_0@17
   - NL_19_0@18
@@ -702,8 +696,8 @@ proxy-groups:
   - NL_28_0@27
   - NL_29_0@28
   - NL_30_0@29
-  - NL_31_0@30
-  - RO_32_0@31
+  - RO_31_0@30
+  - US_32_0@31
   - US_33_0@32
   - US_34_0@33
   - US_35_0@34
@@ -745,6 +739,7 @@ proxy-groups:
   - US_71_0@70
   - US_72_0@71
   - ZZ_73_0@72
+  - ZZ_74_0@73
   type: select
 - name: 📲 电报信息
   proxies:
@@ -752,20 +747,20 @@ proxy-groups:
   - 🎯 全球直连
   - AU_1_0@0
   - AU_2_0@1
-  - CA_3_0@2
-  - CN_4_0@3
-  - CN_5_0@4
-  - CN_6_0@5
-  - DE_7_0@6
+  - AU_3_0@2
+  - CA_4_0@3
+  - DE_5_0@4
+  - FR_6_0@5
+  - FR_7_0@6
   - FR_8_0@7
   - FR_9_0@8
   - FR_10_0@9
   - FR_11_0@10
-  - FR_12_0@11
-  - FR_13_0@12
-  - HK_14_0@13
+  - HK_12_0@11
+  - LT_13_0@12
+  - LT_14_0@13
   - LT_15_0@14
-  - LT_16_0@15
+  - NL_16_0@15
   - NL_17_0@16
   - NL_18_0@17
   - NL_19_0@18
@@ -780,8 +775,8 @@ proxy-groups:
   - NL_28_0@27
   - NL_29_0@28
   - NL_30_0@29
-  - NL_31_0@30
-  - RO_32_0@31
+  - RO_31_0@30
+  - US_32_0@31
   - US_33_0@32
   - US_34_0@33
   - US_35_0@34
@@ -823,6 +818,7 @@ proxy-groups:
   - US_71_0@70
   - US_72_0@71
   - ZZ_73_0@72
+  - ZZ_74_0@73
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
@@ -830,20 +826,20 @@ proxy-groups:
   - 🚀 节点选择
   - AU_1_0@0
   - AU_2_0@1
-  - CA_3_0@2
-  - CN_4_0@3
-  - CN_5_0@4
-  - CN_6_0@5
-  - DE_7_0@6
+  - AU_3_0@2
+  - CA_4_0@3
+  - DE_5_0@4
+  - FR_6_0@5
+  - FR_7_0@6
   - FR_8_0@7
   - FR_9_0@8
   - FR_10_0@9
   - FR_11_0@10
-  - FR_12_0@11
-  - FR_13_0@12
-  - HK_14_0@13
+  - HK_12_0@11
+  - LT_13_0@12
+  - LT_14_0@13
   - LT_15_0@14
-  - LT_16_0@15
+  - NL_16_0@15
   - NL_17_0@16
   - NL_18_0@17
   - NL_19_0@18
@@ -858,8 +854,8 @@ proxy-groups:
   - NL_28_0@27
   - NL_29_0@28
   - NL_30_0@29
-  - NL_31_0@30
-  - RO_32_0@31
+  - RO_31_0@30
+  - US_32_0@31
   - US_33_0@32
   - US_34_0@33
   - US_35_0@34
@@ -901,6 +897,7 @@ proxy-groups:
   - US_71_0@70
   - US_72_0@71
   - ZZ_73_0@72
+  - ZZ_74_0@73
   type: select
 - name: 🍎 苹果服务
   proxies:
@@ -908,20 +905,20 @@ proxy-groups:
   - 🎯 全球直连
   - AU_1_0@0
   - AU_2_0@1
-  - CA_3_0@2
-  - CN_4_0@3
-  - CN_5_0@4
-  - CN_6_0@5
-  - DE_7_0@6
+  - AU_3_0@2
+  - CA_4_0@3
+  - DE_5_0@4
+  - FR_6_0@5
+  - FR_7_0@6
   - FR_8_0@7
   - FR_9_0@8
   - FR_10_0@9
   - FR_11_0@10
-  - FR_12_0@11
-  - FR_13_0@12
-  - HK_14_0@13
+  - HK_12_0@11
+  - LT_13_0@12
+  - LT_14_0@13
   - LT_15_0@14
-  - LT_16_0@15
+  - NL_16_0@15
   - NL_17_0@16
   - NL_18_0@17
   - NL_19_0@18
@@ -936,8 +933,8 @@ proxy-groups:
   - NL_28_0@27
   - NL_29_0@28
   - NL_30_0@29
-  - NL_31_0@30
-  - RO_32_0@31
+  - RO_31_0@30
+  - US_32_0@31
   - US_33_0@32
   - US_34_0@33
   - US_35_0@34
@@ -979,6 +976,7 @@ proxy-groups:
   - US_71_0@70
   - US_72_0@71
   - ZZ_73_0@72
+  - ZZ_74_0@73
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -1003,20 +1001,20 @@ proxy-groups:
   - 🎯 全球直连
   - AU_1_0@0
   - AU_2_0@1
-  - CA_3_0@2
-  - CN_4_0@3
-  - CN_5_0@4
-  - CN_6_0@5
-  - DE_7_0@6
+  - AU_3_0@2
+  - CA_4_0@3
+  - DE_5_0@4
+  - FR_6_0@5
+  - FR_7_0@6
   - FR_8_0@7
   - FR_9_0@8
   - FR_10_0@9
   - FR_11_0@10
-  - FR_12_0@11
-  - FR_13_0@12
-  - HK_14_0@13
+  - HK_12_0@11
+  - LT_13_0@12
+  - LT_14_0@13
   - LT_15_0@14
-  - LT_16_0@15
+  - NL_16_0@15
   - NL_17_0@16
   - NL_18_0@17
   - NL_19_0@18
@@ -1031,8 +1029,8 @@ proxy-groups:
   - NL_28_0@27
   - NL_29_0@28
   - NL_30_0@29
-  - NL_31_0@30
-  - RO_32_0@31
+  - RO_31_0@30
+  - US_32_0@31
   - US_33_0@32
   - US_34_0@33
   - US_35_0@34
@@ -1074,6 +1072,7 @@ proxy-groups:
   - US_71_0@70
   - US_72_0@71
   - ZZ_73_0@72
+  - ZZ_74_0@73
   type: select
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
