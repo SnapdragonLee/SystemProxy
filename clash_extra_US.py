@@ -1,8 +1,7 @@
 #!python3.9
 # -*- encoding: utf-8 -*-
 
-import requests, re, yaml
-from re import Pattern
+import requests, yaml
 from typing import Any, Dict, List
 
 import urllib3
