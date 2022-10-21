@@ -25,7 +25,7 @@ def clash_urls(html:str) -> List[str]:
     Fetch URLs For Clash
     '''
     # return clash_extra
-    return clash_reg.findall(html)[0:3]
+    return clash_reg.findall(html)[0:1]
 
 def v2ray_urls(html:str) -> List[str]:
     '''
@@ -41,7 +41,7 @@ def fetch_html(url:str) -> str:
         resp:requests.Response = requests.get(url, verify=False, timeout=10)
         if resp.status_code != 200:
             print(f'[!] Got HTTP Status Code {resp.status_code}')
-            return None 
+            return None
         return resp.text
     except Exception as e:
         print(f'[-] Error Occurs When Fetching Content Of {url}')
