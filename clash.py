@@ -25,7 +25,7 @@ def clash_urls(html:str) -> List[str]:
     Fetch URLs For Clash
     '''
     # return clash_extra
-    return clash_reg.findall(html)[0:2]
+    return clash_reg.findall(html)[0:3]
 
 def v2ray_urls(html:str) -> List[str]:
     '''
