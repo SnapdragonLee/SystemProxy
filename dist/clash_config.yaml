@@ -4,79 +4,99 @@ log-level: info
 mixed-port: 7890
 mode: Rule
 proxies:
-- alterId: 64
-  cipher: auto
-  name: default_name_1_0@0
-  network: ws
-  port: 2096
-  server: xiexi.tk
-  tls: true
-  type: vmess
-  uuid: 37551ca0-8cc3-432f-ca1f-82aba1db3ef9
-  ws-opts:
-    path: /
 - alterId: 0
   cipher: auto
-  name: 🇻🇳_VN_越南_0@1
-  network: ws
-  port: 443
-  server: v2vn1.tututu4.one
-  tls: true
-  type: vmess
-  uuid: e5e55646-d0bf-3ccd-9201-8eb6c6ed2d3c
-  ws-opts:
+  http-opts:
     headers:
-      host: v2vn1.tututu4.one
-    path: /tu
+      Host:
+      - 8.218.85.43
+    path:
+    - /
+  name: 🇸🇬_SG_新加坡_1_0@0
+  network: http
+  port: 43645
+  server: 8.218.85.43
+  type: vmess
+  uuid: 0cd2e2c0-ef4f-4a49-a89f-ee2552aed247
+- cipher: aes-256-cfb
+  name: 🇺🇸_US_美国_1_0@1
+  password: amazonskr05
+  port: 443
+  server: 54.191.177.147
+  type: ss
 - alterId: 0
   cipher: auto
-  name: default_name_2_0@2
-  network: ws
-  port: 443
-  server: 34.72img.xyz
+  name: 🇷🇺_RU_俄罗斯联邦_0@2
+  network: tcp
+  port: 34146
+  server: 91.243.82.15
   tls: true
   type: vmess
-  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF
+- alterId: 0
+  cipher: auto
+  name: 🇮🇱_IL_以色列_0@3
+  network: ws
+  port: 443
+  server: 129.159.139.101
+  tls: true
+  type: vmess
+  uuid: b7519a6f-c1de-4667-e606-b60c65d19078
+  ws-opts:
+    path: /
+- cipher: aes-256-cfb
+  name: 🇸🇬_SG_新加坡_2_0@4
+  password: amazonskr05
+  port: 443
+  server: 52.77.255.130
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇺🇸_US_美国_2_0@5
+  password: amazonskr05
+  port: 443
+  server: 18.237.70.232
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇯🇵_JP_日本_0@6
+  password: amazonskr05
+  port: 443
+  server: 18.183.134.201
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇺🇸_US_美国_3_0@7
+  password: amazonskr05
+  port: 443
+  server: 35.92.135.123
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇷🇺_RU_俄罗斯联邦->🇩🇪_DE_德国_0@8
+  network: tcp
+  port: 34147
+  server: 91.243.82.15
+  tls: true
+  type: vmess
+  uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF
+- cipher: aes-256-cfb
+  name: 🇸🇬_SG_新加坡_3_0@9
+  password: amazonskr05
+  port: 443
+  server: 13.215.254.97
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: default_name_1_1@0
+  network: ws
+  port: 443
+  server: zhuyong.hucloud-dns.xyz
+  tls: true
+  type: vmess
+  uuid: 4ce21a11-44fe-4814-a639-4b7caf501031
   ws-opts:
     path: /
 - alterId: 0
   cipher: auto
-  name: default_name_3_0@3
-  network: ws
-  port: 443
-  server: 198.41.212.150
-  tls: true
-  type: vmess
-  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
-  ws-opts:
-    headers:
-      host: clash6.ssr-free.xyz
-    path: /dongtaiwang.com
-- alterId: 0
-  cipher: auto
-  name: default_name_4_0@4
-  network: ws
-  port: 443
-  server: 14.72img.xyz
-  tls: true
-  type: vmess
-  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_0@5
-  network: ws
-  port: 443
-  server: 30.72img.xyz
-  tls: true
-  type: vmess
-  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: default_name_5_0@6
+  name: default_name_2_1@1
   network: ws
   port: 443
   server: 141.101.114.20
@@ -89,10 +109,10 @@ proxies:
     path: /dongtaiwang.com
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_0@7
+  name: 🇺🇸_US_美国_1_1@2
   network: ws
   port: 443
-  server: 43.72img.xyz
+  server: 35.72img.xyz
   tls: true
   type: vmess
   uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
@@ -100,105 +120,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: default_name_6_0@8
-  network: ws
-  port: 443
-  server: 141.101.114.120
-  tls: true
-  type: vmess
-  uuid: 33aa57df-1c93-4318-9fce-e850437ee781
-  ws-opts:
-    headers:
-      host: lg1.cfcdn3.xyz
-    path: /dongtaiwang.com
-- alterId: 0
-  cipher: auto
-  name: default_name_7_0@9
-  network: ws
-  port: 443
-  server: 27.72img.xyz
-  tls: true
-  type: vmess
-  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国->🇻🇳_VN_越南_0@10
-  network: ws
-  port: 443
-  server: 10.72img.xyz
-  tls: true
-  type: vmess
-  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_1_0@11
-  network: ws
-  port: 443
-  server: vde2.0bad.com
-  tls: true
-  type: vmess
-  uuid: 927094d3-d678-4763-8591-e240d0bcae87
-  ws-opts:
-    headers:
-      host: vde2.0bad.com
-    path: /chat
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国->🇫🇷_FR_法国_0@12
-  network: ws
-  port: 443
-  server: 172.64.148.111
-  tls: true
-  type: vmess
-  uuid: f33957e8-372e-4fba-99ed-f4db32cce9e5
-  ws-opts:
-    headers:
-      host: fr2.cfcdn4.xyz
-    path: /ray
-- alterId: 0
-  cipher: auto
-  name: 🇩🇪_DE_德国_0@13
-  network: ws
-  port: 443
-  server: vde1.0bad.com
-  tls: true
-  type: vmess
-  uuid: 927094d3-d678-4763-8591-e240d0bcae87
-  ws-opts:
-    headers:
-      host: vde1.0bad.com
-    path: /chat
-- alterId: 0
-  cipher: auto
-  name: 🇦🇺_AU_澳大利亚_0@14
-  network: ws
-  port: 443
-  server: vau1.0bad.com
-  tls: true
-  type: vmess
-  uuid: 927094d3-d678-4763-8591-e240d0bcae87
-  ws-opts:
-    headers:
-      host: vau1.0bad.com
-    path: /chat
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国->🇯🇵_JP_日本_0@15
-  network: ws
-  port: 443
-  server: 29.72img.xyz
-  tls: true
-  type: vmess
-  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇯🇵_JP_日本_0@16
+  name: 🇯🇵_JP_日本_1@3
   network: ws
   port: 443
   server: vjp3.0bad.com
@@ -211,7 +133,311 @@ proxies:
     path: /chat
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_2_0@17
+  name: default_name_3_1@4
+  network: ws
+  port: 443
+  server: 141.101.114.120
+  tls: true
+  type: vmess
+  uuid: 33aa57df-1c93-4318-9fce-e850437ee781
+  ws-opts:
+    headers:
+      host: lg1.cfcdn3.xyz
+    path: /dongtaiwang.com
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_2_1@5
+  network: ws
+  port: 443
+  server: 38.72img.xyz
+  tls: true
+  type: vmess
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: default_name_4_1@6
+  network: ws
+  port: 443
+  server: 198.41.212.150
+  tls: true
+  type: vmess
+  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+  ws-opts:
+    headers:
+      host: clash6.ssr-free.xyz
+    path: /dongtaiwang.com
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_3_1@7
+  network: ws
+  port: 443
+  server: 46.72img.xyz
+  tls: true
+  type: vmess
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  ws-opts:
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 🇨🇳_CN_中国->🇩🇪_DE_德国_1@8
+  password: f32f863d-2e3c-4bf3-9f95-049f22e2302d
+  port: 57381
+  server: apollo.cn.v4.hdsky.org
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: default_name_5_1@9
+  network: ws
+  port: 443
+  server: 14.72img.xyz
+  tls: true
+  type: vmess
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_4_1@10
+  network: ws
+  port: 443
+  server: 4.72img.xyz
+  tls: true
+  type: vmess
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国->🇯🇵_JP_日本_1_1@11
+  network: ws
+  port: 443
+  server: 27.72img.xyz
+  tls: true
+  type: vmess
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_5_1@12
+  network: ws
+  port: 443
+  server: 45.72img.xyz
+  tls: true
+  type: vmess
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_6_1@13
+  network: ws
+  port: 443
+  server: 34.72img.xyz
+  tls: true
+  type: vmess
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_1@14
+  network: ws
+  port: 443
+  server: 43.72img.xyz
+  tls: true
+  type: vmess
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国->🇰🇷_KR_韩国_1@15
+  network: ws
+  port: 443
+  server: 25.72img.xyz
+  tls: true
+  type: vmess
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_7_1@16
+  network: ws
+  port: 443
+  server: 36.72img.xyz
+  tls: true
+  type: vmess
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: default_name_6_1@17
+  network: ws
+  port: 443
+  server: 9.72img.xyz
+  tls: true
+  type: vmess
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: default_name_7_1@18
+  network: ws
+  port: 443
+  server: 55.72img.xyz
+  tls: true
+  type: vmess
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_8_1@19
+  network: ws
+  port: 443
+  server: vde2.0bad.com
+  tls: true
+  type: vmess
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  ws-opts:
+    headers:
+      host: vde2.0bad.com
+    path: /chat
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国->🇳🇱_NL_荷兰_1@20
+  network: ws
+  port: 443
+  server: 26.72img.xyz
+  tls: true
+  type: vmess
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国->🇯🇵_JP_日本_2_1@21
+  network: ws
+  port: 443
+  server: 29.72img.xyz
+  tls: true
+  type: vmess
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇨🇭_CH_瑞士_1_1@22
+  network: ws
+  port: 443
+  server: www.liuyiyang19891222.tk
+  tls: true
+  type: vmess
+  uuid: ad48ebeb-f949-472b-9717-e8c8f0f7984d
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国->🇻🇳_VN_越南_1@23
+  network: ws
+  port: 443
+  server: 10.72img.xyz
+  tls: true
+  type: vmess
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_9_1@24
+  network: ws
+  port: 443
+  server: 21.72img.xyz
+  tls: true
+  type: vmess
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_10_1@25
+  network: ws
+  port: 443
+  server: vde1.0bad.com
+  tls: true
+  type: vmess
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  ws-opts:
+    headers:
+      host: vde1.0bad.com
+    path: /chat
+- alterId: 0
+  cipher: auto
+  name: default_name_8_1@26
+  network: ws
+  port: 443
+  server: 44.72img.xyz
+  tls: true
+  type: vmess
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇨🇭_CH_瑞士_2_1@27
+  network: ws
+  port: 443
+  server: www.kehuai.tk
+  tls: true
+  type: vmess
+  uuid: 353b3a7d-28d2-4e4b-9633-1c90f23b6514
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇦🇺_AU_澳大利亚_1@28
+  network: ws
+  port: 443
+  server: vau1.0bad.com
+  tls: true
+  type: vmess
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  ws-opts:
+    headers:
+      host: vau1.0bad.com
+    path: /chat
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国->🇫🇷_FR_法国_1@29
+  network: ws
+  port: 443
+  server: 172.64.148.111
+  tls: true
+  type: vmess
+  uuid: f33957e8-372e-4fba-99ed-f4db32cce9e5
+  ws-opts:
+    headers:
+      host: fr2.cfcdn4.xyz
+    path: /ray
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_11_1@30
+  network: ws
+  port: 443
+  server: 33.72img.xyz
+  tls: true
+  type: vmess
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_12_1@31
   network: ws
   port: 443
   server: 172.66.0.105
@@ -224,20 +450,79 @@ proxies:
     path: /live
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_3_0@18
+  name: 🇺🇸_US_美国->🇩🇪_DE_德国_1@32
   network: ws
   port: 443
-  server: 172.67.236.74
+  server: 54.72img.xyz
   tls: true
   type: vmess
-  uuid: 3baaad0f-b764-4f4e-d382-cdd104390838
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
   ws-opts:
-    headers:
-      host: www.aoop1994.eu.org
-    path: /live
+    path: /
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_4_0@19
+  name: 🇨🇴_CO_哥伦比亚->🇺🇸_US_美国_1@33
+  network: ws
+  port: 443
+  server: 188.114.97.111
+  tls: true
+  type: vmess
+  uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94
+  ws-opts:
+    headers:
+      host: v2fly.samrt.website
+    path: /chcara
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_13_1@34
+  network: ws
+  port: 443
+  server: 128.14.140.254
+  tls: true
+  type: vmess
+  uuid: 43a55a45-6fbd-4713-9ff5-48f90bd74c5f
+  ws-opts:
+    headers:
+      host: hax-tunnels.petll.tk
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇲🇴_MO_澳门->🇺🇸_US_美国_1@35
+  network: ws
+  port: 443
+  server: 45.64.22.23
+  tls: true
+  type: vmess
+  uuid: 43a55a45-6fbd-4713-9ff5-48f90bd74c5f
+  ws-opts:
+    headers:
+      host: hax-tunnels.petll.tk
+    path: /
+- alterId: 0
+  cipher: auto
+  name: default_name_9_1@36
+  network: ws
+  port: 443
+  server: 30.72img.xyz
+  tls: true
+  type: vmess
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: default_name_10_1@37
+  network: ws
+  port: 443
+  server: 53.72img.xyz
+  tls: true
+  type: vmess
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_14_1@38
   network: ws
   port: 443
   server: 172.67.184.67
@@ -250,63 +535,7 @@ proxies:
     path: /live
 - alterId: 0
   cipher: auto
-  name: default_name_8_0@20
-  network: ws
-  port: 443
-  server: 141.101.114.33
-  tls: true
-  type: vmess
-  uuid: e5a88ce2-fc1b-45d1-9c5f-553721d28004
-  ws-opts:
-    headers:
-      host: v2ray1.zhujicn2.org
-    path: /dongtaiwang.com
-- alterId: 0
-  cipher: auto
-  name: default_name_2_1@2
-  network: ws
-  port: 443
-  server: ca.0112233.xyz
-  tls: true
-  type: vmess
-  uuid: c3000e9d-bee7-4fdb-b312-dd07030f325d
-  ws-opts:
-    path: /
-- cipher: aes-256-gcm
-  name: 🇨🇦_CA_加拿大_1@4
-  password: XKFKl2rULjIp74
-  port: 8009
-  server: 134.195.198.106
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 🇬🇧_GB_英国_1@6
-  network: ws
-  port: 443
-  server: vuk2.0bad.com
-  tls: true
-  type: vmess
-  uuid: 927094d3-d678-4763-8591-e240d0bcae87
-  ws-opts:
-    headers:
-      host: vuk2.0bad.com
-    path: /chat
-- alterId: 0
-  cipher: auto
-  name: default_name_5_1@11
-  network: ws
-  port: 8443
-  server: ca.0112233.xyz
-  tls: true
-  type: vmess
-  uuid: c3000e9d-bee7-4fdb-b312-dd07030f325d
-  ws-opts:
-    headers:
-      host: ca.0112233.xyz
-    path: /home
-- alterId: 0
-  cipher: auto
-  name: 🇯🇵_JP_日本_1_1@13
+  name: 🇯🇵_JP_日本_2@0
   network: ws
   port: 443
   server: vjp1.0bad.com
@@ -319,188 +548,181 @@ proxies:
     path: /chat
 - alterId: 0
   cipher: auto
-  name: default_name_6_1@15
-  network: ws
-  port: 2053
-  server: namer-us-sea-01-edgecast.qdns.live
-  tls: true
-  type: vmess
-  uuid: 935dfe1a-c512-31bc-9e97-b1ab73826047
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国->🇩🇪_DE_德国_2@3
+  name: 🇸🇬_SG_新加坡_2@1
   network: ws
   port: 443
-  server: 128.14.140.254
+  server: sg1.sanfen001.pics
   tls: true
   type: vmess
-  uuid: 0479eb9d-999d-4bff-ae3f-4f7cc440ce46
+  uuid: 4456b502-fe61-4be7-a969-aa37d924dbd2
   ws-opts:
     headers:
-      host: v2ray2.ssr-free2.xyz
-    path: /dongtaiwang.com
+      host: sg1.sanfen001.pics
+    path: /zh-cn
 - alterId: 0
   cipher: auto
-  name: 🇯🇵_JP_日本_2_2@6
-  network: ws
-  port: 36246
-  server: jps.dafeicnd.com
-  tls: true
-  type: vmess
-  uuid: 9e4d3781-1e73-49d8-a8d3-a065b22e927d
-  ws-opts:
-    headers:
-      host: jps.dafeicnd.com
-    path: /grzvhmgexlntcmp4
-- alterId: 0
-  cipher: auto
-  name: 🇰🇷_KR_韩国->🇸🇬_SG_新加坡_2@8
+  name: 🇺🇸_US_美国_1_2@2
   network: ws
   port: 443
-  server: 146.56.162.25
+  server: kr1.sanfen001.pics
   tls: true
   type: vmess
-  uuid: 9dc0c6aa-39a1-46be-9938-85999e3c3498
+  uuid: 4456b502-fe61-4be7-a969-aa37d924dbd2
   ws-opts:
     headers:
-      host: sg1.31vpn.com
-    path: /fastssh/1731390093/6357cedd7a199/
+      host: kr1.sanfen001.pics
+    path: /zh-cn
 - alterId: 0
   cipher: auto
-  name: 🇹🇼_TW_台湾->🇸🇬_SG_新加坡_2@14
+  name: 🇭🇰_HK_香港->🇹🇼_TW_台湾_2@4
   network: ws
   port: 443
-  server: 220.130.80.179
+  server: tw1.sanfen001.pics
   tls: true
   type: vmess
-  uuid: ceb8a7f4-a45b-48a7-8f8e-ca7124a5ebee
+  uuid: 4456b502-fe61-4be7-a969-aa37d924dbd2
   ws-opts:
     headers:
-      host: v2ray2.udpgw.com
-    path: /howdy
+      host: tw1.sanfen001.pics
+    path: /zh-cn
 - alterId: 0
   cipher: auto
-  name: 🇷🇺_RU_俄罗斯联邦_1_2@15
-  network: ws
-  port: 2053
-  server: emea-ru-mow-01-edgecast.qdns.live
-  tls: true
-  type: vmess
-  uuid: 935dfe1a-c512-31bc-9e97-b1ab73826047
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇷🇺_RU_俄罗斯联邦_2_2@16
-  network: tcp
-  port: 34146
-  server: pf.napsternetv.com
-  tls: true
-  type: vmess
-  uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF
-- alterId: 0
-  cipher: auto
-  name: 🇷🇺_RU_俄罗斯联邦->🇳🇱_NL_荷兰_2@18
-  network: tcp
-  port: 34141
-  server: pf.napsternetv.com
-  tls: true
-  type: vmess
-  uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_2_2@19
+  name: 🇺🇸_US_美国_3_2@5
   network: ws
   port: 443
-  server: cf.731808.tk
+  server: us1.sanfen001.pics
   tls: true
   type: vmess
-  uuid: 8194f724-d648-4eb8-98d2-0013136e79f0
+  uuid: 4456b502-fe61-4be7-a969-aa37d924dbd2
   ws-opts:
     headers:
-      host: h5528.1808.cf
-    path: /bxfbvws
+      host: us1.sanfen001.pics
+    path: /zh-cn
+- cipher: chacha20-ietf-poly1305
+  name: 🇬🇧_GB_英国_2@17
+  password: G!yBwPWH3Vao
+  port: 809
+  server: 78.129.253.9
+  type: ss
 proxy-groups:
 - name: 🚀 节点选择
   proxies:
   - ♻️ 自动选择
   - DIRECT
-  - default_name_1_0@0
-  - 🇻🇳_VN_越南_0@1
-  - default_name_2_0@2
-  - default_name_3_0@3
-  - default_name_4_0@4
-  - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_0@5
-  - default_name_5_0@6
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_0@7
-  - default_name_6_0@8
-  - default_name_7_0@9
-  - 🇺🇸_US_美国->🇻🇳_VN_越南_0@10
-  - 🇺🇸_US_美国_1_0@11
-  - 🇺🇸_US_美国->🇫🇷_FR_法国_0@12
-  - 🇩🇪_DE_德国_0@13
-  - 🇦🇺_AU_澳大利亚_0@14
-  - 🇺🇸_US_美国->🇯🇵_JP_日本_0@15
-  - 🇯🇵_JP_日本_0@16
-  - 🇺🇸_US_美国_2_0@17
-  - 🇺🇸_US_美国_3_0@18
-  - 🇺🇸_US_美国_4_0@19
-  - default_name_8_0@20
-  - default_name_2_1@2
-  - 🇨🇦_CA_加拿大_1@4
-  - 🇬🇧_GB_英国_1@6
-  - default_name_5_1@11
-  - 🇯🇵_JP_日本_1_1@13
-  - default_name_6_1@15
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_2@3
-  - 🇯🇵_JP_日本_2_2@6
-  - 🇰🇷_KR_韩国->🇸🇬_SG_新加坡_2@8
-  - 🇹🇼_TW_台湾->🇸🇬_SG_新加坡_2@14
-  - 🇷🇺_RU_俄罗斯联邦_1_2@15
-  - 🇷🇺_RU_俄罗斯联邦_2_2@16
-  - 🇷🇺_RU_俄罗斯联邦->🇳🇱_NL_荷兰_2@18
-  - 🇺🇸_US_美国_2_2@19
+  - 🇸🇬_SG_新加坡_1_0@0
+  - 🇺🇸_US_美国_1_0@1
+  - 🇷🇺_RU_俄罗斯联邦_0@2
+  - 🇮🇱_IL_以色列_0@3
+  - 🇸🇬_SG_新加坡_2_0@4
+  - 🇺🇸_US_美国_2_0@5
+  - 🇯🇵_JP_日本_0@6
+  - 🇺🇸_US_美国_3_0@7
+  - 🇷🇺_RU_俄罗斯联邦->🇩🇪_DE_德国_0@8
+  - 🇸🇬_SG_新加坡_3_0@9
+  - default_name_1_1@0
+  - default_name_2_1@1
+  - 🇺🇸_US_美国_1_1@2
+  - 🇯🇵_JP_日本_1@3
+  - default_name_3_1@4
+  - 🇺🇸_US_美国_2_1@5
+  - default_name_4_1@6
+  - 🇺🇸_US_美国_3_1@7
+  - 🇨🇳_CN_中国->🇩🇪_DE_德国_1@8
+  - default_name_5_1@9
+  - 🇺🇸_US_美国_4_1@10
+  - 🇺🇸_US_美国->🇯🇵_JP_日本_1_1@11
+  - 🇺🇸_US_美国_5_1@12
+  - 🇺🇸_US_美国_6_1@13
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1@14
+  - 🇺🇸_US_美国->🇰🇷_KR_韩国_1@15
+  - 🇺🇸_US_美国_7_1@16
+  - default_name_6_1@17
+  - default_name_7_1@18
+  - 🇺🇸_US_美国_8_1@19
+  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_1@20
+  - 🇺🇸_US_美国->🇯🇵_JP_日本_2_1@21
+  - 🇨🇭_CH_瑞士_1_1@22
+  - 🇺🇸_US_美国->🇻🇳_VN_越南_1@23
+  - 🇺🇸_US_美国_9_1@24
+  - 🇺🇸_US_美国_10_1@25
+  - default_name_8_1@26
+  - 🇨🇭_CH_瑞士_2_1@27
+  - 🇦🇺_AU_澳大利亚_1@28
+  - 🇺🇸_US_美国->🇫🇷_FR_法国_1@29
+  - 🇺🇸_US_美国_11_1@30
+  - 🇺🇸_US_美国_12_1@31
+  - 🇺🇸_US_美国->🇩🇪_DE_德国_1@32
+  - 🇨🇴_CO_哥伦比亚->🇺🇸_US_美国_1@33
+  - 🇺🇸_US_美国_13_1@34
+  - 🇲🇴_MO_澳门->🇺🇸_US_美国_1@35
+  - default_name_9_1@36
+  - default_name_10_1@37
+  - 🇺🇸_US_美国_14_1@38
+  - 🇯🇵_JP_日本_2@0
+  - 🇸🇬_SG_新加坡_2@1
+  - 🇺🇸_US_美国_1_2@2
+  - 🇭🇰_HK_香港->🇹🇼_TW_台湾_2@4
+  - 🇺🇸_US_美国_3_2@5
+  - 🇬🇧_GB_英国_2@17
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
-  - default_name_1_0@0
-  - 🇻🇳_VN_越南_0@1
-  - default_name_2_0@2
-  - default_name_3_0@3
-  - default_name_4_0@4
-  - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_0@5
-  - default_name_5_0@6
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_0@7
-  - default_name_6_0@8
-  - default_name_7_0@9
-  - 🇺🇸_US_美国->🇻🇳_VN_越南_0@10
-  - 🇺🇸_US_美国_1_0@11
-  - 🇺🇸_US_美国->🇫🇷_FR_法国_0@12
-  - 🇩🇪_DE_德国_0@13
-  - 🇦🇺_AU_澳大利亚_0@14
-  - 🇺🇸_US_美国->🇯🇵_JP_日本_0@15
-  - 🇯🇵_JP_日本_0@16
-  - 🇺🇸_US_美国_2_0@17
-  - 🇺🇸_US_美国_3_0@18
-  - 🇺🇸_US_美国_4_0@19
-  - default_name_8_0@20
-  - default_name_2_1@2
-  - 🇨🇦_CA_加拿大_1@4
-  - 🇬🇧_GB_英国_1@6
-  - default_name_5_1@11
-  - 🇯🇵_JP_日本_1_1@13
-  - default_name_6_1@15
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_2@3
-  - 🇯🇵_JP_日本_2_2@6
-  - 🇰🇷_KR_韩国->🇸🇬_SG_新加坡_2@8
-  - 🇹🇼_TW_台湾->🇸🇬_SG_新加坡_2@14
-  - 🇷🇺_RU_俄罗斯联邦_1_2@15
-  - 🇷🇺_RU_俄罗斯联邦_2_2@16
-  - 🇷🇺_RU_俄罗斯联邦->🇳🇱_NL_荷兰_2@18
-  - 🇺🇸_US_美国_2_2@19
+  - 🇸🇬_SG_新加坡_1_0@0
+  - 🇺🇸_US_美国_1_0@1
+  - 🇷🇺_RU_俄罗斯联邦_0@2
+  - 🇮🇱_IL_以色列_0@3
+  - 🇸🇬_SG_新加坡_2_0@4
+  - 🇺🇸_US_美国_2_0@5
+  - 🇯🇵_JP_日本_0@6
+  - 🇺🇸_US_美国_3_0@7
+  - 🇷🇺_RU_俄罗斯联邦->🇩🇪_DE_德国_0@8
+  - 🇸🇬_SG_新加坡_3_0@9
+  - default_name_1_1@0
+  - default_name_2_1@1
+  - 🇺🇸_US_美国_1_1@2
+  - 🇯🇵_JP_日本_1@3
+  - default_name_3_1@4
+  - 🇺🇸_US_美国_2_1@5
+  - default_name_4_1@6
+  - 🇺🇸_US_美国_3_1@7
+  - 🇨🇳_CN_中国->🇩🇪_DE_德国_1@8
+  - default_name_5_1@9
+  - 🇺🇸_US_美国_4_1@10
+  - 🇺🇸_US_美国->🇯🇵_JP_日本_1_1@11
+  - 🇺🇸_US_美国_5_1@12
+  - 🇺🇸_US_美国_6_1@13
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1@14
+  - 🇺🇸_US_美国->🇰🇷_KR_韩国_1@15
+  - 🇺🇸_US_美国_7_1@16
+  - default_name_6_1@17
+  - default_name_7_1@18
+  - 🇺🇸_US_美国_8_1@19
+  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_1@20
+  - 🇺🇸_US_美国->🇯🇵_JP_日本_2_1@21
+  - 🇨🇭_CH_瑞士_1_1@22
+  - 🇺🇸_US_美国->🇻🇳_VN_越南_1@23
+  - 🇺🇸_US_美国_9_1@24
+  - 🇺🇸_US_美国_10_1@25
+  - default_name_8_1@26
+  - 🇨🇭_CH_瑞士_2_1@27
+  - 🇦🇺_AU_澳大利亚_1@28
+  - 🇺🇸_US_美国->🇫🇷_FR_法国_1@29
+  - 🇺🇸_US_美国_11_1@30
+  - 🇺🇸_US_美国_12_1@31
+  - 🇺🇸_US_美国->🇩🇪_DE_德国_1@32
+  - 🇨🇴_CO_哥伦比亚->🇺🇸_US_美国_1@33
+  - 🇺🇸_US_美国_13_1@34
+  - 🇲🇴_MO_澳门->🇺🇸_US_美国_1@35
+  - default_name_9_1@36
+  - default_name_10_1@37
+  - 🇺🇸_US_美国_14_1@38
+  - 🇯🇵_JP_日本_2@0
+  - 🇸🇬_SG_新加坡_2@1
+  - 🇺🇸_US_美国_1_2@2
+  - 🇭🇰_HK_香港->🇹🇼_TW_台湾_2@4
+  - 🇺🇸_US_美国_3_2@5
+  - 🇬🇧_GB_英国_2@17
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -509,161 +731,241 @@ proxy-groups:
   - ♻️ 自动选择
   - 🚀 节点选择
   - 🎯 全球直连
-  - default_name_1_0@0
-  - 🇻🇳_VN_越南_0@1
-  - default_name_2_0@2
-  - default_name_3_0@3
-  - default_name_4_0@4
-  - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_0@5
-  - default_name_5_0@6
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_0@7
-  - default_name_6_0@8
-  - default_name_7_0@9
-  - 🇺🇸_US_美国->🇻🇳_VN_越南_0@10
-  - 🇺🇸_US_美国_1_0@11
-  - 🇺🇸_US_美国->🇫🇷_FR_法国_0@12
-  - 🇩🇪_DE_德国_0@13
-  - 🇦🇺_AU_澳大利亚_0@14
-  - 🇺🇸_US_美国->🇯🇵_JP_日本_0@15
-  - 🇯🇵_JP_日本_0@16
-  - 🇺🇸_US_美国_2_0@17
-  - 🇺🇸_US_美国_3_0@18
-  - 🇺🇸_US_美国_4_0@19
-  - default_name_8_0@20
-  - default_name_2_1@2
-  - 🇨🇦_CA_加拿大_1@4
-  - 🇬🇧_GB_英国_1@6
-  - default_name_5_1@11
-  - 🇯🇵_JP_日本_1_1@13
-  - default_name_6_1@15
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_2@3
-  - 🇯🇵_JP_日本_2_2@6
-  - 🇰🇷_KR_韩国->🇸🇬_SG_新加坡_2@8
-  - 🇹🇼_TW_台湾->🇸🇬_SG_新加坡_2@14
-  - 🇷🇺_RU_俄罗斯联邦_1_2@15
-  - 🇷🇺_RU_俄罗斯联邦_2_2@16
-  - 🇷🇺_RU_俄罗斯联邦->🇳🇱_NL_荷兰_2@18
-  - 🇺🇸_US_美国_2_2@19
+  - 🇸🇬_SG_新加坡_1_0@0
+  - 🇺🇸_US_美国_1_0@1
+  - 🇷🇺_RU_俄罗斯联邦_0@2
+  - 🇮🇱_IL_以色列_0@3
+  - 🇸🇬_SG_新加坡_2_0@4
+  - 🇺🇸_US_美国_2_0@5
+  - 🇯🇵_JP_日本_0@6
+  - 🇺🇸_US_美国_3_0@7
+  - 🇷🇺_RU_俄罗斯联邦->🇩🇪_DE_德国_0@8
+  - 🇸🇬_SG_新加坡_3_0@9
+  - default_name_1_1@0
+  - default_name_2_1@1
+  - 🇺🇸_US_美国_1_1@2
+  - 🇯🇵_JP_日本_1@3
+  - default_name_3_1@4
+  - 🇺🇸_US_美国_2_1@5
+  - default_name_4_1@6
+  - 🇺🇸_US_美国_3_1@7
+  - 🇨🇳_CN_中国->🇩🇪_DE_德国_1@8
+  - default_name_5_1@9
+  - 🇺🇸_US_美国_4_1@10
+  - 🇺🇸_US_美国->🇯🇵_JP_日本_1_1@11
+  - 🇺🇸_US_美国_5_1@12
+  - 🇺🇸_US_美国_6_1@13
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1@14
+  - 🇺🇸_US_美国->🇰🇷_KR_韩国_1@15
+  - 🇺🇸_US_美国_7_1@16
+  - default_name_6_1@17
+  - default_name_7_1@18
+  - 🇺🇸_US_美国_8_1@19
+  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_1@20
+  - 🇺🇸_US_美国->🇯🇵_JP_日本_2_1@21
+  - 🇨🇭_CH_瑞士_1_1@22
+  - 🇺🇸_US_美国->🇻🇳_VN_越南_1@23
+  - 🇺🇸_US_美国_9_1@24
+  - 🇺🇸_US_美国_10_1@25
+  - default_name_8_1@26
+  - 🇨🇭_CH_瑞士_2_1@27
+  - 🇦🇺_AU_澳大利亚_1@28
+  - 🇺🇸_US_美国->🇫🇷_FR_法国_1@29
+  - 🇺🇸_US_美国_11_1@30
+  - 🇺🇸_US_美国_12_1@31
+  - 🇺🇸_US_美国->🇩🇪_DE_德国_1@32
+  - 🇨🇴_CO_哥伦比亚->🇺🇸_US_美国_1@33
+  - 🇺🇸_US_美国_13_1@34
+  - 🇲🇴_MO_澳门->🇺🇸_US_美国_1@35
+  - default_name_9_1@36
+  - default_name_10_1@37
+  - 🇺🇸_US_美国_14_1@38
+  - 🇯🇵_JP_日本_2@0
+  - 🇸🇬_SG_新加坡_2@1
+  - 🇺🇸_US_美国_1_2@2
+  - 🇭🇰_HK_香港->🇹🇼_TW_台湾_2@4
+  - 🇺🇸_US_美国_3_2@5
+  - 🇬🇧_GB_英国_2@17
   type: select
 - name: 📲 电报信息
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - default_name_1_0@0
-  - 🇻🇳_VN_越南_0@1
-  - default_name_2_0@2
-  - default_name_3_0@3
-  - default_name_4_0@4
-  - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_0@5
-  - default_name_5_0@6
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_0@7
-  - default_name_6_0@8
-  - default_name_7_0@9
-  - 🇺🇸_US_美国->🇻🇳_VN_越南_0@10
-  - 🇺🇸_US_美国_1_0@11
-  - 🇺🇸_US_美国->🇫🇷_FR_法国_0@12
-  - 🇩🇪_DE_德国_0@13
-  - 🇦🇺_AU_澳大利亚_0@14
-  - 🇺🇸_US_美国->🇯🇵_JP_日本_0@15
-  - 🇯🇵_JP_日本_0@16
-  - 🇺🇸_US_美国_2_0@17
-  - 🇺🇸_US_美国_3_0@18
-  - 🇺🇸_US_美国_4_0@19
-  - default_name_8_0@20
-  - default_name_2_1@2
-  - 🇨🇦_CA_加拿大_1@4
-  - 🇬🇧_GB_英国_1@6
-  - default_name_5_1@11
-  - 🇯🇵_JP_日本_1_1@13
-  - default_name_6_1@15
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_2@3
-  - 🇯🇵_JP_日本_2_2@6
-  - 🇰🇷_KR_韩国->🇸🇬_SG_新加坡_2@8
-  - 🇹🇼_TW_台湾->🇸🇬_SG_新加坡_2@14
-  - 🇷🇺_RU_俄罗斯联邦_1_2@15
-  - 🇷🇺_RU_俄罗斯联邦_2_2@16
-  - 🇷🇺_RU_俄罗斯联邦->🇳🇱_NL_荷兰_2@18
-  - 🇺🇸_US_美国_2_2@19
+  - 🇸🇬_SG_新加坡_1_0@0
+  - 🇺🇸_US_美国_1_0@1
+  - 🇷🇺_RU_俄罗斯联邦_0@2
+  - 🇮🇱_IL_以色列_0@3
+  - 🇸🇬_SG_新加坡_2_0@4
+  - 🇺🇸_US_美国_2_0@5
+  - 🇯🇵_JP_日本_0@6
+  - 🇺🇸_US_美国_3_0@7
+  - 🇷🇺_RU_俄罗斯联邦->🇩🇪_DE_德国_0@8
+  - 🇸🇬_SG_新加坡_3_0@9
+  - default_name_1_1@0
+  - default_name_2_1@1
+  - 🇺🇸_US_美国_1_1@2
+  - 🇯🇵_JP_日本_1@3
+  - default_name_3_1@4
+  - 🇺🇸_US_美国_2_1@5
+  - default_name_4_1@6
+  - 🇺🇸_US_美国_3_1@7
+  - 🇨🇳_CN_中国->🇩🇪_DE_德国_1@8
+  - default_name_5_1@9
+  - 🇺🇸_US_美国_4_1@10
+  - 🇺🇸_US_美国->🇯🇵_JP_日本_1_1@11
+  - 🇺🇸_US_美国_5_1@12
+  - 🇺🇸_US_美国_6_1@13
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1@14
+  - 🇺🇸_US_美国->🇰🇷_KR_韩国_1@15
+  - 🇺🇸_US_美国_7_1@16
+  - default_name_6_1@17
+  - default_name_7_1@18
+  - 🇺🇸_US_美国_8_1@19
+  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_1@20
+  - 🇺🇸_US_美国->🇯🇵_JP_日本_2_1@21
+  - 🇨🇭_CH_瑞士_1_1@22
+  - 🇺🇸_US_美国->🇻🇳_VN_越南_1@23
+  - 🇺🇸_US_美国_9_1@24
+  - 🇺🇸_US_美国_10_1@25
+  - default_name_8_1@26
+  - 🇨🇭_CH_瑞士_2_1@27
+  - 🇦🇺_AU_澳大利亚_1@28
+  - 🇺🇸_US_美国->🇫🇷_FR_法国_1@29
+  - 🇺🇸_US_美国_11_1@30
+  - 🇺🇸_US_美国_12_1@31
+  - 🇺🇸_US_美国->🇩🇪_DE_德国_1@32
+  - 🇨🇴_CO_哥伦比亚->🇺🇸_US_美国_1@33
+  - 🇺🇸_US_美国_13_1@34
+  - 🇲🇴_MO_澳门->🇺🇸_US_美国_1@35
+  - default_name_9_1@36
+  - default_name_10_1@37
+  - 🇺🇸_US_美国_14_1@38
+  - 🇯🇵_JP_日本_2@0
+  - 🇸🇬_SG_新加坡_2@1
+  - 🇺🇸_US_美国_1_2@2
+  - 🇭🇰_HK_香港->🇹🇼_TW_台湾_2@4
+  - 🇺🇸_US_美国_3_2@5
+  - 🇬🇧_GB_英国_2@17
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
   - 🎯 全球直连
   - 🚀 节点选择
-  - default_name_1_0@0
-  - 🇻🇳_VN_越南_0@1
-  - default_name_2_0@2
-  - default_name_3_0@3
-  - default_name_4_0@4
-  - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_0@5
-  - default_name_5_0@6
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_0@7
-  - default_name_6_0@8
-  - default_name_7_0@9
-  - 🇺🇸_US_美国->🇻🇳_VN_越南_0@10
-  - 🇺🇸_US_美国_1_0@11
-  - 🇺🇸_US_美国->🇫🇷_FR_法国_0@12
-  - 🇩🇪_DE_德国_0@13
-  - 🇦🇺_AU_澳大利亚_0@14
-  - 🇺🇸_US_美国->🇯🇵_JP_日本_0@15
-  - 🇯🇵_JP_日本_0@16
-  - 🇺🇸_US_美国_2_0@17
-  - 🇺🇸_US_美国_3_0@18
-  - 🇺🇸_US_美国_4_0@19
-  - default_name_8_0@20
-  - default_name_2_1@2
-  - 🇨🇦_CA_加拿大_1@4
-  - 🇬🇧_GB_英国_1@6
-  - default_name_5_1@11
-  - 🇯🇵_JP_日本_1_1@13
-  - default_name_6_1@15
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_2@3
-  - 🇯🇵_JP_日本_2_2@6
-  - 🇰🇷_KR_韩国->🇸🇬_SG_新加坡_2@8
-  - 🇹🇼_TW_台湾->🇸🇬_SG_新加坡_2@14
-  - 🇷🇺_RU_俄罗斯联邦_1_2@15
-  - 🇷🇺_RU_俄罗斯联邦_2_2@16
-  - 🇷🇺_RU_俄罗斯联邦->🇳🇱_NL_荷兰_2@18
-  - 🇺🇸_US_美国_2_2@19
+  - 🇸🇬_SG_新加坡_1_0@0
+  - 🇺🇸_US_美国_1_0@1
+  - 🇷🇺_RU_俄罗斯联邦_0@2
+  - 🇮🇱_IL_以色列_0@3
+  - 🇸🇬_SG_新加坡_2_0@4
+  - 🇺🇸_US_美国_2_0@5
+  - 🇯🇵_JP_日本_0@6
+  - 🇺🇸_US_美国_3_0@7
+  - 🇷🇺_RU_俄罗斯联邦->🇩🇪_DE_德国_0@8
+  - 🇸🇬_SG_新加坡_3_0@9
+  - default_name_1_1@0
+  - default_name_2_1@1
+  - 🇺🇸_US_美国_1_1@2
+  - 🇯🇵_JP_日本_1@3
+  - default_name_3_1@4
+  - 🇺🇸_US_美国_2_1@5
+  - default_name_4_1@6
+  - 🇺🇸_US_美国_3_1@7
+  - 🇨🇳_CN_中国->🇩🇪_DE_德国_1@8
+  - default_name_5_1@9
+  - 🇺🇸_US_美国_4_1@10
+  - 🇺🇸_US_美国->🇯🇵_JP_日本_1_1@11
+  - 🇺🇸_US_美国_5_1@12
+  - 🇺🇸_US_美国_6_1@13
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1@14
+  - 🇺🇸_US_美国->🇰🇷_KR_韩国_1@15
+  - 🇺🇸_US_美国_7_1@16
+  - default_name_6_1@17
+  - default_name_7_1@18
+  - 🇺🇸_US_美国_8_1@19
+  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_1@20
+  - 🇺🇸_US_美国->🇯🇵_JP_日本_2_1@21
+  - 🇨🇭_CH_瑞士_1_1@22
+  - 🇺🇸_US_美国->🇻🇳_VN_越南_1@23
+  - 🇺🇸_US_美国_9_1@24
+  - 🇺🇸_US_美国_10_1@25
+  - default_name_8_1@26
+  - 🇨🇭_CH_瑞士_2_1@27
+  - 🇦🇺_AU_澳大利亚_1@28
+  - 🇺🇸_US_美国->🇫🇷_FR_法国_1@29
+  - 🇺🇸_US_美国_11_1@30
+  - 🇺🇸_US_美国_12_1@31
+  - 🇺🇸_US_美国->🇩🇪_DE_德国_1@32
+  - 🇨🇴_CO_哥伦比亚->🇺🇸_US_美国_1@33
+  - 🇺🇸_US_美国_13_1@34
+  - 🇲🇴_MO_澳门->🇺🇸_US_美国_1@35
+  - default_name_9_1@36
+  - default_name_10_1@37
+  - 🇺🇸_US_美国_14_1@38
+  - 🇯🇵_JP_日本_2@0
+  - 🇸🇬_SG_新加坡_2@1
+  - 🇺🇸_US_美国_1_2@2
+  - 🇭🇰_HK_香港->🇹🇼_TW_台湾_2@4
+  - 🇺🇸_US_美国_3_2@5
+  - 🇬🇧_GB_英国_2@17
   type: select
 - name: 🍎 苹果服务
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - default_name_1_0@0
-  - 🇻🇳_VN_越南_0@1
-  - default_name_2_0@2
-  - default_name_3_0@3
-  - default_name_4_0@4
-  - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_0@5
-  - default_name_5_0@6
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_0@7
-  - default_name_6_0@8
-  - default_name_7_0@9
-  - 🇺🇸_US_美国->🇻🇳_VN_越南_0@10
-  - 🇺🇸_US_美国_1_0@11
-  - 🇺🇸_US_美国->🇫🇷_FR_法国_0@12
-  - 🇩🇪_DE_德国_0@13
-  - 🇦🇺_AU_澳大利亚_0@14
-  - 🇺🇸_US_美国->🇯🇵_JP_日本_0@15
-  - 🇯🇵_JP_日本_0@16
-  - 🇺🇸_US_美国_2_0@17
-  - 🇺🇸_US_美国_3_0@18
-  - 🇺🇸_US_美国_4_0@19
-  - default_name_8_0@20
-  - default_name_2_1@2
-  - 🇨🇦_CA_加拿大_1@4
-  - 🇬🇧_GB_英国_1@6
-  - default_name_5_1@11
-  - 🇯🇵_JP_日本_1_1@13
-  - default_name_6_1@15
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_2@3
-  - 🇯🇵_JP_日本_2_2@6
-  - 🇰🇷_KR_韩国->🇸🇬_SG_新加坡_2@8
-  - 🇹🇼_TW_台湾->🇸🇬_SG_新加坡_2@14
-  - 🇷🇺_RU_俄罗斯联邦_1_2@15
-  - 🇷🇺_RU_俄罗斯联邦_2_2@16
-  - 🇷🇺_RU_俄罗斯联邦->🇳🇱_NL_荷兰_2@18
-  - 🇺🇸_US_美国_2_2@19
+  - 🇸🇬_SG_新加坡_1_0@0
+  - 🇺🇸_US_美国_1_0@1
+  - 🇷🇺_RU_俄罗斯联邦_0@2
+  - 🇮🇱_IL_以色列_0@3
+  - 🇸🇬_SG_新加坡_2_0@4
+  - 🇺🇸_US_美国_2_0@5
+  - 🇯🇵_JP_日本_0@6
+  - 🇺🇸_US_美国_3_0@7
+  - 🇷🇺_RU_俄罗斯联邦->🇩🇪_DE_德国_0@8
+  - 🇸🇬_SG_新加坡_3_0@9
+  - default_name_1_1@0
+  - default_name_2_1@1
+  - 🇺🇸_US_美国_1_1@2
+  - 🇯🇵_JP_日本_1@3
+  - default_name_3_1@4
+  - 🇺🇸_US_美国_2_1@5
+  - default_name_4_1@6
+  - 🇺🇸_US_美国_3_1@7
+  - 🇨🇳_CN_中国->🇩🇪_DE_德国_1@8
+  - default_name_5_1@9
+  - 🇺🇸_US_美国_4_1@10
+  - 🇺🇸_US_美国->🇯🇵_JP_日本_1_1@11
+  - 🇺🇸_US_美国_5_1@12
+  - 🇺🇸_US_美国_6_1@13
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1@14
+  - 🇺🇸_US_美国->🇰🇷_KR_韩国_1@15
+  - 🇺🇸_US_美国_7_1@16
+  - default_name_6_1@17
+  - default_name_7_1@18
+  - 🇺🇸_US_美国_8_1@19
+  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_1@20
+  - 🇺🇸_US_美国->🇯🇵_JP_日本_2_1@21
+  - 🇨🇭_CH_瑞士_1_1@22
+  - 🇺🇸_US_美国->🇻🇳_VN_越南_1@23
+  - 🇺🇸_US_美国_9_1@24
+  - 🇺🇸_US_美国_10_1@25
+  - default_name_8_1@26
+  - 🇨🇭_CH_瑞士_2_1@27
+  - 🇦🇺_AU_澳大利亚_1@28
+  - 🇺🇸_US_美国->🇫🇷_FR_法国_1@29
+  - 🇺🇸_US_美国_11_1@30
+  - 🇺🇸_US_美国_12_1@31
+  - 🇺🇸_US_美国->🇩🇪_DE_德国_1@32
+  - 🇨🇴_CO_哥伦比亚->🇺🇸_US_美国_1@33
+  - 🇺🇸_US_美国_13_1@34
+  - 🇲🇴_MO_澳门->🇺🇸_US_美国_1@35
+  - default_name_9_1@36
+  - default_name_10_1@37
+  - 🇺🇸_US_美国_14_1@38
+  - 🇯🇵_JP_日本_2@0
+  - 🇸🇬_SG_新加坡_2@1
+  - 🇺🇸_US_美国_1_2@2
+  - 🇭🇰_HK_香港->🇹🇼_TW_台湾_2@4
+  - 🇺🇸_US_美国_3_2@5
+  - 🇬🇧_GB_英国_2@17
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -686,41 +988,61 @@ proxy-groups:
   - ♻️ 自动选择
   - 🚀 节点选择
   - 🎯 全球直连
-  - default_name_1_0@0
-  - 🇻🇳_VN_越南_0@1
-  - default_name_2_0@2
-  - default_name_3_0@3
-  - default_name_4_0@4
-  - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_0@5
-  - default_name_5_0@6
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_0@7
-  - default_name_6_0@8
-  - default_name_7_0@9
-  - 🇺🇸_US_美国->🇻🇳_VN_越南_0@10
-  - 🇺🇸_US_美国_1_0@11
-  - 🇺🇸_US_美国->🇫🇷_FR_法国_0@12
-  - 🇩🇪_DE_德国_0@13
-  - 🇦🇺_AU_澳大利亚_0@14
-  - 🇺🇸_US_美国->🇯🇵_JP_日本_0@15
-  - 🇯🇵_JP_日本_0@16
-  - 🇺🇸_US_美国_2_0@17
-  - 🇺🇸_US_美国_3_0@18
-  - 🇺🇸_US_美国_4_0@19
-  - default_name_8_0@20
-  - default_name_2_1@2
-  - 🇨🇦_CA_加拿大_1@4
-  - 🇬🇧_GB_英国_1@6
-  - default_name_5_1@11
-  - 🇯🇵_JP_日本_1_1@13
-  - default_name_6_1@15
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_2@3
-  - 🇯🇵_JP_日本_2_2@6
-  - 🇰🇷_KR_韩国->🇸🇬_SG_新加坡_2@8
-  - 🇹🇼_TW_台湾->🇸🇬_SG_新加坡_2@14
-  - 🇷🇺_RU_俄罗斯联邦_1_2@15
-  - 🇷🇺_RU_俄罗斯联邦_2_2@16
-  - 🇷🇺_RU_俄罗斯联邦->🇳🇱_NL_荷兰_2@18
-  - 🇺🇸_US_美国_2_2@19
+  - 🇸🇬_SG_新加坡_1_0@0
+  - 🇺🇸_US_美国_1_0@1
+  - 🇷🇺_RU_俄罗斯联邦_0@2
+  - 🇮🇱_IL_以色列_0@3
+  - 🇸🇬_SG_新加坡_2_0@4
+  - 🇺🇸_US_美国_2_0@5
+  - 🇯🇵_JP_日本_0@6
+  - 🇺🇸_US_美国_3_0@7
+  - 🇷🇺_RU_俄罗斯联邦->🇩🇪_DE_德国_0@8
+  - 🇸🇬_SG_新加坡_3_0@9
+  - default_name_1_1@0
+  - default_name_2_1@1
+  - 🇺🇸_US_美国_1_1@2
+  - 🇯🇵_JP_日本_1@3
+  - default_name_3_1@4
+  - 🇺🇸_US_美国_2_1@5
+  - default_name_4_1@6
+  - 🇺🇸_US_美国_3_1@7
+  - 🇨🇳_CN_中国->🇩🇪_DE_德国_1@8
+  - default_name_5_1@9
+  - 🇺🇸_US_美国_4_1@10
+  - 🇺🇸_US_美国->🇯🇵_JP_日本_1_1@11
+  - 🇺🇸_US_美国_5_1@12
+  - 🇺🇸_US_美国_6_1@13
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1@14
+  - 🇺🇸_US_美国->🇰🇷_KR_韩国_1@15
+  - 🇺🇸_US_美国_7_1@16
+  - default_name_6_1@17
+  - default_name_7_1@18
+  - 🇺🇸_US_美国_8_1@19
+  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_1@20
+  - 🇺🇸_US_美国->🇯🇵_JP_日本_2_1@21
+  - 🇨🇭_CH_瑞士_1_1@22
+  - 🇺🇸_US_美国->🇻🇳_VN_越南_1@23
+  - 🇺🇸_US_美国_9_1@24
+  - 🇺🇸_US_美国_10_1@25
+  - default_name_8_1@26
+  - 🇨🇭_CH_瑞士_2_1@27
+  - 🇦🇺_AU_澳大利亚_1@28
+  - 🇺🇸_US_美国->🇫🇷_FR_法国_1@29
+  - 🇺🇸_US_美国_11_1@30
+  - 🇺🇸_US_美国_12_1@31
+  - 🇺🇸_US_美国->🇩🇪_DE_德国_1@32
+  - 🇨🇴_CO_哥伦比亚->🇺🇸_US_美国_1@33
+  - 🇺🇸_US_美国_13_1@34
+  - 🇲🇴_MO_澳门->🇺🇸_US_美国_1@35
+  - default_name_9_1@36
+  - default_name_10_1@37
+  - 🇺🇸_US_美国_14_1@38
+  - 🇯🇵_JP_日本_2@0
+  - 🇸🇬_SG_新加坡_2@1
+  - 🇺🇸_US_美国_1_2@2
+  - 🇭🇰_HK_香港->🇹🇼_TW_台湾_2@4
+  - 🇺🇸_US_美国_3_2@5
+  - 🇬🇧_GB_英国_2@17
   type: select
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
