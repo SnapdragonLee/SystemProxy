@@ -52,7 +52,7 @@ def merge_clash(configs: List[str]) -> str:
             proxy: Dict[str, Any] = tmp_config['proxies'][j]
             if any(filter(lambda p: p[0] == proxy['server'] and str(p[1]) == str(proxy['port']), blacklist)): continue
             if any(filter(lambda p: p['server'] == proxy['server'] and p['port'] == proxy['port'], proxies)): continue
-            if not proxy['name'].startswith("US"): continue
+            if not proxy['name'].startswith("🇺🇸"): continue
 
             proxy['name'] = proxy['name'] + f'_{i}@{j}'
             proxies.append(proxy)
