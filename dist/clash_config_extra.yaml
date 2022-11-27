@@ -37,14 +37,14 @@ proxies:
   name: 🇫🇷 FR_05_0@4
   password: KixLvKzwjekG00rm
   port: 8080
-  server: 149.202.82.172
+  server: 145.239.1.100
   type: ss
 - cipher: aes-256-gcm
   country: 🇫🇷 FR
   name: 🇫🇷 FR_06_0@5
   password: KixLvKzwjekG00rm
   port: 8080
-  server: 145.239.1.100
+  server: 149.202.82.172
   type: ss
 - cipher: aes-256-gcm
   country: 🇫🇷 FR
@@ -60,23 +60,63 @@ proxies:
   port: 809
   server: 78.129.253.9
   type: ss
+- country: 🇭🇰 HK
+  name: 🇭🇰 HK_09_0@8
+  password: 7f9ef59e-20fb-4343-bafc-3a84fa22fe70
+  port: 443
+  server: ru01.awcloud.top
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- country: 🇭🇰 HK
+  name: 🇭🇰 HK_10_0@9
+  password: 7f9ef59e-20fb-4343-bafc-3a84fa22fe70
+  port: 443
+  server: sg02.awcloud.top
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- country: 🇭🇰 HK
+  name: 🇭🇰 HK_11_0@10
+  password: 7f9ef59e-20fb-4343-bafc-3a84fa22fe70
+  port: 443
+  server: in01.awcloud.top
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- country: 🇭🇰 HK
+  name: 🇭🇰 HK_12_0@11
+  password: 7f9ef59e-20fb-4343-bafc-3a84fa22fe70
+  port: 443
+  server: de01.awcloud.top
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- country: 🇭🇰 HK
+  name: 🇭🇰 HK_13_0@12
+  password: 7f9ef59e-20fb-4343-bafc-3a84fa22fe70
+  port: 443
+  server: uk01.awcloud.top
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - cipher: aes-256-gcm
   country: 🇳🇱 NL
-  name: 🇳🇱 NL_09_0@8
+  name: 🇳🇱 NL_14_0@13
   password: PCnnH6SQSnfoS27
   port: 8091
   server: 85.208.108.60
   type: ss
 - cipher: aes-256-gcm
   country: 🇳🇱 NL
-  name: 🇳🇱 NL_10_0@9
+  name: 🇳🇱 NL_15_0@14
   password: TEzjfAYq2IjtuoS
   port: 6679
   server: 85.208.108.60
   type: ss
 - cipher: aes-256-cfb
   country: 🇳🇱 NL
-  name: 🇳🇱 NL_11_0@10
+  name: 🇳🇱 NL_16_0@15
   obfs: http_simple
   obfs_param: WWW.YOUNEED.WIN
   password: sEscPBiAD9K$&@79
@@ -85,133 +125,145 @@ proxies:
   protocol_param: WWW.YOUNEED.WIN
   server: 94.102.57.163
   type: ssr
+- country: 🇸🇬 SG
+  name: 🇸🇬 SG_17_0@16
+  password: ceaea123-1b4b-469b-8358-bcd5f5529305
+  port: 443
+  server: uk.liangyuandian.top
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - cipher: aes-256-gcm
   country: 🇺🇸 US
-  name: 🇺🇸 US_12_0@11
+  name: 🇺🇸 US_18_0@17
   password: pKEW8JPByTVTLtM
   port: 443
   server: 38.114.114.19
   type: ss
 - cipher: aes-256-gcm
   country: 🇺🇸 US
-  name: 🇺🇸 US_13_0@12
-  password: KixLvKzwjekG00rm
-  port: 8080
-  server: 38.64.138.145
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇺🇸 US
-  name: 🇺🇸 US_14_0@13
-  password: KixLvKzwjekG00rm
-  port: 8080
-  server: 167.88.61.175
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇺🇸 US
-  name: 🇺🇸 US_15_0@14
-  password: kDWvXYZoTBcGkC4
-  port: 8882
-  server: 38.121.43.71
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇺🇸 US
-  name: 🇺🇸 US_16_0@15
-  password: KixLvKzwjekG00rm
-  port: 5500
-  server: 172.99.190.39
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇺🇸 US
-  name: 🇺🇸 US_17_0@16
+  name: 🇺🇸 US_19_0@18
   password: cdBIDV42DCwnfIN
   port: 8119
   server: 38.121.43.71
   type: ss
 - cipher: aes-256-gcm
   country: 🇺🇸 US
-  name: 🇺🇸 US_18_0@17
-  password: Y6R9pAtvxxzmGC
-  port: 3306
-  server: 167.88.63.79
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇺🇸 US
-  name: 🇺🇸 US_19_0@18
-  password: KixLvKzwjekG00rm
-  port: 5500
-  server: 38.68.135.18
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇺🇸 US
   name: 🇺🇸 US_20_0@19
-  password: TEzjfAYq2IjtuoS
-  port: 6697
-  server: 38.114.114.67
+  password: KixLvKzwjekG00rm
+  port: 8080
+  server: 38.64.138.145
   type: ss
 - cipher: aes-256-gcm
   country: 🇺🇸 US
   name: 🇺🇸 US_21_0@20
-  password: KixLvKzwjekG00rm
-  port: 8080
+  password: Y6R9pAtvxxzmGC
+  port: 5001
   server: 38.75.136.21
   type: ss
 - cipher: aes-256-gcm
   country: 🇺🇸 US
   name: 🇺🇸 US_22_0@21
-  password: g5MeD6Ft3CWlJId
-  port: 5003
+  password: KixLvKzwjekG00rm
+  port: 5500
   server: 172.99.190.39
   type: ss
 - cipher: aes-256-gcm
   country: 🇺🇸 US
   name: 🇺🇸 US_23_0@22
   password: Y6R9pAtvxxzmGC
-  port: 5001
-  server: 38.75.136.21
-  type: ss
-- cipher: aes-256-gcm
-  country: 🇺🇸 US
-  name: 🇺🇸 US_24_0@23
-  password: Y6R9pAtvxxzmGC
   port: 5601
   server: 38.114.114.19
   type: ss
 - cipher: aes-256-gcm
   country: 🇺🇸 US
+  name: 🇺🇸 US_24_0@23
+  password: KixLvKzwjekG00rm
+  port: 8080
+  server: 38.75.136.21
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇺🇸 US
   name: 🇺🇸 US_25_0@24
   password: Y6R9pAtvxxzmGC
-  port: 5001
-  server: 38.143.66.99
+  port: 3306
+  server: 167.88.63.79
   type: ss
 - cipher: aes-256-gcm
   country: 🇺🇸 US
   name: 🇺🇸 US_26_0@25
+  password: g5MeD6Ft3CWlJId
+  port: 5003
+  server: 172.99.190.39
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇺🇸 US
+  name: 🇺🇸 US_27_0@26
+  password: TEzjfAYq2IjtuoS
+  port: 6697
+  server: 38.114.114.67
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇺🇸 US
+  name: 🇺🇸 US_28_0@27
+  password: KixLvKzwjekG00rm
+  port: 8080
+  server: 167.88.61.175
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇺🇸 US
+  name: 🇺🇸 US_29_0@28
+  password: KixLvKzwjekG00rm
+  port: 5500
+  server: 38.68.135.18
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇺🇸 US
+  name: 🇺🇸 US_30_0@29
   password: cdBIDV42DCwnfIN
   port: 8118
   server: 38.143.66.99
   type: ss
 - cipher: aes-256-gcm
   country: 🇺🇸 US
-  name: 🇺🇸 US_27_0@26
+  name: 🇺🇸 US_31_0@30
   password: g5MeD6Ft3CWlJId
   port: 5003
   server: 38.75.136.21
   type: ss
-- alterId: 0
-  cipher: auto
+- cipher: aes-256-gcm
   country: 🇺🇸 US
-  http-opts: {}
-  name: 🇺🇸 US_28_0@27
-  network: tcp
-  port: 1069
-  server: 152.69.197.60
+  name: 🇺🇸 US_32_0@31
+  password: kDWvXYZoTBcGkC4
+  port: 8882
+  server: 38.121.43.71
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇺🇸 US
+  name: 🇺🇸 US_33_0@32
+  password: Y6R9pAtvxxzmGC
+  port: 5001
+  server: 38.143.66.99
+  type: ss
+- country: 🇺🇸 US
+  name: 🇺🇸 US_34_0@33
+  password: ceaea123-1b4b-469b-8358-bcd5f5529305
+  port: 443
+  server: usa.liangyuandian.top
   skip-cert-verify: true
-  type: vmess
-  uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf
-  ws-path: /
+  type: trojan
+  udp: true
+- country: 🇺🇸 US
+  name: 🇺🇸 US_35_0@34
+  password: ceaea123-1b4b-469b-8358-bcd5f5529305
+  port: 443
+  server: ap.liangyuandian.top
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - cipher: aes-256-gcm
   country: 🏁 ZZ
-  name: 🏁 ZZ_29_0@28
+  name: 🏁 ZZ_36_0@35
   password: FoOiGlkAA9yPEGP
   port: 7307
   server: 134.195.196.149
@@ -229,15 +281,15 @@ proxy-groups:
   - 🇫🇷 FR_06_0@5
   - 🇫🇷 FR_07_0@6
   - 🇬🇧 GB_08_0@7
-  - 🇳🇱 NL_09_0@8
-  - 🇳🇱 NL_10_0@9
-  - 🇳🇱 NL_11_0@10
-  - 🇺🇸 US_12_0@11
-  - 🇺🇸 US_13_0@12
-  - 🇺🇸 US_14_0@13
-  - 🇺🇸 US_15_0@14
-  - 🇺🇸 US_16_0@15
-  - 🇺🇸 US_17_0@16
+  - 🇭🇰 HK_09_0@8
+  - 🇭🇰 HK_10_0@9
+  - 🇭🇰 HK_11_0@10
+  - 🇭🇰 HK_12_0@11
+  - 🇭🇰 HK_13_0@12
+  - 🇳🇱 NL_14_0@13
+  - 🇳🇱 NL_15_0@14
+  - 🇳🇱 NL_16_0@15
+  - 🇸🇬 SG_17_0@16
   - 🇺🇸 US_18_0@17
   - 🇺🇸 US_19_0@18
   - 🇺🇸 US_20_0@19
@@ -249,7 +301,14 @@ proxy-groups:
   - 🇺🇸 US_26_0@25
   - 🇺🇸 US_27_0@26
   - 🇺🇸 US_28_0@27
-  - 🏁 ZZ_29_0@28
+  - 🇺🇸 US_29_0@28
+  - 🇺🇸 US_30_0@29
+  - 🇺🇸 US_31_0@30
+  - 🇺🇸 US_32_0@31
+  - 🇺🇸 US_33_0@32
+  - 🇺🇸 US_34_0@33
+  - 🇺🇸 US_35_0@34
+  - 🏁 ZZ_36_0@35
   type: select
 - interval: 300
   name: ♻️ 自动选择
@@ -262,15 +321,15 @@ proxy-groups:
   - 🇫🇷 FR_06_0@5
   - 🇫🇷 FR_07_0@6
   - 🇬🇧 GB_08_0@7
-  - 🇳🇱 NL_09_0@8
-  - 🇳🇱 NL_10_0@9
-  - 🇳🇱 NL_11_0@10
-  - 🇺🇸 US_12_0@11
-  - 🇺🇸 US_13_0@12
-  - 🇺🇸 US_14_0@13
-  - 🇺🇸 US_15_0@14
-  - 🇺🇸 US_16_0@15
-  - 🇺🇸 US_17_0@16
+  - 🇭🇰 HK_09_0@8
+  - 🇭🇰 HK_10_0@9
+  - 🇭🇰 HK_11_0@10
+  - 🇭🇰 HK_12_0@11
+  - 🇭🇰 HK_13_0@12
+  - 🇳🇱 NL_14_0@13
+  - 🇳🇱 NL_15_0@14
+  - 🇳🇱 NL_16_0@15
+  - 🇸🇬 SG_17_0@16
   - 🇺🇸 US_18_0@17
   - 🇺🇸 US_19_0@18
   - 🇺🇸 US_20_0@19
@@ -282,7 +341,14 @@ proxy-groups:
   - 🇺🇸 US_26_0@25
   - 🇺🇸 US_27_0@26
   - 🇺🇸 US_28_0@27
-  - 🏁 ZZ_29_0@28
+  - 🇺🇸 US_29_0@28
+  - 🇺🇸 US_30_0@29
+  - 🇺🇸 US_31_0@30
+  - 🇺🇸 US_32_0@31
+  - 🇺🇸 US_33_0@32
+  - 🇺🇸 US_34_0@33
+  - 🇺🇸 US_35_0@34
+  - 🏁 ZZ_36_0@35
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -299,15 +365,15 @@ proxy-groups:
   - 🇫🇷 FR_06_0@5
   - 🇫🇷 FR_07_0@6
   - 🇬🇧 GB_08_0@7
-  - 🇳🇱 NL_09_0@8
-  - 🇳🇱 NL_10_0@9
-  - 🇳🇱 NL_11_0@10
-  - 🇺🇸 US_12_0@11
-  - 🇺🇸 US_13_0@12
-  - 🇺🇸 US_14_0@13
-  - 🇺🇸 US_15_0@14
-  - 🇺🇸 US_16_0@15
-  - 🇺🇸 US_17_0@16
+  - 🇭🇰 HK_09_0@8
+  - 🇭🇰 HK_10_0@9
+  - 🇭🇰 HK_11_0@10
+  - 🇭🇰 HK_12_0@11
+  - 🇭🇰 HK_13_0@12
+  - 🇳🇱 NL_14_0@13
+  - 🇳🇱 NL_15_0@14
+  - 🇳🇱 NL_16_0@15
+  - 🇸🇬 SG_17_0@16
   - 🇺🇸 US_18_0@17
   - 🇺🇸 US_19_0@18
   - 🇺🇸 US_20_0@19
@@ -319,7 +385,14 @@ proxy-groups:
   - 🇺🇸 US_26_0@25
   - 🇺🇸 US_27_0@26
   - 🇺🇸 US_28_0@27
-  - 🏁 ZZ_29_0@28
+  - 🇺🇸 US_29_0@28
+  - 🇺🇸 US_30_0@29
+  - 🇺🇸 US_31_0@30
+  - 🇺🇸 US_32_0@31
+  - 🇺🇸 US_33_0@32
+  - 🇺🇸 US_34_0@33
+  - 🇺🇸 US_35_0@34
+  - 🏁 ZZ_36_0@35
   type: select
 - name: 📲 电报信息
   proxies:
@@ -333,15 +406,15 @@ proxy-groups:
   - 🇫🇷 FR_06_0@5
   - 🇫🇷 FR_07_0@6
   - 🇬🇧 GB_08_0@7
-  - 🇳🇱 NL_09_0@8
-  - 🇳🇱 NL_10_0@9
-  - 🇳🇱 NL_11_0@10
-  - 🇺🇸 US_12_0@11
-  - 🇺🇸 US_13_0@12
-  - 🇺🇸 US_14_0@13
-  - 🇺🇸 US_15_0@14
-  - 🇺🇸 US_16_0@15
-  - 🇺🇸 US_17_0@16
+  - 🇭🇰 HK_09_0@8
+  - 🇭🇰 HK_10_0@9
+  - 🇭🇰 HK_11_0@10
+  - 🇭🇰 HK_12_0@11
+  - 🇭🇰 HK_13_0@12
+  - 🇳🇱 NL_14_0@13
+  - 🇳🇱 NL_15_0@14
+  - 🇳🇱 NL_16_0@15
+  - 🇸🇬 SG_17_0@16
   - 🇺🇸 US_18_0@17
   - 🇺🇸 US_19_0@18
   - 🇺🇸 US_20_0@19
@@ -353,7 +426,14 @@ proxy-groups:
   - 🇺🇸 US_26_0@25
   - 🇺🇸 US_27_0@26
   - 🇺🇸 US_28_0@27
-  - 🏁 ZZ_29_0@28
+  - 🇺🇸 US_29_0@28
+  - 🇺🇸 US_30_0@29
+  - 🇺🇸 US_31_0@30
+  - 🇺🇸 US_32_0@31
+  - 🇺🇸 US_33_0@32
+  - 🇺🇸 US_34_0@33
+  - 🇺🇸 US_35_0@34
+  - 🏁 ZZ_36_0@35
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
@@ -367,15 +447,15 @@ proxy-groups:
   - 🇫🇷 FR_06_0@5
   - 🇫🇷 FR_07_0@6
   - 🇬🇧 GB_08_0@7
-  - 🇳🇱 NL_09_0@8
-  - 🇳🇱 NL_10_0@9
-  - 🇳🇱 NL_11_0@10
-  - 🇺🇸 US_12_0@11
-  - 🇺🇸 US_13_0@12
-  - 🇺🇸 US_14_0@13
-  - 🇺🇸 US_15_0@14
-  - 🇺🇸 US_16_0@15
-  - 🇺🇸 US_17_0@16
+  - 🇭🇰 HK_09_0@8
+  - 🇭🇰 HK_10_0@9
+  - 🇭🇰 HK_11_0@10
+  - 🇭🇰 HK_12_0@11
+  - 🇭🇰 HK_13_0@12
+  - 🇳🇱 NL_14_0@13
+  - 🇳🇱 NL_15_0@14
+  - 🇳🇱 NL_16_0@15
+  - 🇸🇬 SG_17_0@16
   - 🇺🇸 US_18_0@17
   - 🇺🇸 US_19_0@18
   - 🇺🇸 US_20_0@19
@@ -387,7 +467,14 @@ proxy-groups:
   - 🇺🇸 US_26_0@25
   - 🇺🇸 US_27_0@26
   - 🇺🇸 US_28_0@27
-  - 🏁 ZZ_29_0@28
+  - 🇺🇸 US_29_0@28
+  - 🇺🇸 US_30_0@29
+  - 🇺🇸 US_31_0@30
+  - 🇺🇸 US_32_0@31
+  - 🇺🇸 US_33_0@32
+  - 🇺🇸 US_34_0@33
+  - 🇺🇸 US_35_0@34
+  - 🏁 ZZ_36_0@35
   type: select
 - name: 🍎 苹果服务
   proxies:
@@ -401,15 +488,15 @@ proxy-groups:
   - 🇫🇷 FR_06_0@5
   - 🇫🇷 FR_07_0@6
   - 🇬🇧 GB_08_0@7
-  - 🇳🇱 NL_09_0@8
-  - 🇳🇱 NL_10_0@9
-  - 🇳🇱 NL_11_0@10
-  - 🇺🇸 US_12_0@11
-  - 🇺🇸 US_13_0@12
-  - 🇺🇸 US_14_0@13
-  - 🇺🇸 US_15_0@14
-  - 🇺🇸 US_16_0@15
-  - 🇺🇸 US_17_0@16
+  - 🇭🇰 HK_09_0@8
+  - 🇭🇰 HK_10_0@9
+  - 🇭🇰 HK_11_0@10
+  - 🇭🇰 HK_12_0@11
+  - 🇭🇰 HK_13_0@12
+  - 🇳🇱 NL_14_0@13
+  - 🇳🇱 NL_15_0@14
+  - 🇳🇱 NL_16_0@15
+  - 🇸🇬 SG_17_0@16
   - 🇺🇸 US_18_0@17
   - 🇺🇸 US_19_0@18
   - 🇺🇸 US_20_0@19
@@ -421,7 +508,14 @@ proxy-groups:
   - 🇺🇸 US_26_0@25
   - 🇺🇸 US_27_0@26
   - 🇺🇸 US_28_0@27
-  - 🏁 ZZ_29_0@28
+  - 🇺🇸 US_29_0@28
+  - 🇺🇸 US_30_0@29
+  - 🇺🇸 US_31_0@30
+  - 🇺🇸 US_32_0@31
+  - 🇺🇸 US_33_0@32
+  - 🇺🇸 US_34_0@33
+  - 🇺🇸 US_35_0@34
+  - 🏁 ZZ_36_0@35
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -452,15 +546,15 @@ proxy-groups:
   - 🇫🇷 FR_06_0@5
   - 🇫🇷 FR_07_0@6
   - 🇬🇧 GB_08_0@7
-  - 🇳🇱 NL_09_0@8
-  - 🇳🇱 NL_10_0@9
-  - 🇳🇱 NL_11_0@10
-  - 🇺🇸 US_12_0@11
-  - 🇺🇸 US_13_0@12
-  - 🇺🇸 US_14_0@13
-  - 🇺🇸 US_15_0@14
-  - 🇺🇸 US_16_0@15
-  - 🇺🇸 US_17_0@16
+  - 🇭🇰 HK_09_0@8
+  - 🇭🇰 HK_10_0@9
+  - 🇭🇰 HK_11_0@10
+  - 🇭🇰 HK_12_0@11
+  - 🇭🇰 HK_13_0@12
+  - 🇳🇱 NL_14_0@13
+  - 🇳🇱 NL_15_0@14
+  - 🇳🇱 NL_16_0@15
+  - 🇸🇬 SG_17_0@16
   - 🇺🇸 US_18_0@17
   - 🇺🇸 US_19_0@18
   - 🇺🇸 US_20_0@19
@@ -472,7 +566,14 @@ proxy-groups:
   - 🇺🇸 US_26_0@25
   - 🇺🇸 US_27_0@26
   - 🇺🇸 US_28_0@27
-  - 🏁 ZZ_29_0@28
+  - 🇺🇸 US_29_0@28
+  - 🇺🇸 US_30_0@29
+  - 🇺🇸 US_31_0@30
+  - 🇺🇸 US_32_0@31
+  - 🇺🇸 US_33_0@32
+  - 🇺🇸 US_34_0@33
+  - 🇺🇸 US_35_0@34
+  - 🏁 ZZ_36_0@35
   type: select
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
