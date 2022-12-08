@@ -11,7 +11,8 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 clash_output_file: str = './dist/clash_config_extra_US.yaml'
 clash_output_tpl: str = './clash.config.template.yaml'
 
-clash_extra: List[str] = ['https://free886.herokuapp.com/clash/proxies']
+clash_extra: List[str] = ['https://free886.herokuapp.com/clash/proxies', 'https://free.dswang.ga/clash/proxies',
+                          'https://proxy.yugogo.xyz/clash/proxies', 'https://gfwglass.tk/clash/proxies', 'https://free.jingfu.cf/clash/proxies']
 
 blacklist: List[str] = list(
     map(lambda l: l.replace('\r', '').replace('\n', '').split(':'), open('blacklists.txt').readlines()))
