@@ -9,12 +9,12 @@ import urllib3
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 rss_url:str = 'https://www.cfmem.com/feeds/posts/default?alt=rss'
-clash_reg:Pattern = re.compile(r'clash订阅链接：(https?.+?)(?:&lt;|<)/span(?:&gt;|>)')
-v2ray_reg:Pattern = re.compile(r'v2ray订阅链接：(https?.+?)(?:&lt;|<)/span(?:&gt;|>)')
+clash_reg:Pattern = re.compile(r'clash订阅链接：(?:&lt;/span&gt;&lt;span style=&quot;background-color: white; color: #111111; font-size: 15px;&quot;&gt;)?(https?.+?)(?:&lt;|<)/span(?:&gt;|>)')
+# v2ray_reg:Pattern = re.compile(r'v2ray订阅链接：(?:&lt;/span &gt;&lt;/span &gt;&lt;/span &gt;&lt;span style=&quot;color: #111111;&quot;&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;)?(https?.+?)(?:&lt;|<)/span(?:&gt;|>)')
 
 clash_output_file:str = './dist/clash_config.yaml'
 clash_output_tpl:str = './clash.config.template.yaml'
-v2ray_output_file:str = './dist/v2ray.config.txt'
+# v2ray_output_file:str = './dist/v2ray.config.txt'
     
 clash_extra:List[str] = ['https://free886.herokuapp.com/clash/proxies']
 
@@ -25,13 +25,13 @@ def clash_urls(html:str) -> List[str]:
     Fetch URLs For Clash
     '''
     # return clash_extra
-    return clash_reg.findall(html)[0:3]
+    return clash_reg.findall(html)[0:1]
 
 def v2ray_urls(html:str) -> List[str]:
     '''
     Fetch URLs For V2Ray
     '''
-    return v2ray_reg.findall(html)
+    # return v2ray_reg.findall(html)
 
 def fetch_html(url:str) -> str:
     '''
