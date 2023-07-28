@@ -9,20 +9,11 @@ proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
-      - ♻️ 自动选择
       - DIRECT
-      - xxx
-  - name: ♻️ 自动选择
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 50
-    proxies:
       - xxx
   - name: 🌍 国外媒体
     type: select
     proxies:
-      - ♻️ 自动选择
       - 🚀 节点选择
       - 🎯 全球直连
       - xxx
@@ -49,7 +40,6 @@ proxy-groups:
     proxies:
       - DIRECT
       - 🚀 节点选择
-      - ♻️ 自动选择
   - name: 🛑 全球拦截
     type: select
     proxies:
@@ -63,7 +53,6 @@ proxy-groups:
   - name: 🐟 漏网之鱼
     type: select
     proxies:
-      - ♻️ 自动选择
       - 🚀 节点选择
       - 🎯 全球直连
       - xxx
@@ -1722,7 +1711,7 @@ rules:
   - DOMAIN-SUFFIX,tralog.ganji.com,🍃 应用净化
   - DOMAIN-SUFFIX,up.qingdaonews.com,🍃 应用净化
   - DOMAIN-SUFFIX,vaserviece.10jqka.com.cn,🍃 应用净化
-  - DOMAIN-SUFFIX,workers.dev,♻️ 自动选择
+  - DOMAIN-SUFFIX,workers.dev,🎯 全球直连
   - DOMAIN-SUFFIX,265.com,🎯 全球直连
   - DOMAIN-SUFFIX,2mdn.net,🎯 全球直连
   - DOMAIN-SUFFIX,alt1-mtalk.google.com,🎯 全球直连

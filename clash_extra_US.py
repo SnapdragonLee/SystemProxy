@@ -11,8 +11,7 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 clash_output_file: str = './dist/clash_config_extra_US.yaml'
 clash_output_tpl: str = './clash.config.template.yaml'
 
-clash_extra: List[str] = ['https://free886.herokuapp.com/clash/proxies', 'https://free.dswang.ga/clash/proxies',
-                          'https://proxy.yugogo.xyz/clash/proxies', 'https://gfwglass.tk/clash/proxies', 'https://free.jingfu.cf/clash/proxies']
+clash_extra: List[str] = ['https://proxy.yugogo.xyz/clash/proxies', 'https://gfwglass.tk/clash/proxies', 'https://free.jingfu.cf/clash/proxies']
 
 blacklist: List[str] = list(
     map(lambda l: l.replace('\r', '').replace('\n', '').split(':'), open('blacklists.txt').readlines()))
@@ -47,7 +46,10 @@ def merge_clash(configs: List[str]) -> str:
     config_template: Dict[str, Any] = yaml.safe_load(open(clash_output_tpl, encoding='utf-8').read())
     proxies: List[Dict[str, Any]] = []
     for i in range(len(configs)):
-        tmp_config: Dict[str, Any] = yaml.safe_load(configs[i])
+        try:
+            tmp_config: Dict[str, Any] = yaml.safe_load(configs[i])
+        except Exception:
+            continue
         if 'proxies' not in tmp_config: continue
         for j in range(len(tmp_config['proxies'])):
             proxy: Dict[str, Any] = tmp_config['proxies'][j]
