@@ -6,45 +6,66 @@ mode: Rule
 proxies:
 - cipher: aes-256-gcm
   country: 🇺🇸US
-  name: 🇺🇸US_88_0@87
-  password: FoOiGlkAA9yPEGP
-  port: 7306
+  name: 🇺🇸US_121_0@120
+  password: e4FCWrgpkji3QY
+  port: 9101
+  server: 38.143.66.187
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 🇺🇸US_123_0@122
+  password: KixLvKzwjekG00rm
+  port: 8080
   server: 167.88.61.175
   type: ss
 - cipher: aes-256-gcm
   country: 🇺🇸US
-  name: 🇺🇸US_89_0@88
+  name: 🇺🇸US_124_0@123
   password: Y6R9pAtvxxzmGC
   port: 5601
   server: 38.91.101.159
   type: ss
 - cipher: aes-256-gcm
   country: 🇺🇸US
-  name: 🇺🇸US_90_0@89
+  name: 🇺🇸US_125_0@124
+  password: FoOiGlkAA9yPEGP
+  port: 7306
+  server: 167.88.61.175
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 🇺🇸US_126_0@125
   password: PCnnH6SQSnfoS27
   port: 8090
   server: 142.202.48.99
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 🇺🇸US_127_0@126
+  password: KixLvKzwjekG00rm
+  port: 5500
+  server: 172.99.190.87
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 🇺🇸US_128_0@127
+  password: KixLvKzwjekG00rm
+  port: 8080
+  server: 172.99.190.87
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇺🇸US
+  name: 🇺🇸US_129_0@128
+  password: Y6R9pAtvxxzmGC
+  port: 5601
+  server: 172.99.190.87
   type: ss
 - alterId: 0
   cipher: auto
   country: 🇺🇸US
   h2-opts: {}
   http-opts: {}
-  name: 🇺🇸US_100_0@99
-  network: ws
-  port: 8443
-  server: 192.3.150.233
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
-  ws-path: /8cda48b3
-- alterId: 0
-  cipher: auto
-  country: 🇺🇸US
-  h2-opts: {}
-  http-opts: {}
-  name: 🇺🇸US_119_0@118
+  name: 🇺🇸US_132_0@131
   network: tcp
   port: 41545
   server: 141.147.153.244
@@ -57,113 +78,142 @@ proxies:
   country: 🇺🇸US
   h2-opts: {}
   http-opts: {}
-  name: 🇺🇸US_121_0@120
+  name: 🇺🇸US_141_0@140
   network: tcp
-  port: 10002
-  server: 149.28.94.183
-  servername: cloudflare.piaole.me
+  port: 43556
+  server: 64.32.4.55
   skip-cert-verify: true
   type: vmess
-  uuid: e0b715cd-4058-4cf4-b67e-d37063294b75
-  ws-path: /huawei
-- alterId: 64
-  cipher: auto
-  country: 🇺🇸US
-  h2-opts: {}
-  http-opts: {}
-  name: 🇺🇸US_133_0@132
-  network: tcp
-  port: 51140
-  server: 45.58.186.91
-  skip-cert-verify: true
-  type: vmess
-  uuid: 4a138e19-0595-4d51-83c6-fd276cf7d307
+  uuid: 8653004f-de67-44c2-9cce-e0830933fb03
   ws-path: /
 - alterId: 0
   cipher: auto
   country: 🇺🇸US
   h2-opts: {}
   http-opts: {}
-  name: 🇺🇸US_137_0@136
+  name: 🇺🇸US_142_0@141
   network: ws
-  port: 59102
-  server: 45.131.248.228
-  servername: 45.131.248.228
+  port: 33167
+  server: 20.127.197.168
   skip-cert-verify: true
   type: vmess
-  uuid: ac027362-c988-4670-f78f-021b5be6f4e3
-  ws-headers:
-    HOST: 45.131.248.228
-  ws-path: /
-- alterId: 64
-  cipher: auto
-  country: 🇺🇸US
-  h2-opts: {}
-  http-opts: {}
-  name: 🇺🇸US_140_0@139
-  network: tcp
-  port: 51140
-  server: 45.58.186.90
-  servername: 🇺🇸US美国(youtube阿伟科技2)
-  skip-cert-verify: true
-  type: vmess
-  uuid: 4a138e19-0595-4d51-83c6-fd276cf7d307
+  uuid: 28310731-ebb7-4236-bc27-2dd4bd7b5820
   ws-path: /
 - alterId: 0
   cipher: auto
   country: 🇺🇸US
   h2-opts: {}
   http-opts: {}
-  name: 🇺🇸US_153_0@152
+  name: 🇺🇸US_150_0@149
   network: tcp
-  port: 26297
-  server: 131.186.41.192
+  port: 51715
+  server: 142.4.126.25
   skip-cert-verify: true
   type: vmess
-  uuid: b0ed6eb7-dc30-4897-df50-c2c1d4ee6e91
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-path: /speedtest
+- alterId: 64
+  cipher: auto
+  country: 🇺🇸US
+  h2-opts: {}
+  http-opts: {}
+  name: 🇺🇸US_152_0@151
+  network: tcp
+  port: 51715
+  server: 142.4.126.24
+  skip-cert-verify: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-path: /
+- alterId: 64
+  cipher: auto
+  country: 🇺🇸US
+  h2-opts: {}
+  http-opts: {}
+  name: 🇺🇸US_161_0@160
+  network: tcp
+  port: 43556
+  server: 64.32.4.54
+  skip-cert-verify: true
+  type: vmess
+  uuid: 8653004f-de67-44c2-9cce-e0830933fb03
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  h2-opts: {}
+  http-opts: {}
+  name: 🇺🇸US_165_0@164
+  network: ws
+  port: 2052
+  server: 23.95.67.188
+  skip-cert-verify: true
+  type: vmess
+  uuid: a4d41cd3-4b17-46c5-feb7-ec6d76b9683d
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  h2-opts: {}
+  http-opts: {}
+  name: 🇺🇸US_166_0@165
+  network: ws
+  port: 2083
+  server: 23.95.67.188
+  skip-cert-verify: true
+  type: vmess
+  uuid: 75333f4c-ece5-4f93-e49c-0e0a9f902ce5
+  ws-path: /
+- alterId: 64
+  cipher: auto
+  country: 🇺🇸US
+  h2-opts: {}
+  http-opts: {}
+  name: 🇺🇸US_167_0@166
+  network: tcp
+  port: 43556
+  server: 64.32.4.53
+  servername: 🇺🇸US美国(youtube阿伟科技)
+  skip-cert-verify: true
+  type: vmess
+  uuid: 8653004f-de67-44c2-9cce-e0830933fb03
+  ws-path: /
+- alterId: 64
+  cipher: auto
+  country: 🇺🇸US
+  h2-opts: {}
+  http-opts: {}
+  name: 🇺🇸US_169_0@168
+  network: tcp
+  port: 51715
+  server: 142.4.126.22
+  skip-cert-verify: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-path: /
+- alterId: 64
+  cipher: auto
+  country: 🇺🇸US
+  h2-opts: {}
+  http-opts: {}
+  name: 🇺🇸US_174_0@173
+  network: tcp
+  port: 43556
+  server: 64.32.4.56
+  skip-cert-verify: true
+  type: vmess
+  uuid: 8653004f-de67-44c2-9cce-e0830933fb03
   ws-path: /
 - country: 🇺🇸US
-  name: 🇺🇸US_161_0@160
-  password: c0cf56d4-08a7-4436-9e6a-3feebe142706
+  name: 🇺🇸US_205_0@204
+  password: 6a91134d-1e3f-4b63-9a46-99515cb62596
   port: 443
-  server: aujs.stablize.top
+  server: tw01.trojanyyds.xyz
   skip-cert-verify: true
   type: trojan
   udp: true
 - country: 🇺🇸US
-  name: 🇺🇸US_174_0@173
-  password: cf1df355-e505-44a5-9c80-3fe732de1c71
-  port: 443
-  server: ukjs.stablize.top
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- country: 🇺🇸US
-  name: 🇺🇸US_199_0@198
-  password: 4935d10a-b305-4b3b-8bb0-f8f7feb3640d
-  port: 443
-  server: sg.stablize.top
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- country: 🇺🇸US
-  name: 🇺🇸US_210_0@209
-  password: ae4da236-bfec-4673-9e1e-bbbd942162a8
-  port: 443
-  server: hk02.trojanyyds.xyz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- country: 🇺🇸US
-  name: 🇺🇸US_212_0@211
-  password: 6455f944-7c07-4ab0-b88f-440e581f41d9
-  port: 443
-  server: jp2.twincloud.xyz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- country: 🇺🇸US
-  name: 🇺🇸US_227_0@226
+  name: 🇺🇸US_215_0@214
   password: 7561d9a0-af44-405d-81ae-f056fbc03675
   port: 443
   server: jp.stablize.top
@@ -171,31 +221,31 @@ proxies:
   type: trojan
   udp: true
 - country: 🇺🇸US
+  name: 🇺🇸US_222_0@221
+  password: ae4da236-bfec-4673-9e1e-bbbd942162a8
+  port: 443
+  server: hk02.trojanyyds.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- country: 🇺🇸US
   name: 🇺🇸US_231_0@230
-  password: 8d1e94cd-23cf-4267-b630-c6894e6e1b4d
+  password: 224c91ee-7e18-4f1e-86bb-c1836f218c95
   port: 443
-  server: tw01.trojanyyds.xyz
+  server: jp.mjt001.com
   skip-cert-verify: true
   type: trojan
   udp: true
 - country: 🇺🇸US
-  name: 🇺🇸US_234_0@233
-  password: 8d1e94cd-23cf-4267-b630-c6894e6e1b4d
+  name: 🇺🇸US_240_0@239
+  password: 6455f944-7c07-4ab0-b88f-440e581f41d9
   port: 443
-  server: sk01.trojanyyds.xyz
+  server: jp2.twincloud.xyz
   skip-cert-verify: true
   type: trojan
   udp: true
 - country: 🇺🇸US
-  name: 🇺🇸US_235_0@234
-  password: 8d1e94cd-23cf-4267-b630-c6894e6e1b4d
-  port: 443
-  server: my01.trojanyyds.xyz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- country: 🇺🇸US
-  name: 🇺🇸US_239_0@238
+  name: 🇺🇸US_251_0@250
   password: 8d1e94cd-23cf-4267-b630-c6894e6e1b4d
   port: 443
   server: tw02.trojanyyds.xyz
@@ -203,18 +253,50 @@ proxies:
   type: trojan
   udp: true
 - country: 🇺🇸US
-  name: 🇺🇸US_246_0@245
-  password: e8e027f7-0672-43d4-8001-535b58852b2f
+  name: 🇺🇸US_252_0@251
+  password: 8d1e94cd-23cf-4267-b630-c6894e6e1b4d
   port: 443
-  server: spsg.1234567890spcloud.com
+  server: my01.trojanyyds.xyz
   skip-cert-verify: true
   type: trojan
   udp: true
 - country: 🇺🇸US
-  name: 🇺🇸US_100_2@83
-  password: 2e31a75e-ce52-4d2c-95e1-41c8acdbc80c
+  name: 🇺🇸US_253_0@252
+  password: 8d1e94cd-23cf-4267-b630-c6894e6e1b4d
   port: 443
-  server: fscus.fscloud123456789.com
+  server: sk01.trojanyyds.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- country: 🇺🇸US
+  name: 🇺🇸US_261_0@260
+  password: c0cf56d4-08a7-4436-9e6a-3feebe142706
+  port: 443
+  server: aujs.stablize.top
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- country: 🇺🇸US
+  name: 🇺🇸US_282_0@281
+  password: 4935d10a-b305-4b3b-8bb0-f8f7feb3640d
+  port: 443
+  server: sg.stablize.top
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- country: 🇺🇸US
+  name: 🇺🇸US_292_0@291
+  password: cf1df355-e505-44a5-9c80-3fe732de1c71
+  port: 443
+  server: ukjs.stablize.top
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- country: 🇺🇸US
+  name: 🇺🇸US_112_2@96
+  password: 9bb27128-e6d2-4cac-bbd3-beb46c4417f8
+  port: 443
+  server: hk01.trojanyyds.xyz
   skip-cert-verify: true
   type: trojan
   udp: true
@@ -222,136 +304,181 @@ proxy-groups:
 - name: 🚀 节点选择
   proxies:
   - DIRECT
-  - 🇺🇸US_88_0@87
-  - 🇺🇸US_89_0@88
-  - 🇺🇸US_90_0@89
-  - 🇺🇸US_100_0@99
-  - 🇺🇸US_119_0@118
   - 🇺🇸US_121_0@120
-  - 🇺🇸US_133_0@132
-  - 🇺🇸US_137_0@136
-  - 🇺🇸US_140_0@139
-  - 🇺🇸US_153_0@152
+  - 🇺🇸US_123_0@122
+  - 🇺🇸US_124_0@123
+  - 🇺🇸US_125_0@124
+  - 🇺🇸US_126_0@125
+  - 🇺🇸US_127_0@126
+  - 🇺🇸US_128_0@127
+  - 🇺🇸US_129_0@128
+  - 🇺🇸US_132_0@131
+  - 🇺🇸US_141_0@140
+  - 🇺🇸US_142_0@141
+  - 🇺🇸US_150_0@149
+  - 🇺🇸US_152_0@151
   - 🇺🇸US_161_0@160
+  - 🇺🇸US_165_0@164
+  - 🇺🇸US_166_0@165
+  - 🇺🇸US_167_0@166
+  - 🇺🇸US_169_0@168
   - 🇺🇸US_174_0@173
-  - 🇺🇸US_199_0@198
-  - 🇺🇸US_210_0@209
-  - 🇺🇸US_212_0@211
-  - 🇺🇸US_227_0@226
+  - 🇺🇸US_205_0@204
+  - 🇺🇸US_215_0@214
+  - 🇺🇸US_222_0@221
   - 🇺🇸US_231_0@230
-  - 🇺🇸US_234_0@233
-  - 🇺🇸US_235_0@234
-  - 🇺🇸US_239_0@238
-  - 🇺🇸US_246_0@245
-  - 🇺🇸US_100_2@83
+  - 🇺🇸US_240_0@239
+  - 🇺🇸US_251_0@250
+  - 🇺🇸US_252_0@251
+  - 🇺🇸US_253_0@252
+  - 🇺🇸US_261_0@260
+  - 🇺🇸US_282_0@281
+  - 🇺🇸US_292_0@291
+  - 🇺🇸US_112_2@96
   type: select
 - name: 🌍 国外媒体
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇺🇸US_88_0@87
-  - 🇺🇸US_89_0@88
-  - 🇺🇸US_90_0@89
-  - 🇺🇸US_100_0@99
-  - 🇺🇸US_119_0@118
   - 🇺🇸US_121_0@120
-  - 🇺🇸US_133_0@132
-  - 🇺🇸US_137_0@136
-  - 🇺🇸US_140_0@139
-  - 🇺🇸US_153_0@152
+  - 🇺🇸US_123_0@122
+  - 🇺🇸US_124_0@123
+  - 🇺🇸US_125_0@124
+  - 🇺🇸US_126_0@125
+  - 🇺🇸US_127_0@126
+  - 🇺🇸US_128_0@127
+  - 🇺🇸US_129_0@128
+  - 🇺🇸US_132_0@131
+  - 🇺🇸US_141_0@140
+  - 🇺🇸US_142_0@141
+  - 🇺🇸US_150_0@149
+  - 🇺🇸US_152_0@151
   - 🇺🇸US_161_0@160
+  - 🇺🇸US_165_0@164
+  - 🇺🇸US_166_0@165
+  - 🇺🇸US_167_0@166
+  - 🇺🇸US_169_0@168
   - 🇺🇸US_174_0@173
-  - 🇺🇸US_199_0@198
-  - 🇺🇸US_210_0@209
-  - 🇺🇸US_212_0@211
-  - 🇺🇸US_227_0@226
+  - 🇺🇸US_205_0@204
+  - 🇺🇸US_215_0@214
+  - 🇺🇸US_222_0@221
   - 🇺🇸US_231_0@230
-  - 🇺🇸US_234_0@233
-  - 🇺🇸US_235_0@234
-  - 🇺🇸US_239_0@238
-  - 🇺🇸US_246_0@245
-  - 🇺🇸US_100_2@83
+  - 🇺🇸US_240_0@239
+  - 🇺🇸US_251_0@250
+  - 🇺🇸US_252_0@251
+  - 🇺🇸US_253_0@252
+  - 🇺🇸US_261_0@260
+  - 🇺🇸US_282_0@281
+  - 🇺🇸US_292_0@291
+  - 🇺🇸US_112_2@96
   type: select
 - name: 📲 电报信息
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇺🇸US_88_0@87
-  - 🇺🇸US_89_0@88
-  - 🇺🇸US_90_0@89
-  - 🇺🇸US_100_0@99
-  - 🇺🇸US_119_0@118
   - 🇺🇸US_121_0@120
-  - 🇺🇸US_133_0@132
-  - 🇺🇸US_137_0@136
-  - 🇺🇸US_140_0@139
-  - 🇺🇸US_153_0@152
+  - 🇺🇸US_123_0@122
+  - 🇺🇸US_124_0@123
+  - 🇺🇸US_125_0@124
+  - 🇺🇸US_126_0@125
+  - 🇺🇸US_127_0@126
+  - 🇺🇸US_128_0@127
+  - 🇺🇸US_129_0@128
+  - 🇺🇸US_132_0@131
+  - 🇺🇸US_141_0@140
+  - 🇺🇸US_142_0@141
+  - 🇺🇸US_150_0@149
+  - 🇺🇸US_152_0@151
   - 🇺🇸US_161_0@160
+  - 🇺🇸US_165_0@164
+  - 🇺🇸US_166_0@165
+  - 🇺🇸US_167_0@166
+  - 🇺🇸US_169_0@168
   - 🇺🇸US_174_0@173
-  - 🇺🇸US_199_0@198
-  - 🇺🇸US_210_0@209
-  - 🇺🇸US_212_0@211
-  - 🇺🇸US_227_0@226
+  - 🇺🇸US_205_0@204
+  - 🇺🇸US_215_0@214
+  - 🇺🇸US_222_0@221
   - 🇺🇸US_231_0@230
-  - 🇺🇸US_234_0@233
-  - 🇺🇸US_235_0@234
-  - 🇺🇸US_239_0@238
-  - 🇺🇸US_246_0@245
-  - 🇺🇸US_100_2@83
+  - 🇺🇸US_240_0@239
+  - 🇺🇸US_251_0@250
+  - 🇺🇸US_252_0@251
+  - 🇺🇸US_253_0@252
+  - 🇺🇸US_261_0@260
+  - 🇺🇸US_282_0@281
+  - 🇺🇸US_292_0@291
+  - 🇺🇸US_112_2@96
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
   - 🎯 全球直连
   - 🚀 节点选择
-  - 🇺🇸US_88_0@87
-  - 🇺🇸US_89_0@88
-  - 🇺🇸US_90_0@89
-  - 🇺🇸US_100_0@99
-  - 🇺🇸US_119_0@118
   - 🇺🇸US_121_0@120
-  - 🇺🇸US_133_0@132
-  - 🇺🇸US_137_0@136
-  - 🇺🇸US_140_0@139
-  - 🇺🇸US_153_0@152
+  - 🇺🇸US_123_0@122
+  - 🇺🇸US_124_0@123
+  - 🇺🇸US_125_0@124
+  - 🇺🇸US_126_0@125
+  - 🇺🇸US_127_0@126
+  - 🇺🇸US_128_0@127
+  - 🇺🇸US_129_0@128
+  - 🇺🇸US_132_0@131
+  - 🇺🇸US_141_0@140
+  - 🇺🇸US_142_0@141
+  - 🇺🇸US_150_0@149
+  - 🇺🇸US_152_0@151
   - 🇺🇸US_161_0@160
+  - 🇺🇸US_165_0@164
+  - 🇺🇸US_166_0@165
+  - 🇺🇸US_167_0@166
+  - 🇺🇸US_169_0@168
   - 🇺🇸US_174_0@173
-  - 🇺🇸US_199_0@198
-  - 🇺🇸US_210_0@209
-  - 🇺🇸US_212_0@211
-  - 🇺🇸US_227_0@226
+  - 🇺🇸US_205_0@204
+  - 🇺🇸US_215_0@214
+  - 🇺🇸US_222_0@221
   - 🇺🇸US_231_0@230
-  - 🇺🇸US_234_0@233
-  - 🇺🇸US_235_0@234
-  - 🇺🇸US_239_0@238
-  - 🇺🇸US_246_0@245
-  - 🇺🇸US_100_2@83
+  - 🇺🇸US_240_0@239
+  - 🇺🇸US_251_0@250
+  - 🇺🇸US_252_0@251
+  - 🇺🇸US_253_0@252
+  - 🇺🇸US_261_0@260
+  - 🇺🇸US_282_0@281
+  - 🇺🇸US_292_0@291
+  - 🇺🇸US_112_2@96
   type: select
 - name: 🍎 苹果服务
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇺🇸US_88_0@87
-  - 🇺🇸US_89_0@88
-  - 🇺🇸US_90_0@89
-  - 🇺🇸US_100_0@99
-  - 🇺🇸US_119_0@118
   - 🇺🇸US_121_0@120
-  - 🇺🇸US_133_0@132
-  - 🇺🇸US_137_0@136
-  - 🇺🇸US_140_0@139
-  - 🇺🇸US_153_0@152
+  - 🇺🇸US_123_0@122
+  - 🇺🇸US_124_0@123
+  - 🇺🇸US_125_0@124
+  - 🇺🇸US_126_0@125
+  - 🇺🇸US_127_0@126
+  - 🇺🇸US_128_0@127
+  - 🇺🇸US_129_0@128
+  - 🇺🇸US_132_0@131
+  - 🇺🇸US_141_0@140
+  - 🇺🇸US_142_0@141
+  - 🇺🇸US_150_0@149
+  - 🇺🇸US_152_0@151
   - 🇺🇸US_161_0@160
+  - 🇺🇸US_165_0@164
+  - 🇺🇸US_166_0@165
+  - 🇺🇸US_167_0@166
+  - 🇺🇸US_169_0@168
   - 🇺🇸US_174_0@173
-  - 🇺🇸US_199_0@198
-  - 🇺🇸US_210_0@209
-  - 🇺🇸US_212_0@211
-  - 🇺🇸US_227_0@226
+  - 🇺🇸US_205_0@204
+  - 🇺🇸US_215_0@214
+  - 🇺🇸US_222_0@221
   - 🇺🇸US_231_0@230
-  - 🇺🇸US_234_0@233
-  - 🇺🇸US_235_0@234
-  - 🇺🇸US_239_0@238
-  - 🇺🇸US_246_0@245
-  - 🇺🇸US_100_2@83
+  - 🇺🇸US_240_0@239
+  - 🇺🇸US_251_0@250
+  - 🇺🇸US_252_0@251
+  - 🇺🇸US_253_0@252
+  - 🇺🇸US_261_0@260
+  - 🇺🇸US_282_0@281
+  - 🇺🇸US_292_0@291
+  - 🇺🇸US_112_2@96
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -372,28 +499,37 @@ proxy-groups:
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇺🇸US_88_0@87
-  - 🇺🇸US_89_0@88
-  - 🇺🇸US_90_0@89
-  - 🇺🇸US_100_0@99
-  - 🇺🇸US_119_0@118
   - 🇺🇸US_121_0@120
-  - 🇺🇸US_133_0@132
-  - 🇺🇸US_137_0@136
-  - 🇺🇸US_140_0@139
-  - 🇺🇸US_153_0@152
+  - 🇺🇸US_123_0@122
+  - 🇺🇸US_124_0@123
+  - 🇺🇸US_125_0@124
+  - 🇺🇸US_126_0@125
+  - 🇺🇸US_127_0@126
+  - 🇺🇸US_128_0@127
+  - 🇺🇸US_129_0@128
+  - 🇺🇸US_132_0@131
+  - 🇺🇸US_141_0@140
+  - 🇺🇸US_142_0@141
+  - 🇺🇸US_150_0@149
+  - 🇺🇸US_152_0@151
   - 🇺🇸US_161_0@160
+  - 🇺🇸US_165_0@164
+  - 🇺🇸US_166_0@165
+  - 🇺🇸US_167_0@166
+  - 🇺🇸US_169_0@168
   - 🇺🇸US_174_0@173
-  - 🇺🇸US_199_0@198
-  - 🇺🇸US_210_0@209
-  - 🇺🇸US_212_0@211
-  - 🇺🇸US_227_0@226
+  - 🇺🇸US_205_0@204
+  - 🇺🇸US_215_0@214
+  - 🇺🇸US_222_0@221
   - 🇺🇸US_231_0@230
-  - 🇺🇸US_234_0@233
-  - 🇺🇸US_235_0@234
-  - 🇺🇸US_239_0@238
-  - 🇺🇸US_246_0@245
-  - 🇺🇸US_100_2@83
+  - 🇺🇸US_240_0@239
+  - 🇺🇸US_251_0@250
+  - 🇺🇸US_252_0@251
+  - 🇺🇸US_253_0@252
+  - 🇺🇸US_261_0@260
+  - 🇺🇸US_282_0@281
+  - 🇺🇸US_292_0@291
+  - 🇺🇸US_112_2@96
   type: select
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
