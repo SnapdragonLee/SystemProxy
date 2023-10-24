@@ -4,655 +4,479 @@ log-level: info
 mixed-port: 7890
 mode: Rule
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国->🇨🇳_CN_中国_1_0@0
-  network: ws
-  port: 80
-  server: 172.67.92.119
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
-  ws-opts:
-    headers:
-      host: ca.ilovescp.com
-    path: /shirker
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_1_0@1
-  network: ws
-  port: 80
-  server: 172.64.169.199
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
-  ws-opts:
-    headers:
-      host: dp4.scproxy.top
-    path: /shirker
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_2_0@2
-  network: ws
-  port: 80
-  server: 172.64.101.91
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
-  ws-opts:
-    headers:
-      host: dp4.ilovescp.com
-    path: /shirker
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_3_0@3
-  network: ws
-  port: 80
-  server: 172.64.202.22
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
-  ws-opts:
-    headers:
-      host: ca.ilovescp.com
-    path: /shirker
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_4_0@4
-  network: ws
-  port: 8080
-  server: s1224.v2line.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: c2eb5ff8-508d-4100-e0ca-9739f4d1c52c
-  ws-opts:
-    headers:
-      host: s1224.v2line.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
-    path: /tg@herhero6
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_0@5
-  network: ws
-  port: 443
-  server: 172.67.75.194
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2
-  ws-opts:
-    headers:
-      host: d.freeh1.xyz
-    path: /dongtaiwang.com
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国->🇭🇰_HK_香港_1_0@6
-  network: ws
-  port: 80
-  server: s1223.v2line.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 00a1da14-d55f-5f75-e346-79b985e1a723
-  ws-opts:
-    headers:
-      host: s1223.v2line.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
-    path: /opt/video/images
 - alterId: 64
   cipher: auto
-  name: 🇺🇸_US_美国->🇭🇰_HK_香港_2_0@7
+  name: 🇺🇸_US_美国->🇳🇱_NL_荷兰_0@0
   network: ws
-  port: 80
-  server: 172.67.188.127
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 00a1da14-d55f-5f75-e346-79b985e1a723
-  ws-opts:
-    headers:
-      host: s1223.v2line.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou
-    path: /opt/video/images
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_5_0@8
-  network: ws
-  port: 2095
-  server: 6.wyhkaa0.gq
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 6bbc9554-07bc-47c6-a088-87aa79fd5ca1
-  ws-opts:
-    headers:
-      host: 6.wyhkaa0.gq
-    path: /TG:@hkaa0
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国->🇨🇳_CN_中国_2_0@9
-  network: ws
-  port: 80
-  server: 162.159.253.16
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
-  ws-opts:
-    headers:
-      host: ca.ilovescp.com
-    path: /shirker
-- cipher: aes-256-cfb
-  name: 🇯🇵_JP_日本_0@10
-  password: amazonskr05
-  port: 443
-  server: 52.194.214.119
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_6_0@11
-  network: ws
-  port: 8080
-  server: 104.18.236.126
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 74a890ab-5c4b-4f35-aea4-5fc2459bebd2
-  ws-opts:
-    headers:
-      host: ecc.vtcss.top
-    path: /blue
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国->🇱🇺_LU_卢森堡_0@12
-  network: ws
-  port: 443
-  server: zfc.windowsupdate1.com
+  port: 30000
+  server: 45.199.138.191
   skip-cert-verify: true
   tls: true
-  type: vmess
-  uuid: 6abfe33a-1894-4f62-8879-83b71a35e5fd
-  ws-opts:
-    headers:
-      host: us-1.acyun.tk
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_7_0@13
-  network: ws
-  port: 80
-  server: 172.67.16.63
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: dd41b5cb-b72e-4a8c-c75a-3ecc928d6eb3
-  ws-opts:
-    headers:
-      host: ecc.vtcss.top
-    path: /blue06
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰_HK_香港->🇺🇸_US_美国_1_0@14
-  network: ws
-  port: 80
-  server: 103.160.204.154
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: dd41b5cb-b72e-4a8c-c75a-3ecc928d6eb3
-  ws-opts:
-    headers:
-      host: ecc.vtcss.top
-    path: /blue06
-- alterId: 64
-  cipher: auto
-  name: 🇭🇰_HK_香港->🇳🇱_NL_荷兰_0@15
-  network: ws
-  port: 443
-  server: 156.245.8.142
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 6193116d-96f9-4d7a-9be5-5bb06a69af0b
-  ws-opts:
-    headers:
-      host: www.92873889.xyz
-    path: /path/1693130902818
-- alterId: 64
-  cipher: auto
-  name: 🇨🇳_CN_中国->🇸🇬_SG_新加坡_0@16
-  network: tcp
-  port: 40702
-  server: 120.226.50.93
-  skip-cert-verify: true
-  tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: aes-256-cfb
-  name: 🇸🇬_SG_新加坡_1_0@17
-  password: amazonskr05
-  port: 443
-  server: 54.251.161.100
-  type: ss
-- alterId: 64
-  cipher: auto
-  name: 🇨🇳_CN_中国->🇺🇸_US_美国_0@18
-  network: tcp
-  port: 58602
-  server: 120.241.47.40
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: aes-256-cfb
-  name: 🇰🇷_KR_韩国_0@19
-  password: amazonskr05
-  port: 443
-  server: 3.36.97.84
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_8_0@20
-  network: ws
-  port: 80
-  server: 104.19.213.33
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 567d3fe2-8df2-466c-ab0d-640cc151c62c
   ws-opts:
     headers:
-      host: ziyong.vtcss.top
-    path: /blue
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_9_0@21
-  network: ws
-  port: 2082
-  server: 104.31.16.46
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
-  ws-opts:
-    headers:
-      host: ca5.tehme100.fun
-    path: /IOebhLMhl1CTbFHbL95myfRX2
-- name: 🇸🇬_SG_新加坡_2_0@22
+      host: www.42077230.xyz
+    path: /path/1696251522438
+- cipher: aes-256-cfb
+  name: 🇫🇷_FR_法国_1_0@1
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 51.158.200.72
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇫🇷_FR_法国_2_0@2
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 51.158.54.209
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇫🇷_FR_法国_3_0@3
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 51.159.221.227
+  type: ss
+- name: 🇵🇰_PK_巴基斯坦_0@4
   network: tcp
-  password: 26af88d0-fc72-43b3-8108-521a7b12aa45
-  port: 20230
-  server: sg1.421421.xyz
+  password: a3f221f8-43d6-4363-8624-ce62d3db0202
+  port: 443
+  server: jp1-reality.fp3kemyh-cm4s-2hak-2gb9-w3534umy2sq5.9d8f269f96b25232-759cbb36d6548597.kaufen
   skip-cert-verify: true
-  sni: 421421.xyz
+  sni: 13-231-155-134.nhost.00cdn.com
   type: trojan
   udp: true
 - alterId: 0
   cipher: auto
-  name: 🇭🇰_HK_香港->🇺🇸_US_美国_2_0@23
-  network: ws
-  port: 2052
-  server: 103.160.204.31
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 0afb8b2c-149a-49a8-e90f-d77884ac922f
-  ws-opts:
-    headers:
-      host: ecc.vtcss.top
-    path: /blue99
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰_HK_香港->🇺🇸_US_美国_3_0@24
-  network: ws
-  port: 2052
-  server: 103.160.204.65
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 0afb8b2c-149a-49a8-e90f-d77884ac922f
-  ws-opts:
-    headers:
-      host: ecc.vtcss.top
-    path: /blue99
-- alterId: 64
-  cipher: auto
-  name: 🇺🇸_US_美国_10_0@25
-  network: ws
-  port: 443
-  server: 142.4.110.38
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    path: /path/121016071014
-- alterId: 64
-  cipher: auto
-  name: 🇺🇸_US_美国_11_0@26
-  network: tcp
-  port: 57702
-  server: 23.224.202.86
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 🇨🇦_CA_加拿大->🇺🇸_US_美国_0@27
-  network: ws
-  port: 443
-  server: 23.227.39.109
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 87a95522-985c-4a17-afea-9b7d7208bce5
-  ws-opts:
-    headers:
-      host: 3.freek1.xyz
-    path: /dongtaiwang.com
-- alterId: 0
-  cipher: auto
-  name: 🇫🇷_FR_法国->🇨🇳_CN_中国_0@28
+  name: 🇺🇸_US_美国_1_0@5
   network: ws
   port: 80
-  server: 173.245.49.236
+  server: wnd3.shabijichang.com
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
   ws-opts:
     headers:
-      host: ca.ilovescp.com
-    path: /shirker
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_12_0@29
-  network: ws
-  port: 8080
-  server: 198.41.204.172
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 74a890ab-5c4b-4f35-aea4-5fc2459bebd2
-  ws-opts:
-    headers:
-      host: ecc.vtcss.top
-    path: /blue
-- alterId: 64
-  cipher: auto
-  name: 🇺🇸_US_美国_13_0@30
-  network: tcp
-  port: 32712
-  server: 140.99.128.102
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: aes-256-gcm
-  name: 🇨🇳_CN_中国->🇭🇰_HK_香港_0@31
-  password: 0c724557-db51-31ef-8ef9-d8902a31982f
-  port: 1815
-  server: g05.hk05-ae5.entry.hsrtd.club
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国->🇷🇴_RO_罗马尼亚_0@32
-  network: ws
-  port: 8880
-  server: yd1.992688.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 782e0824-df3e-4c32-de48-beb41c0dadcf
-  ws-opts:
-    headers:
-      host: euserv2.vpn66.eu.org
+      host: wnd3.shabijichang.com
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇭🇰_HK_香港->🇺🇸_US_美国_4_0@33
+  name: 🇩🇪_DE_德国_0@6
+  network: ws
+  port: 46818
+  server: 49.13.115.8
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 42776ed6-aac6-4f94-daa5-c6bd198d09b2
+  ws-opts:
+    headers:
+      host: pve-asiatech-1.management.arvancdn.ir
+    path: /vpnv2rayspeed
+- cipher: aes-256-cfb
+  name: 🇫🇷_FR_法国_4_0@7
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 51.159.221.219
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇫🇷_FR_法国_5_0@8
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 51.159.222.35
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇫🇷_FR_法国_6_0@9
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 62.210.88.168
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇺🇸_US_美国_2_0@10
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 89.187.181.179
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇫🇷_FR_法国_7_0@11
+  password: asdKkaskJKfnsa
+  port: 443
+  server: 62.210.88.148
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_3_0@12
   network: ws
   port: 2052
-  server: 103.160.204.63
+  server: lt1.992688.xyz
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 0afb8b2c-149a-49a8-e90f-d77884ac922f
+  uuid: fa5fc74f-0f0b-4221-82ba-dc7cd24e24e5
   ws-opts:
     headers:
-      host: ecc.vtcss.top
-    path: /blue99
+      host: vcus2.vpn66.eu.org
+    path: /
 - alterId: 0
   cipher: auto
-  name: 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯联邦_0@34
-  network: tcp
-  port: 10010
-  server: fusion.mlinuu.top
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: ce6c3ee0-e0bd-39d2-8b49-97c6add325c6
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_14_0@35
+  name: 🇺🇸_US_美国_4_0@13
   network: ws
   port: 80
-  server: 172.67.49.8
+  server: sbl2.shabijichang.com
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
   ws-opts:
     headers:
-      host: dp3.scproxy.top
-    path: /shirker
+      host: sbl2.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_5_0@14
+  network: ws
+  port: 80
+  server: 172.67.184.13
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      host: sbl2.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_6_0@15
+  network: ws
+  port: 80
+  server: jd2.shabijichang.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 56278a1a-c7cc-459f-b00c-3037e4f99590
+  ws-opts:
+    headers:
+      host: jd2.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_7_0@16
+  network: http
+  port: 443
+  server: 5.161.159.21
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 3d1fab6e-3bd6-472b-8d9c-9934c04eaf40
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_8_0@17
+  network: ws
+  port: 80
+  server: 104.21.75.246
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      host: sbl2.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国->🇮🇳_IN_印度_1_0@18
+  network: ws
+  port: 80
+  server: mm2.shabijichang.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      host: mm2.shabijichang.com
+    path: /
+- alterId: 64
+  cipher: auto
+  name: 🇺🇸_US_美国_9_0@19
+  network: ws
+  port: 30000
+  server: 156.225.67.104
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 29a5d48e-24f1-48fd-a5e1-9a46cb31032f
+  ws-opts:
+    headers:
+      host: www.41758112.xyz
+    path: /path/1696944806961
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国->🇬🇧_GB_英国_0@20
+  network: ws
+  port: 80
+  server: ld2.shabijichang.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      host: ld2.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国->🇿🇦_ZA_南非_0@21
+  network: ws
+  port: 80
+  server: yhnsb3.shabijichang.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      host: yhnsb3.shabijichang.com
+    path: /
+- name: 🇫🇷_FR_法国_8_0@22
+  network: tcp
+  password: e4f288433b
+  port: 443
+  server: 54.36.173.159
+  skip-cert-verify: true
+  sni: pol1.connecton.surf
+  type: trojan
+  udp: true
+- alterId: 64
+  cipher: auto
+  name: 🇫🇷_FR_法国->🇳🇱_NL_荷兰_0@23
+  network: ws
+  port: 30000
+  server: 156.249.18.4
+  servername: www.57424349.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 84d1de11-ce12-4a15-8312-1338356d4ac4
+  ws-opts:
+    path: /path/1697719506275
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_10_0@24
+  network: ws
+  port: 80
+  server: asb2.shabijichang.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      host: asb2.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国->🇸🇦_SA_沙特阿拉伯_0@25
+  network: ws
+  port: 80
+  server: jd3.shabijichang.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      host: jd3.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国->🇮🇳_IN_印度_2_0@26
+  network: ws
+  port: 80
+  server: mm3.shabijichang.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
+  ws-opts:
+    headers:
+      host: mm3.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇷🇴_RO_罗马尼亚_0@27
+  network: tcp
+  port: 12581
+  server: 5.182.37.119
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 51554d87-7fd0-4dd1-9277-bcbb2d12b64b
 proxy-groups:
 - name: 🚀 节点选择
   proxies:
   - DIRECT
-  - 🇺🇸_US_美国->🇨🇳_CN_中国_1_0@0
-  - 🇺🇸_US_美国_1_0@1
-  - 🇺🇸_US_美国_2_0@2
-  - 🇺🇸_US_美国_3_0@3
-  - 🇺🇸_US_美国_4_0@4
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_0@5
-  - 🇺🇸_US_美国->🇭🇰_HK_香港_1_0@6
-  - 🇺🇸_US_美国->🇭🇰_HK_香港_2_0@7
-  - 🇺🇸_US_美国_5_0@8
-  - 🇺🇸_US_美国->🇨🇳_CN_中国_2_0@9
-  - 🇯🇵_JP_日本_0@10
-  - 🇺🇸_US_美国_6_0@11
-  - 🇺🇸_US_美国->🇱🇺_LU_卢森堡_0@12
-  - 🇺🇸_US_美国_7_0@13
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_1_0@14
-  - 🇭🇰_HK_香港->🇳🇱_NL_荷兰_0@15
-  - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_0@16
-  - 🇸🇬_SG_新加坡_1_0@17
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_0@18
-  - 🇰🇷_KR_韩国_0@19
-  - 🇺🇸_US_美国_8_0@20
-  - 🇺🇸_US_美国_9_0@21
-  - 🇸🇬_SG_新加坡_2_0@22
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_2_0@23
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_3_0@24
-  - 🇺🇸_US_美国_10_0@25
-  - 🇺🇸_US_美国_11_0@26
-  - 🇨🇦_CA_加拿大->🇺🇸_US_美国_0@27
-  - 🇫🇷_FR_法国->🇨🇳_CN_中国_0@28
-  - 🇺🇸_US_美国_12_0@29
-  - 🇺🇸_US_美国_13_0@30
-  - 🇨🇳_CN_中国->🇭🇰_HK_香港_0@31
-  - 🇺🇸_US_美国->🇷🇴_RO_罗马尼亚_0@32
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_4_0@33
-  - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯联邦_0@34
-  - 🇺🇸_US_美国_14_0@35
+  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_0@0
+  - 🇫🇷_FR_法国_1_0@1
+  - 🇫🇷_FR_法国_2_0@2
+  - 🇫🇷_FR_法国_3_0@3
+  - 🇵🇰_PK_巴基斯坦_0@4
+  - 🇺🇸_US_美国_1_0@5
+  - 🇩🇪_DE_德国_0@6
+  - 🇫🇷_FR_法国_4_0@7
+  - 🇫🇷_FR_法国_5_0@8
+  - 🇫🇷_FR_法国_6_0@9
+  - 🇺🇸_US_美国_2_0@10
+  - 🇫🇷_FR_法国_7_0@11
+  - 🇺🇸_US_美国_3_0@12
+  - 🇺🇸_US_美国_4_0@13
+  - 🇺🇸_US_美国_5_0@14
+  - 🇺🇸_US_美国_6_0@15
+  - 🇺🇸_US_美国_7_0@16
+  - 🇺🇸_US_美国_8_0@17
+  - 🇺🇸_US_美国->🇮🇳_IN_印度_1_0@18
+  - 🇺🇸_US_美国_9_0@19
+  - 🇺🇸_US_美国->🇬🇧_GB_英国_0@20
+  - 🇺🇸_US_美国->🇿🇦_ZA_南非_0@21
+  - 🇫🇷_FR_法国_8_0@22
+  - 🇫🇷_FR_法国->🇳🇱_NL_荷兰_0@23
+  - 🇺🇸_US_美国_10_0@24
+  - 🇺🇸_US_美国->🇸🇦_SA_沙特阿拉伯_0@25
+  - 🇺🇸_US_美国->🇮🇳_IN_印度_2_0@26
+  - 🇷🇴_RO_罗马尼亚_0@27
   type: select
 - name: 🌍 国外媒体
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇺🇸_US_美国->🇨🇳_CN_中国_1_0@0
-  - 🇺🇸_US_美国_1_0@1
-  - 🇺🇸_US_美国_2_0@2
-  - 🇺🇸_US_美国_3_0@3
-  - 🇺🇸_US_美国_4_0@4
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_0@5
-  - 🇺🇸_US_美国->🇭🇰_HK_香港_1_0@6
-  - 🇺🇸_US_美国->🇭🇰_HK_香港_2_0@7
-  - 🇺🇸_US_美国_5_0@8
-  - 🇺🇸_US_美国->🇨🇳_CN_中国_2_0@9
-  - 🇯🇵_JP_日本_0@10
-  - 🇺🇸_US_美国_6_0@11
-  - 🇺🇸_US_美国->🇱🇺_LU_卢森堡_0@12
-  - 🇺🇸_US_美国_7_0@13
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_1_0@14
-  - 🇭🇰_HK_香港->🇳🇱_NL_荷兰_0@15
-  - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_0@16
-  - 🇸🇬_SG_新加坡_1_0@17
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_0@18
-  - 🇰🇷_KR_韩国_0@19
-  - 🇺🇸_US_美国_8_0@20
-  - 🇺🇸_US_美国_9_0@21
-  - 🇸🇬_SG_新加坡_2_0@22
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_2_0@23
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_3_0@24
-  - 🇺🇸_US_美国_10_0@25
-  - 🇺🇸_US_美国_11_0@26
-  - 🇨🇦_CA_加拿大->🇺🇸_US_美国_0@27
-  - 🇫🇷_FR_法国->🇨🇳_CN_中国_0@28
-  - 🇺🇸_US_美国_12_0@29
-  - 🇺🇸_US_美国_13_0@30
-  - 🇨🇳_CN_中国->🇭🇰_HK_香港_0@31
-  - 🇺🇸_US_美国->🇷🇴_RO_罗马尼亚_0@32
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_4_0@33
-  - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯联邦_0@34
-  - 🇺🇸_US_美国_14_0@35
+  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_0@0
+  - 🇫🇷_FR_法国_1_0@1
+  - 🇫🇷_FR_法国_2_0@2
+  - 🇫🇷_FR_法国_3_0@3
+  - 🇵🇰_PK_巴基斯坦_0@4
+  - 🇺🇸_US_美国_1_0@5
+  - 🇩🇪_DE_德国_0@6
+  - 🇫🇷_FR_法国_4_0@7
+  - 🇫🇷_FR_法国_5_0@8
+  - 🇫🇷_FR_法国_6_0@9
+  - 🇺🇸_US_美国_2_0@10
+  - 🇫🇷_FR_法国_7_0@11
+  - 🇺🇸_US_美国_3_0@12
+  - 🇺🇸_US_美国_4_0@13
+  - 🇺🇸_US_美国_5_0@14
+  - 🇺🇸_US_美国_6_0@15
+  - 🇺🇸_US_美国_7_0@16
+  - 🇺🇸_US_美国_8_0@17
+  - 🇺🇸_US_美国->🇮🇳_IN_印度_1_0@18
+  - 🇺🇸_US_美国_9_0@19
+  - 🇺🇸_US_美国->🇬🇧_GB_英国_0@20
+  - 🇺🇸_US_美国->🇿🇦_ZA_南非_0@21
+  - 🇫🇷_FR_法国_8_0@22
+  - 🇫🇷_FR_法国->🇳🇱_NL_荷兰_0@23
+  - 🇺🇸_US_美国_10_0@24
+  - 🇺🇸_US_美国->🇸🇦_SA_沙特阿拉伯_0@25
+  - 🇺🇸_US_美国->🇮🇳_IN_印度_2_0@26
+  - 🇷🇴_RO_罗马尼亚_0@27
   type: select
 - name: 📲 电报信息
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇺🇸_US_美国->🇨🇳_CN_中国_1_0@0
-  - 🇺🇸_US_美国_1_0@1
-  - 🇺🇸_US_美国_2_0@2
-  - 🇺🇸_US_美国_3_0@3
-  - 🇺🇸_US_美国_4_0@4
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_0@5
-  - 🇺🇸_US_美国->🇭🇰_HK_香港_1_0@6
-  - 🇺🇸_US_美国->🇭🇰_HK_香港_2_0@7
-  - 🇺🇸_US_美国_5_0@8
-  - 🇺🇸_US_美国->🇨🇳_CN_中国_2_0@9
-  - 🇯🇵_JP_日本_0@10
-  - 🇺🇸_US_美国_6_0@11
-  - 🇺🇸_US_美国->🇱🇺_LU_卢森堡_0@12
-  - 🇺🇸_US_美国_7_0@13
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_1_0@14
-  - 🇭🇰_HK_香港->🇳🇱_NL_荷兰_0@15
-  - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_0@16
-  - 🇸🇬_SG_新加坡_1_0@17
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_0@18
-  - 🇰🇷_KR_韩国_0@19
-  - 🇺🇸_US_美国_8_0@20
-  - 🇺🇸_US_美国_9_0@21
-  - 🇸🇬_SG_新加坡_2_0@22
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_2_0@23
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_3_0@24
-  - 🇺🇸_US_美国_10_0@25
-  - 🇺🇸_US_美国_11_0@26
-  - 🇨🇦_CA_加拿大->🇺🇸_US_美国_0@27
-  - 🇫🇷_FR_法国->🇨🇳_CN_中国_0@28
-  - 🇺🇸_US_美国_12_0@29
-  - 🇺🇸_US_美国_13_0@30
-  - 🇨🇳_CN_中国->🇭🇰_HK_香港_0@31
-  - 🇺🇸_US_美国->🇷🇴_RO_罗马尼亚_0@32
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_4_0@33
-  - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯联邦_0@34
-  - 🇺🇸_US_美国_14_0@35
+  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_0@0
+  - 🇫🇷_FR_法国_1_0@1
+  - 🇫🇷_FR_法国_2_0@2
+  - 🇫🇷_FR_法国_3_0@3
+  - 🇵🇰_PK_巴基斯坦_0@4
+  - 🇺🇸_US_美国_1_0@5
+  - 🇩🇪_DE_德国_0@6
+  - 🇫🇷_FR_法国_4_0@7
+  - 🇫🇷_FR_法国_5_0@8
+  - 🇫🇷_FR_法国_6_0@9
+  - 🇺🇸_US_美国_2_0@10
+  - 🇫🇷_FR_法国_7_0@11
+  - 🇺🇸_US_美国_3_0@12
+  - 🇺🇸_US_美国_4_0@13
+  - 🇺🇸_US_美国_5_0@14
+  - 🇺🇸_US_美国_6_0@15
+  - 🇺🇸_US_美国_7_0@16
+  - 🇺🇸_US_美国_8_0@17
+  - 🇺🇸_US_美国->🇮🇳_IN_印度_1_0@18
+  - 🇺🇸_US_美国_9_0@19
+  - 🇺🇸_US_美国->🇬🇧_GB_英国_0@20
+  - 🇺🇸_US_美国->🇿🇦_ZA_南非_0@21
+  - 🇫🇷_FR_法国_8_0@22
+  - 🇫🇷_FR_法国->🇳🇱_NL_荷兰_0@23
+  - 🇺🇸_US_美国_10_0@24
+  - 🇺🇸_US_美国->🇸🇦_SA_沙特阿拉伯_0@25
+  - 🇺🇸_US_美国->🇮🇳_IN_印度_2_0@26
+  - 🇷🇴_RO_罗马尼亚_0@27
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
   - 🎯 全球直连
   - 🚀 节点选择
-  - 🇺🇸_US_美国->🇨🇳_CN_中国_1_0@0
-  - 🇺🇸_US_美国_1_0@1
-  - 🇺🇸_US_美国_2_0@2
-  - 🇺🇸_US_美国_3_0@3
-  - 🇺🇸_US_美国_4_0@4
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_0@5
-  - 🇺🇸_US_美国->🇭🇰_HK_香港_1_0@6
-  - 🇺🇸_US_美国->🇭🇰_HK_香港_2_0@7
-  - 🇺🇸_US_美国_5_0@8
-  - 🇺🇸_US_美国->🇨🇳_CN_中国_2_0@9
-  - 🇯🇵_JP_日本_0@10
-  - 🇺🇸_US_美国_6_0@11
-  - 🇺🇸_US_美国->🇱🇺_LU_卢森堡_0@12
-  - 🇺🇸_US_美国_7_0@13
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_1_0@14
-  - 🇭🇰_HK_香港->🇳🇱_NL_荷兰_0@15
-  - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_0@16
-  - 🇸🇬_SG_新加坡_1_0@17
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_0@18
-  - 🇰🇷_KR_韩国_0@19
-  - 🇺🇸_US_美国_8_0@20
-  - 🇺🇸_US_美国_9_0@21
-  - 🇸🇬_SG_新加坡_2_0@22
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_2_0@23
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_3_0@24
-  - 🇺🇸_US_美国_10_0@25
-  - 🇺🇸_US_美国_11_0@26
-  - 🇨🇦_CA_加拿大->🇺🇸_US_美国_0@27
-  - 🇫🇷_FR_法国->🇨🇳_CN_中国_0@28
-  - 🇺🇸_US_美国_12_0@29
-  - 🇺🇸_US_美国_13_0@30
-  - 🇨🇳_CN_中国->🇭🇰_HK_香港_0@31
-  - 🇺🇸_US_美国->🇷🇴_RO_罗马尼亚_0@32
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_4_0@33
-  - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯联邦_0@34
-  - 🇺🇸_US_美国_14_0@35
+  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_0@0
+  - 🇫🇷_FR_法国_1_0@1
+  - 🇫🇷_FR_法国_2_0@2
+  - 🇫🇷_FR_法国_3_0@3
+  - 🇵🇰_PK_巴基斯坦_0@4
+  - 🇺🇸_US_美国_1_0@5
+  - 🇩🇪_DE_德国_0@6
+  - 🇫🇷_FR_法国_4_0@7
+  - 🇫🇷_FR_法国_5_0@8
+  - 🇫🇷_FR_法国_6_0@9
+  - 🇺🇸_US_美国_2_0@10
+  - 🇫🇷_FR_法国_7_0@11
+  - 🇺🇸_US_美国_3_0@12
+  - 🇺🇸_US_美国_4_0@13
+  - 🇺🇸_US_美国_5_0@14
+  - 🇺🇸_US_美国_6_0@15
+  - 🇺🇸_US_美国_7_0@16
+  - 🇺🇸_US_美国_8_0@17
+  - 🇺🇸_US_美国->🇮🇳_IN_印度_1_0@18
+  - 🇺🇸_US_美国_9_0@19
+  - 🇺🇸_US_美国->🇬🇧_GB_英国_0@20
+  - 🇺🇸_US_美国->🇿🇦_ZA_南非_0@21
+  - 🇫🇷_FR_法国_8_0@22
+  - 🇫🇷_FR_法国->🇳🇱_NL_荷兰_0@23
+  - 🇺🇸_US_美国_10_0@24
+  - 🇺🇸_US_美国->🇸🇦_SA_沙特阿拉伯_0@25
+  - 🇺🇸_US_美国->🇮🇳_IN_印度_2_0@26
+  - 🇷🇴_RO_罗马尼亚_0@27
   type: select
 - name: 🍎 苹果服务
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇺🇸_US_美国->🇨🇳_CN_中国_1_0@0
-  - 🇺🇸_US_美国_1_0@1
-  - 🇺🇸_US_美国_2_0@2
-  - 🇺🇸_US_美国_3_0@3
-  - 🇺🇸_US_美国_4_0@4
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_0@5
-  - 🇺🇸_US_美国->🇭🇰_HK_香港_1_0@6
-  - 🇺🇸_US_美国->🇭🇰_HK_香港_2_0@7
-  - 🇺🇸_US_美国_5_0@8
-  - 🇺🇸_US_美国->🇨🇳_CN_中国_2_0@9
-  - 🇯🇵_JP_日本_0@10
-  - 🇺🇸_US_美国_6_0@11
-  - 🇺🇸_US_美国->🇱🇺_LU_卢森堡_0@12
-  - 🇺🇸_US_美国_7_0@13
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_1_0@14
-  - 🇭🇰_HK_香港->🇳🇱_NL_荷兰_0@15
-  - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_0@16
-  - 🇸🇬_SG_新加坡_1_0@17
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_0@18
-  - 🇰🇷_KR_韩国_0@19
-  - 🇺🇸_US_美国_8_0@20
-  - 🇺🇸_US_美国_9_0@21
-  - 🇸🇬_SG_新加坡_2_0@22
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_2_0@23
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_3_0@24
-  - 🇺🇸_US_美国_10_0@25
-  - 🇺🇸_US_美国_11_0@26
-  - 🇨🇦_CA_加拿大->🇺🇸_US_美国_0@27
-  - 🇫🇷_FR_法国->🇨🇳_CN_中国_0@28
-  - 🇺🇸_US_美国_12_0@29
-  - 🇺🇸_US_美国_13_0@30
-  - 🇨🇳_CN_中国->🇭🇰_HK_香港_0@31
-  - 🇺🇸_US_美国->🇷🇴_RO_罗马尼亚_0@32
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_4_0@33
-  - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯联邦_0@34
-  - 🇺🇸_US_美国_14_0@35
+  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_0@0
+  - 🇫🇷_FR_法国_1_0@1
+  - 🇫🇷_FR_法国_2_0@2
+  - 🇫🇷_FR_法国_3_0@3
+  - 🇵🇰_PK_巴基斯坦_0@4
+  - 🇺🇸_US_美国_1_0@5
+  - 🇩🇪_DE_德国_0@6
+  - 🇫🇷_FR_法国_4_0@7
+  - 🇫🇷_FR_法国_5_0@8
+  - 🇫🇷_FR_法国_6_0@9
+  - 🇺🇸_US_美国_2_0@10
+  - 🇫🇷_FR_法国_7_0@11
+  - 🇺🇸_US_美国_3_0@12
+  - 🇺🇸_US_美国_4_0@13
+  - 🇺🇸_US_美国_5_0@14
+  - 🇺🇸_US_美国_6_0@15
+  - 🇺🇸_US_美国_7_0@16
+  - 🇺🇸_US_美国_8_0@17
+  - 🇺🇸_US_美国->🇮🇳_IN_印度_1_0@18
+  - 🇺🇸_US_美国_9_0@19
+  - 🇺🇸_US_美国->🇬🇧_GB_英国_0@20
+  - 🇺🇸_US_美国->🇿🇦_ZA_南非_0@21
+  - 🇫🇷_FR_法国_8_0@22
+  - 🇫🇷_FR_法国->🇳🇱_NL_荷兰_0@23
+  - 🇺🇸_US_美国_10_0@24
+  - 🇺🇸_US_美国->🇸🇦_SA_沙特阿拉伯_0@25
+  - 🇺🇸_US_美国->🇮🇳_IN_印度_2_0@26
+  - 🇷🇴_RO_罗马尼亚_0@27
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -673,42 +497,34 @@ proxy-groups:
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇺🇸_US_美国->🇨🇳_CN_中国_1_0@0
-  - 🇺🇸_US_美国_1_0@1
-  - 🇺🇸_US_美国_2_0@2
-  - 🇺🇸_US_美国_3_0@3
-  - 🇺🇸_US_美国_4_0@4
-  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_0@5
-  - 🇺🇸_US_美国->🇭🇰_HK_香港_1_0@6
-  - 🇺🇸_US_美国->🇭🇰_HK_香港_2_0@7
-  - 🇺🇸_US_美国_5_0@8
-  - 🇺🇸_US_美国->🇨🇳_CN_中国_2_0@9
-  - 🇯🇵_JP_日本_0@10
-  - 🇺🇸_US_美国_6_0@11
-  - 🇺🇸_US_美国->🇱🇺_LU_卢森堡_0@12
-  - 🇺🇸_US_美国_7_0@13
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_1_0@14
-  - 🇭🇰_HK_香港->🇳🇱_NL_荷兰_0@15
-  - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_0@16
-  - 🇸🇬_SG_新加坡_1_0@17
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_0@18
-  - 🇰🇷_KR_韩国_0@19
-  - 🇺🇸_US_美国_8_0@20
-  - 🇺🇸_US_美国_9_0@21
-  - 🇸🇬_SG_新加坡_2_0@22
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_2_0@23
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_3_0@24
-  - 🇺🇸_US_美国_10_0@25
-  - 🇺🇸_US_美国_11_0@26
-  - 🇨🇦_CA_加拿大->🇺🇸_US_美国_0@27
-  - 🇫🇷_FR_法国->🇨🇳_CN_中国_0@28
-  - 🇺🇸_US_美国_12_0@29
-  - 🇺🇸_US_美国_13_0@30
-  - 🇨🇳_CN_中国->🇭🇰_HK_香港_0@31
-  - 🇺🇸_US_美国->🇷🇴_RO_罗马尼亚_0@32
-  - 🇭🇰_HK_香港->🇺🇸_US_美国_4_0@33
-  - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯联邦_0@34
-  - 🇺🇸_US_美国_14_0@35
+  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_0@0
+  - 🇫🇷_FR_法国_1_0@1
+  - 🇫🇷_FR_法国_2_0@2
+  - 🇫🇷_FR_法国_3_0@3
+  - 🇵🇰_PK_巴基斯坦_0@4
+  - 🇺🇸_US_美国_1_0@5
+  - 🇩🇪_DE_德国_0@6
+  - 🇫🇷_FR_法国_4_0@7
+  - 🇫🇷_FR_法国_5_0@8
+  - 🇫🇷_FR_法国_6_0@9
+  - 🇺🇸_US_美国_2_0@10
+  - 🇫🇷_FR_法国_7_0@11
+  - 🇺🇸_US_美国_3_0@12
+  - 🇺🇸_US_美国_4_0@13
+  - 🇺🇸_US_美国_5_0@14
+  - 🇺🇸_US_美国_6_0@15
+  - 🇺🇸_US_美国_7_0@16
+  - 🇺🇸_US_美国_8_0@17
+  - 🇺🇸_US_美国->🇮🇳_IN_印度_1_0@18
+  - 🇺🇸_US_美国_9_0@19
+  - 🇺🇸_US_美国->🇬🇧_GB_英国_0@20
+  - 🇺🇸_US_美国->🇿🇦_ZA_南非_0@21
+  - 🇫🇷_FR_法国_8_0@22
+  - 🇫🇷_FR_法国->🇳🇱_NL_荷兰_0@23
+  - 🇺🇸_US_美国_10_0@24
+  - 🇺🇸_US_美国->🇸🇦_SA_沙特阿拉伯_0@25
+  - 🇺🇸_US_美国->🇮🇳_IN_印度_2_0@26
+  - 🇷🇴_RO_罗马尼亚_0@27
   type: select
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
