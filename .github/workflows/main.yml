@@ -32,13 +32,10 @@ jobs:
 
       - name: Commit and Push changes
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "SnapdragonLee"  # 改为你的 GitHub 用户名
+          git config user.email "lixiaolong8088888@example.com" # 与GitHub绑定并验证的邮箱
           git add .
           
           CURRENT_TIME=$(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M:%S (UTC+8)')
-          
           git diff-index --quiet HEAD || git commit -m "${CURRENT_TIME}"
-          git push
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          git push "https://x-access-token:${{ secrets.PERSONAL_TOKEN }}@github.com/SnapdragonLee/SystemProxy.git" HEAD:main
