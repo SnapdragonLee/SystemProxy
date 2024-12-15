@@ -1,0 +1,28 @@
+name: Daily Update Clash Config
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.12'
+
+      - name: Install Dependencies
+        run: |
+          pip install requests pyyaml urllib3
+
+      - name: Run the script
+        run: |
+          python clash.py
+          python clash_extra.py
