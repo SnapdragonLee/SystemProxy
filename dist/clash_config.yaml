@@ -3,31 +3,205 @@ external-controller: 0.0.0.0:9090
 log-level: info
 mixed-port: 7890
 mode: Rule
-proxies: []
+proxies:
+- cipher: rc4-md5
+  name: 🇷🇴_RO_罗马尼亚_0@0
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 194.5.215.59
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇺🇸_US_美国_1@0
+  password: amazonskr05
+  port: 443
+  server: 52.25.110.203
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇮🇹_IT_意大利_1@1
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 37.143.129.230
+  type: ss
+- name: 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_1@2
+  password: 38571ca6-6692-4559-b901-0bc5826b7661
+  port: 60194
+  server: ru0195.alibabaokz.com
+  skip-cert-verify: true
+  sni: ru0195.alibabaokz.com
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 🇨🇭_CH_瑞士_1@3
+  password: ghBuJ9pZOF9MohhGyPjo3rvilQhlw9NzBDlOVDonQN0=
+  port: 54748
+  server: 195.15.254.25
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇫🇮_FI_芬兰_1@4
+  password: dEldTzkqVlhORUhbejg+MT5DPyhcVUowWl1aa0FsbVk=
+  port: 3882
+  server: 95.217.72.126
+  type: ss
+- name: 🇨🇳_CN_中国->🇺🇸_US_美国_1@5
+  password: 0bc68743-cff8-4730-9818-9d8192ee335c
+  port: 39431
+  server: 120.232.217.96
+  skip-cert-verify: true
+  type: trojan
+- cipher: aes-256-cfb
+  name: 🇺🇸_US_美国_1_1@6
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 185.47.252.251
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇺🇸_US_美国->🇷🇺_RU_俄罗斯_1@7
+  password: amazonskr05
+  port: 443
+  server: 52.27.15.25
+  type: ss
+- name: 🇨🇳_CN_中国->🇺🇸_US_美国_1_1@9
+  password: 0bc68743-cff8-4730-9818-9d8192ee335c
+  port: 40037
+  server: 219.135.231.205
+  skip-cert-verify: true
+  type: trojan
+- cipher: aes-256-cfb
+  name: 🇷🇴_RO_罗马尼亚_1_1@10
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 185.193.49.88
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_1_1@11
+  network: ws
+  port: 25230
+  server: cm1.awslcn.info
+  skip-cert-verify: true
+  sni: ''
+  type: vmess
+  uuid: 243eab52-9ac1-405c-887c-eb112c0985b8
+  ws-opts:
+    headers:
+      host: cm1.awslcn.info
+    path: /
+- name: 🇨🇳_CN_中国->🇺🇸_US_美国_2_1@12
+  password: 0bc68743-cff8-4730-9818-9d8192ee335c
+  port: 21019
+  server: 219.135.231.205
+  skip-cert-verify: true
+  type: trojan
+- cipher: aes-256-cfb
+  name: 🇲🇩_MD_摩尔多瓦_1@13
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 91.132.94.200
+  type: ss
+- name: 🇨🇳_CN_中国->🇺🇸_US_美国_3_1@14
+  password: 0bc68743-cff8-4730-9818-9d8192ee335c
+  port: 21142
+  server: 120.232.217.96
+  skip-cert-verify: true
+  type: trojan
 proxy-groups:
 - name: 🚀 节点选择
   proxies:
   - DIRECT
+  - 🇷🇴_RO_罗马尼亚_0@0
+  - 🇺🇸_US_美国_1@0
+  - 🇮🇹_IT_意大利_1@1
+  - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_1@2
+  - 🇨🇭_CH_瑞士_1@3
+  - 🇫🇮_FI_芬兰_1@4
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_1@5
+  - 🇺🇸_US_美国_1_1@6
+  - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯_1@7
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_1_1@9
+  - 🇷🇴_RO_罗马尼亚_1_1@10
+  - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_1_1@11
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_2_1@12
+  - 🇲🇩_MD_摩尔多瓦_1@13
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_3_1@14
   type: select
 - name: 🌍 国外媒体
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
+  - 🇷🇴_RO_罗马尼亚_0@0
+  - 🇺🇸_US_美国_1@0
+  - 🇮🇹_IT_意大利_1@1
+  - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_1@2
+  - 🇨🇭_CH_瑞士_1@3
+  - 🇫🇮_FI_芬兰_1@4
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_1@5
+  - 🇺🇸_US_美国_1_1@6
+  - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯_1@7
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_1_1@9
+  - 🇷🇴_RO_罗马尼亚_1_1@10
+  - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_1_1@11
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_2_1@12
+  - 🇲🇩_MD_摩尔多瓦_1@13
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_3_1@14
   type: select
 - name: 📲 电报信息
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
+  - 🇷🇴_RO_罗马尼亚_0@0
+  - 🇺🇸_US_美国_1@0
+  - 🇮🇹_IT_意大利_1@1
+  - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_1@2
+  - 🇨🇭_CH_瑞士_1@3
+  - 🇫🇮_FI_芬兰_1@4
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_1@5
+  - 🇺🇸_US_美国_1_1@6
+  - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯_1@7
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_1_1@9
+  - 🇷🇴_RO_罗马尼亚_1_1@10
+  - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_1_1@11
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_2_1@12
+  - 🇲🇩_MD_摩尔多瓦_1@13
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_3_1@14
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
   - 🎯 全球直连
   - 🚀 节点选择
+  - 🇷🇴_RO_罗马尼亚_0@0
+  - 🇺🇸_US_美国_1@0
+  - 🇮🇹_IT_意大利_1@1
+  - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_1@2
+  - 🇨🇭_CH_瑞士_1@3
+  - 🇫🇮_FI_芬兰_1@4
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_1@5
+  - 🇺🇸_US_美国_1_1@6
+  - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯_1@7
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_1_1@9
+  - 🇷🇴_RO_罗马尼亚_1_1@10
+  - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_1_1@11
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_2_1@12
+  - 🇲🇩_MD_摩尔多瓦_1@13
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_3_1@14
   type: select
 - name: 🍎 苹果服务
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
+  - 🇷🇴_RO_罗马尼亚_0@0
+  - 🇺🇸_US_美国_1@0
+  - 🇮🇹_IT_意大利_1@1
+  - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_1@2
+  - 🇨🇭_CH_瑞士_1@3
+  - 🇫🇮_FI_芬兰_1@4
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_1@5
+  - 🇺🇸_US_美国_1_1@6
+  - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯_1@7
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_1_1@9
+  - 🇷🇴_RO_罗马尼亚_1_1@10
+  - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_1_1@11
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_2_1@12
+  - 🇲🇩_MD_摩尔多瓦_1@13
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_3_1@14
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -48,6 +222,21 @@ proxy-groups:
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
+  - 🇷🇴_RO_罗马尼亚_0@0
+  - 🇺🇸_US_美国_1@0
+  - 🇮🇹_IT_意大利_1@1
+  - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_1@2
+  - 🇨🇭_CH_瑞士_1@3
+  - 🇫🇮_FI_芬兰_1@4
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_1@5
+  - 🇺🇸_US_美国_1_1@6
+  - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯_1@7
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_1_1@9
+  - 🇷🇴_RO_罗马尼亚_1_1@10
+  - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_1_1@11
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_2_1@12
+  - 🇲🇩_MD_摩尔多瓦_1@13
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_3_1@14
   type: select
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
