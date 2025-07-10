@@ -4,31 +4,55 @@ log-level: info
 mixed-port: 7890
 mode: Rule
 proxies:
+- cipher: aes-256-cfb
+  name: 🇸🇰_SK_斯洛伐克->🏳️_unKnow_未知_0@0
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 156.146.40.194
+  type: ss
+- alterId: 2
+  cipher: auto
+  name: 🇨🇳_CN_中国->🇨🇦_CA_加拿大_0@1
+  network: ws
+  port: 30835
+  server: 111.26.109.79
+  skip-cert-verify: true
+  sni: ''
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    path: /oooo
+- cipher: aes-256-cfb
+  name: 🇲🇩_MD_摩尔多瓦_0@2
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 91.132.94.200
+  type: ss
+- name: 🇺🇸_US_美国_2_0@3
+  network: ws
+  password: 6757b7d6-fa32-4708-b5d1-30e3cf928b51
+  port: 443
+  server: 104.21.6.179
+  sni: ZZzzzZZ.890601.XYZ
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /l96MZ8se5Kl2p8BiMhP42l
 - cipher: chacha20-ietf-poly1305
-  name: 🇬🇧_GB_英国->🇺🇸_US_美国_0@0
+  name: 🇬🇧_GB_英国->🇺🇸_US_美国_1@0
   password: Bog0ELmMM9DSxDdQ
   port: 443
   server: 85.210.120.237
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 🇪🇸_ES_西班牙_0@1
+  name: 🇪🇸_ES_西班牙_1@1
   password: MjJhY
   port: 8388
   server: uk.opensocks.site
   type: ss
 - alterId: 2
   cipher: auto
-  name: 🇨🇳_CN_中国->🇨🇦_CA_加拿大_0@2
-  network: ws
-  port: 30835
-  server: 111.26.109.79
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    path: /oooo
-- alterId: 2
-  cipher: auto
-  name: 🇨🇳_CN_中国_0@3
+  name: 🇨🇳_CN_中国_1@3
   network: ws
   port: 30829
   server: 111.26.109.79
@@ -38,7 +62,7 @@ proxies:
     path: /oooo
 - alterId: 2
   cipher: auto
-  name: 🇨🇳_CN_中国->🇺🇸_US_美国_0@4
+  name: 🇨🇳_CN_中国->🇺🇸_US_美国_1@4
   network: ws
   port: 30825
   server: v25.heduian.link
@@ -49,12 +73,12 @@ proxies:
       host: v25.heduian.link
     path: /oooo
 - cipher: chacha20-ietf-poly1305
-  name: 未知_0@5
+  name: 未知_1@5
   password: WrYfzlAsqV4kKOJRPF2WHR
   port: 49454
   server: 23.177.185.63
   type: ss
-- name: 🇺🇸_US_美国_1_0@6
+- name: 🇺🇸_US_美国_1_1@6
   network: ws
   password: ffcf7ec1-3e09-4821-b3d9-b426a107b73b
   port: 443
@@ -66,188 +90,80 @@ proxies:
     headers:
       host: eeefgty6.999836.xyz
     path: /XmTzATQPJv9RO3xr1D40NK
-- name: 🇩🇪_DE_德国->🇺🇸_US_美国_1@0
-  password: 6gZh2JbfhQ
-  port: 1935
-  server: 104.248.18.1
-  sni: x1-germany-digitalocean-v2.devefun.org
-  type: trojan
-- alterId: 2
-  cipher: auto
-  name: 🇨🇳_CN_中国->🇺🇸_US_美国_1@1
-  network: ws
-  port: 30807
-  server: v7.heduian.link
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      host: v7.heduian.link
-    path: /oooo
-- name: 🇺🇸_US_美国->🇫🇷_FR_法国_1@2
-  network: ws
-  password: fa050497-fc2a-45ee-89c0-96670c4ecb65
-  port: 443
-  server: 104.21.63.135
-  sni: Rrr4.8906004.xYZ
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: rrr4.8906004.xyz
-    path: /DZxb5QZyWgQPuXTwt
-- name: 🇺🇸_US_美国_1@4
-  network: ws
-  password: 288124da-0d68-42f4-9f48-70dc4dcc55a6
-  port: 443
-  server: 104.21.77.79
-  sni: SsXCDfR5.986986.shoP
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: ssxcdfr5.986986.shop
-    path: /raChT39pjLFYRA5HdHEIupMZeK
-- cipher: rc4-md5
-  name: 🇩🇪_DE_德国_1@5
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 193.108.119.230
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇬🇧_GB_英国->🇺🇸_US_美国_1@6
-  obfs: plain
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  protocol: origin
-  server: 62.100.205.48
-  type: ssr
-- cipher: chacha20-ietf-poly1305
-  name: 🇷🇺_RU_俄罗斯_1@7
-  password: Y1hjiUmSgucgzYYJ0WtqwW
-  port: 60117
-  server: 77.246.102.112
-  type: ss
-- name: 🇨🇳_CN_中国->🇫🇷_FR_法国_1@8
-  password: e668cd78-6892-11eb-a8bf-f23c91cfbbc9
-  port: 31263
-  server: 183.240.179.89
-  skip-cert-verify: false
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 🇷🇺_RU_俄罗斯->🇺🇸_US_美国_1@9
-  network: ws
-  port: 23117
-  server: 185.143.221.140
-  type: vmess
-  uuid: c850f3fc-d494-441c-bd38-83359240bda7
-  ws-opts:
-    path: /
 proxy-groups:
 - name: 🚀 节点选择
   proxies:
   - DIRECT
-  - 🇬🇧_GB_英国->🇺🇸_US_美国_0@0
-  - 🇪🇸_ES_西班牙_0@1
-  - 🇨🇳_CN_中国->🇨🇦_CA_加拿大_0@2
-  - 🇨🇳_CN_中国_0@3
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_0@4
-  - 未知_0@5
-  - 🇺🇸_US_美国_1_0@6
-  - 🇩🇪_DE_德国->🇺🇸_US_美国_1@0
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_1@1
-  - 🇺🇸_US_美国->🇫🇷_FR_法国_1@2
-  - 🇺🇸_US_美国_1@4
-  - 🇩🇪_DE_德国_1@5
-  - 🇬🇧_GB_英国->🇺🇸_US_美国_1@6
-  - 🇷🇺_RU_俄罗斯_1@7
-  - 🇨🇳_CN_中国->🇫🇷_FR_法国_1@8
-  - 🇷🇺_RU_俄罗斯->🇺🇸_US_美国_1@9
+  - 🇸🇰_SK_斯洛伐克->🏳️_unKnow_未知_0@0
+  - 🇨🇳_CN_中国->🇨🇦_CA_加拿大_0@1
+  - 🇲🇩_MD_摩尔多瓦_0@2
+  - 🇺🇸_US_美国_2_0@3
+  - 🇬🇧_GB_英国->🇺🇸_US_美国_1@0
+  - 🇪🇸_ES_西班牙_1@1
+  - 🇨🇳_CN_中国_1@3
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_1@4
+  - 未知_1@5
+  - 🇺🇸_US_美国_1_1@6
   type: select
 - name: 🌍 国外媒体
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇬🇧_GB_英国->🇺🇸_US_美国_0@0
-  - 🇪🇸_ES_西班牙_0@1
-  - 🇨🇳_CN_中国->🇨🇦_CA_加拿大_0@2
-  - 🇨🇳_CN_中国_0@3
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_0@4
-  - 未知_0@5
-  - 🇺🇸_US_美国_1_0@6
-  - 🇩🇪_DE_德国->🇺🇸_US_美国_1@0
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_1@1
-  - 🇺🇸_US_美国->🇫🇷_FR_法国_1@2
-  - 🇺🇸_US_美国_1@4
-  - 🇩🇪_DE_德国_1@5
-  - 🇬🇧_GB_英国->🇺🇸_US_美国_1@6
-  - 🇷🇺_RU_俄罗斯_1@7
-  - 🇨🇳_CN_中国->🇫🇷_FR_法国_1@8
-  - 🇷🇺_RU_俄罗斯->🇺🇸_US_美国_1@9
+  - 🇸🇰_SK_斯洛伐克->🏳️_unKnow_未知_0@0
+  - 🇨🇳_CN_中国->🇨🇦_CA_加拿大_0@1
+  - 🇲🇩_MD_摩尔多瓦_0@2
+  - 🇺🇸_US_美国_2_0@3
+  - 🇬🇧_GB_英国->🇺🇸_US_美国_1@0
+  - 🇪🇸_ES_西班牙_1@1
+  - 🇨🇳_CN_中国_1@3
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_1@4
+  - 未知_1@5
+  - 🇺🇸_US_美国_1_1@6
   type: select
 - name: 📲 电报信息
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇬🇧_GB_英国->🇺🇸_US_美国_0@0
-  - 🇪🇸_ES_西班牙_0@1
-  - 🇨🇳_CN_中国->🇨🇦_CA_加拿大_0@2
-  - 🇨🇳_CN_中国_0@3
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_0@4
-  - 未知_0@5
-  - 🇺🇸_US_美国_1_0@6
-  - 🇩🇪_DE_德国->🇺🇸_US_美国_1@0
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_1@1
-  - 🇺🇸_US_美国->🇫🇷_FR_法国_1@2
-  - 🇺🇸_US_美国_1@4
-  - 🇩🇪_DE_德国_1@5
-  - 🇬🇧_GB_英国->🇺🇸_US_美国_1@6
-  - 🇷🇺_RU_俄罗斯_1@7
-  - 🇨🇳_CN_中国->🇫🇷_FR_法国_1@8
-  - 🇷🇺_RU_俄罗斯->🇺🇸_US_美国_1@9
+  - 🇸🇰_SK_斯洛伐克->🏳️_unKnow_未知_0@0
+  - 🇨🇳_CN_中国->🇨🇦_CA_加拿大_0@1
+  - 🇲🇩_MD_摩尔多瓦_0@2
+  - 🇺🇸_US_美国_2_0@3
+  - 🇬🇧_GB_英国->🇺🇸_US_美国_1@0
+  - 🇪🇸_ES_西班牙_1@1
+  - 🇨🇳_CN_中国_1@3
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_1@4
+  - 未知_1@5
+  - 🇺🇸_US_美国_1_1@6
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
   - 🎯 全球直连
   - 🚀 节点选择
-  - 🇬🇧_GB_英国->🇺🇸_US_美国_0@0
-  - 🇪🇸_ES_西班牙_0@1
-  - 🇨🇳_CN_中国->🇨🇦_CA_加拿大_0@2
-  - 🇨🇳_CN_中国_0@3
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_0@4
-  - 未知_0@5
-  - 🇺🇸_US_美国_1_0@6
-  - 🇩🇪_DE_德国->🇺🇸_US_美国_1@0
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_1@1
-  - 🇺🇸_US_美国->🇫🇷_FR_法国_1@2
-  - 🇺🇸_US_美国_1@4
-  - 🇩🇪_DE_德国_1@5
-  - 🇬🇧_GB_英国->🇺🇸_US_美国_1@6
-  - 🇷🇺_RU_俄罗斯_1@7
-  - 🇨🇳_CN_中国->🇫🇷_FR_法国_1@8
-  - 🇷🇺_RU_俄罗斯->🇺🇸_US_美国_1@9
+  - 🇸🇰_SK_斯洛伐克->🏳️_unKnow_未知_0@0
+  - 🇨🇳_CN_中国->🇨🇦_CA_加拿大_0@1
+  - 🇲🇩_MD_摩尔多瓦_0@2
+  - 🇺🇸_US_美国_2_0@3
+  - 🇬🇧_GB_英国->🇺🇸_US_美国_1@0
+  - 🇪🇸_ES_西班牙_1@1
+  - 🇨🇳_CN_中国_1@3
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_1@4
+  - 未知_1@5
+  - 🇺🇸_US_美国_1_1@6
   type: select
 - name: 🍎 苹果服务
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇬🇧_GB_英国->🇺🇸_US_美国_0@0
-  - 🇪🇸_ES_西班牙_0@1
-  - 🇨🇳_CN_中国->🇨🇦_CA_加拿大_0@2
-  - 🇨🇳_CN_中国_0@3
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_0@4
-  - 未知_0@5
-  - 🇺🇸_US_美国_1_0@6
-  - 🇩🇪_DE_德国->🇺🇸_US_美国_1@0
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_1@1
-  - 🇺🇸_US_美国->🇫🇷_FR_法国_1@2
-  - 🇺🇸_US_美国_1@4
-  - 🇩🇪_DE_德国_1@5
-  - 🇬🇧_GB_英国->🇺🇸_US_美国_1@6
-  - 🇷🇺_RU_俄罗斯_1@7
-  - 🇨🇳_CN_中国->🇫🇷_FR_法国_1@8
-  - 🇷🇺_RU_俄罗斯->🇺🇸_US_美国_1@9
+  - 🇸🇰_SK_斯洛伐克->🏳️_unKnow_未知_0@0
+  - 🇨🇳_CN_中国->🇨🇦_CA_加拿大_0@1
+  - 🇲🇩_MD_摩尔多瓦_0@2
+  - 🇺🇸_US_美国_2_0@3
+  - 🇬🇧_GB_英国->🇺🇸_US_美国_1@0
+  - 🇪🇸_ES_西班牙_1@1
+  - 🇨🇳_CN_中国_1@3
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_1@4
+  - 未知_1@5
+  - 🇺🇸_US_美国_1_1@6
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -268,22 +184,16 @@ proxy-groups:
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇬🇧_GB_英国->🇺🇸_US_美国_0@0
-  - 🇪🇸_ES_西班牙_0@1
-  - 🇨🇳_CN_中国->🇨🇦_CA_加拿大_0@2
-  - 🇨🇳_CN_中国_0@3
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_0@4
-  - 未知_0@5
-  - 🇺🇸_US_美国_1_0@6
-  - 🇩🇪_DE_德国->🇺🇸_US_美国_1@0
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_1@1
-  - 🇺🇸_US_美国->🇫🇷_FR_法国_1@2
-  - 🇺🇸_US_美国_1@4
-  - 🇩🇪_DE_德国_1@5
-  - 🇬🇧_GB_英国->🇺🇸_US_美国_1@6
-  - 🇷🇺_RU_俄罗斯_1@7
-  - 🇨🇳_CN_中国->🇫🇷_FR_法国_1@8
-  - 🇷🇺_RU_俄罗斯->🇺🇸_US_美国_1@9
+  - 🇸🇰_SK_斯洛伐克->🏳️_unKnow_未知_0@0
+  - 🇨🇳_CN_中国->🇨🇦_CA_加拿大_0@1
+  - 🇲🇩_MD_摩尔多瓦_0@2
+  - 🇺🇸_US_美国_2_0@3
+  - 🇬🇧_GB_英国->🇺🇸_US_美国_1@0
+  - 🇪🇸_ES_西班牙_1@1
+  - 🇨🇳_CN_中国_1@3
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_1@4
+  - 未知_1@5
+  - 🇺🇸_US_美国_1_1@6
   type: select
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
