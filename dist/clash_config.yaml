@@ -4,15 +4,61 @@ log-level: info
 mixed-port: 7890
 mode: Rule
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_0@0
+  network: ws
+  port: 8880
+  server: 108.165.216.241
+  skip-cert-verify: true
+  sni: ''
+  type: vmess
+  uuid: 248be52b-35d9-34cb-9b73-e12b78bc1301
+  ws-opts:
+    headers:
+      host: TG.WangCai2.s2.db-link02.top
+    path: /dabai.in
 - cipher: aes-256-cfb
-  name: 🇰🇷_KR_韩国_0@0
+  name: 🇲🇩_MD_摩尔多瓦_0@1
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 185.153.197.5
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇲🇩_MD_摩尔多瓦_1_0@2
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 91.132.94.200
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇯🇵_JP_日本->🇺🇸_US_美国_0@3
+  network: ws
+  port: 8880
+  server: 103.116.7.241
+  skip-cert-verify: true
+  sni: ''
+  type: vmess
+  uuid: 248be52b-35d9-34cb-9b73-e12b78bc1301
+  ws-opts:
+    headers:
+      host: TG.WangCai2.s2.db-link02.top
+    path: /dabai.in
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇦_UA_乌克兰_0@4
+  password: 9tqhMdIrTkgQ46PvhyAtMH
+  port: 443
+  server: switcher-nick-croquet.freesocks.work
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇰🇷_KR_韩国_1@0
   password: qwerREWQ@@
   port: 15098
   server: p222.panda001.net
   type: ss
 - alterId: 0
   cipher: auto
-  name: 🇩🇰_DK_丹麦->🇺🇸_US_美国_0@1
+  name: 🇩🇰_DK_丹麦->🇺🇸_US_美国_1@1
   network: ws
   port: 80
   server: fastcup.net
@@ -24,7 +70,7 @@ proxies:
     path: /profile/telegram@ssrsub
 - alterId: 2
   cipher: auto
-  name: 🇨🇳_CN_中国->🇺🇸_US_美国_0@2
+  name: 🇨🇳_CN_中国->🇺🇸_US_美国_1@2
   network: ws
   port: 30808
   server: v8.heduian.link
@@ -37,14 +83,14 @@ proxies:
       host: v8.heduian.link
     path: /oooo
 - cipher: chacha20-ietf-poly1305
-  name: 🇨🇳_CN_中国->🇺🇸_US_美国_1_0@3
+  name: 🇨🇳_CN_中国->🇺🇸_US_美国_1_1@3
   password: ae6e933b-8874-4bf4-a384-0de216ef2bf4
   port: 40030
   server: pr.fastsoonlink.com
   type: ss
 - alterId: 2
   cipher: auto
-  name: 🇨🇳_CN_中国->🇺🇸_US_美国_2_0@4
+  name: 🇨🇳_CN_中国->🇺🇸_US_美国_2_1@4
   network: ws
   port: 30829
   server: v29.heduian.link
@@ -56,277 +102,91 @@ proxies:
     path: /oooo
 - alterId: 0
   cipher: auto
-  name: 🇨🇳_CN_中国->🇺🇸_US_美国_3_0@5
+  name: 🇨🇳_CN_中国->🇺🇸_US_美国_3_1@5
   network: tcp
   port: 3686
   server: 0916af88-t064g0-t1l1nh-d6ar.77.iwskwai.com
   type: vmess
   uuid: a16d62f6-048d-11f0-af5a-f23c93136cb3
-- cipher: aes-256-cfb
-  name: 🇲🇩_MD_摩尔多瓦_0@6
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 185.153.197.5
-  type: ss
-- alterId: 2
-  cipher: auto
-  name: 🇨🇳_CN_中国_1@0
-  network: ws
-  port: 30805
-  server: v5.heduian.link
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      host: v5.heduian.link
-    path: /oooo
-- alterId: 0
-  cipher: auto
-  name: 未知_1@1
-  network: ws
-  port: 8880
-  server: 103.169.142.241
-  type: vmess
-  uuid: 248be52b-35d9-34cb-9b73-e12b78bc1301
-  ws-opts:
-    headers:
-      host: TG.WangCai2.s2.db-link02.top
-    path: /dabai.in
-- cipher: chacha20-ietf-poly1305
-  name: 🇷🇺_RU_俄罗斯_1@2
-  password: eUh4lSpi7nOYj0vSrqLUh0
-  port: 8506
-  server: 95.163.176.37
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇮🇷_IR_伊朗_1@4
-  password: QCXDxuDlTTMD7jtgHUjIoj
-  port: 8080
-  server: 151.242.251.147
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_1@5
-  network: ws
-  port: 8880
-  server: 108.165.216.241
-  sni: ''
-  type: vmess
-  uuid: 248be52b-35d9-34cb-9b73-e12b78bc1301
-  ws-opts:
-    headers:
-      host: TG.WangCai2.s2.db-link02.top
-    path: /dabai.in
-- alterId: 2
-  cipher: auto
-  name: 🇨🇳_CN_中国->🇺🇸_US_美国_1@6
-  network: ws
-  port: 30835
-  server: v35.heduian.link
-  skip-cert-verify: true
-  sni: ''
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      host: v35.heduian.link
-    path: /oooo
-- cipher: chacha20-ietf-poly1305
-  name: 🇷🇺_RU_俄罗斯_1_1@8
-  password: c40641c1f89e7acb
-  port: 57456
-  server: tr.vpnsparta.pro
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇺🇸_US_美国->🇨🇳_CN_中国_1@9
-  password: iUB0923RBA
-  port: 30067
-  server: 154.3.8.151
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 未知_1_1@10
-  network: ws
-  port: 8880
-  server: 103.160.204.241
-  type: vmess
-  uuid: 248be52b-35d9-34cb-9b73-e12b78bc1301
-  ws-opts:
-    headers:
-      host: TG.WangCai2.s2.db-link02.top
-    path: /dabai.in
-- cipher: chacha20-ietf-poly1305
-  name: 🇷🇺_RU_俄罗斯_2_1@11
-  password: c40641c1f89e7acb
-  port: 57456
-  server: 62.133.63.212
-  type: ss
-- alterId: 2
-  cipher: auto
-  name: 🇨🇳_CN_中国->🇩🇪_DE_德国_1@12
-  network: ws
-  port: 30833
-  server: v33.heduian.link
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      host: v33.heduian.link
-    path: /oooo
-- alterId: 0
-  cipher: auto
-  name: 🇯🇵_JP_日本->🇺🇸_US_美国_1@13
-  network: ws
-  port: 8880
-  server: 103.116.7.241
-  sni: ''
-  type: vmess
-  uuid: 248be52b-35d9-34cb-9b73-e12b78bc1301
-  ws-opts:
-    headers:
-      host: TG.WangCai2.s2.db-link02.top
-    path: /dabai.in
-- cipher: chacha20-ietf-poly1305
-  name: 🇮🇷_IR_伊朗_1_1@14
-  password: QCXDxuDlTTMD7jtgHUjIoj
-  port: 8080
-  server: 151.242.251.153
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇮🇷_IR_伊朗_2_1@16
-  password: QCXDxuDlTTMD7jtgHUjIoj
-  port: 8080
-  server: 151.242.251.131
-  type: ss
 proxy-groups:
 - name: 🚀 节点选择
   proxies:
   - DIRECT
-  - 🇰🇷_KR_韩国_0@0
-  - 🇩🇰_DK_丹麦->🇺🇸_US_美国_0@1
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_0@2
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_1_0@3
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_2_0@4
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_3_0@5
-  - 🇲🇩_MD_摩尔多瓦_0@6
-  - 🇨🇳_CN_中国_1@0
-  - 未知_1@1
-  - 🇷🇺_RU_俄罗斯_1@2
-  - 🇮🇷_IR_伊朗_1@4
-  - 🇺🇸_US_美国_1@5
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_1@6
-  - 🇷🇺_RU_俄罗斯_1_1@8
-  - 🇺🇸_US_美国->🇨🇳_CN_中国_1@9
-  - 未知_1_1@10
-  - 🇷🇺_RU_俄罗斯_2_1@11
-  - 🇨🇳_CN_中国->🇩🇪_DE_德国_1@12
-  - 🇯🇵_JP_日本->🇺🇸_US_美国_1@13
-  - 🇮🇷_IR_伊朗_1_1@14
-  - 🇮🇷_IR_伊朗_2_1@16
+  - 🇺🇸_US_美国_0@0
+  - 🇲🇩_MD_摩尔多瓦_0@1
+  - 🇲🇩_MD_摩尔多瓦_1_0@2
+  - 🇯🇵_JP_日本->🇺🇸_US_美国_0@3
+  - 🇺🇦_UA_乌克兰_0@4
+  - 🇰🇷_KR_韩国_1@0
+  - 🇩🇰_DK_丹麦->🇺🇸_US_美国_1@1
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_1@2
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_1_1@3
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_2_1@4
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_3_1@5
   type: select
 - name: 🌍 国外媒体
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇰🇷_KR_韩国_0@0
-  - 🇩🇰_DK_丹麦->🇺🇸_US_美国_0@1
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_0@2
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_1_0@3
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_2_0@4
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_3_0@5
-  - 🇲🇩_MD_摩尔多瓦_0@6
-  - 🇨🇳_CN_中国_1@0
-  - 未知_1@1
-  - 🇷🇺_RU_俄罗斯_1@2
-  - 🇮🇷_IR_伊朗_1@4
-  - 🇺🇸_US_美国_1@5
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_1@6
-  - 🇷🇺_RU_俄罗斯_1_1@8
-  - 🇺🇸_US_美国->🇨🇳_CN_中国_1@9
-  - 未知_1_1@10
-  - 🇷🇺_RU_俄罗斯_2_1@11
-  - 🇨🇳_CN_中国->🇩🇪_DE_德国_1@12
-  - 🇯🇵_JP_日本->🇺🇸_US_美国_1@13
-  - 🇮🇷_IR_伊朗_1_1@14
-  - 🇮🇷_IR_伊朗_2_1@16
+  - 🇺🇸_US_美国_0@0
+  - 🇲🇩_MD_摩尔多瓦_0@1
+  - 🇲🇩_MD_摩尔多瓦_1_0@2
+  - 🇯🇵_JP_日本->🇺🇸_US_美国_0@3
+  - 🇺🇦_UA_乌克兰_0@4
+  - 🇰🇷_KR_韩国_1@0
+  - 🇩🇰_DK_丹麦->🇺🇸_US_美国_1@1
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_1@2
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_1_1@3
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_2_1@4
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_3_1@5
   type: select
 - name: 📲 电报信息
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇰🇷_KR_韩国_0@0
-  - 🇩🇰_DK_丹麦->🇺🇸_US_美国_0@1
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_0@2
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_1_0@3
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_2_0@4
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_3_0@5
-  - 🇲🇩_MD_摩尔多瓦_0@6
-  - 🇨🇳_CN_中国_1@0
-  - 未知_1@1
-  - 🇷🇺_RU_俄罗斯_1@2
-  - 🇮🇷_IR_伊朗_1@4
-  - 🇺🇸_US_美国_1@5
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_1@6
-  - 🇷🇺_RU_俄罗斯_1_1@8
-  - 🇺🇸_US_美国->🇨🇳_CN_中国_1@9
-  - 未知_1_1@10
-  - 🇷🇺_RU_俄罗斯_2_1@11
-  - 🇨🇳_CN_中国->🇩🇪_DE_德国_1@12
-  - 🇯🇵_JP_日本->🇺🇸_US_美国_1@13
-  - 🇮🇷_IR_伊朗_1_1@14
-  - 🇮🇷_IR_伊朗_2_1@16
+  - 🇺🇸_US_美国_0@0
+  - 🇲🇩_MD_摩尔多瓦_0@1
+  - 🇲🇩_MD_摩尔多瓦_1_0@2
+  - 🇯🇵_JP_日本->🇺🇸_US_美国_0@3
+  - 🇺🇦_UA_乌克兰_0@4
+  - 🇰🇷_KR_韩国_1@0
+  - 🇩🇰_DK_丹麦->🇺🇸_US_美国_1@1
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_1@2
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_1_1@3
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_2_1@4
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_3_1@5
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
   - 🎯 全球直连
   - 🚀 节点选择
-  - 🇰🇷_KR_韩国_0@0
-  - 🇩🇰_DK_丹麦->🇺🇸_US_美国_0@1
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_0@2
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_1_0@3
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_2_0@4
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_3_0@5
-  - 🇲🇩_MD_摩尔多瓦_0@6
-  - 🇨🇳_CN_中国_1@0
-  - 未知_1@1
-  - 🇷🇺_RU_俄罗斯_1@2
-  - 🇮🇷_IR_伊朗_1@4
-  - 🇺🇸_US_美国_1@5
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_1@6
-  - 🇷🇺_RU_俄罗斯_1_1@8
-  - 🇺🇸_US_美国->🇨🇳_CN_中国_1@9
-  - 未知_1_1@10
-  - 🇷🇺_RU_俄罗斯_2_1@11
-  - 🇨🇳_CN_中国->🇩🇪_DE_德国_1@12
-  - 🇯🇵_JP_日本->🇺🇸_US_美国_1@13
-  - 🇮🇷_IR_伊朗_1_1@14
-  - 🇮🇷_IR_伊朗_2_1@16
+  - 🇺🇸_US_美国_0@0
+  - 🇲🇩_MD_摩尔多瓦_0@1
+  - 🇲🇩_MD_摩尔多瓦_1_0@2
+  - 🇯🇵_JP_日本->🇺🇸_US_美国_0@3
+  - 🇺🇦_UA_乌克兰_0@4
+  - 🇰🇷_KR_韩国_1@0
+  - 🇩🇰_DK_丹麦->🇺🇸_US_美国_1@1
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_1@2
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_1_1@3
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_2_1@4
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_3_1@5
   type: select
 - name: 🍎 苹果服务
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇰🇷_KR_韩国_0@0
-  - 🇩🇰_DK_丹麦->🇺🇸_US_美国_0@1
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_0@2
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_1_0@3
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_2_0@4
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_3_0@5
-  - 🇲🇩_MD_摩尔多瓦_0@6
-  - 🇨🇳_CN_中国_1@0
-  - 未知_1@1
-  - 🇷🇺_RU_俄罗斯_1@2
-  - 🇮🇷_IR_伊朗_1@4
-  - 🇺🇸_US_美国_1@5
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_1@6
-  - 🇷🇺_RU_俄罗斯_1_1@8
-  - 🇺🇸_US_美国->🇨🇳_CN_中国_1@9
-  - 未知_1_1@10
-  - 🇷🇺_RU_俄罗斯_2_1@11
-  - 🇨🇳_CN_中国->🇩🇪_DE_德国_1@12
-  - 🇯🇵_JP_日本->🇺🇸_US_美国_1@13
-  - 🇮🇷_IR_伊朗_1_1@14
-  - 🇮🇷_IR_伊朗_2_1@16
+  - 🇺🇸_US_美国_0@0
+  - 🇲🇩_MD_摩尔多瓦_0@1
+  - 🇲🇩_MD_摩尔多瓦_1_0@2
+  - 🇯🇵_JP_日本->🇺🇸_US_美国_0@3
+  - 🇺🇦_UA_乌克兰_0@4
+  - 🇰🇷_KR_韩国_1@0
+  - 🇩🇰_DK_丹麦->🇺🇸_US_美国_1@1
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_1@2
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_1_1@3
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_2_1@4
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_3_1@5
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -347,27 +207,17 @@ proxy-groups:
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇰🇷_KR_韩国_0@0
-  - 🇩🇰_DK_丹麦->🇺🇸_US_美国_0@1
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_0@2
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_1_0@3
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_2_0@4
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_3_0@5
-  - 🇲🇩_MD_摩尔多瓦_0@6
-  - 🇨🇳_CN_中国_1@0
-  - 未知_1@1
-  - 🇷🇺_RU_俄罗斯_1@2
-  - 🇮🇷_IR_伊朗_1@4
-  - 🇺🇸_US_美国_1@5
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_1@6
-  - 🇷🇺_RU_俄罗斯_1_1@8
-  - 🇺🇸_US_美国->🇨🇳_CN_中国_1@9
-  - 未知_1_1@10
-  - 🇷🇺_RU_俄罗斯_2_1@11
-  - 🇨🇳_CN_中国->🇩🇪_DE_德国_1@12
-  - 🇯🇵_JP_日本->🇺🇸_US_美国_1@13
-  - 🇮🇷_IR_伊朗_1_1@14
-  - 🇮🇷_IR_伊朗_2_1@16
+  - 🇺🇸_US_美国_0@0
+  - 🇲🇩_MD_摩尔多瓦_0@1
+  - 🇲🇩_MD_摩尔多瓦_1_0@2
+  - 🇯🇵_JP_日本->🇺🇸_US_美国_0@3
+  - 🇺🇦_UA_乌克兰_0@4
+  - 🇰🇷_KR_韩国_1@0
+  - 🇩🇰_DK_丹麦->🇺🇸_US_美国_1@1
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_1@2
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_1_1@3
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_2_1@4
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_3_1@5
   type: select
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
