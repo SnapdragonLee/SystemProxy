@@ -4,9 +4,15 @@ log-level: info
 mixed-port: 7890
 mode: Rule
 proxies:
+- cipher: chacha20-ietf
+  name: 🇨🇳_CN_中国_0@0
+  password: asd123456
+  port: 8388
+  server: 103.149.182.191
+  type: ss
 - alterId: 2
   cipher: auto
-  name: 🇨🇳_CN_中国->🇺🇸_US_美国_0@0
+  name: 🇨🇳_CN_中国->🇺🇸_US_美国_0@1
   network: ws
   port: 30835
   server: v35.heduian.link
@@ -18,91 +24,57 @@ proxies:
     headers:
       host: v35.heduian.link
     path: /oooo
-- cipher: aes-256-cfb
-  name: 🇲🇩_MD_摩尔多瓦_1@0
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 185.153.197.5
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇲🇩_MD_摩尔多瓦_1_1@1
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 91.132.94.200
-  type: ss
 - alterId: 2
   cipher: auto
-  name: 🇨🇳_CN_中国_1@2
+  name: 🇨🇳_CN_中国->🇺🇸_US_美国_1_0@2
   network: ws
   port: 30829
   server: v29.heduian.link
-  sni: ''
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   ws-opts:
     headers:
       host: ocbc.com
     path: /oooo
-- alterId: 0
-  cipher: auto
-  name: 🇳🇱_NL_荷兰->🇺🇸_US_美国_1@4
-  network: ws
-  port: 22107
-  server: 45.144.174.211
-  skip-cert-verify: true
-  type: vmess
-  uuid: ca840767-e6c3-4149-bcf1-c5c61e450bcc
-  ws-opts:
-    path: /
 proxy-groups:
 - name: 🚀 节点选择
   proxies:
   - DIRECT
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_0@0
-  - 🇲🇩_MD_摩尔多瓦_1@0
-  - 🇲🇩_MD_摩尔多瓦_1_1@1
-  - 🇨🇳_CN_中国_1@2
-  - 🇳🇱_NL_荷兰->🇺🇸_US_美国_1@4
+  - 🇨🇳_CN_中国_0@0
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_0@1
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_1_0@2
   type: select
 - name: 🌍 国外媒体
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_0@0
-  - 🇲🇩_MD_摩尔多瓦_1@0
-  - 🇲🇩_MD_摩尔多瓦_1_1@1
-  - 🇨🇳_CN_中国_1@2
-  - 🇳🇱_NL_荷兰->🇺🇸_US_美国_1@4
+  - 🇨🇳_CN_中国_0@0
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_0@1
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_1_0@2
   type: select
 - name: 📲 电报信息
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_0@0
-  - 🇲🇩_MD_摩尔多瓦_1@0
-  - 🇲🇩_MD_摩尔多瓦_1_1@1
-  - 🇨🇳_CN_中国_1@2
-  - 🇳🇱_NL_荷兰->🇺🇸_US_美国_1@4
+  - 🇨🇳_CN_中国_0@0
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_0@1
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_1_0@2
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
   - 🎯 全球直连
   - 🚀 节点选择
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_0@0
-  - 🇲🇩_MD_摩尔多瓦_1@0
-  - 🇲🇩_MD_摩尔多瓦_1_1@1
-  - 🇨🇳_CN_中国_1@2
-  - 🇳🇱_NL_荷兰->🇺🇸_US_美国_1@4
+  - 🇨🇳_CN_中国_0@0
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_0@1
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_1_0@2
   type: select
 - name: 🍎 苹果服务
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_0@0
-  - 🇲🇩_MD_摩尔多瓦_1@0
-  - 🇲🇩_MD_摩尔多瓦_1_1@1
-  - 🇨🇳_CN_中国_1@2
-  - 🇳🇱_NL_荷兰->🇺🇸_US_美国_1@4
+  - 🇨🇳_CN_中国_0@0
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_0@1
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_1_0@2
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -123,11 +95,9 @@ proxy-groups:
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_0@0
-  - 🇲🇩_MD_摩尔多瓦_1@0
-  - 🇲🇩_MD_摩尔多瓦_1_1@1
-  - 🇨🇳_CN_中国_1@2
-  - 🇳🇱_NL_荷兰->🇺🇸_US_美国_1@4
+  - 🇨🇳_CN_中国_0@0
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_0@1
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_1_0@2
   type: select
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
