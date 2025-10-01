@@ -40,28 +40,6 @@ proxies:
   port: 989
   server: 104.192.226.106
   type: ss
-- alterId: 2
-  cipher: auto
-  name: 🇨🇳_CN_中国->🇺🇸_US_美国_1@0
-  network: ws
-  port: 30829
-  server: v29.heduian.link
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      host: v29.heduian.link
-    path: /oooo
-- alterId: 0
-  cipher: auto
-  fingerprint: ''
-  name: 🇺🇸_US_美国_1@1
-  network: tcp
-  port: 30475
-  server: 216.132.112.116
-  sni: ''
-  type: vmess
-  uuid: defa10be-f618-4b64-c815-049d2eacbd3f
 proxy-groups:
 - name: 🚀 节点选择
   proxies:
@@ -70,8 +48,6 @@ proxy-groups:
   - 🇺🇸_US_美国_1_0@1
   - 🇨🇳_CN_中国->🏳️_unKnow_未知_0@2
   - 🇺🇸_US_美国_2_0@3
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_1@0
-  - 🇺🇸_US_美国_1@1
   type: select
 - name: 🌍 国外媒体
   proxies:
@@ -81,8 +57,6 @@ proxy-groups:
   - 🇺🇸_US_美国_1_0@1
   - 🇨🇳_CN_中国->🏳️_unKnow_未知_0@2
   - 🇺🇸_US_美国_2_0@3
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_1@0
-  - 🇺🇸_US_美国_1@1
   type: select
 - name: 📲 电报信息
   proxies:
@@ -92,8 +66,6 @@ proxy-groups:
   - 🇺🇸_US_美国_1_0@1
   - 🇨🇳_CN_中国->🏳️_unKnow_未知_0@2
   - 🇺🇸_US_美国_2_0@3
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_1@0
-  - 🇺🇸_US_美国_1@1
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
@@ -103,8 +75,6 @@ proxy-groups:
   - 🇺🇸_US_美国_1_0@1
   - 🇨🇳_CN_中国->🏳️_unKnow_未知_0@2
   - 🇺🇸_US_美国_2_0@3
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_1@0
-  - 🇺🇸_US_美国_1@1
   type: select
 - name: 🍎 苹果服务
   proxies:
@@ -114,8 +84,6 @@ proxy-groups:
   - 🇺🇸_US_美国_1_0@1
   - 🇨🇳_CN_中国->🏳️_unKnow_未知_0@2
   - 🇺🇸_US_美国_2_0@3
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_1@0
-  - 🇺🇸_US_美国_1@1
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -140,8 +108,6 @@ proxy-groups:
   - 🇺🇸_US_美国_1_0@1
   - 🇨🇳_CN_中国->🏳️_unKnow_未知_0@2
   - 🇺🇸_US_美国_2_0@3
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_1@0
-  - 🇺🇸_US_美国_1@1
   type: select
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
