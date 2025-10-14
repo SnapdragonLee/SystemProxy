@@ -4,53 +4,107 @@ log-level: info
 mixed-port: 7890
 mode: Rule
 proxies:
-- name: 🇨🇳_CN_中国->🇺🇸_US_美国_0@0
-  password: 253bc477d4e43c209f2d427272968280
-  port: 6752
-  server: 36.156.102.84
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 🇱🇹_LT_立陶宛_0@0
+  network: tcp
+  port: 26177
+  server: 176.223.131.167
+  type: vmess
+  uuid: f0a035e8-9793-4e74-e947-03c32325ba41
 - cipher: aes-256-cfb
-  name: 🇲🇩_MD_摩尔多瓦_0@1
+  name: 🇸🇪_SE_瑞典_0@1
   password: f8f7aCzcPKbsF8p3
   port: 989
-  server: 91.132.94.200
+  server: 192.71.166.100
   type: ss
-- name: 🇨🇳_CN_中国->🇺🇸_US_美国_1_0@2
-  password: 253bc477d4e43c209f2d427272968280
-  port: 24673
-  server: 36.156.102.84
-  skip-cert-verify: true
-  sni: fe2.update.microsoft.com
-  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 🇨🇳_CN_中国_0@2
+  network: tcp
+  port: 31625
+  server: 154.83.95.26
+  type: vmess
+  uuid: 8ad52ea0-e2b2-4c72-c6a7-e823b4d75dd9
+- alterId: 0
+  cipher: auto
+  name: 🇱🇹_LT_立陶宛_1_0@3
+  network: tcp
+  port: 54812
+  server: 176.223.131.167
+  type: vmess
+  uuid: afd29a15-a791-43d0-c0fb-8441f7af1ea3
 - cipher: aes-256-cfb
-  name: 🇷🇺_RU_俄罗斯_0@3
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 185.231.233.112
+  name: 未知_0@4
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.64
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱_NL_荷兰_0@4
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  port: 990
-  server: 45.159.250.190
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇱🇹_LT_立陶宛_2_0@5
+  network: tcp
+  port: 15580
+  server: 176.223.131.167
+  type: vmess
+  uuid: 11b1af02-9fcd-4681-b94e-eb330b1a2d5e
+- alterId: 0
+  cipher: auto
+  name: 🇱🇹_LT_立陶宛_3_0@6
+  network: tcp
+  port: 22014
+  server: 176.223.131.167
+  type: vmess
+  uuid: b76a7b55-953a-442f-92cb-5d0be5eb9612
+- alterId: 0
+  cipher: auto
+  name: 🇱🇹_LT_立陶宛_4_0@7
+  network: tcp
+  port: 56660
+  server: 176.223.131.167
+  type: vmess
+  uuid: f86aeda1-2635-4c6c-ada0-79541ae3b937
 - cipher: aes-256-cfb
-  name: 🇸🇰_SK_斯洛伐克->🏳️_unKnow_未知_0@5
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 156.146.40.194
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇩🇪_DE_德国_0@6
+  name: 🇩🇪_DE_德国_0@8
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 46.183.184.60
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇱🇹_LT_立陶宛_5_0@9
+  network: tcp
+  port: 25387
+  server: 176.223.131.167
+  type: vmess
+  uuid: f6c88808-77b8-459c-b3df-84f8884cdddc
+- cipher: aes-256-cfb
+  name: 🇬🇧_GB_英国_0@10
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 51.15.17.169
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇱🇹_LT_立陶宛_6_0@11
+  network: tcp
+  port: 14598
+  server: 176.223.131.167
+  type: vmess
+  uuid: ba2dd90b-6cc4-4d2d-e569-760fe1a8aae0
+- alterId: 0
+  cipher: auto
+  name: 🇬🇧_GB_英国_1_0@12
+  network: ws
+  port: 55256
+  server: 8.208.79.244
+  type: vmess
+  uuid: 0c98868b-d4a2-43f0-876b-064377446d92
+  ws-opts:
+    path: /arki?ed=2048
 - alterId: 2
   cipher: auto
-  name: 🇨🇳_CN_中国->🇺🇸_US_美国_2_0@7
+  name: 🇨🇳_CN_中国->🇺🇸_US_美国_0@13
   network: ws
   port: 30808
   server: v8.heduian.link
@@ -62,15 +116,103 @@ proxies:
     headers:
       host: v8.heduian.link
     path: /oooo
+- alterId: 2
+  cipher: auto
+  name: 🇨🇳_CN_中国->🇺🇸_US_美国_1_0@14
+  network: ws
+  port: 30805
+  server: v5.heduian.link
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      host: v5.heduian.link
+    path: /oooo
+- alterId: 0
+  cipher: auto
+  name: 🇱🇹_LT_立陶宛_7_0@15
+  network: tcp
+  port: 48219
+  server: 176.223.131.167
+  type: vmess
+  uuid: 3a58e86f-90e5-47b3-db49-6503c7fa20f4
 - cipher: aes-256-cfb
-  name: 🇮🇸_IS_冰岛_0@8
+  name: 🇲🇩_MD_摩尔多瓦->🇷🇺_RU_俄罗斯_0@16
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 185.153.197.5
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇱🇹_LT_立陶宛_8_0@17
+  network: tcp
+  port: 43990
+  server: 176.223.131.167
+  type: vmess
+  uuid: 5fbaae09-f11e-4a7e-fc58-6c8dce1072a6
+- alterId: 0
+  cipher: auto
+  name: 🇱🇹_LT_立陶宛_9_0@18
+  network: tcp
+  port: 20227
+  server: 176.223.131.167
+  type: vmess
+  uuid: 763e55c4-f939-405a-aac0-ee366977fa48
+- cipher: aes-256-cfb
+  name: 🇮🇸_IS_冰岛_0@19
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 37.235.49.168
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇱🇹_LT_立陶宛_10_0@20
+  network: tcp
+  port: 12407
+  server: 176.223.131.167
+  type: vmess
+  uuid: fc45ae37-17da-4da4-cf6e-9223cf95cb9b
+- name: 🇨🇳_CN_中国->🇺🇸_US_美国_1@0
+  password: 253bc477d4e43c209f2d427272968280
+  port: 6752
+  server: 36.156.102.84
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- cipher: aes-256-cfb
+  name: 🇲🇩_MD_摩尔多瓦_1@1
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 91.132.94.200
+  type: ss
+- name: 🇨🇳_CN_中国->🇺🇸_US_美国_1_1@2
+  password: 253bc477d4e43c209f2d427272968280
+  port: 24673
+  server: 36.156.102.84
+  skip-cert-verify: true
+  sni: fe2.update.microsoft.com
+  type: trojan
+- cipher: aes-256-cfb
+  name: 🇷🇺_RU_俄罗斯_1@3
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 185.231.233.112
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱_NL_荷兰_1@4
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  port: 990
+  server: 45.159.250.190
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇸🇰_SK_斯洛伐克->🏳️_unKnow_未知_1@5
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 156.146.40.194
+  type: ss
 - alterId: 2
   cipher: auto
-  name: 🇨🇳_CN_中国->🇺🇸_US_美国_3_0@9
+  name: 🇨🇳_CN_中国->🇺🇸_US_美国_3_1@9
   network: ws
   port: 30829
   server: v29.heduian.link
@@ -82,166 +224,192 @@ proxies:
       host: v29.heduian.link
     path: /oooo
 - cipher: chacha20-ietf-poly1305
-  name: 🇹🇷_TR_土耳其->🇨🇭_CH_瑞士_0@10
+  name: 🇹🇷_TR_土耳其->🇨🇭_CH_瑞士_1@10
   password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
   port: 990
   server: 193.135.174.135
   type: ss
-- name: 🇨🇳_CN_中国_3_0@11
+- name: 🇨🇳_CN_中国_3_1@11
   password: 253bc477d4e43c209f2d427272968280
   port: 2381
   server: 36.156.102.84
   skip-cert-verify: true
   sni: fe2.update.microsoft.com
   type: trojan
-- cipher: aes-256-cfb
-  name: 🇬🇧_GB_英国->🇨🇳_CN_中国_0@12
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 51.15.17.169
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱_NL_荷兰_1@0
-  password: x0jth8z56Dd4ghs1Dh7twU
-  port: 19805
-  server: 178.208.91.118
-  type: ss
-- alterId: 2
-  cipher: auto
-  name: 🇨🇳_CN_中国_1@1
-  network: ws
-  port: 30805
-  server: v5.heduian.link
-  sni: ''
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      host: v5.heduian.link
-    path: /oooo
-- cipher: aes-256-cfb
-  name: 🇬🇧_GB_英国_1@6
-  obfs: plain
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  protocol: origin
-  server: 62.100.205.48
-  type: ssr
-- cipher: aes-256-cfb
-  name: 🇬🇧_GB_英国->🇩🇪_DE_德国_1@7
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 51.15.23.63
-  type: ss
 proxy-groups:
 - name: 🚀 节点选择
   proxies:
   - DIRECT
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_0@0
-  - 🇲🇩_MD_摩尔多瓦_0@1
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_1_0@2
-  - 🇷🇺_RU_俄罗斯_0@3
-  - 🇳🇱_NL_荷兰_0@4
-  - 🇸🇰_SK_斯洛伐克->🏳️_unKnow_未知_0@5
-  - 🇩🇪_DE_德国_0@6
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_2_0@7
-  - 🇮🇸_IS_冰岛_0@8
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_3_0@9
-  - 🇹🇷_TR_土耳其->🇨🇭_CH_瑞士_0@10
-  - 🇨🇳_CN_中国_3_0@11
-  - 🇬🇧_GB_英国->🇨🇳_CN_中国_0@12
-  - 🇳🇱_NL_荷兰_1@0
-  - 🇨🇳_CN_中国_1@1
-  - 🇬🇧_GB_英国_1@6
-  - 🇬🇧_GB_英国->🇩🇪_DE_德国_1@7
+  - 🇱🇹_LT_立陶宛_0@0
+  - 🇸🇪_SE_瑞典_0@1
+  - 🇨🇳_CN_中国_0@2
+  - 🇱🇹_LT_立陶宛_1_0@3
+  - 未知_0@4
+  - 🇱🇹_LT_立陶宛_2_0@5
+  - 🇱🇹_LT_立陶宛_3_0@6
+  - 🇱🇹_LT_立陶宛_4_0@7
+  - 🇩🇪_DE_德国_0@8
+  - 🇱🇹_LT_立陶宛_5_0@9
+  - 🇬🇧_GB_英国_0@10
+  - 🇱🇹_LT_立陶宛_6_0@11
+  - 🇬🇧_GB_英国_1_0@12
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_0@13
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_1_0@14
+  - 🇱🇹_LT_立陶宛_7_0@15
+  - 🇲🇩_MD_摩尔多瓦->🇷🇺_RU_俄罗斯_0@16
+  - 🇱🇹_LT_立陶宛_8_0@17
+  - 🇱🇹_LT_立陶宛_9_0@18
+  - 🇮🇸_IS_冰岛_0@19
+  - 🇱🇹_LT_立陶宛_10_0@20
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_1@0
+  - 🇲🇩_MD_摩尔多瓦_1@1
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_1_1@2
+  - 🇷🇺_RU_俄罗斯_1@3
+  - 🇳🇱_NL_荷兰_1@4
+  - 🇸🇰_SK_斯洛伐克->🏳️_unKnow_未知_1@5
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_3_1@9
+  - 🇹🇷_TR_土耳其->🇨🇭_CH_瑞士_1@10
+  - 🇨🇳_CN_中国_3_1@11
   type: select
 - name: 🌍 国外媒体
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_0@0
-  - 🇲🇩_MD_摩尔多瓦_0@1
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_1_0@2
-  - 🇷🇺_RU_俄罗斯_0@3
-  - 🇳🇱_NL_荷兰_0@4
-  - 🇸🇰_SK_斯洛伐克->🏳️_unKnow_未知_0@5
-  - 🇩🇪_DE_德国_0@6
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_2_0@7
-  - 🇮🇸_IS_冰岛_0@8
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_3_0@9
-  - 🇹🇷_TR_土耳其->🇨🇭_CH_瑞士_0@10
-  - 🇨🇳_CN_中国_3_0@11
-  - 🇬🇧_GB_英国->🇨🇳_CN_中国_0@12
-  - 🇳🇱_NL_荷兰_1@0
-  - 🇨🇳_CN_中国_1@1
-  - 🇬🇧_GB_英国_1@6
-  - 🇬🇧_GB_英国->🇩🇪_DE_德国_1@7
+  - 🇱🇹_LT_立陶宛_0@0
+  - 🇸🇪_SE_瑞典_0@1
+  - 🇨🇳_CN_中国_0@2
+  - 🇱🇹_LT_立陶宛_1_0@3
+  - 未知_0@4
+  - 🇱🇹_LT_立陶宛_2_0@5
+  - 🇱🇹_LT_立陶宛_3_0@6
+  - 🇱🇹_LT_立陶宛_4_0@7
+  - 🇩🇪_DE_德国_0@8
+  - 🇱🇹_LT_立陶宛_5_0@9
+  - 🇬🇧_GB_英国_0@10
+  - 🇱🇹_LT_立陶宛_6_0@11
+  - 🇬🇧_GB_英国_1_0@12
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_0@13
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_1_0@14
+  - 🇱🇹_LT_立陶宛_7_0@15
+  - 🇲🇩_MD_摩尔多瓦->🇷🇺_RU_俄罗斯_0@16
+  - 🇱🇹_LT_立陶宛_8_0@17
+  - 🇱🇹_LT_立陶宛_9_0@18
+  - 🇮🇸_IS_冰岛_0@19
+  - 🇱🇹_LT_立陶宛_10_0@20
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_1@0
+  - 🇲🇩_MD_摩尔多瓦_1@1
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_1_1@2
+  - 🇷🇺_RU_俄罗斯_1@3
+  - 🇳🇱_NL_荷兰_1@4
+  - 🇸🇰_SK_斯洛伐克->🏳️_unKnow_未知_1@5
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_3_1@9
+  - 🇹🇷_TR_土耳其->🇨🇭_CH_瑞士_1@10
+  - 🇨🇳_CN_中国_3_1@11
   type: select
 - name: 📲 电报信息
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_0@0
-  - 🇲🇩_MD_摩尔多瓦_0@1
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_1_0@2
-  - 🇷🇺_RU_俄罗斯_0@3
-  - 🇳🇱_NL_荷兰_0@4
-  - 🇸🇰_SK_斯洛伐克->🏳️_unKnow_未知_0@5
-  - 🇩🇪_DE_德国_0@6
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_2_0@7
-  - 🇮🇸_IS_冰岛_0@8
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_3_0@9
-  - 🇹🇷_TR_土耳其->🇨🇭_CH_瑞士_0@10
-  - 🇨🇳_CN_中国_3_0@11
-  - 🇬🇧_GB_英国->🇨🇳_CN_中国_0@12
-  - 🇳🇱_NL_荷兰_1@0
-  - 🇨🇳_CN_中国_1@1
-  - 🇬🇧_GB_英国_1@6
-  - 🇬🇧_GB_英国->🇩🇪_DE_德国_1@7
+  - 🇱🇹_LT_立陶宛_0@0
+  - 🇸🇪_SE_瑞典_0@1
+  - 🇨🇳_CN_中国_0@2
+  - 🇱🇹_LT_立陶宛_1_0@3
+  - 未知_0@4
+  - 🇱🇹_LT_立陶宛_2_0@5
+  - 🇱🇹_LT_立陶宛_3_0@6
+  - 🇱🇹_LT_立陶宛_4_0@7
+  - 🇩🇪_DE_德国_0@8
+  - 🇱🇹_LT_立陶宛_5_0@9
+  - 🇬🇧_GB_英国_0@10
+  - 🇱🇹_LT_立陶宛_6_0@11
+  - 🇬🇧_GB_英国_1_0@12
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_0@13
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_1_0@14
+  - 🇱🇹_LT_立陶宛_7_0@15
+  - 🇲🇩_MD_摩尔多瓦->🇷🇺_RU_俄罗斯_0@16
+  - 🇱🇹_LT_立陶宛_8_0@17
+  - 🇱🇹_LT_立陶宛_9_0@18
+  - 🇮🇸_IS_冰岛_0@19
+  - 🇱🇹_LT_立陶宛_10_0@20
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_1@0
+  - 🇲🇩_MD_摩尔多瓦_1@1
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_1_1@2
+  - 🇷🇺_RU_俄罗斯_1@3
+  - 🇳🇱_NL_荷兰_1@4
+  - 🇸🇰_SK_斯洛伐克->🏳️_unKnow_未知_1@5
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_3_1@9
+  - 🇹🇷_TR_土耳其->🇨🇭_CH_瑞士_1@10
+  - 🇨🇳_CN_中国_3_1@11
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
   - 🎯 全球直连
   - 🚀 节点选择
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_0@0
-  - 🇲🇩_MD_摩尔多瓦_0@1
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_1_0@2
-  - 🇷🇺_RU_俄罗斯_0@3
-  - 🇳🇱_NL_荷兰_0@4
-  - 🇸🇰_SK_斯洛伐克->🏳️_unKnow_未知_0@5
-  - 🇩🇪_DE_德国_0@6
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_2_0@7
-  - 🇮🇸_IS_冰岛_0@8
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_3_0@9
-  - 🇹🇷_TR_土耳其->🇨🇭_CH_瑞士_0@10
-  - 🇨🇳_CN_中国_3_0@11
-  - 🇬🇧_GB_英国->🇨🇳_CN_中国_0@12
-  - 🇳🇱_NL_荷兰_1@0
-  - 🇨🇳_CN_中国_1@1
-  - 🇬🇧_GB_英国_1@6
-  - 🇬🇧_GB_英国->🇩🇪_DE_德国_1@7
+  - 🇱🇹_LT_立陶宛_0@0
+  - 🇸🇪_SE_瑞典_0@1
+  - 🇨🇳_CN_中国_0@2
+  - 🇱🇹_LT_立陶宛_1_0@3
+  - 未知_0@4
+  - 🇱🇹_LT_立陶宛_2_0@5
+  - 🇱🇹_LT_立陶宛_3_0@6
+  - 🇱🇹_LT_立陶宛_4_0@7
+  - 🇩🇪_DE_德国_0@8
+  - 🇱🇹_LT_立陶宛_5_0@9
+  - 🇬🇧_GB_英国_0@10
+  - 🇱🇹_LT_立陶宛_6_0@11
+  - 🇬🇧_GB_英国_1_0@12
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_0@13
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_1_0@14
+  - 🇱🇹_LT_立陶宛_7_0@15
+  - 🇲🇩_MD_摩尔多瓦->🇷🇺_RU_俄罗斯_0@16
+  - 🇱🇹_LT_立陶宛_8_0@17
+  - 🇱🇹_LT_立陶宛_9_0@18
+  - 🇮🇸_IS_冰岛_0@19
+  - 🇱🇹_LT_立陶宛_10_0@20
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_1@0
+  - 🇲🇩_MD_摩尔多瓦_1@1
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_1_1@2
+  - 🇷🇺_RU_俄罗斯_1@3
+  - 🇳🇱_NL_荷兰_1@4
+  - 🇸🇰_SK_斯洛伐克->🏳️_unKnow_未知_1@5
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_3_1@9
+  - 🇹🇷_TR_土耳其->🇨🇭_CH_瑞士_1@10
+  - 🇨🇳_CN_中国_3_1@11
   type: select
 - name: 🍎 苹果服务
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_0@0
-  - 🇲🇩_MD_摩尔多瓦_0@1
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_1_0@2
-  - 🇷🇺_RU_俄罗斯_0@3
-  - 🇳🇱_NL_荷兰_0@4
-  - 🇸🇰_SK_斯洛伐克->🏳️_unKnow_未知_0@5
-  - 🇩🇪_DE_德国_0@6
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_2_0@7
-  - 🇮🇸_IS_冰岛_0@8
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_3_0@9
-  - 🇹🇷_TR_土耳其->🇨🇭_CH_瑞士_0@10
-  - 🇨🇳_CN_中国_3_0@11
-  - 🇬🇧_GB_英国->🇨🇳_CN_中国_0@12
-  - 🇳🇱_NL_荷兰_1@0
-  - 🇨🇳_CN_中国_1@1
-  - 🇬🇧_GB_英国_1@6
-  - 🇬🇧_GB_英国->🇩🇪_DE_德国_1@7
+  - 🇱🇹_LT_立陶宛_0@0
+  - 🇸🇪_SE_瑞典_0@1
+  - 🇨🇳_CN_中国_0@2
+  - 🇱🇹_LT_立陶宛_1_0@3
+  - 未知_0@4
+  - 🇱🇹_LT_立陶宛_2_0@5
+  - 🇱🇹_LT_立陶宛_3_0@6
+  - 🇱🇹_LT_立陶宛_4_0@7
+  - 🇩🇪_DE_德国_0@8
+  - 🇱🇹_LT_立陶宛_5_0@9
+  - 🇬🇧_GB_英国_0@10
+  - 🇱🇹_LT_立陶宛_6_0@11
+  - 🇬🇧_GB_英国_1_0@12
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_0@13
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_1_0@14
+  - 🇱🇹_LT_立陶宛_7_0@15
+  - 🇲🇩_MD_摩尔多瓦->🇷🇺_RU_俄罗斯_0@16
+  - 🇱🇹_LT_立陶宛_8_0@17
+  - 🇱🇹_LT_立陶宛_9_0@18
+  - 🇮🇸_IS_冰岛_0@19
+  - 🇱🇹_LT_立陶宛_10_0@20
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_1@0
+  - 🇲🇩_MD_摩尔多瓦_1@1
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_1_1@2
+  - 🇷🇺_RU_俄罗斯_1@3
+  - 🇳🇱_NL_荷兰_1@4
+  - 🇸🇰_SK_斯洛伐克->🏳️_unKnow_未知_1@5
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_3_1@9
+  - 🇹🇷_TR_土耳其->🇨🇭_CH_瑞士_1@10
+  - 🇨🇳_CN_中国_3_1@11
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -262,23 +430,36 @@ proxy-groups:
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_0@0
-  - 🇲🇩_MD_摩尔多瓦_0@1
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_1_0@2
-  - 🇷🇺_RU_俄罗斯_0@3
-  - 🇳🇱_NL_荷兰_0@4
-  - 🇸🇰_SK_斯洛伐克->🏳️_unKnow_未知_0@5
-  - 🇩🇪_DE_德国_0@6
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_2_0@7
-  - 🇮🇸_IS_冰岛_0@8
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_3_0@9
-  - 🇹🇷_TR_土耳其->🇨🇭_CH_瑞士_0@10
-  - 🇨🇳_CN_中国_3_0@11
-  - 🇬🇧_GB_英国->🇨🇳_CN_中国_0@12
-  - 🇳🇱_NL_荷兰_1@0
-  - 🇨🇳_CN_中国_1@1
-  - 🇬🇧_GB_英国_1@6
-  - 🇬🇧_GB_英国->🇩🇪_DE_德国_1@7
+  - 🇱🇹_LT_立陶宛_0@0
+  - 🇸🇪_SE_瑞典_0@1
+  - 🇨🇳_CN_中国_0@2
+  - 🇱🇹_LT_立陶宛_1_0@3
+  - 未知_0@4
+  - 🇱🇹_LT_立陶宛_2_0@5
+  - 🇱🇹_LT_立陶宛_3_0@6
+  - 🇱🇹_LT_立陶宛_4_0@7
+  - 🇩🇪_DE_德国_0@8
+  - 🇱🇹_LT_立陶宛_5_0@9
+  - 🇬🇧_GB_英国_0@10
+  - 🇱🇹_LT_立陶宛_6_0@11
+  - 🇬🇧_GB_英国_1_0@12
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_0@13
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_1_0@14
+  - 🇱🇹_LT_立陶宛_7_0@15
+  - 🇲🇩_MD_摩尔多瓦->🇷🇺_RU_俄罗斯_0@16
+  - 🇱🇹_LT_立陶宛_8_0@17
+  - 🇱🇹_LT_立陶宛_9_0@18
+  - 🇮🇸_IS_冰岛_0@19
+  - 🇱🇹_LT_立陶宛_10_0@20
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_1@0
+  - 🇲🇩_MD_摩尔多瓦_1@1
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_1_1@2
+  - 🇷🇺_RU_俄罗斯_1@3
+  - 🇳🇱_NL_荷兰_1@4
+  - 🇸🇰_SK_斯洛伐克->🏳️_unKnow_未知_1@5
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_3_1@9
+  - 🇹🇷_TR_土耳其->🇨🇭_CH_瑞士_1@10
+  - 🇨🇳_CN_中国_3_1@11
   type: select
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
