@@ -4,6 +4,34 @@ log-level: info
 mixed-port: 7890
 mode: Rule
 proxies:
+- cipher: aes-128-gcm
+  country: 🇺🇸 US
+  name: 🇺🇸 US_71_0@70
+  password: shadowsocks
+  port: 443
+  server: 156.146.38.167
+  type: ss
+- cipher: aes-128-gcm
+  country: 🇺🇸 US
+  name: 🇺🇸 US_72_0@71
+  password: shadowsocks
+  port: 443
+  server: 156.146.38.170
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇺🇸 US
+  name: 🇺🇸 US_73_0@72
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  port: 990
+  server: 38.54.59.180
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇺🇸 US
+  name: 🇺🇸 US_74_0@73
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 38.165.233.93
+  type: ss
 - cipher: aes-256-cfb
   country: 🇺🇸 US
   name: 🇺🇸 US_75_0@74
@@ -16,7 +44,7 @@ proxies:
   name: 🇺🇸 US_76_0@75
   password: f8f7aCzcPKbsF8p3
   port: 989
-  server: 38.165.233.93
+  server: 154.90.62.168
   type: ss
 - cipher: chacha20-ietf-poly1305
   country: 🇺🇸 US
@@ -25,62 +53,85 @@ proxies:
   port: 443
   server: promo18v.bystrivpn.ru
   type: ss
-- cipher: chacha20-ietf-poly1305
+- cipher: aes-256-cfb
   country: 🇺🇸 US
   name: 🇺🇸 US_78_0@77
-  password: hbGrpfvNrJsUmKmPbR3iY2
-  port: 443
-  server: tinkered-pennies-puppies.freesocks.work
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 154.90.63.177
   type: ss
 - cipher: chacha20-ietf-poly1305
   country: 🇺🇸 US
   name: 🇺🇸 US_79_0@78
   password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
   port: 990
-  server: 38.54.59.180
+  server: 38.89.142.56
   type: ss
-- cipher: aes-128-gcm
+- cipher: chacha20-ietf-poly1305
   country: 🇺🇸 US
   name: 🇺🇸 US_80_0@79
-  password: shadowsocks
+  password: hbGrpfvNrJsUmKmPbR3iY2
   port: 443
-  server: 156.146.38.167
+  server: tinkered-pennies-puppies.freesocks.work
   type: ss
 - cipher: chacha20-ietf-poly1305
   country: 🇺🇸 US
   name: 🇺🇸 US_81_0@80
   password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
   port: 990
-  server: 38.89.142.56
-  type: ss
-- cipher: aes-128-gcm
-  country: 🇺🇸 US
-  name: 🇺🇸 US_82_0@81
-  password: shadowsocks
-  port: 443
-  server: 156.146.38.170
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: 🇺🇸 US
-  name: 🇺🇸 US_83_0@82
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  port: 990
   server: 193.135.174.135
   type: ss
 - cipher: chacha20-ietf-poly1305
   country: 🇺🇸 US
-  name: 🇺🇸 US_84_0@83
+  name: 🇺🇸 US_82_0@81
   password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
   port: 990
   server: 38.165.231.25
   type: ss
-- cipher: aes-256-cfb
+- alterId: 0
+  cipher: auto
   country: 🇺🇸 US
+  h2-opts: {}
+  http-opts: {}
+  name: 🇺🇸 US_83_0@82
+  network: none
+  port: 27502
+  server: 216.238.87.47
+  skip-cert-verify: true
+  type: vmess
+  uuid: b8155ce4-7e08-4c40-800f-8671312b7124
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸 US
+  h2-opts: {}
+  http-opts: {}
+  name: 🇺🇸 US_84_0@83
+  network: ws
+  port: 443
+  server: n1753598452.wpg27.xyz
+  servername: n1753598452.wpg27.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 4f23eb7c-ef2f-43b0-90dd-f2b8a75954a5
+  ws-headers:
+    HOST: n1753598452.wpg27.xyz
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸 US
+  h2-opts: {}
+  http-opts: {}
   name: 🇺🇸 US_85_0@84
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 154.90.62.168
-  type: ss
+  network: ws
+  port: 443
+  server: n1761214908.wpg27.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 3514a93f-bb26-4442-8f99-971b2ff3388a
+  ws-path: /
 - alterId: 0
   cipher: auto
   country: 🇺🇸 US
@@ -89,14 +140,14 @@ proxies:
   name: 🇺🇸 US_86_0@85
   network: ws
   port: 443
-  server: cf.090227.xyz
-  servername: sgal.dagrate.eu.org
+  server: n1753101272.lie5d.cyou
+  servername: n1753101272.lie5d.cyou
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: 290cc691-3ac6-4387-98a1-25c8eb8ca2ea
+  uuid: 568a3e7a-c13e-4205-af30-e75ec3e5c778
   ws-headers:
-    HOST: sgal.dagrate.eu.org
+    HOST: n1753101272.lie5d.cyou
   ws-path: /
 - alterId: 0
   cipher: auto
@@ -104,36 +155,6 @@ proxies:
   h2-opts: {}
   http-opts: {}
   name: 🇺🇸 US_87_0@86
-  network: ws
-  port: 443
-  server: 47.243.95.187
-  servername: n1761214906.wpg27.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: c28a6258-7baa-40fc-8a51-87f59c847cd7
-  ws-headers:
-    HOST: n1761214906.wpg27.xyz
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  country: 🇺🇸 US
-  h2-opts: {}
-  http-opts: {}
-  name: 🇺🇸 US_88_0@87
-  network: none
-  port: 34460
-  server: 216.238.86.158
-  skip-cert-verify: true
-  type: vmess
-  uuid: 90be214d-048c-4ea2-a602-b8e4d4e51e36
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  country: 🇺🇸 US
-  h2-opts: {}
-  http-opts: {}
-  name: 🇺🇸 US_89_0@88
   network: ws
   port: 443
   server: n1761214919.mv7wh.tech
@@ -150,38 +171,34 @@ proxies:
   country: 🇺🇸 US
   h2-opts: {}
   http-opts: {}
-  name: 🇺🇸 US_90_0@89
-  network: none
-  port: 27502
-  server: 216.238.87.47
+  name: 🇺🇸 US_88_0@87
+  network: ws
+  port: 443
+  server: n1761214912.wpg27.xyz
   skip-cert-verify: true
+  tls: true
   type: vmess
-  uuid: b8155ce4-7e08-4c40-800f-8671312b7124
+  uuid: 4f86a909-836d-4643-b650-d812144a1fa9
   ws-path: /
 - alterId: 0
   cipher: auto
   country: 🇺🇸 US
   h2-opts: {}
   http-opts: {}
-  name: 🇺🇸 US_91_0@90
+  name: 🇺🇸 US_89_0@88
   network: ws
   port: 443
-  server: n1761214908.wpg27.xyz
+  server: 47.243.95.187
+  servername: n1761214906.wpg27.xyz
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: 3514a93f-bb26-4442-8f99-971b2ff3388a
+  uuid: c28a6258-7baa-40fc-8a51-87f59c847cd7
+  ws-headers:
+    HOST: n1761214906.wpg27.xyz
   ws-path: /
 - country: 🇺🇸 US
-  name: 🇺🇸 US_92_0@91
-  password: x3wOepOcT04FnR8YYF35pzSACDgRBa3CAe9qNalDCy6a2uE8Z7xlX3SSyZKDIj
-  port: 443
-  server: 154.17.24.29
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- country: 🇺🇸 US
-  name: 🇺🇸 US_93_0@92
+  name: 🇺🇸 US_90_0@89
   password: e4af2638-bb12-4e4a-84f1-a032e23ca63f
   port: 443
   server: usla.mjt000.com
@@ -189,7 +206,7 @@ proxies:
   type: trojan
   udp: true
 - country: 🇺🇸 US
-  name: 🇺🇸 US_94_0@93
+  name: 🇺🇸 US_91_0@90
   password: 92435aa8-f3b6-466a-ad58-c55cbb6d2acf
   port: 443
   server: hinet.mjt000.com
@@ -197,15 +214,23 @@ proxies:
   type: trojan
   udp: true
 - country: 🇺🇸 US
-  name: 🇺🇸 US_95_0@94
+  name: 🇺🇸 US_92_0@91
   password: 6d0a7f2f-c26c-466a-8f90-d6630ba97928
   port: 443
   server: jp1.8b1c7c70-ecf1-6891-9fa7-68a86662f902.9d8f269f96b25232-759cbb36d6548597.kaufen
   skip-cert-verify: true
   type: trojan
   udp: true
+- country: 🇺🇸 US
+  name: 🇺🇸 US_93_0@92
+  password: x3wOepOcT04FnR8YYF35pzSACDgRBa3CAe9qNalDCy6a2uE8Z7xlX3SSyZKDIj
+  port: 443
+  server: 154.17.24.29
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - country: 🇺🇸US
-  name: 🇺🇸US_96_0@95
+  name: 🇺🇸US_94_0@93
   password: 0280b529-2747-4b7a-ab11-bad6453150b9
   port: 443
   server: fr2-full.privateip.net
@@ -214,27 +239,15 @@ proxies:
   udp: true
 - cipher: aes-256-cfb
   country: 🇺🇸US
-  name: Relay_🇺🇸US-🇺🇸US_02_1@1
+  name: Relay_🇺🇸US-🇺🇸US_04_1@3
   obfs: http_simple
   password: Uk92CS
   port: 13000
   protocol: auth_aes128_sha1
   server: nm3.boom.party
   type: ssr
-- alterId: 0
-  cipher: auto
-  country: 🇺🇸US
-  h2-opts: {}
-  http-opts: {}
-  name: Relay_🇺🇸US-🇺🇸US_03_1@2
-  network: tcp
-  port: 64014
-  server: pub.ap20260228.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: a739e782-1682-38a5-9153-aad09d779ae9
 - country: 🇺🇸US
-  name: 🇺🇸US_04_1@3
+  name: 🇺🇸US_05_1@4
   password: adb13850-7e70-492e-85b2-01184801d587
   port: 443
   server: 38.182.109.191
@@ -249,215 +262,125 @@ proxies:
   port: 12000
   server: 144.217.164.29
   type: ss
+- alterId: 0
+  cipher: auto
+  country: 🇬🇧GB
+  h2-opts: {}
+  http-opts: {}
+  name: Relay_🇬🇧GB-🇺🇸US_37_2@36
+  network: tcp
+  port: 180
+  server: 82.198.246.97
+  skip-cert-verify: true
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- cipher: chacha20-ietf-poly1305
+  country: 🇺🇸US
+  name: 🇺🇸US_159_2@158
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  port: 990
+  server: 38.60.250.107
+  type: ss
 - cipher: aes-128-gcm
   country: 🇺🇸US
-  name: 🇺🇸US_157_2@156
+  name: 🇺🇸US_160_2@159
+  password: shadowsocks
+  port: 443
+  server: 37.19.198.236
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇺🇸US
+  name: Relay_🇺🇸US-🇷🇺RU_162_2@161
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  port: 990
+  server: 23.95.76.59
+  type: ss
+- cipher: aes-128-gcm
+  country: 🇺🇸US
+  name: 🇺🇸US_163_2@162
   password: shadowsocks
   port: 443
   server: 173.244.56.6
   type: ss
 - cipher: aes-128-gcm
   country: 🇺🇸US
-  name: 🇺🇸US_158_2@157
-  password: shadowsocks
-  port: 443
-  server: 37.19.198.236
-  type: ss
-- cipher: aes-256-cfb
-  country: 🇺🇸US
-  name: 🇺🇸US_159_2@158
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 185.47.255.22
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: 🇺🇸US
-  name: Relay_🇺🇸US-🇷🇺RU_160_2@159
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  port: 990
-  server: 23.95.76.59
-  type: ss
-- cipher: aes-256-cfb
-  country: 🇺🇸US
-  name: 🇺🇸US_163_2@162
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 171.22.254.17
-  type: ss
-- cipher: aes-256-cfb
-  country: 🇺🇸US
-  name: 🇺🇸US_164_2@163
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 104.192.226.106
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: 🇺🇸US
-  name: 🇺🇸US_165_2@164
-  password: JOZ5Mb3nJCmmoKhd8Cc9aC
-  port: 36608
-  server: 5.181.2.76
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: 🇺🇸US
   name: 🇺🇸US_166_2@165
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  port: 990
-  server: 38.60.250.107
-  type: ss
-- cipher: rc4-md5
-  country: 🇺🇸US
-  name: 🇺🇸US_169_2@168
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 137.184.174.93
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: 🇺🇸US
-  name: 🇺🇸US_170_2@169
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  port: 990
-  server: 38.60.247.151
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  country: 🇺🇸US
-  name: 🇺🇸US_171_2@170
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  port: 990
-  server: 173.234.29.2
-  type: ss
-- cipher: aes-128-gcm
-  country: 🇺🇸US
-  name: 🇺🇸US_173_2@172
   password: shadowsocks
   port: 443
   server: 156.146.38.169
   type: ss
 - cipher: aes-256-cfb
   country: 🇺🇸US
+  name: 🇺🇸US_170_2@169
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 171.22.254.17
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇺🇸US
+  name: 🇺🇸US_172_2@171
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 185.47.255.22
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇺🇸US
   name: 🇺🇸US_174_2@173
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 104.192.226.106
+  type: ss
+- cipher: rc4-md5
+  country: 🇺🇸US
+  name: 🇺🇸US_176_2@175
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 137.184.174.93
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇺🇸US
+  name: 🇺🇸US_177_2@176
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  port: 990
+  server: 38.60.247.151
+  type: ss
+- cipher: aes-256-cfb
+  country: 🇺🇸US
+  name: 🇺🇸US_178_2@177
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 38.60.223.8
   type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇺🇸US
+  name: 🇺🇸US_179_2@178
+  password: JOZ5Mb3nJCmmoKhd8Cc9aC
+  port: 36608
+  server: 5.181.2.76
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  country: 🇺🇸US
+  name: 🇺🇸US_180_2@179
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  port: 990
+  server: 173.234.29.2
+  type: ss
 - cipher: aes-192-ctr
   country: 🇺🇸US
   group: Update-二爷
-  name: Relay_🇺🇸US-🇺🇸US_175_2@174
+  name: Relay_🇺🇸US-🇺🇸US_182_2@181
   obfs: tls1.2_ticket_auth
   password: JUBXCP
   port: 19155
   protocol: auth_sha1_v4
   server: us.linode.rbqis.me
   type: ssr
-- alterId: 0
-  cipher: auto
-  country: 🇺🇸US
-  h2-opts: {}
-  http-opts: {}
-  name: Relay_🇺🇸US-🇩🇪DE_177_2@176
-  network: ws
-  port: 8443
-  server: kwtgm.cmvvb.online
-  servername: kwtgm.cmvvb.online
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: a2852e93-7255-4aae-9412-38273fdacd31
-  ws-opts:
-    headers:
-      HOST: kwtgm.cmvvb.online
-    path: /
-- alterId: 0
-  cipher: auto
-  country: 🇺🇸US
-  h2-opts: {}
-  http-opts: {}
-  name: Relay_🇺🇸US-🇩🇪DE_178_2@177
-  network: ws
-  port: 443
-  server: qvxbtx.uhomdex.shop
-  servername: qvxbtx.uhomdex.shop
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: aa333ae8-d538-40e3-a2af-9d79aeb53bef
-  ws-opts:
-    headers:
-      HOST: qvxbtx.uhomdex.shop
-    path: /
-- alterId: 0
-  cipher: auto
-  country: 🇺🇸US
-  h2-opts: {}
-  http-opts: {}
-  name: Relay_🇺🇸US-🇩🇪DE_180_2@179
-  network: ws
-  port: 8443
-  server: hwtqcp.uhomdex.shop
-  servername: hwtqcp.uhomdex.shop
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 28290714-959d-46ef-940f-3c3cd381d21c
-  ws-opts:
-    headers:
-      HOST: hwtqcp.uhomdex.shop
-    path: /
-- alterId: 0
-  cipher: auto
-  country: 🇺🇸US
-  h2-opts: {}
-  http-opts: {}
-  name: Relay_🇺🇸US-🇩🇪DE_181_2@180
-  network: ws
-  port: 443
-  server: udtzy.cmvvb.online
-  servername: udtzy.cmvvb.online
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 847e9159-9716-4213-97a9-50d5db3fd74a
-  ws-opts:
-    headers:
-      HOST: udtzy.cmvvb.online
-    path: /
-- alterId: 0
-  cipher: auto
-  country: 🇺🇸US
-  h2-opts: {}
-  http-opts: {}
-  name: 🇺🇸US_182_2@181
-  network: tcp
-  port: 14102
-  server: 172.233.229.91
-  skip-cert-verify: true
-  type: vmess
-  uuid: 27ba87fc-583f-4763-9060-83cf0b9264db
-- alterId: 0
-  cipher: auto
-  country: 🇺🇸US
-  h2-opts: {}
-  http-opts: {}
-  name: Relay_🇺🇸US-🇩🇪DE_184_2@183
-  network: ws
-  port: 8443
-  server: zzrt.uhomdex.shop
-  servername: zzrt.uhomdex.shop
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: edb3e961-0b28-4e52-8446-399f3ef03c08
-  ws-opts:
-    headers:
-      HOST: zzrt.uhomdex.shop
-    path: /
 - alterId: 32
   cipher: auto
   country: 🇺🇸US
   h2-opts: {}
   http-opts: {}
-  name: Relay_🇺🇸US-🇺🇸US_185_2@184
+  name: Relay_🇺🇸US-🇺🇸US_184_2@183
   network: ws
   port: 443
   server: vc.fly.dev
@@ -475,41 +398,7 @@ proxies:
   country: 🇺🇸US
   h2-opts: {}
   http-opts: {}
-  name: Relay_🇺🇸US-🇺🇸US_186_2@185
-  network: ws
-  port: 443
-  server: v2ray.codefyinc.com
-  servername: v2ray.codefyinc.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 2c981164-9b93-4bca-94ff-b78d3f8498d7
-  ws-opts:
-    headers:
-      HOST: v2ray.codefyinc.com
-    path: /vmessws
-- alterId: 0
-  cipher: auto
-  country: 🇺🇸US
-  h2-opts: {}
-  http-opts: {}
-  name: Relay_🇺🇸US-🇺🇸US_187_2@186
-  network: ws
-  port: 80
-  server: yyynm.2nn.ccwu.cc
-  servername: yyynm.2nn.ccwu.cc
-  skip-cert-verify: true
-  type: vmess
-  uuid: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
-  ws-opts:
-    headers:
-      HOST: yyynm.2nn.ccwu.cc
-    path: /iSRWSKUJKNuXvVzsYHmsMrnO
-- alterId: 0
-  cipher: auto
-  country: 🇺🇸US
-  h2-opts: {}
-  http-opts: {}
-  name: Relay_🇺🇸US-🇺🇸US_190_2@189
+  name: Relay_🇺🇸US-🇺🇸US_185_2@184
   network: ws
   port: 443
   server: n1753101277.4u9ma.icu
@@ -527,25 +416,54 @@ proxies:
   country: 🇺🇸US
   h2-opts: {}
   http-opts: {}
-  name: Relay_🇺🇸US-🇩🇪DE_191_2@190
+  name: 🇺🇸US_186_2@185
+  network: tcp
+  port: 14102
+  server: 172.233.229.91
+  skip-cert-verify: true
+  type: vmess
+  uuid: 27ba87fc-583f-4763-9060-83cf0b9264db
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  h2-opts: {}
+  http-opts: {}
+  name: Relay_🇺🇸US-🇸🇬SG_187_2@186
   network: ws
-  port: 8443
-  server: zdqbk.cmvvb.online
-  servername: zdqbk.cmvvb.online
+  port: 443
+  server: cf.090227.xyz
+  servername: sgal.dagrate.eu.org
   skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: ef46b74c-b3ef-4633-9818-0af6226c4060
+  uuid: 290cc691-3ac6-4387-98a1-25c8eb8ca2ea
   ws-opts:
     headers:
-      HOST: zdqbk.cmvvb.online
+      HOST: sgal.dagrate.eu.org
     path: /
 - alterId: 0
   cipher: auto
   country: 🇺🇸US
   h2-opts: {}
   http-opts: {}
-  name: 🇺🇸US_192_2@191
+  name: Relay_🇺🇸US-🇺🇸US_188_2@187
+  network: ws
+  port: 80
+  server: yyynm.2nn.ccwu.cc
+  servername: yyynm.2nn.ccwu.cc
+  skip-cert-verify: true
+  type: vmess
+  uuid: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
+  ws-opts:
+    headers:
+      HOST: yyynm.2nn.ccwu.cc
+    path: /iSRWSKUJKNuXvVzsYHmsMrnO
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  h2-opts: {}
+  http-opts: {}
+  name: 🇺🇸US_189_2@188
   network: ws
   port: 20086
   server: 173.249.209.146
@@ -559,21 +477,37 @@ proxies:
   country: 🇺🇸US
   h2-opts: {}
   http-opts: {}
-  name: Relay_🇺🇸US-🇺🇸US_193_2@192
+  name: Relay_🇺🇸US-🇺🇸US_191_2@190
   network: ws
-  port: 443
-  server: n1753101272.lie5d.cyou
-  servername: n1753101272.lie5d.cyou
+  port: 80
+  server: vfgty6.2nn.ccwu.cc
+  servername: vfgty6.2nn.ccwu.cc
   skip-cert-verify: true
-  tls: true
   type: vmess
-  uuid: 568a3e7a-c13e-4205-af30-e75ec3e5c778
+  uuid: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
   ws-opts:
     headers:
-      HOST: n1753101272.lie5d.cyou
-    path: /
+      HOST: vfgty6.2nn.ccwu.cc
+    path: /iSRWSKUJKNuXvVzsYHmsMrnO
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  h2-opts: {}
+  http-opts: {}
+  name: Relay_🇺🇸US-🇺🇸US_192_2@191
+  network: ws
+  port: 443
+  server: v2ray.codefyinc.com
+  servername: v2ray.codefyinc.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2c981164-9b93-4bca-94ff-b78d3f8498d7
+  ws-opts:
+    headers:
+      HOST: v2ray.codefyinc.com
+    path: /vmessws
 - country: 🇺🇸US
-  name: Pool_🇺🇸US_194_2@193
+  name: Pool_🇺🇸US_193_2@192
   password: kkzh2prsyr2ik47as615
   port: 57142
   server: 64.94.95.118
@@ -586,7 +520,7 @@ proxies:
   country: 🏁ZZ
   h2-opts: {}
   http-opts: {}
-  name: Relay_🏁ZZ-🇺🇸US_551_2@550
+  name: Relay_🏁ZZ-🇺🇸US_549_2@548
   network: ws
   port: 8443
   server: 104.17.77.77
@@ -599,27 +533,14 @@ proxies:
     headers:
       HOST: v2ray1.dozapp.xyz
     path: /lMnsZUN4/
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: Relay_🏁ZZ-🇺🇸US_553_2@552
-  network: ws
-  port: 80
-  server: vfgty6.2nn.ccwu.cc
-  servername: vfgty6.2nn.ccwu.cc
-  skip-cert-verify: true
-  type: vmess
-  uuid: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
-  ws-opts:
-    headers:
-      HOST: vfgty6.2nn.ccwu.cc
-    path: /iSRWSKUJKNuXvVzsYHmsMrnO
 proxy-groups:
 - name: 🚀 节点选择
   proxies:
   - DIRECT
+  - 🇺🇸 US_71_0@70
+  - 🇺🇸 US_72_0@71
+  - 🇺🇸 US_73_0@72
+  - 🇺🇸 US_74_0@73
   - 🇺🇸 US_75_0@74
   - 🇺🇸 US_76_0@75
   - 🇺🇸 US_77_0@76
@@ -639,48 +560,44 @@ proxy-groups:
   - 🇺🇸 US_91_0@90
   - 🇺🇸 US_92_0@91
   - 🇺🇸 US_93_0@92
-  - 🇺🇸 US_94_0@93
-  - 🇺🇸 US_95_0@94
-  - 🇺🇸US_96_0@95
-  - Relay_🇺🇸US-🇺🇸US_02_1@1
-  - Relay_🇺🇸US-🇺🇸US_03_1@2
-  - 🇺🇸US_04_1@3
+  - 🇺🇸US_94_0@93
+  - Relay_🇺🇸US-🇺🇸US_04_1@3
+  - 🇺🇸US_05_1@4
   - Relay_🇨🇦CA-🇺🇸US_07_2@6
-  - 🇺🇸US_157_2@156
-  - 🇺🇸US_158_2@157
+  - Relay_🇬🇧GB-🇺🇸US_37_2@36
   - 🇺🇸US_159_2@158
-  - Relay_🇺🇸US-🇷🇺RU_160_2@159
+  - 🇺🇸US_160_2@159
+  - Relay_🇺🇸US-🇷🇺RU_162_2@161
   - 🇺🇸US_163_2@162
-  - 🇺🇸US_164_2@163
-  - 🇺🇸US_165_2@164
   - 🇺🇸US_166_2@165
-  - 🇺🇸US_169_2@168
   - 🇺🇸US_170_2@169
-  - 🇺🇸US_171_2@170
-  - 🇺🇸US_173_2@172
+  - 🇺🇸US_172_2@171
   - 🇺🇸US_174_2@173
-  - Relay_🇺🇸US-🇺🇸US_175_2@174
-  - Relay_🇺🇸US-🇩🇪DE_177_2@176
-  - Relay_🇺🇸US-🇩🇪DE_178_2@177
-  - Relay_🇺🇸US-🇩🇪DE_180_2@179
-  - Relay_🇺🇸US-🇩🇪DE_181_2@180
-  - 🇺🇸US_182_2@181
-  - Relay_🇺🇸US-🇩🇪DE_184_2@183
+  - 🇺🇸US_176_2@175
+  - 🇺🇸US_177_2@176
+  - 🇺🇸US_178_2@177
+  - 🇺🇸US_179_2@178
+  - 🇺🇸US_180_2@179
+  - Relay_🇺🇸US-🇺🇸US_182_2@181
+  - Relay_🇺🇸US-🇺🇸US_184_2@183
   - Relay_🇺🇸US-🇺🇸US_185_2@184
-  - Relay_🇺🇸US-🇺🇸US_186_2@185
-  - Relay_🇺🇸US-🇺🇸US_187_2@186
-  - Relay_🇺🇸US-🇺🇸US_190_2@189
-  - Relay_🇺🇸US-🇩🇪DE_191_2@190
-  - 🇺🇸US_192_2@191
-  - Relay_🇺🇸US-🇺🇸US_193_2@192
-  - Pool_🇺🇸US_194_2@193
-  - Relay_🏁ZZ-🇺🇸US_551_2@550
-  - Relay_🏁ZZ-🇺🇸US_553_2@552
+  - 🇺🇸US_186_2@185
+  - Relay_🇺🇸US-🇸🇬SG_187_2@186
+  - Relay_🇺🇸US-🇺🇸US_188_2@187
+  - 🇺🇸US_189_2@188
+  - Relay_🇺🇸US-🇺🇸US_191_2@190
+  - Relay_🇺🇸US-🇺🇸US_192_2@191
+  - Pool_🇺🇸US_193_2@192
+  - Relay_🏁ZZ-🇺🇸US_549_2@548
   type: select
 - name: 🌍 国外媒体
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
+  - 🇺🇸 US_71_0@70
+  - 🇺🇸 US_72_0@71
+  - 🇺🇸 US_73_0@72
+  - 🇺🇸 US_74_0@73
   - 🇺🇸 US_75_0@74
   - 🇺🇸 US_76_0@75
   - 🇺🇸 US_77_0@76
@@ -700,48 +617,44 @@ proxy-groups:
   - 🇺🇸 US_91_0@90
   - 🇺🇸 US_92_0@91
   - 🇺🇸 US_93_0@92
-  - 🇺🇸 US_94_0@93
-  - 🇺🇸 US_95_0@94
-  - 🇺🇸US_96_0@95
-  - Relay_🇺🇸US-🇺🇸US_02_1@1
-  - Relay_🇺🇸US-🇺🇸US_03_1@2
-  - 🇺🇸US_04_1@3
+  - 🇺🇸US_94_0@93
+  - Relay_🇺🇸US-🇺🇸US_04_1@3
+  - 🇺🇸US_05_1@4
   - Relay_🇨🇦CA-🇺🇸US_07_2@6
-  - 🇺🇸US_157_2@156
-  - 🇺🇸US_158_2@157
+  - Relay_🇬🇧GB-🇺🇸US_37_2@36
   - 🇺🇸US_159_2@158
-  - Relay_🇺🇸US-🇷🇺RU_160_2@159
+  - 🇺🇸US_160_2@159
+  - Relay_🇺🇸US-🇷🇺RU_162_2@161
   - 🇺🇸US_163_2@162
-  - 🇺🇸US_164_2@163
-  - 🇺🇸US_165_2@164
   - 🇺🇸US_166_2@165
-  - 🇺🇸US_169_2@168
   - 🇺🇸US_170_2@169
-  - 🇺🇸US_171_2@170
-  - 🇺🇸US_173_2@172
+  - 🇺🇸US_172_2@171
   - 🇺🇸US_174_2@173
-  - Relay_🇺🇸US-🇺🇸US_175_2@174
-  - Relay_🇺🇸US-🇩🇪DE_177_2@176
-  - Relay_🇺🇸US-🇩🇪DE_178_2@177
-  - Relay_🇺🇸US-🇩🇪DE_180_2@179
-  - Relay_🇺🇸US-🇩🇪DE_181_2@180
-  - 🇺🇸US_182_2@181
-  - Relay_🇺🇸US-🇩🇪DE_184_2@183
+  - 🇺🇸US_176_2@175
+  - 🇺🇸US_177_2@176
+  - 🇺🇸US_178_2@177
+  - 🇺🇸US_179_2@178
+  - 🇺🇸US_180_2@179
+  - Relay_🇺🇸US-🇺🇸US_182_2@181
+  - Relay_🇺🇸US-🇺🇸US_184_2@183
   - Relay_🇺🇸US-🇺🇸US_185_2@184
-  - Relay_🇺🇸US-🇺🇸US_186_2@185
-  - Relay_🇺🇸US-🇺🇸US_187_2@186
-  - Relay_🇺🇸US-🇺🇸US_190_2@189
-  - Relay_🇺🇸US-🇩🇪DE_191_2@190
-  - 🇺🇸US_192_2@191
-  - Relay_🇺🇸US-🇺🇸US_193_2@192
-  - Pool_🇺🇸US_194_2@193
-  - Relay_🏁ZZ-🇺🇸US_551_2@550
-  - Relay_🏁ZZ-🇺🇸US_553_2@552
+  - 🇺🇸US_186_2@185
+  - Relay_🇺🇸US-🇸🇬SG_187_2@186
+  - Relay_🇺🇸US-🇺🇸US_188_2@187
+  - 🇺🇸US_189_2@188
+  - Relay_🇺🇸US-🇺🇸US_191_2@190
+  - Relay_🇺🇸US-🇺🇸US_192_2@191
+  - Pool_🇺🇸US_193_2@192
+  - Relay_🏁ZZ-🇺🇸US_549_2@548
   type: select
 - name: 📲 电报信息
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
+  - 🇺🇸 US_71_0@70
+  - 🇺🇸 US_72_0@71
+  - 🇺🇸 US_73_0@72
+  - 🇺🇸 US_74_0@73
   - 🇺🇸 US_75_0@74
   - 🇺🇸 US_76_0@75
   - 🇺🇸 US_77_0@76
@@ -761,48 +674,44 @@ proxy-groups:
   - 🇺🇸 US_91_0@90
   - 🇺🇸 US_92_0@91
   - 🇺🇸 US_93_0@92
-  - 🇺🇸 US_94_0@93
-  - 🇺🇸 US_95_0@94
-  - 🇺🇸US_96_0@95
-  - Relay_🇺🇸US-🇺🇸US_02_1@1
-  - Relay_🇺🇸US-🇺🇸US_03_1@2
-  - 🇺🇸US_04_1@3
+  - 🇺🇸US_94_0@93
+  - Relay_🇺🇸US-🇺🇸US_04_1@3
+  - 🇺🇸US_05_1@4
   - Relay_🇨🇦CA-🇺🇸US_07_2@6
-  - 🇺🇸US_157_2@156
-  - 🇺🇸US_158_2@157
+  - Relay_🇬🇧GB-🇺🇸US_37_2@36
   - 🇺🇸US_159_2@158
-  - Relay_🇺🇸US-🇷🇺RU_160_2@159
+  - 🇺🇸US_160_2@159
+  - Relay_🇺🇸US-🇷🇺RU_162_2@161
   - 🇺🇸US_163_2@162
-  - 🇺🇸US_164_2@163
-  - 🇺🇸US_165_2@164
   - 🇺🇸US_166_2@165
-  - 🇺🇸US_169_2@168
   - 🇺🇸US_170_2@169
-  - 🇺🇸US_171_2@170
-  - 🇺🇸US_173_2@172
+  - 🇺🇸US_172_2@171
   - 🇺🇸US_174_2@173
-  - Relay_🇺🇸US-🇺🇸US_175_2@174
-  - Relay_🇺🇸US-🇩🇪DE_177_2@176
-  - Relay_🇺🇸US-🇩🇪DE_178_2@177
-  - Relay_🇺🇸US-🇩🇪DE_180_2@179
-  - Relay_🇺🇸US-🇩🇪DE_181_2@180
-  - 🇺🇸US_182_2@181
-  - Relay_🇺🇸US-🇩🇪DE_184_2@183
+  - 🇺🇸US_176_2@175
+  - 🇺🇸US_177_2@176
+  - 🇺🇸US_178_2@177
+  - 🇺🇸US_179_2@178
+  - 🇺🇸US_180_2@179
+  - Relay_🇺🇸US-🇺🇸US_182_2@181
+  - Relay_🇺🇸US-🇺🇸US_184_2@183
   - Relay_🇺🇸US-🇺🇸US_185_2@184
-  - Relay_🇺🇸US-🇺🇸US_186_2@185
-  - Relay_🇺🇸US-🇺🇸US_187_2@186
-  - Relay_🇺🇸US-🇺🇸US_190_2@189
-  - Relay_🇺🇸US-🇩🇪DE_191_2@190
-  - 🇺🇸US_192_2@191
-  - Relay_🇺🇸US-🇺🇸US_193_2@192
-  - Pool_🇺🇸US_194_2@193
-  - Relay_🏁ZZ-🇺🇸US_551_2@550
-  - Relay_🏁ZZ-🇺🇸US_553_2@552
+  - 🇺🇸US_186_2@185
+  - Relay_🇺🇸US-🇸🇬SG_187_2@186
+  - Relay_🇺🇸US-🇺🇸US_188_2@187
+  - 🇺🇸US_189_2@188
+  - Relay_🇺🇸US-🇺🇸US_191_2@190
+  - Relay_🇺🇸US-🇺🇸US_192_2@191
+  - Pool_🇺🇸US_193_2@192
+  - Relay_🏁ZZ-🇺🇸US_549_2@548
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
   - 🎯 全球直连
   - 🚀 节点选择
+  - 🇺🇸 US_71_0@70
+  - 🇺🇸 US_72_0@71
+  - 🇺🇸 US_73_0@72
+  - 🇺🇸 US_74_0@73
   - 🇺🇸 US_75_0@74
   - 🇺🇸 US_76_0@75
   - 🇺🇸 US_77_0@76
@@ -822,48 +731,44 @@ proxy-groups:
   - 🇺🇸 US_91_0@90
   - 🇺🇸 US_92_0@91
   - 🇺🇸 US_93_0@92
-  - 🇺🇸 US_94_0@93
-  - 🇺🇸 US_95_0@94
-  - 🇺🇸US_96_0@95
-  - Relay_🇺🇸US-🇺🇸US_02_1@1
-  - Relay_🇺🇸US-🇺🇸US_03_1@2
-  - 🇺🇸US_04_1@3
+  - 🇺🇸US_94_0@93
+  - Relay_🇺🇸US-🇺🇸US_04_1@3
+  - 🇺🇸US_05_1@4
   - Relay_🇨🇦CA-🇺🇸US_07_2@6
-  - 🇺🇸US_157_2@156
-  - 🇺🇸US_158_2@157
+  - Relay_🇬🇧GB-🇺🇸US_37_2@36
   - 🇺🇸US_159_2@158
-  - Relay_🇺🇸US-🇷🇺RU_160_2@159
+  - 🇺🇸US_160_2@159
+  - Relay_🇺🇸US-🇷🇺RU_162_2@161
   - 🇺🇸US_163_2@162
-  - 🇺🇸US_164_2@163
-  - 🇺🇸US_165_2@164
   - 🇺🇸US_166_2@165
-  - 🇺🇸US_169_2@168
   - 🇺🇸US_170_2@169
-  - 🇺🇸US_171_2@170
-  - 🇺🇸US_173_2@172
+  - 🇺🇸US_172_2@171
   - 🇺🇸US_174_2@173
-  - Relay_🇺🇸US-🇺🇸US_175_2@174
-  - Relay_🇺🇸US-🇩🇪DE_177_2@176
-  - Relay_🇺🇸US-🇩🇪DE_178_2@177
-  - Relay_🇺🇸US-🇩🇪DE_180_2@179
-  - Relay_🇺🇸US-🇩🇪DE_181_2@180
-  - 🇺🇸US_182_2@181
-  - Relay_🇺🇸US-🇩🇪DE_184_2@183
+  - 🇺🇸US_176_2@175
+  - 🇺🇸US_177_2@176
+  - 🇺🇸US_178_2@177
+  - 🇺🇸US_179_2@178
+  - 🇺🇸US_180_2@179
+  - Relay_🇺🇸US-🇺🇸US_182_2@181
+  - Relay_🇺🇸US-🇺🇸US_184_2@183
   - Relay_🇺🇸US-🇺🇸US_185_2@184
-  - Relay_🇺🇸US-🇺🇸US_186_2@185
-  - Relay_🇺🇸US-🇺🇸US_187_2@186
-  - Relay_🇺🇸US-🇺🇸US_190_2@189
-  - Relay_🇺🇸US-🇩🇪DE_191_2@190
-  - 🇺🇸US_192_2@191
-  - Relay_🇺🇸US-🇺🇸US_193_2@192
-  - Pool_🇺🇸US_194_2@193
-  - Relay_🏁ZZ-🇺🇸US_551_2@550
-  - Relay_🏁ZZ-🇺🇸US_553_2@552
+  - 🇺🇸US_186_2@185
+  - Relay_🇺🇸US-🇸🇬SG_187_2@186
+  - Relay_🇺🇸US-🇺🇸US_188_2@187
+  - 🇺🇸US_189_2@188
+  - Relay_🇺🇸US-🇺🇸US_191_2@190
+  - Relay_🇺🇸US-🇺🇸US_192_2@191
+  - Pool_🇺🇸US_193_2@192
+  - Relay_🏁ZZ-🇺🇸US_549_2@548
   type: select
 - name: 🍎 苹果服务
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
+  - 🇺🇸 US_71_0@70
+  - 🇺🇸 US_72_0@71
+  - 🇺🇸 US_73_0@72
+  - 🇺🇸 US_74_0@73
   - 🇺🇸 US_75_0@74
   - 🇺🇸 US_76_0@75
   - 🇺🇸 US_77_0@76
@@ -883,43 +788,35 @@ proxy-groups:
   - 🇺🇸 US_91_0@90
   - 🇺🇸 US_92_0@91
   - 🇺🇸 US_93_0@92
-  - 🇺🇸 US_94_0@93
-  - 🇺🇸 US_95_0@94
-  - 🇺🇸US_96_0@95
-  - Relay_🇺🇸US-🇺🇸US_02_1@1
-  - Relay_🇺🇸US-🇺🇸US_03_1@2
-  - 🇺🇸US_04_1@3
+  - 🇺🇸US_94_0@93
+  - Relay_🇺🇸US-🇺🇸US_04_1@3
+  - 🇺🇸US_05_1@4
   - Relay_🇨🇦CA-🇺🇸US_07_2@6
-  - 🇺🇸US_157_2@156
-  - 🇺🇸US_158_2@157
+  - Relay_🇬🇧GB-🇺🇸US_37_2@36
   - 🇺🇸US_159_2@158
-  - Relay_🇺🇸US-🇷🇺RU_160_2@159
+  - 🇺🇸US_160_2@159
+  - Relay_🇺🇸US-🇷🇺RU_162_2@161
   - 🇺🇸US_163_2@162
-  - 🇺🇸US_164_2@163
-  - 🇺🇸US_165_2@164
   - 🇺🇸US_166_2@165
-  - 🇺🇸US_169_2@168
   - 🇺🇸US_170_2@169
-  - 🇺🇸US_171_2@170
-  - 🇺🇸US_173_2@172
+  - 🇺🇸US_172_2@171
   - 🇺🇸US_174_2@173
-  - Relay_🇺🇸US-🇺🇸US_175_2@174
-  - Relay_🇺🇸US-🇩🇪DE_177_2@176
-  - Relay_🇺🇸US-🇩🇪DE_178_2@177
-  - Relay_🇺🇸US-🇩🇪DE_180_2@179
-  - Relay_🇺🇸US-🇩🇪DE_181_2@180
-  - 🇺🇸US_182_2@181
-  - Relay_🇺🇸US-🇩🇪DE_184_2@183
+  - 🇺🇸US_176_2@175
+  - 🇺🇸US_177_2@176
+  - 🇺🇸US_178_2@177
+  - 🇺🇸US_179_2@178
+  - 🇺🇸US_180_2@179
+  - Relay_🇺🇸US-🇺🇸US_182_2@181
+  - Relay_🇺🇸US-🇺🇸US_184_2@183
   - Relay_🇺🇸US-🇺🇸US_185_2@184
-  - Relay_🇺🇸US-🇺🇸US_186_2@185
-  - Relay_🇺🇸US-🇺🇸US_187_2@186
-  - Relay_🇺🇸US-🇺🇸US_190_2@189
-  - Relay_🇺🇸US-🇩🇪DE_191_2@190
-  - 🇺🇸US_192_2@191
-  - Relay_🇺🇸US-🇺🇸US_193_2@192
-  - Pool_🇺🇸US_194_2@193
-  - Relay_🏁ZZ-🇺🇸US_551_2@550
-  - Relay_🏁ZZ-🇺🇸US_553_2@552
+  - 🇺🇸US_186_2@185
+  - Relay_🇺🇸US-🇸🇬SG_187_2@186
+  - Relay_🇺🇸US-🇺🇸US_188_2@187
+  - 🇺🇸US_189_2@188
+  - Relay_🇺🇸US-🇺🇸US_191_2@190
+  - Relay_🇺🇸US-🇺🇸US_192_2@191
+  - Pool_🇺🇸US_193_2@192
+  - Relay_🏁ZZ-🇺🇸US_549_2@548
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -940,6 +837,10 @@ proxy-groups:
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
+  - 🇺🇸 US_71_0@70
+  - 🇺🇸 US_72_0@71
+  - 🇺🇸 US_73_0@72
+  - 🇺🇸 US_74_0@73
   - 🇺🇸 US_75_0@74
   - 🇺🇸 US_76_0@75
   - 🇺🇸 US_77_0@76
@@ -959,43 +860,35 @@ proxy-groups:
   - 🇺🇸 US_91_0@90
   - 🇺🇸 US_92_0@91
   - 🇺🇸 US_93_0@92
-  - 🇺🇸 US_94_0@93
-  - 🇺🇸 US_95_0@94
-  - 🇺🇸US_96_0@95
-  - Relay_🇺🇸US-🇺🇸US_02_1@1
-  - Relay_🇺🇸US-🇺🇸US_03_1@2
-  - 🇺🇸US_04_1@3
+  - 🇺🇸US_94_0@93
+  - Relay_🇺🇸US-🇺🇸US_04_1@3
+  - 🇺🇸US_05_1@4
   - Relay_🇨🇦CA-🇺🇸US_07_2@6
-  - 🇺🇸US_157_2@156
-  - 🇺🇸US_158_2@157
+  - Relay_🇬🇧GB-🇺🇸US_37_2@36
   - 🇺🇸US_159_2@158
-  - Relay_🇺🇸US-🇷🇺RU_160_2@159
+  - 🇺🇸US_160_2@159
+  - Relay_🇺🇸US-🇷🇺RU_162_2@161
   - 🇺🇸US_163_2@162
-  - 🇺🇸US_164_2@163
-  - 🇺🇸US_165_2@164
   - 🇺🇸US_166_2@165
-  - 🇺🇸US_169_2@168
   - 🇺🇸US_170_2@169
-  - 🇺🇸US_171_2@170
-  - 🇺🇸US_173_2@172
+  - 🇺🇸US_172_2@171
   - 🇺🇸US_174_2@173
-  - Relay_🇺🇸US-🇺🇸US_175_2@174
-  - Relay_🇺🇸US-🇩🇪DE_177_2@176
-  - Relay_🇺🇸US-🇩🇪DE_178_2@177
-  - Relay_🇺🇸US-🇩🇪DE_180_2@179
-  - Relay_🇺🇸US-🇩🇪DE_181_2@180
-  - 🇺🇸US_182_2@181
-  - Relay_🇺🇸US-🇩🇪DE_184_2@183
+  - 🇺🇸US_176_2@175
+  - 🇺🇸US_177_2@176
+  - 🇺🇸US_178_2@177
+  - 🇺🇸US_179_2@178
+  - 🇺🇸US_180_2@179
+  - Relay_🇺🇸US-🇺🇸US_182_2@181
+  - Relay_🇺🇸US-🇺🇸US_184_2@183
   - Relay_🇺🇸US-🇺🇸US_185_2@184
-  - Relay_🇺🇸US-🇺🇸US_186_2@185
-  - Relay_🇺🇸US-🇺🇸US_187_2@186
-  - Relay_🇺🇸US-🇺🇸US_190_2@189
-  - Relay_🇺🇸US-🇩🇪DE_191_2@190
-  - 🇺🇸US_192_2@191
-  - Relay_🇺🇸US-🇺🇸US_193_2@192
-  - Pool_🇺🇸US_194_2@193
-  - Relay_🏁ZZ-🇺🇸US_551_2@550
-  - Relay_🏁ZZ-🇺🇸US_553_2@552
+  - 🇺🇸US_186_2@185
+  - Relay_🇺🇸US-🇸🇬SG_187_2@186
+  - Relay_🇺🇸US-🇺🇸US_188_2@187
+  - 🇺🇸US_189_2@188
+  - Relay_🇺🇸US-🇺🇸US_191_2@190
+  - Relay_🇺🇸US-🇺🇸US_192_2@191
+  - Pool_🇺🇸US_193_2@192
+  - Relay_🏁ZZ-🇺🇸US_549_2@548
   type: select
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
