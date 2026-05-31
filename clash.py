@@ -3,14 +3,14 @@
 
 import requests, re, yaml
 from re import Pattern
-from typing import Any, Dict, List
+from typing import Any, Dict, List, Set, Tuple
 
 import urllib3
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 rss_url:str = 'https://www.cfmem.com/feeds/posts/default?alt=rss'
 # clash_reg:Pattern = re.compile(r'clash订阅链接：(?:&lt;/span&gt;&lt;span style=&quot;background-color: white; color: #111111; font-size: 15px;&quot;&gt;)?(https?.+?)(?:&lt;|<)/span(?:&gt;|>)')
-clash_reg:Pattern = re.compile(r'clash -&amp;gt; (.*?)&lt;')
+clash_reg:Pattern = re.compile(r'href=&quot;(https?://[^&]+?\.yaml)&quot;.*?&gt;Clash')
 # v2ray_reg:Pattern = re.compile(r'v2ray订阅链接：(?:&lt;/span &gt;&lt;/span &gt;&lt;/span &gt;&lt;span style=&quot;color: #111111;&quot;&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;)?(https?.+?)(?:&lt;|<)/span(?:&gt;|>)')
 
 clash_output_file:str = './dist/clash_config.yaml'
@@ -19,7 +19,32 @@ clash_output_tpl:str = './clash.config.template.yaml'
 
 clash_extra:List[str] = ['https://free886.herokuapp.com/clash/proxies']
 
-blacklist:List[str] = list(map(lambda l:l.replace('\r', '').replace('\n', '').split(':'), open('blacklists.txt').readlines()))
+blacklist:Set[Tuple[str, str]] = set()
+for line in open('blacklists.txt', encoding='utf-8'):
+    line = line.strip()
+    if not line or ':' not in line:
+        continue
+    server, port = line.rsplit(':', 1)
+    blacklist.add((server, port))
+
+def normalize_proxy_name(name:str) -> str:
+    '''
+    Use landing location for relay node names like US->HK, so country filters match
+    the visible exit IP rather than the relay entry.
+    '''
+    for arrow in ('->', '→'):
+        if arrow in name:
+            return name.split(arrow)[-1].strip() + ' ⇽中转'
+    if name.startswith('Relay_') and '-' in name:
+        return name.rsplit('-', 1)[-1].strip() + ' ⇽中转'
+    return name
+
+def proxy_key(proxy:Dict[str, Any]) -> Tuple[str, str] | None:
+    server = proxy.get('server')
+    port = proxy.get('port')
+    if server is None or port is None:
+        return None
+    return (str(server), str(port))
 
 def clash_urls(html:str) -> List[str]:
     '''
@@ -34,7 +59,7 @@ def v2ray_urls(html:str) -> List[str]:
     '''
     # return v2ray_reg.findall(html)
 
-def fetch_html(url:str) -> str:
+def fetch_html(url:str) -> str | None:
     '''
     Fetch The Content Of url
     '''
@@ -54,23 +79,28 @@ def merge_clash(configs:List[str]) -> str:
     '''
     config_template:Dict[str, Any] = yaml.safe_load(open(clash_output_tpl, encoding='utf-8').read())
     proxies:List[Dict[str, Any]] = []
+    seen:Set[Tuple[str, str]] = set()
     for i in range(len(configs)):
-        tmp_config:Dict[str, Any] = yaml.safe_load(configs[i])
-        if 'proxies' not in tmp_config: continue
-        for j in range(len(tmp_config['proxies'])):
-            proxy:Dict[str, Any] = tmp_config['proxies'][j]
-            if any(filter(lambda p:p[0] == proxy['server'] and str(p[1]) == str(proxy['port']), blacklist)): continue
-            if any(filter(lambda p:p['server'] == proxy['server'] and p['port'] == proxy['port'], proxies)): continue
-            proxy['name'] = proxy['name'] + f'_{i}@{j}'
+        try:
+            tmp_config:Dict[str, Any] = yaml.safe_load(configs[i])
+        except Exception:
+            continue
+        if not isinstance(tmp_config, dict): continue
+        tmp_proxies = tmp_config.get('proxies')
+        if not isinstance(tmp_proxies, list): continue
+        for j in range(len(tmp_proxies)):
+            raw_proxy = tmp_proxies[j]
+            if not isinstance(raw_proxy, dict): continue
+            key = proxy_key(raw_proxy)
+            if key is None or key in blacklist or key in seen: continue
+            proxy:Dict[str, Any] = dict(raw_proxy)
+            seen.add(key)
+            nm:str = normalize_proxy_name(str(proxy.get('name', '')))
+            proxy['name'] = nm + f'_{i}@{j}'
             proxies.append(proxy)
-    node_names:List[str] = list(map(lambda n: n['name'], proxies))
     config_template['proxies'] = proxies
-    for grp in config_template['proxy-groups']:
-        if 'xxx' in grp['proxies']:
-            grp['proxies'].remove('xxx')
-            grp['proxies'].extend(node_names)
 
-    return yaml.safe_dump(config_template, indent=1, allow_unicode=True)
+    return yaml.safe_dump(config_template, indent=1, allow_unicode=True, sort_keys=False)
 
 def merge_v2ray(configs:List[str]) -> str:
     '''
