@@ -15,6 +15,27 @@ geo-update-interval: 48
 log-level: silent
 external-controller: :9090
 proxies:
+- name: 🇺🇸 US_95_0@94
+  server: 149.28.255.6
+  type: ss
+  country: 🇺🇸 US
+  port: 816
+  password: GyZ5Xo0ht41vYmW3H4
+  cipher: chacha20-ietf-poly1305
+- name: 🇺🇸 US_96_0@95
+  server: 149.104.109.74
+  type: ss
+  country: 🇺🇸 US
+  port: 21273
+  password: Ll6cYfXM5DzQbdtMMb72A_jqVnNljU3yqe
+  cipher: chacha20-ietf-poly1305
+- name: 🇺🇸 US_97_0@96
+  server: tinkered-pennies-puppies.freesocks.work
+  type: ss
+  country: 🇺🇸 US
+  port: 443
+  password: hbGrpfvNrJsUmKmPbR3iY2
+  cipher: chacha20-ietf-poly1305
 - name: 🇺🇸 US_98_0@97
   server: 47.79.144.115
   type: ss
@@ -23,33 +44,6 @@ proxies:
   password: GTZI5AbjNAeWQG0oVNptvWJogHNKiiKA
   cipher: aes-256-gcm
 - name: 🇺🇸 US_99_0@98
-  server: 149.104.109.74
-  type: ss
-  country: 🇺🇸 US
-  port: 21273
-  password: Ll6cYfXM5DzQbdtMMb72A_jqVnNljU3yqe
-  cipher: chacha20-ietf-poly1305
-- name: 🇺🇸 US_100_0@99
-  server: 149.28.255.6
-  type: ss
-  country: 🇺🇸 US
-  port: 816
-  password: GyZ5Xo0ht41vYmW3H4
-  cipher: chacha20-ietf-poly1305
-- name: 🇺🇸 US_101_0@100
-  server: 66.163.117.58
-  type: vmess
-  country: 🇺🇸 US
-  port: 22324
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 🇺🇸 US_102_0@101
   server: 6654c734ccab8f440ff0825eb443dc7f.qos.onl
   type: vmess
   country: 🇺🇸 US
@@ -65,7 +59,20 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 🇺🇸 US_103_0@102
+- name: 🇺🇸 US_100_0@99
+  server: 66.163.117.58
+  type: vmess
+  country: 🇺🇸 US
+  port: 22324
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  alterId: 0
+  cipher: auto
+  network: tcp
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 🇺🇸 US_101_0@100
   server: 67.220.95.3
   type: vmess
   country: 🇺🇸 US
@@ -78,6 +85,20 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
+- name: 🇺🇸US_102_0@101
+  server: 156.146.38.170
+  type: ss
+  country: 🇺🇸US
+  port: 443
+  password: shadowsocks
+  cipher: aes-128-gcm
+- name: 🇺🇸US_103_0@102
+  server: 209.46.102.22
+  type: ss
+  country: 🇺🇸US
+  port: 8388
+  password: 1hhrqrokj3ag
+  cipher: chacha20-ietf-poly1305
 - name: 🇺🇸US_104_0@103
   server: 173.244.56.9
   type: ss
@@ -86,53 +107,53 @@ proxies:
   password: shadowsocks
   cipher: aes-128-gcm
 - name: 🇺🇸US_105_0@104
-  server: 149.22.95.183
-  type: ss
-  country: 🇺🇸US
-  port: 443
-  password: shadowsocks
-  cipher: aes-128-gcm
-- name: 🇺🇸US_106_0@105
-  server: 149.22.87.240
-  type: ss
-  country: 🇺🇸US
-  port: 443
-  password: shadowsocks
-  cipher: aes-128-gcm
-- name: 🇺🇸US_107_0@106
-  server: 149.22.87.204
-  type: ss
-  country: 🇺🇸US
-  port: 443
-  password: shadowsocks
-  cipher: aes-128-gcm
-- name: 🇺🇸US_108_0@107
   server: 107.172.250.161
   type: ss
   country: 🇺🇸US
   port: 59556
   password: QTmLViU4VEmuwbOxUw4IXd
   cipher: chacha20-ietf-poly1305
-- name: 🇺🇸US_109_0@108
-  server: 149.22.87.241
-  type: ss
-  country: 🇺🇸US
-  port: 443
-  password: shadowsocks
-  cipher: aes-128-gcm
-- name: 🇺🇸US_110_0@109
+- name: 🇺🇸US_106_0@105
   server: 156.146.38.167
   type: ss
   country: 🇺🇸US
   port: 443
   password: shadowsocks
   cipher: aes-128-gcm
-- name: 🇺🇸US_111_0@110
-  server: 167.160.90.51
+- name: 🇺🇸US_107_0@106
+  server: 156.146.38.168
   type: ss
   country: 🇺🇸US
-  port: 11475
-  password: 523z2fgrd7jx0z5xv6o5
+  port: 443
+  password: shadowsocks
+  cipher: aes-128-gcm
+- name: 🇺🇸US_108_0@107
+  server: 216.105.168.18
+  type: ss
+  country: 🇺🇸US
+  port: 443
+  password: hCCWOcIsK5wrFz4OX70rWf
+  cipher: chacha20-ietf-poly1305
+- name: 🇺🇸US_109_0@108
+  server: 149.22.87.240
+  type: ss
+  country: 🇺🇸US
+  port: 443
+  password: shadowsocks
+  cipher: aes-128-gcm
+- name: 🇺🇸US_110_0@109
+  server: 149.22.87.204
+  type: ss
+  country: 🇺🇸US
+  port: 443
+  password: shadowsocks
+  cipher: aes-128-gcm
+- name: 🇺🇸US_111_0@110
+  server: 149.22.87.241
+  type: ss
+  country: 🇺🇸US
+  port: 443
+  password: shadowsocks
   cipher: aes-128-gcm
 - name: 🇺🇸US_112_0@111
   server: 137.184.174.93
@@ -142,87 +163,34 @@ proxies:
   password: 14fFPrbezE3HDZzsMOr6
   cipher: rc4-md5
 - name: 🇺🇸US_113_0@112
+  server: 167.160.90.51
+  type: ss
+  country: 🇺🇸US
+  port: 11475
+  password: 523z2fgrd7jx0z5xv6o5
+  cipher: aes-128-gcm
+- name: 🇺🇸US_114_0@113
   server: 173.244.56.6
   type: ss
   country: 🇺🇸US
   port: 443
   password: shadowsocks
   cipher: aes-128-gcm
-- name: 🇺🇸US_114_0@113
-  server: 156.146.38.170
-  type: ss
-  country: 🇺🇸US
-  port: 443
-  password: shadowsocks
-  cipher: aes-128-gcm
 - name: 🇺🇸US_115_0@114
-  server: 209.46.102.22
-  type: ss
-  country: 🇺🇸US
-  port: 8388
-  password: 1hhrqrokj3ag
-  cipher: chacha20-ietf-poly1305
-- name: 🇺🇸US_116_0@115
-  server: 156.146.38.168
+  server: 149.22.95.183
   type: ss
   country: 🇺🇸US
   port: 443
   password: shadowsocks
   cipher: aes-128-gcm
-- name: 🇺🇸US_117_0@116
-  server: 216.105.168.18
-  type: ss
-  country: 🇺🇸US
-  port: 443
-  password: hCCWOcIsK5wrFz4OX70rWf
-  cipher: chacha20-ietf-poly1305
-- name: 🇺🇸US_118_0@117
+- name: 🇺🇸US_116_0@115
   server: 38.180.197.41
   type: ss
   country: 🇺🇸US
   port: 8080
   password: KixLvKzwjekG00rm
   cipher: aes-256-gcm
-- name: 🇺🇸US_119_0@118
-  server: 172.233.17.76
-  type: vmess
-  country: 🇺🇸US
-  port: 22324
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-  alterId: 1
-  cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 🇺🇸US_120_0@119
-  server: 47.250.135.244
-  type: vmess
-  country: 🇺🇸US
-  port: 10000
-  uuid: aedc66b8-99d7-4a21-8310-61870e7f870d
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 🇺🇸US_121_0@120
-  server: 67.220.72.237
-  type: vmess
-  country: 🇺🇸US
-  port: 22324
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-  alterId: 1
-  cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 🇺🇸US_122_0@121
+- name: 🇺🇸US_117_0@116
   server: 67.220.85.46
   type: vmess
   country: 🇺🇸US
@@ -235,7 +203,7 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 🇺🇸US_123_0@122
+- name: 🇺🇸US_118_0@117
   server: 38.110.1.246
   type: vmess
   country: 🇺🇸US
@@ -248,7 +216,33 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 🇺🇸US_124_0@123
+- name: 🇺🇸US_119_0@118
+  server: 67.220.72.237
+  type: vmess
+  country: 🇺🇸US
+  port: 22324
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  alterId: 1
+  cipher: auto
+  network: tcp
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 🇺🇸US_120_0@119
+  server: 172.233.17.76
+  type: vmess
+  country: 🇺🇸US
+  port: 22324
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  alterId: 1
+  cipher: auto
+  network: tcp
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 🇺🇸US_121_0@120
   server: 172.232.103.186
   type: vmess
   country: 🇺🇸US
@@ -261,7 +255,7 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 🇺🇸US_125_0@124
+- name: 🇺🇸US_122_0@121
   server: closing-crow.rooster465.autos
   type: trojan
   country: 🇺🇸US
@@ -269,15 +263,7 @@ proxies:
   password: ZY07256934
   skip-cert-verify: true
   udp: true
-- name: 🇺🇸US_126_0@125
-  server: 64.94.95.118
-  type: trojan
-  country: 🇺🇸US
-  port: 57142
-  password: kkzh2prsyr2ik47as615
-  skip-cert-verify: true
-  udp: true
-- name: 🇺🇸US_127_0@126
+- name: 🇺🇸US_123_0@122
   server: 144.31.138.127
   type: trojan
   country: 🇺🇸US
@@ -286,7 +272,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   skip-cert-verify: true
   udp: true
-- name: 🇺🇸US_128_0@127
+- name: 🇺🇸US_124_0@123
   server: 144.31.85.72
   type: trojan
   country: 🇺🇸US
@@ -295,7 +281,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   skip-cert-verify: true
   udp: true
-- name: 🇺🇸US_129_0@128
+- name: 🇺🇸US_125_0@124
   server: starlink-sg2.mfa.cat
   type: trojan
   country: 🇺🇸US
@@ -303,15 +289,7 @@ proxies:
   password: pro@_LlpRWwEh4tRl4cSzc0TZDxM
   skip-cert-verify: true
   udp: true
-- name: 🇺🇸US_130_0@129
-  server: 23.227.193.173
-  type: trojan
-  country: 🇺🇸US
-  port: 443
-  password: AZWY=WAZk5TeVYmMUudr2xmeb00I3ymeMQ
-  skip-cert-verify: true
-  udp: true
-- name: 🇺🇸US_131_0@130
+- name: 🇺🇸US_126_0@125
   server: 64.176.36.61
   type: trojan
   country: 🇺🇸US
@@ -319,7 +297,23 @@ proxies:
   password: 8r<[9'l6hAO#8ZQi
   skip-cert-verify: true
   udp: true
-- name: 🇺🇸US_132_0@131
+- name: 🇺🇸US_127_0@126
+  server: 64.94.95.118
+  type: trojan
+  country: 🇺🇸US
+  port: 57142
+  password: kkzh2prsyr2ik47as615
+  skip-cert-verify: true
+  udp: true
+- name: 🇺🇸US_128_0@127
+  server: 23.227.193.173
+  type: trojan
+  country: 🇺🇸US
+  port: 443
+  password: AZWY=WAZk5TeVYmMUudr2xmeb00I3ymeMQ
+  skip-cert-verify: true
+  udp: true
+- name: 🇺🇸US_129_0@128
   server: 172.237.145.189
   type: trojan
   country: 🇺🇸US
@@ -327,7 +321,25 @@ proxies:
   password: A3uIh_5NqMg3hFa.gDYWT.afz0UuJ6=VIM
   skip-cert-verify: true
   udp: true
-- name: 🇺🇸US_08 ⇽中转_1@7
+- name: 🇺🇸US_09 ⇽中转_1@8
+  server: 188.253.12.94
+  type: trojan
+  country: 🇮🇷IR
+  port: 45553
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  sni: ch.01.naiun.bilibili.com
+  skip-cert-verify: true
+  udp: true
+- name: 🇺🇸US_10 ⇽中转_1@9
+  server: 188.253.12.99
+  type: trojan
+  country: 🇮🇷IR
+  port: 45553
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  sni: ch.01.naiun.bilibili.com
+  skip-cert-verify: true
+  udp: true
+- name: 🇺🇸US_14 ⇽中转_1@13
   server: nm3.boom.party
   type: ssr
   country: 🇺🇸US
@@ -336,43 +348,16 @@ proxies:
   cipher: aes-256-cfb
   protocol: auth_aes128_sha1
   obfs: http_simple
-- name: 🇺🇸US_09 ⇽中转_1@8
+- name: 🇺🇸US_15 ⇽中转_1@14
   server: 90081bb25c.node.tro.cac.cab
   type: trojan
   country: 🇺🇸US
-  port: 47909
+  port: 46424
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  sni: is.01.naiun.bilibili.com
+  sni: de.01.naiun.bilibili.com
   skip-cert-verify: true
   udp: true
-- name: 🇺🇸US_10 ⇽中转_1@9
-  server: 155.117.198.86
-  type: trojan
-  country: 🇺🇸US
-  port: 48697
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  sni: gh.01.naiun.bilibili.com
-  skip-cert-verify: true
-  udp: true
-- name: 🇺🇸US_12 ⇽中转_1@11
-  server: 155.117.198.87
-  type: trojan
-  country: 🇺🇸US
-  port: 47909
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  sni: is.01.naiun.bilibili.com
-  skip-cert-verify: true
-  udp: true
-- name: 🇺🇸US_13 ⇽中转_1@12
-  server: 155.117.198.87
-  type: trojan
-  country: 🇺🇸US
-  port: 48697
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  sni: gh.01.naiun.bilibili.com
-  skip-cert-verify: true
-  udp: true
-- name: 🇺🇸US_15 ⇽中转_1@14
+- name: 🇺🇸US_16 ⇽中转_1@15
   server: 155.117.198.82
   type: trojan
   country: 🇺🇸US
@@ -381,8 +366,8 @@ proxies:
   sni: is.01.naiun.bilibili.com
   skip-cert-verify: true
   udp: true
-- name: 🇺🇸US_16 ⇽中转_1@15
-  server: 90081bb25c.node.tro.cac.cab
+- name: 🇺🇸US_17 ⇽中转_1@16
+  server: 155.117.198.87
   type: trojan
   country: 🇺🇸US
   port: 48697
@@ -391,16 +376,16 @@ proxies:
   skip-cert-verify: true
   udp: true
 - name: 🇺🇸US_18 ⇽中转_1@17
-  server: 155.117.198.83
+  server: 155.117.198.87
   type: trojan
   country: 🇺🇸US
-  port: 46424
+  port: 47909
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  sni: de.01.naiun.bilibili.com
+  sni: is.01.naiun.bilibili.com
   skip-cert-verify: true
   udp: true
-- name: 🇺🇸US_20 ⇽中转_1@19
-  server: 155.117.198.82
+- name: 🇺🇸US_19 ⇽中转_1@18
+  server: 155.117.198.83
   type: trojan
   country: 🇺🇸US
   port: 48697
@@ -409,7 +394,7 @@ proxies:
   skip-cert-verify: true
   udp: true
 - name: 🇺🇸US_21 ⇽中转_1@20
-  server: 155.117.198.83
+  server: 90081bb25c.node.tro.cac.cab
   type: trojan
   country: 🇺🇸US
   port: 48697
@@ -418,7 +403,25 @@ proxies:
   skip-cert-verify: true
   udp: true
 - name: 🇺🇸US_22 ⇽中转_1@21
-  server: 90081bb25c.node.tro.cac.cab
+  server: 155.117.198.86
+  type: trojan
+  country: 🇺🇸US
+  port: 48697
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  sni: gh.01.naiun.bilibili.com
+  skip-cert-verify: true
+  udp: true
+- name: 🇺🇸US_23 ⇽中转_1@22
+  server: 155.117.198.82
+  type: trojan
+  country: 🇺🇸US
+  port: 48697
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  sni: gh.01.naiun.bilibili.com
+  skip-cert-verify: true
+  udp: true
+- name: 🇺🇸US_24 ⇽中转_1@23
+  server: 155.117.198.83
   type: trojan
   country: 🇺🇸US
   port: 46424
@@ -426,44 +429,76 @@ proxies:
   sni: de.01.naiun.bilibili.com
   skip-cert-verify: true
   udp: true
-- name: 🇺🇸US_84 ⇽中转_2@83
-  server: manga.bilibilicloud01.com
-  type: ssr
-  country: 🇯🇵JP
-  port: 49434
-  password: Mv4e0QHWPwdbKiCF
-  cipher: chacha20-ietf
-  protocol: auth_aes128_sha1
-  obfs: plain
-- name: 🇺🇸US_134_2@133
+- name: 🇺🇸US_25 ⇽中转_1@24
+  server: 155.117.198.84
+  type: trojan
+  country: 🇺🇸US
+  port: 46424
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  sni: de.01.naiun.bilibili.com
+  skip-cert-verify: true
+  udp: true
+- name: 🇺🇸US_26 ⇽中转_1@25
+  server: 90081bb25c.node.tro.cac.cab
+  type: trojan
+  country: 🇺🇸US
+  port: 47909
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  sni: is.01.naiun.bilibili.com
+  skip-cert-verify: true
+  udp: true
+- name: 🇺🇸US_30 ⇽中转_1@29
+  server: 104.16.0.0
+  type: vmess
+  country: 🏁ZZ
+  port: 443
+  uuid: 95d2c461-61f5-4dae-bc74-4d10ce1f6236
+  alterId: 0
+  cipher: auto
+  network: ws
+  servername: gongyilm.dpdns.org
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+  ws-opts:
+    path: /ws-gongyi
+    headers:
+      HOST: gongyilm.dpdns.org
+- name: 🇺🇸US_139_2@138
   server: 71.19.148.74
   type: ss
   country: 🇺🇸US
   port: 443
   password: gqkUCvmeOTghYJXF1YIuk5
   cipher: chacha20-ietf-poly1305
-- name: 🇺🇸US_141 ⇽中转_2@140
-  server: tinkered-pennies-puppies.freesocks.work
-  type: ss
-  country: 🇺🇸US
-  port: 443
-  password: hbGrpfvNrJsUmKmPbR3iY2
-  cipher: chacha20-ietf-poly1305
-- name: 🇺🇸US_144 ⇽中转_2@143
+- name: 🇺🇸US_143 ⇽中转_2@142
   server: hackney-latest-strike.freesocks.work
   type: ss
   country: 🇺🇸US
   port: 443
   password: XUMTygEM1jVYIvysXKqA5T
   cipher: chacha20-ietf-poly1305
-- name: 🇺🇸US_145_2@144
+- name: 🇺🇸US_147_2@146
   server: 156.146.38.169
   type: ss
   country: 🇺🇸US
   port: 443
   password: shadowsocks
   cipher: aes-128-gcm
-- name: 🇺🇸US_153_2@152
+- name: 🇺🇸US_158_2@157
+  server: 107.172.75.141
+  type: vmess
+  country: 🇺🇸US
+  port: 10086
+  uuid: e02c67a8-d769-4d73-833a-ab6acdb86e6e
+  alterId: 0
+  cipher: auto
+  network: tcp
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 🇺🇸US_164_2@163
   server: 23.226.135.232
   type: vmess
   country: 🇺🇸US
@@ -475,10 +510,37 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 🇺🇸US_160 ⇽中转_2@159
+- name: 🇺🇸US_170 ⇽中转_2@169
+  server: 155.117.198.83
+  type: trojan
+  country: 🇺🇸US
+  port: 45553
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  sni: ch.01.naiun.bilibili.com
+  skip-cert-verify: true
+  udp: true
+- name: 🇺🇸US_176 ⇽中转_2@175
+  server: 155.117.198.86
+  type: trojan
+  country: 🇺🇸US
+  port: 46424
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  sni: de.01.naiun.bilibili.com
+  skip-cert-verify: true
+  udp: true
+- name: 🇺🇸US_178 ⇽中转_2@177
+  server: 155.117.198.87
+  type: trojan
+  country: 🇺🇸US
+  port: 45553
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  sni: ch.01.naiun.bilibili.com
+  skip-cert-verify: true
+  udp: true
+- name: 🇺🇸US_188 ⇽中转_2@187
   server: cf.scpnb.top
   type: vmess
-  country: 🇺🇸US
+  country: 🏁ZZ
   port: 443
   uuid: 7c84ae69-f0b3-47dc-83c5-e7b5f00f5bed
   alterId: 0
@@ -493,88 +555,31 @@ proxies:
     path: /7c84ae69-f0b3-47dc-83c5-e7b5f00f5bed-vm
     headers:
       HOST: vienna-bread-threats-amendment.trycloudflare.com
-- name: 🇺🇸US_161_2@160
-  server: 107.172.75.141
-  type: vmess
-  country: 🇺🇸US
-  port: 10086
-  uuid: e02c67a8-d769-4d73-833a-ab6acdb86e6e
-  alterId: 0
-  cipher: auto
-  network: tcp
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 🇺🇸US_170 ⇽中转_2@169
-  server: 155.117.198.87
-  type: trojan
-  country: 🇺🇸US
-  port: 45553
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  sni: ch.01.naiun.bilibili.com
-  skip-cert-verify: true
-  udp: true
-- name: 🇺🇸US_171 ⇽中转_2@170
-  server: 155.117.198.86
-  type: trojan
-  country: 🇺🇸US
-  port: 46424
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  sni: de.01.naiun.bilibili.com
-  skip-cert-verify: true
-  udp: true
-- name: 🇺🇸US_173 ⇽中转_2@172
-  server: 90081bb25c.node.tro.cac.cab
-  type: trojan
-  country: 🇺🇸US
-  port: 45553
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  sni: ch.01.naiun.bilibili.com
-  skip-cert-verify: true
-  udp: true
-- name: 🇺🇸US_180 ⇽中转_2@179
-  server: 155.117.198.83
-  type: trojan
-  country: 🇺🇸US
-  port: 45553
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  sni: ch.01.naiun.bilibili.com
-  skip-cert-verify: true
-  udp: true
-- name: 🇺🇸US_189 ⇽中转_2@188
-  server: 104.17.77.77
-  type: vmess
-  country: 🏁ZZ
-  port: 8443
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  alterId: 0
-  cipher: auto
-  network: ws
-  servername: v2ray1.dozapp.xyz
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-  ws-opts:
-    path: /lMnsZUN4/
-    headers:
-      HOST: v2ray1.dozapp.xyz
-- name: 🇺🇸US_190 ⇽中转_2@189
-  server: 103.177.136.41
-  type: trojan
-  country: 🏁ZZ
-  port: 45553
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  sni: ch.01.naiun.bilibili.com
-  skip-cert-verify: true
-  udp: true
-- name: 🇺🇸US_191 ⇽中转_2@190
+- name: 🇺🇸US_192 ⇽中转_2@191
   server: 103.177.136.41
   type: trojan
   country: 🏁ZZ
   port: 48697
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
   sni: gh.01.naiun.bilibili.com
+  skip-cert-verify: true
+  udp: true
+- name: 🇺🇸US_196 ⇽中转_2@195
+  server: 90081bb25c.node.tro.cac.cab
+  type: trojan
+  country: 🏁ZZ
+  port: 45553
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  sni: ch.01.naiun.bilibili.com
+  skip-cert-verify: true
+  udp: true
+- name: 🇺🇸US_197 ⇽中转_2@196
+  server: 103.177.136.41
+  type: trojan
+  country: 🏁ZZ
+  port: 45553
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  sni: ch.01.naiun.bilibili.com
   skip-cert-verify: true
   udp: true
 proxy-groups:
