@@ -22,3 +22,16 @@ python clash.py / clash_extra_xx.py
 ```
 
 After having done these steps, import yaml file from `./dist/` into Clash Clients, then enjoy!
+
+
+## Sponsor
+
+<div align="center">
+
+<img src="./FF.jpg" alt="赞助位1" width="600">
+
+[Doloffer--站式数字订阅充值平台](https://doloffer.com)
+
+主营 GPT、Claude 等 AI多类数字服务会员正版订阅，9 折优惠码 AI8888，极速发货，售后无忧
+
+</div>
