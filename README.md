@@ -32,6 +32,8 @@ After having done these steps, import yaml file from `./dist/` into Clash Client
 
 [Doloffer--站式数字订阅充值平台](https://doloffer.com)
 
+专属注册链接领取福利~ https://doloffer.com/friend/VbxsTavF
+
 主营 GPT、Claude 等 AI多类数字服务会员正版订阅，9 折优惠码 AI8888，极速发货，售后无忧
 
 </div>
