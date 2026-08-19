@@ -16,7 +16,7 @@ log-level: silent
 external-controller: :9090
 proxies:
 - name: 🇦🇺 AU_01_0@0
-  server: settled-camel.rooster465.autos
+  server: casual-stallion.rooster465.autos
   type: trojan
   country: 🇦🇺 AU
   port: 443
@@ -30,14 +30,13 @@ proxies:
   port: 7001
   password: RexnBgU7EV5ADxG
   cipher: aes-256-gcm
-- name: 🇧🇬BG_03_0@2
-  server: engaged-ram.rooster465.autos
-  type: trojan
-  country: 🇧🇬BG
-  port: 443
-  password: IL37892054
-  skip-cert-verify: true
-  udp: true
+- name: 🇨🇦CA_03_0@2
+  server: 108.181.126.122
+  type: ss
+  country: 🇨🇦CA
+  port: 8388
+  password: CJmTCCx7Ltud
+  cipher: chacha20-ietf-poly1305
 - name: 🇨🇦CA_04_0@3
   server: 108.181.118.10
   type: ss
@@ -60,65 +59,64 @@ proxies:
   password: G5p6ww4o67HB
   cipher: chacha20-ietf-poly1305
 - name: 🇨🇦CA_07_0@6
-  server: 108.181.126.122
+  server: 142.4.216.225
   type: ss
   country: 🇨🇦CA
-  port: 8388
-  password: CJmTCCx7Ltud
+  port: 443
+  password: ytw2awn
   cipher: chacha20-ietf-poly1305
 - name: 🇩🇰DK_08_0@7
-  server: 159.195.5.181
-  type: trojan
+  server: 158.173.20.171
+  type: ss
   country: 🇩🇰DK
   port: 443
-  password: '1234567890'
-  sni: kfm-bn0.pages.dev
-  skip-cert-verify: true
-  udp: true
+  password: shadowsocks
+  cipher: aes-128-gcm
 - name: 🇪🇸ES_09_0@8
   server: 5.188.181.201
   type: ss
   country: 🇪🇸ES
-  port: 9003
-  password: JdmRK9gMEqFgs8nP
+  port: 9019
+  password: GA9KzeEgvfxNrgmM
   cipher: aes-256-cfb
-- name: 🇫🇷FR_10_0@9
+- name: 🇪🇸ES_10_0@9
+  server: 5.188.181.201
+  type: ss
+  country: 🇪🇸ES
+  port: 9011
+  password: M3t2ZEQcMGRWBjRa
+  cipher: aes-256-cfb
+- name: 🇫🇷FR_11_0@10
   server: 15.237.177.224
   type: ss
   country: 🇫🇷FR
   port: 443
   password: amazonskr05
   cipher: aes-256-cfb
-- name: 🇬🇧 GB_11_0@10
-  server: 82.38.31.155
-  type: ss
-  country: 🇬🇧 GB
-  port: 8080
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  cipher: chacha20-ietf-poly1305
-- name: 🇬🇧 GB_12_0@11
-  server: 82.38.31.191
+- name: 🇫🇷FR_12_0@11
+  server: new-antelope.rooster465.autos
+  type: trojan
+  country: 🇫🇷FR
+  port: 443
+  password: XG59623478
+  skip-cert-verify: true
+  udp: true
+- name: 🇬🇧 GB_13_0@12
+  server: 82.38.31.210
   type: ss
   country: 🇬🇧 GB
   port: 8080
   password: k1dBOmOB4oqi7Ump37a1bQ
   cipher: chacha20-ietf-poly1305
-- name: 🇬🇧 GB_13_0@12
-  server: 176.97.73.215
-  type: ss
-  country: 🇬🇧 GB
-  port: 8388
-  password: ma6zc4JoLRJA
-  cipher: chacha20-ietf-poly1305
 - name: 🇬🇧 GB_14_0@13
-  server: 82.38.31.187
+  server: 82.38.31.205
   type: ss
   country: 🇬🇧 GB
   port: 8080
   password: k1dBOmOB4oqi7Ump37a1bQ
   cipher: chacha20-ietf-poly1305
 - name: 🇬🇧 GB_15_0@14
-  server: 82.38.31.189
+  server: 82.38.31.179
   type: ss
   country: 🇬🇧 GB
   port: 8080
@@ -132,234 +130,167 @@ proxies:
   password: k1dBOmOB4oqi7Ump37a1bQ
   cipher: chacha20-ietf-poly1305
 - name: 🇬🇧 GB_17_0@16
-  server: 82.38.31.179
+  server: 176.97.73.215
   type: ss
   country: 🇬🇧 GB
-  port: 8080
-  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8388
+  password: ma6zc4JoLRJA
   cipher: chacha20-ietf-poly1305
-- name: 🇬🇧 GB_18_0@17
-  server: 82.38.31.205
-  type: ss
-  country: 🇬🇧 GB
-  port: 8080
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  cipher: chacha20-ietf-poly1305
-- name: 🇬🇧 GB_19_0@18
-  server: 82.38.31.217
-  type: ss
-  country: 🇬🇧 GB
-  port: 8080
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  cipher: chacha20-ietf-poly1305
-- name: 🇬🇧 GB_20_0@19
-  server: 82.38.31.210
-  type: ss
-  country: 🇬🇧 GB
-  port: 8080
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  cipher: chacha20-ietf-poly1305
-- name: 🇬🇧 GB_21_0@20
-  server: v30.hdacd.com
-  type: vmess
-  country: 🇬🇧 GB
-  port: 30830
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 🇬🇧GB_22_0@21
-  server: 82.38.31.15
-  type: ss
-  country: 🇬🇧GB
-  port: 443
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  cipher: chacha20-ietf-poly1305
-- name: 🇬🇧GB_23_0@22
-  server: 82.38.31.46
-  type: ss
-  country: 🇬🇧GB
-  port: 8080
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  cipher: chacha20-ietf-poly1305
-- name: 🇬🇧GB_24_0@23
+- name: 🇬🇧GB_18_0@17
   server: 82.38.31.35
   type: ss
   country: 🇬🇧GB
   port: 8080
   password: oZIoA69Q8yhcQV8ka3Pa3A
   cipher: chacha20-ietf-poly1305
-- name: 🇬🇧GB_25_0@24
-  server: 82.38.31.194
-  type: ss
-  country: 🇬🇧GB
-  port: 8080
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  cipher: chacha20-ietf-poly1305
-- name: 🇬🇧GB_26_0@25
-  server: 82.38.31.208
-  type: ss
-  country: 🇬🇧GB
-  port: 8080
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  cipher: chacha20-ietf-poly1305
-- name: 🇬🇧GB_27_0@26
-  server: 82.38.31.49
-  type: ss
-  country: 🇬🇧GB
-  port: 8080
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  cipher: chacha20-ietf-poly1305
-- name: 🇬🇧GB_28_0@27
-  server: 82.38.31.36
-  type: ss
-  country: 🇬🇧GB
-  port: 443
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  cipher: chacha20-ietf-poly1305
-- name: 🇬🇧GB_29_0@28
-  server: 82.38.31.174
-  type: ss
-  country: 🇬🇧GB
-  port: 8080
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  cipher: chacha20-ietf-poly1305
-- name: 🇬🇧GB_30_0@29
-  server: 82.38.31.48
-  type: ss
-  country: 🇬🇧GB
-  port: 8080
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  cipher: chacha20-ietf-poly1305
-- name: 🇬🇧GB_31_0@30
-  server: 82.38.31.34
-  type: ss
-  country: 🇬🇧GB
-  port: 8080
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  cipher: chacha20-ietf-poly1305
-- name: 🇬🇧GB_32_0@31
-  server: 82.38.31.35
-  type: ss
-  country: 🇬🇧GB
-  port: 443
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  cipher: chacha20-ietf-poly1305
-- name: 🇬🇧GB_33_0@32
+- name: 🇬🇧GB_19_0@18
   server: 82.38.31.219
   type: ss
   country: 🇬🇧GB
   port: 8080
   password: k1dBOmOB4oqi7Ump37a1bQ
   cipher: chacha20-ietf-poly1305
-- name: 🇬🇧GB_34_0@33
-  server: 82.38.31.216
-  type: ss
-  country: 🇬🇧GB
-  port: 8080
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  cipher: chacha20-ietf-poly1305
-- name: 🇬🇧GB_35_0@34
-  server: 82.38.31.10
-  type: ss
-  country: 🇬🇧GB
-  port: 8080
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  cipher: chacha20-ietf-poly1305
-- name: 🇬🇧GB_36_0@35
-  server: 82.38.31.16
-  type: ss
-  country: 🇬🇧GB
-  port: 8080
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  cipher: chacha20-ietf-poly1305
-- name: 🇬🇧GB_37_0@36
-  server: 82.38.31.176
-  type: ss
-  country: 🇬🇧GB
-  port: 8080
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  cipher: chacha20-ietf-poly1305
-- name: 🇬🇧GB_38_0@37
+- name: 🇬🇧GB_20_0@19
   server: 82.38.31.2
   type: ss
   country: 🇬🇧GB
   port: 8080
   password: oZIoA69Q8yhcQV8ka3Pa3A
   cipher: chacha20-ietf-poly1305
-- name: 🇬🇧GB_39_0@38
+- name: 🇬🇧GB_21_0@20
   server: 82.38.31.192
   type: ss
   country: 🇬🇧GB
   port: 8080
   password: k1dBOmOB4oqi7Ump37a1bQ
   cipher: chacha20-ietf-poly1305
-- name: 🇬🇧GB_40_0@39
-  server: 82.38.31.214
+- name: 🇬🇧GB_22_0@21
+  server: 82.38.31.218
   type: ss
   country: 🇬🇧GB
   port: 8080
   password: k1dBOmOB4oqi7Ump37a1bQ
   cipher: chacha20-ietf-poly1305
-- name: 🇬🇧GB_41_0@40
-  server: 141.98.101.181
+- name: 🇬🇧GB_23_0@22
+  server: 82.38.31.15
   type: ss
   country: 🇬🇧GB
   port: 443
-  password: shadowsocks
-  cipher: aes-128-gcm
-- name: 🇬🇧GB_42_0@41
-  server: 82.38.31.199
-  type: ss
-  country: 🇬🇧GB
-  port: 8080
-  password: k1dBOmOB4oqi7Ump37a1bQ
+  password: oZIoA69Q8yhcQV8ka3Pa3A
   cipher: chacha20-ietf-poly1305
-- name: 🇬🇧GB_43_0@42
+- name: 🇬🇧GB_24_0@23
   server: 82.38.31.149
   type: ss
   country: 🇬🇧GB
   port: 8080
   password: oZIoA69Q8yhcQV8ka3Pa3A
   cipher: chacha20-ietf-poly1305
-- name: 🇬🇧GB_44_0@43
-  server: 82.38.31.186
+- name: 🇬🇧GB_25_0@24
+  server: 82.38.31.16
+  type: ss
+  country: 🇬🇧GB
+  port: 8080
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  cipher: chacha20-ietf-poly1305
+- name: 🇬🇧GB_26_0@25
+  server: 82.38.31.194
   type: ss
   country: 🇬🇧GB
   port: 8080
   password: k1dBOmOB4oqi7Ump37a1bQ
   cipher: chacha20-ietf-poly1305
-- name: 🇬🇧GB_45_0@44
-  server: 82.198.246.37
-  type: vmess
+- name: 🇬🇧GB_27_0@26
+  server: 82.38.31.10
+  type: ss
   country: 🇬🇧GB
-  port: 180
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 🇬🇧GB_46_0@45
-  server: 82.198.246.250
-  type: vmess
+  port: 8080
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  cipher: chacha20-ietf-poly1305
+- name: 🇬🇧GB_28_0@27
+  server: 82.38.31.176
+  type: ss
   country: 🇬🇧GB
-  port: 180
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 🇬🇧GB_47_0@46
+  port: 8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  cipher: chacha20-ietf-poly1305
+- name: 🇬🇧GB_29_0@28
+  server: 141.98.101.181
+  type: ss
+  country: 🇬🇧GB
+  port: 443
+  password: shadowsocks
+  cipher: aes-128-gcm
+- name: 🇬🇧GB_30_0@29
+  server: 82.38.31.216
+  type: ss
+  country: 🇬🇧GB
+  port: 8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  cipher: chacha20-ietf-poly1305
+- name: 🇬🇧GB_31_0@30
+  server: 82.38.31.49
+  type: ss
+  country: 🇬🇧GB
+  port: 8080
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  cipher: chacha20-ietf-poly1305
+- name: 🇬🇧GB_32_0@31
+  server: 82.38.31.36
+  type: ss
+  country: 🇬🇧GB
+  port: 443
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  cipher: chacha20-ietf-poly1305
+- name: 🇬🇧GB_33_0@32
+  server: 82.38.31.174
+  type: ss
+  country: 🇬🇧GB
+  port: 8080
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  cipher: chacha20-ietf-poly1305
+- name: 🇬🇧GB_34_0@33
+  server: 82.38.31.48
+  type: ss
+  country: 🇬🇧GB
+  port: 8080
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  cipher: chacha20-ietf-poly1305
+- name: 🇬🇧GB_35_0@34
+  server: 82.38.31.46
+  type: ss
+  country: 🇬🇧GB
+  port: 8080
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  cipher: chacha20-ietf-poly1305
+- name: 🇬🇧GB_36_0@35
+  server: 82.38.31.34
+  type: ss
+  country: 🇬🇧GB
+  port: 8080
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  cipher: chacha20-ietf-poly1305
+- name: 🇬🇧GB_37_0@36
+  server: 82.38.31.57
+  type: ss
+  country: 🇬🇧GB
+  port: 443
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  cipher: chacha20-ietf-poly1305
+- name: 🇬🇧GB_38_0@37
+  server: 82.38.31.214
+  type: ss
+  country: 🇬🇧GB
+  port: 8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  cipher: chacha20-ietf-poly1305
+- name: 🇬🇧GB_39_0@38
+  server: 82.38.31.35
+  type: ss
+  country: 🇬🇧GB
+  port: 443
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  cipher: chacha20-ietf-poly1305
+- name: 🇬🇧GB_40_0@39
   server: 82.198.246.233
   type: vmess
   country: 🇬🇧GB
@@ -372,7 +303,7 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 🇬🇧GB_48_0@47
+- name: 🇬🇧GB_41_0@40
   server: 82.198.246.97
   type: vmess
   country: 🇬🇧GB
@@ -385,69 +316,12 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 🇬🇧GB_49_0@48
-  server: upright-rhino.rooster465.autos
-  type: trojan
+- name: 🇬🇧GB_42_0@41
+  server: 82.198.246.37
+  type: vmess
   country: 🇬🇧GB
-  port: 443
-  password: IL37892054
-  skip-cert-verify: true
-  udp: true
-- name: 🇭🇰HK_50_0@49
-  server: 103.149.182.79
-  type: ss
-  country: 🇭🇰HK
-  port: 8388
-  password: asd123456
-  cipher: chacha20-ietf
-- name: 🇭🇰HK_51_0@50
-  server: v10.hdacd.com
-  type: vmess
-  country: 🇭🇰HK
-  port: 30807
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 🇭🇰HK_52_0@51
-  server: v29.hdacd.com
-  type: vmess
-  country: 🇭🇰HK
-  port: 30829
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 🇭🇺HU_53_0@52
-  server: just-alpaca.rooster465.autos
-  type: trojan
-  country: 🇭🇺HU
-  port: 443
-  password: IL37892054
-  skip-cert-verify: true
-  udp: true
-- name: 🇭🇺HU_54_0@53
-  server: top-goshawk.rooster465.autos
-  type: trojan
-  country: 🇭🇺HU
-  port: 443
-  password: WF42809561
-  skip-cert-verify: true
-  udp: true
-- name: 🇮🇱IL_55_0@54
-  server: 149.88.23.202
-  type: vmess
-  country: 🇮🇱IL
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  port: 180
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
   alterId: 0
   cipher: auto
   network: tcp
@@ -455,7 +329,22 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 🇮🇱IL_56_0@55
+- name: 🇬🇧GB_43_0@42
+  server: 2.26.96.251
+  type: trojan
+  country: 🇬🇧GB
+  port: 443
+  password: 581e14a5fcc14107b9326cc54f047891
+  skip-cert-verify: true
+  udp: true
+- name: 🇭🇰HK_44_0@43
+  server: 103.149.182.79
+  type: ss
+  country: 🇭🇰HK
+  port: 8388
+  password: asd123456
+  cipher: chacha20-ietf
+- name: 🇮🇱IL_45_0@44
   server: 149.88.23.207
   type: vmess
   country: 🇮🇱IL
@@ -468,219 +357,229 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 🇮🇹IT_57_0@56
+- name: 🇮🇱IL_46_0@45
+  server: 149.88.23.202
+  type: vmess
+  country: 🇮🇱IL
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  network: tcp
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 🇮🇹IT_47_0@46
   server: 185.213.23.63
   type: ss
   country: 🇮🇹IT
   port: 990
   password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
   cipher: chacha20-ietf-poly1305
-- name: 🇯🇵 JP_58_0@57
-  server: grateful-crawdad.rooster465.autos
+- name: 🇯🇵 JP_48_0@47
+  server: ready-monarch.rooster465.autos
   type: trojan
   country: 🇯🇵 JP
-  port: 443
-  password: FH72359861
-  skip-cert-verify: true
-  udp: true
-- name: 🇯🇵 JP_59_0@58
-  server: polished-imp.rooster465.autos
-  type: trojan
-  country: 🇯🇵 JP
-  port: 443
-  password: AE62539071
-  skip-cert-verify: true
-  udp: true
-- name: 🇯🇵 JP_60_0@59
-  server: clear-heron.rooster465.autos
-  type: trojan
-  country: 🇯🇵 JP
-  port: 443
-  password: FH72359861
-  skip-cert-verify: true
-  udp: true
-- name: 🇯🇵 JP_61_0@60
-  server: awaited-lark.rooster465.autos
-  type: trojan
-  country: 🇯🇵 JP
-  port: 443
-  password: AE62539071
-  skip-cert-verify: true
-  udp: true
-- name: 🇯🇵 JP_62_0@61
-  server: endless-kiwi.rooster465.autos
-  type: trojan
-  country: 🇯🇵 JP
-  port: 443
-  password: FH72359861
-  skip-cert-verify: true
-  udp: true
-- name: 🇯🇵JP_63_0@62
-  server: 141.164.45.187
-  type: ss
-  country: 🇯🇵JP
-  port: 6679
-  password: TEzjfAYq2IjtuoS
-  cipher: aes-256-gcm
-- name: 🇯🇵JP_64_0@63
-  server: merry-falcon.rooster465.autos
-  type: trojan
-  country: 🇯🇵JP
   port: 443
   password: PQ05174892
   skip-cert-verify: true
   udp: true
-- name: 🇯🇵JP_65_0@64
-  server: engaging-toucan.rooster465.autos
+- name: 🇯🇵 JP_49_0@48
+  server: sacred-shepherd.rooster465.autos
   type: trojan
-  country: 🇯🇵JP
+  country: 🇯🇵 JP
   port: 443
-  password: IL37892054
+  password: FH72359861
   skip-cert-verify: true
   udp: true
-- name: 🇰🇷KR_66_0@65
+- name: 🇯🇵 JP_50_0@49
+  server: evolving-kangaroo.rooster465.autos
+  type: trojan
+  country: 🇯🇵 JP
+  port: 443
+  password: PQ05174892
+  skip-cert-verify: true
+  udp: true
+- name: 🇯🇵 JP_51_0@50
+  server: aware-puma.rooster465.autos
+  type: trojan
+  country: 🇯🇵 JP
+  port: 443
+  password: PQ05174892
+  skip-cert-verify: true
+  udp: true
+- name: 🇯🇵 JP_52_0@51
+  server: lasting-jaguar.rooster465.autos
+  type: trojan
+  country: 🇯🇵 JP
+  port: 443
+  password: FH72359861
+  skip-cert-verify: true
+  udp: true
+- name: 🇯🇵 JP_53_0@52
+  server: ethical-raccoon.rooster465.autos
+  type: trojan
+  country: 🇯🇵 JP
+  port: 443
+  password: PQ05174892
+  skip-cert-verify: true
+  udp: true
+- name: 🇯🇵 JP_54_0@53
+  server: humorous-starling.rooster465.autos
+  type: trojan
+  country: 🇯🇵 JP
+  port: 443
+  password: PQ05174892
+  skip-cert-verify: true
+  udp: true
+- name: 🇯🇵 JP_55_0@54
+  server: balanced-goat.rooster465.autos
+  type: trojan
+  country: 🇯🇵 JP
+  port: 443
+  password: PQ05174892
+  skip-cert-verify: true
+  udp: true
+- name: 🇯🇵 JP_56_0@55
+  server: well-jennet.rooster465.autos
+  type: trojan
+  country: 🇯🇵 JP
+  port: 443
+  password: PQ05174892
+  skip-cert-verify: true
+  udp: true
+- name: 🇯🇵 JP_57_0@56
+  server: bright-quagga.rooster465.autos
+  type: trojan
+  country: 🇯🇵 JP
+  port: 443
+  password: FH72359861
+  skip-cert-verify: true
+  udp: true
+- name: 🇯🇵 JP_58_0@57
+  server: together-amoeba.rooster465.autos
+  type: trojan
+  country: 🇯🇵 JP
+  port: 443
+  password: PQ05174892
+  skip-cert-verify: true
+  udp: true
+- name: 🇯🇵 JP_59_0@58
+  server: upward-yak.rooster465.autos
+  type: trojan
+  country: 🇯🇵 JP
+  port: 443
+  password: AE62539071
+  skip-cert-verify: true
+  udp: true
+- name: 🇯🇵JP_60_0@59
+  server: 139.162.100.58
+  type: trojan
+  country: 🇯🇵JP
+  port: 49755
+  password: a196faa4-403e-4a8b-987a-d1789f379685
+  skip-cert-verify: true
+  udp: true
+- name: 🇰🇷KR_61_0@60
   server: 27.255.82.134
   type: ss
   country: 🇰🇷KR
   port: 2078
   password: qwerREWQ@@
   cipher: aes-256-cfb
-- name: 🇰🇷KR_67_0@66
-  server: p141.panda001.net
-  type: ss
-  country: 🇰🇷KR
-  port: 4652
-  password: qwerREWQ@@
-  cipher: aes-256-cfb
-- name: 🇰🇷KR_68_0@67
+- name: 🇰🇷KR_62_0@61
   server: 211.178.105.134
   type: ss
   country: 🇰🇷KR
   port: 6123
   password: qwerREWQ@@
   cipher: aes-256-cfb
-- name: 🇰🇷KR_69_0@68
-  server: glowing-deer.rooster465.autos
-  type: trojan
-  country: 🇰🇷KR
-  port: 443
-  password: ZY07256934
-  skip-cert-verify: true
-  udp: true
-- name: 🇰🇷KR_70_0@69
-  server: absolute-bobcat.rooster465.autos
-  type: trojan
-  country: 🇰🇷KR
-  port: 443
-  password: FH72359861
-  skip-cert-verify: true
-  udp: true
-- name: 🇰🇷KR_71_0@70
-  server: good-hound.rooster465.autos
-  type: trojan
-  country: 🇰🇷KR
-  port: 443
-  password: FH72359861
-  skip-cert-verify: true
-  udp: true
-- name: 🇳🇱 NL_72_0@71
+- name: 🇳🇱 NL_63_0@62
   server: 193.29.139.151
   type: ss
   country: 🇳🇱 NL
   port: 8080
   password: oZIoA69Q8yhcQV8ka3Pa3A
   cipher: chacha20-ietf-poly1305
-- name: 🇳🇱NL_73_0@72
-  server: 193.29.139.147
-  type: ss
-  country: 🇳🇱NL
-  port: 8080
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  cipher: chacha20-ietf-poly1305
-- name: 🇳🇱NL_74_0@73
-  server: 193.29.139.204
-  type: ss
-  country: 🇳🇱NL
-  port: 8080
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  cipher: chacha20-ietf-poly1305
-- name: 🇳🇱NL_75_0@74
+- name: 🇳🇱NL_64_0@63
   server: 193.29.139.235
   type: ss
   country: 🇳🇱NL
   port: 8080
   password: oZIoA69Q8yhcQV8ka3Pa3A
   cipher: chacha20-ietf-poly1305
-- name: 🇳🇱NL_76_0@75
+- name: 🇳🇱NL_65_0@64
   server: 193.29.139.223
   type: ss
   country: 🇳🇱NL
   port: 8080
   password: k1dBOmOB4oqi7Ump37a1bQ
   cipher: chacha20-ietf-poly1305
-- name: 🇳🇴NO_77_0@76
-  server: 138.124.32.78
-  type: trojan
-  country: 🇳🇴NO
-  port: 443
-  password: '1234567890'
-  sni: kfm-bn0.pages.dev
-  skip-cert-verify: true
-  udp: true
-- name: 🇷🇴RO_78_0@77
-  server: growing-tuna.rooster465.autos
-  type: trojan
-  country: 🇷🇴RO
-  port: 443
-  password: IL37892054
-  skip-cert-verify: true
-  udp: true
-- name: 🇷🇺RU_79_0@78
-  server: tr-1.stunnel.cc
-  type: trojan
-  country: 🇷🇺RU
-  port: 8441
-  password: tunnel-ljlcf
-  skip-cert-verify: true
-  udp: true
-- name: 🇷🇺RU_80_0@79
-  server: 194.87.77.91
-  type: trojan
-  country: 🇷🇺RU
-  port: 443
-  password: '1234567890'
-  sni: kfm-bn0.pages.dev
-  skip-cert-verify: true
-  udp: true
-- name: 🇺🇦UA_81_0@80
-  server: 37.19.198.244
+- name: 🇳🇱NL_66_0@65
+  server: 193.29.139.168
   type: ss
-  country: 🇺🇦UA
+  country: 🇳🇱NL
+  port: 8080
+  password: QCXDxuDlTTMD7jtgHUjIoj
+  cipher: chacha20-ietf-poly1305
+- name: 🇳🇱NL_67_0@66
+  server: 193.29.139.147
+  type: ss
+  country: 🇳🇱NL
+  port: 8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  cipher: chacha20-ietf-poly1305
+- name: 🇳🇱NL_68_0@67
+  server: 193.29.139.204
+  type: ss
+  country: 🇳🇱NL
+  port: 8080
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  cipher: chacha20-ietf-poly1305
+- name: 🇸🇬SG_69_0@68
+  server: 43.228.126.187
+  type: vmess
+  country: 🇸🇬SG
+  port: 47630
+  uuid: 9e5c6ebf-35f9-49a3-9f12-cba2b7cdbccb
+  alterId: 0
+  cipher: auto
+  network: none
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 🇸🇬SG_70_0@69
+  server: tough-shark.rooster465.autos
+  type: trojan
+  country: 🇸🇬SG
   port: 443
-  password: shadowsocks
-  cipher: aes-128-gcm
-- name: 🇺🇦UA_82_0@81
+  password: XG59623478
+  skip-cert-verify: true
+  udp: true
+- name: 🇺🇦UA_71_0@70
   server: 37.19.198.160
   type: ss
   country: 🇺🇦UA
   port: 443
   password: shadowsocks
   cipher: aes-128-gcm
-- name: 🇺🇦UA_83_0@82
+- name: 🇺🇦UA_72_0@71
   server: 37.19.198.243
   type: ss
   country: 🇺🇦UA
   port: 443
   password: shadowsocks
   cipher: aes-128-gcm
-- name: 🇺🇦UA_84_0@83
-  server: 37.19.198.236
+- name: 🇺🇦UA_73_0@72
+  server: 37.19.198.244
   type: ss
   country: 🇺🇦UA
   port: 443
   password: shadowsocks
   cipher: aes-128-gcm
-- name: 🇺🇸 US_85_0@84
+- name: 🇺🇸 US_74_0@73
   server: 66.163.117.58
   type: vmess
   country: 🇺🇸 US
@@ -693,137 +592,115 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 🇺🇸 US_86_0@85
-  server: 67.220.95.3
-  type: vmess
-  country: 🇺🇸 US
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 🇺🇸US_87_0@86
-  server: 149.22.87.240
-  type: ss
-  country: 🇺🇸US
-  port: 443
-  password: shadowsocks
-  cipher: aes-128-gcm
-- name: 🇺🇸US_88_0@87
-  server: 173.244.56.6
-  type: ss
-  country: 🇺🇸US
-  port: 443
-  password: shadowsocks
-  cipher: aes-128-gcm
-- name: 🇺🇸US_89_0@88
-  server: 173.244.56.9
-  type: ss
-  country: 🇺🇸US
-  port: 443
-  password: shadowsocks
-  cipher: aes-128-gcm
-- name: 🇺🇸US_90_0@89
-  server: 156.146.38.170
-  type: ss
-  country: 🇺🇸US
-  port: 443
-  password: shadowsocks
-  cipher: aes-128-gcm
-- name: 🇺🇸US_91_0@90
-  server: 209.46.102.22
-  type: ss
-  country: 🇺🇸US
-  port: 8388
-  password: 1hhrqrokj3ag
-  cipher: chacha20-ietf-poly1305
-- name: 🇺🇸US_92_0@91
-  server: 149.22.87.241
-  type: ss
-  country: 🇺🇸US
-  port: 443
-  password: shadowsocks
-  cipher: aes-128-gcm
-- name: 🇺🇸US_93_0@92
+- name: 🇺🇸US_75_0@74
   server: 149.22.87.204
   type: ss
   country: 🇺🇸US
   port: 443
   password: shadowsocks
   cipher: aes-128-gcm
-- name: 🇺🇸US_94_0@93
-  server: 149.22.95.183
+- name: 🇺🇸US_76_0@75
+  server: 156.146.38.170
   type: ss
   country: 🇺🇸US
   port: 443
   password: shadowsocks
   cipher: aes-128-gcm
-- name: 🇺🇸US_95_0@94
-  server: 216.105.168.18
-  type: ss
-  country: 🇺🇸US
-  port: 443
-  password: hCCWOcIsK5wrFz4OX70rWf
-  cipher: chacha20-ietf-poly1305
-- name: 🇺🇸US_96_0@95
+- name: 🇺🇸US_77_0@76
   server: 18.189.171.163
   type: ss
   country: 🇺🇸US
   port: 443
   password: amazonskr05
   cipher: aes-256-cfb
-- name: 🇺🇸US_97_0@96
-  server: 156.146.38.168
-  type: ss
-  country: 🇺🇸US
-  port: 443
-  password: shadowsocks
-  cipher: aes-128-gcm
-- name: 🇺🇸US_98_0@97
+- name: 🇺🇸US_78_0@77
   server: 18.188.213.207
   type: ss
   country: 🇺🇸US
   port: 443
   password: amazonskr05
   cipher: aes-256-cfb
-- name: 🇺🇸US_99_0@98
+- name: 🇺🇸US_79_0@78
+  server: 149.22.87.241
+  type: ss
+  country: 🇺🇸US
+  port: 443
+  password: shadowsocks
+  cipher: aes-128-gcm
+- name: 🇺🇸US_80_0@79
+  server: 149.22.87.240
+  type: ss
+  country: 🇺🇸US
+  port: 443
+  password: shadowsocks
+  cipher: aes-128-gcm
+- name: 🇺🇸US_81_0@80
+  server: 216.105.168.18
+  type: ss
+  country: 🇺🇸US
+  port: 443
+  password: hCCWOcIsK5wrFz4OX70rWf
+  cipher: chacha20-ietf-poly1305
+- name: 🇺🇸US_82_0@81
+  server: 173.244.56.6
+  type: ss
+  country: 🇺🇸US
+  port: 443
+  password: shadowsocks
+  cipher: aes-128-gcm
+- name: 🇺🇸US_83_0@82
+  server: 149.22.95.183
+  type: ss
+  country: 🇺🇸US
+  port: 443
+  password: shadowsocks
+  cipher: aes-128-gcm
+- name: 🇺🇸US_84_0@83
+  server: 209.46.102.22
+  type: ss
+  country: 🇺🇸US
+  port: 8388
+  password: 1hhrqrokj3ag
+  cipher: chacha20-ietf-poly1305
+- name: 🇺🇸US_85_0@84
+  server: 156.146.38.168
+  type: ss
+  country: 🇺🇸US
+  port: 443
+  password: shadowsocks
+  cipher: aes-128-gcm
+- name: 🇺🇸US_86_0@85
+  server: 173.244.56.9
+  type: ss
+  country: 🇺🇸US
+  port: 443
+  password: shadowsocks
+  cipher: aes-128-gcm
+- name: 🇺🇸US_87_0@86
   server: 156.146.38.167
   type: ss
   country: 🇺🇸US
   port: 443
   password: shadowsocks
   cipher: aes-128-gcm
-- name: 🇺🇸US_100_0@99
-  server: 38.110.1.246
+- name: 🇺🇸US_88_0@87
+  server: rush-6it6b.teeopp.quest
   type: vmess
   country: 🇺🇸US
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   alterId: 0
   cipher: auto
-  network: tcp
-  ws-path: /
+  network: ws
+  ws-path: /video/kz49hf/gbin5jve.m3u8
+  servername: rush-6it6b.teeopp.quest
+  ws-headers:
+    HOST: rush-6it6b.teeopp.quest
   http-opts: {}
   h2-opts: {}
+  tls: true
   skip-cert-verify: true
-- name: 🇺🇸US_101_0@100
-  server: 67.220.72.237
-  type: vmess
-  country: 🇺🇸US
-  port: 22324
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-  alterId: 1
-  cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 🇺🇸US_102_0@101
+- name: 🇺🇸US_89_0@88
   server: 47.250.135.244
   type: vmess
   country: 🇺🇸US
@@ -836,53 +713,16 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 🇺🇸US_103_0@102
-  server: 67.220.85.46
-  type: vmess
-  country: 🇺🇸US
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 🇺🇸US_104_0@103
-  server: correct-pony.rooster465.autos
+- name: 🇺🇸US_90_0@89
+  server: 172.238.22.232
   type: trojan
   country: 🇺🇸US
-  port: 443
-  password: FH72359861
+  port: 48774
+  password: 758a36c5-d422-4e0d-9bee-a89ce9f9b078
+  sni: vpn-node.internal
   skip-cert-verify: true
   udp: true
-- name: 🇺🇸US_105_0@104
-  server: 64.94.95.118
-  type: trojan
-  country: 🇺🇸US
-  port: 57142
-  password: kkzh2prsyr2ik47as615
-  skip-cert-verify: true
-  udp: true
-- name: 🇺🇸US_106_0@105
-  server: bold-eagle.rooster465.autos
-  type: trojan
-  country: 🇺🇸US
-  port: 443
-  password: FH72359861
-  skip-cert-verify: true
-  udp: true
-- name: 🇺🇸US_107_0@106
-  server: 138.2.23.80
-  type: trojan
-  country: 🇺🇸US
-  port: 21044
-  password: 8r<[9'l6hAO#8ZQi
-  sni: Koma-YT.PAGeS.Dev
-  skip-cert-verify: true
-  udp: true
-- name: 🇺🇸US_108_0@107
+- name: 🇺🇸US_91_0@90
   server: 144.31.138.127
   type: trojan
   country: 🇺🇸US
@@ -891,65 +731,24 @@ proxies:
   sni: kfm-bn0.pages.dev
   skip-cert-verify: true
   udp: true
-- name: 🇺🇸US_109_0@108
-  server: apt-whippet.rooster465.autos
-  type: trojan
-  country: 🇺🇸US
-  port: 443
-  password: FH72359861
-  skip-cert-verify: true
-  udp: true
-- name: 🇺🇸US_110_0@109
-  server: 64.176.36.61
+- name: 🇺🇸US_92_0@91
+  server: 64.188.89.147
   type: trojan
   country: 🇺🇸US
   port: 443
   password: 8r<[9'l6hAO#8ZQi
   skip-cert-verify: true
   udp: true
-- name: 🇿🇦ZA_111_0@110
-  server: 102.37.156.224
-  type: ss
-  country: 🇿🇦ZA
-  port: 443
-  password: aduB9HGxQHjA2SBMRjkHX6
-  cipher: chacha20-ietf-poly1305
-- name: 🇿🇦ZA_112_0@111
-  server: 102.133.165.160
-  type: ss
-  country: 🇿🇦ZA
-  port: 16233
-  password: Xsy8Ox4yOV3xLlpxtjzs3X
-  cipher: chacha20-ietf-poly1305
-- name: 🏁 ZZ_113_0@112
-  server: 213.109.147.242
-  type: ss
-  country: 🏁 ZZ
-  port: 62685
-  password: VpKABcOpNNA0l5G2AVOmw8
-  cipher: chacha20-ietf-poly1305
-- name: 🏁ZZ_114_0@113
-  server: 134.195.196.211
-  type: vmess
-  country: 🏁ZZ
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 🏁ZZ_115_0@114
-  server: 194.124.216.192
-  type: trojan
-  country: 🏁ZZ
-  port: 443
-  password: M08tvzYWtUEJNtbpHp
-  skip-cert-verify: true
-  udp: true
-- name: 🇧🇪BE_01_1@0
+- name: 🇯🇵JP_01 ⇽中转_1@0
+  server: live.bilibilicloud01.com
+  type: ssr
+  country: 🇧🇪BE
+  port: 54113
+  password: Mv4e0QHWPwdbKiCF
+  cipher: chacha20-ietf
+  protocol: auth_aes128_sha1
+  obfs: plain
+- name: 🇧🇪BE_02_1@1
   server: 57.180.13.78
   type: trojan
   country: 🇧🇪BE
@@ -958,7 +757,7 @@ proxies:
   sni: healthy-louse.rooster465.autos
   skip-cert-verify: true
   udp: true
-- name: 🇧🇪BE_02 ⇽中转_1@1
+- name: 🇧🇪BE_03 ⇽中转_1@2
   server: picked-guinea.rooster465.autos
   type: trojan
   country: 🇧🇪BE
@@ -967,14 +766,80 @@ proxies:
   sni: picked-guinea.rooster465.autos
   skip-cert-verify: true
   udp: true
-- name: 🇨🇦CA_06_1@5
-  server: 142.4.216.225
-  type: ss
+- name: 🇨🇦CA_10_1@9
+  server: 134.195.196.211
+  type: vmess
   country: 🇨🇦CA
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  network: tcp
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 🇪🇸ES_11_1@10
+  server: 5.188.181.201
+  type: ss
+  country: 🇪🇸ES
+  port: 9027
+  password: EXN3S3eQpjE7EJu8
+  cipher: aes-256-cfb
+- name: 🇪🇸ES_12_1@11
+  server: 5.188.181.201
+  type: ss
+  country: 🇪🇸ES
+  port: 9054
+  password: VcFuyXvND2yQWSFY
+  cipher: aes-256-cfb
+- name: 🇪🇸ES_13_1@12
+  server: 5.188.181.201
+  type: ss
+  country: 🇪🇸ES
+  port: 9005
+  password: ZET59LF6DvCC8KVt
+  cipher: aes-256-cfb
+- name: 🇪🇸ES_15_1@14
+  server: 5.188.181.201
+  type: ss
+  country: 🇪🇸ES
+  port: 9025
+  password: XPtzA9sCug3SPR4c
+  cipher: aes-256-cfb
+- name: 🇪🇸ES_16_1@15
+  server: 5.188.181.201
+  type: ss
+  country: 🇪🇸ES
+  port: 9014
+  password: KnJGad3FqTvjqbaX
+  cipher: aes-256-cfb
+- name: 🇭🇰HK_19 ⇽中转_1@18
+  server: planb.mojcn.com.linuxlh.xin
+  type: vmess
+  country: 🇫🇷FR
+  port: 16632
+  uuid: 0c657913-e593-4893-9555-f88478c33a4b
+  alterId: 0
+  cipher: auto
+  network: ws
+  servername: f784fdb75e4fc8a478c10d9acff513d3.mobgslb.tbcache.com
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+  ws-opts:
+    path: /
+    headers:
+      HOST: f784fdb75e4fc8a478c10d9acff513d3.mobgslb.tbcache.com
+- name: 🇫🇷FR_20 ⇽中转_1@19
+  server: correct-pony.rooster465.autos
+  type: trojan
+  country: 🇫🇷FR
   port: 443
-  password: ytw2awn
-  cipher: chacha20-ietf-poly1305
-- name: 🇫🇷FR_13 ⇽中转_1@12
+  password: FH72359861
+  sni: correct-pony.rooster465.autos
+  skip-cert-verify: true
+  udp: true
+- name: 🇫🇷FR_21 ⇽中转_1@20
   server: fancy-skink.rooster465.autos
   type: trojan
   country: 🇫🇷FR
@@ -983,38 +848,135 @@ proxies:
   sni: fancy-skink.rooster465.autos
   skip-cert-verify: true
   udp: true
-- name: 🇬🇧GB_17_1@16
-  server: 82.38.31.218
+- name: 🇫🇷FR_22 ⇽中转_1@21
+  server: lucky-marmot.rooster465.autos
+  type: trojan
+  country: 🇫🇷FR
+  port: 443
+  password: PQ05174892
+  sni: lucky-marmot.rooster465.autos
+  skip-cert-verify: true
+  udp: true
+- name: 🇬🇧GB_29_1@28
+  server: 146.70.61.37
+  type: ss
+  country: 🇬🇧GB
+  port: 8080
+  password: 14fFPrbezE3HDZzsMOr6
+  cipher: rc4-md5
+- name: 🇬🇧GB_35_1@34
+  server: 82.38.31.189
   type: ss
   country: 🇬🇧GB
   port: 8080
   password: k1dBOmOB4oqi7Ump37a1bQ
   cipher: chacha20-ietf-poly1305
-- name: 🇬🇧GB_23_1@22
-  server: 82.38.31.57
-  type: ss
-  country: 🇬🇧GB
-  port: 443
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  cipher: chacha20-ietf-poly1305
-- name: 🇳🇱NL_44 ⇽中转_1@43
+- name: 🇳🇱NL_40 ⇽中转_1@39
   server: 82.38.31.184
   type: ss
   country: 🇬🇧GB
   port: 8080
   password: k1dBOmOB4oqi7Ump37a1bQ
   cipher: chacha20-ietf-poly1305
-- name: 🇭🇰HK_58 ⇽中转_1@57
+- name: 🇳🇱NL_42 ⇽中转_1@41
+  server: 82.38.31.187
+  type: ss
+  country: 🇬🇧GB
+  port: 8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  cipher: chacha20-ietf-poly1305
+- name: 🇬🇧GB_50_1@49
+  server: 82.38.31.191
+  type: ss
+  country: 🇬🇧GB
+  port: 8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  cipher: chacha20-ietf-poly1305
+- name: 🇬🇧GB_52_1@51
+  server: 82.38.31.217
+  type: ss
+  country: 🇬🇧GB
+  port: 8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  cipher: chacha20-ietf-poly1305
+- name: 🇳🇱NL_54 ⇽中转_1@53
+  server: 82.38.31.199
+  type: ss
+  country: 🇬🇧GB
+  port: 8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  cipher: chacha20-ietf-poly1305
+- name: 🇬🇧GB_59_1@58
+  server: 82.38.31.155
+  type: ss
+  country: 🇬🇧GB
+  port: 8080
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  cipher: chacha20-ietf-poly1305
+- name: 🇬🇧GB_60_1@59
+  server: 82.38.31.208
+  type: ss
+  country: 🇬🇧GB
+  port: 8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  cipher: chacha20-ietf-poly1305
+- name: 🇳🇱NL_62 ⇽中转_1@61
+  server: 82.38.31.186
+  type: ss
+  country: 🇬🇧GB
+  port: 8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  cipher: chacha20-ietf-poly1305
+- name: 🇺🇸US_66 ⇽中转_1@65
+  server: 82.198.246.250
+  type: vmess
+  country: 🇬🇧GB
+  port: 180
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  alterId: 0
+  cipher: auto
+  network: tcp
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 🇭🇰HK_68_1@67
+  server: 103.36.91.32
+  type: ss
+  country: 🇭🇰HK
+  port: 8388
+  password: asd123456
+  cipher: chacha20-ietf
+- name: 🇭🇰HK_69 ⇽中转_1@68
   server: api.meituan88.com
   type: ssr
   country: 🇭🇰HK
-  port: 41181
+  port: 53465
+  password: di15PV
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  obfs: plain
+  obfs-param: 87c276924.douyin.com
+- name: 🇭🇰HK_70 ⇽中转_1@69
+  server: api.meituan88.com
+  type: ssr
+  country: 🇭🇰HK
+  port: 37398
   password: di15PV
   cipher: chacha20-ietf
   protocol: auth_aes128_md5
-  obfs: plain
+  obfs: tls1.2_ticket_auth
+  obfs-param: 99e144391.douyin.com
+- name: 🇭🇰HK_71 ⇽中转_1@70
+  server: api.meituan88.com
+  type: ssr
+  country: 🇭🇰HK
+  port: 60213
+  password: di15PV
+  cipher: chacha20-ietf
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
   obfs-param: 665203463.douyin.com
-- name: 🇭🇰HK_59 ⇽中转_1@58
+- name: 🇭🇰HK_72 ⇽中转_1@71
   server: api.meituan88.com
   type: ssr
   country: 🇭🇰HK
@@ -1024,17 +986,47 @@ proxies:
   protocol: auth_aes128_md5
   obfs: tls1.2_ticket_auth
   obfs-param: 99e144391.douyin.com
-- name: 🇭🇰HK_60 ⇽中转_1@59
+- name: 🇭🇰HK_73 ⇽中转_1@72
   server: api.meituan88.com
   type: ssr
   country: 🇭🇰HK
-  port: 41155
+  port: 32414
+  password: di15PV
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  obfs: plain
+  obfs-param: 99e144391.douyin.com
+- name: 🇭🇰HK_74 ⇽中转_1@73
+  server: api.meituan88.com
+  type: ssr
+  country: 🇭🇰HK
+  port: 17348
   password: di15PV
   cipher: rc4-md5
   protocol: auth_aes128_md5
   obfs: tls1.2_ticket_auth
   obfs-param: 99e144391.douyin.com
-- name: 🇭🇰HK_61 ⇽中转_1@60
+- name: 🇭🇰HK_75 ⇽中转_1@74
+  server: api.meituan88.com
+  type: ssr
+  country: 🇭🇰HK
+  port: 59430
+  password: di15PV
+  cipher: chacha20-ietf
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  obfs-param: 99e144391.douyin.com
+- name: 🇭🇰HK_76 ⇽中转_1@75
+  server: api.meituan88.com
+  type: ssr
+  country: 🇭🇰HK
+  port: 28150
+  password: di15PV
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  obfs-param: 665203463.douyin.com
+- name: 🇭🇰HK_77 ⇽中转_1@76
   server: api.meituan88.com
   type: ssr
   country: 🇭🇰HK
@@ -1044,7 +1036,37 @@ proxies:
   protocol: auth_aes128_md5
   obfs: tls1.2_ticket_auth
   obfs-param: 665203463.douyin.com
-- name: 🇭🇰HK_62 ⇽中转_1@61
+- name: 🇭🇰HK_78 ⇽中转_1@77
+  server: api.meituan88.com
+  type: ssr
+  country: 🇭🇰HK
+  port: 2105
+  password: di15PV
+  cipher: aes-256-cfb
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  obfs-param: 87c276924.douyin.com
+- name: 🇭🇰HK_79 ⇽中转_1@78
+  server: api.meituan88.com
+  type: ssr
+  country: 🇭🇰HK
+  port: 2112
+  password: di15PV
+  cipher: chacha20-ietf
+  protocol: auth_aes128_md5
+  obfs: plain
+  obfs-param: 87c276924.douyin.com
+- name: 🇭🇰HK_80 ⇽中转_1@79
+  server: api.meituan88.com
+  type: ssr
+  country: 🇭🇰HK
+  port: 41155
+  password: di15PV
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  obfs-param: 99e144391.douyin.com
+- name: 🇭🇰HK_81 ⇽中转_1@80
   server: api.meituan88.com
   type: ssr
   country: 🇭🇰HK
@@ -1054,16 +1076,27 @@ proxies:
   protocol: auth_aes128_md5
   obfs: tls1.2_ticket_auth
   obfs-param: 87c276924.douyin.com
-- name: 🇯🇵JP_63 ⇽中转_1@62
-  server: show.bilibilicloud01.com
+- name: 🇭🇰HK_82 ⇽中转_1@81
+  server: api.meituan88.com
   type: ssr
   country: 🇭🇰HK
-  port: 54103
-  password: Mv4e0QHWPwdbKiCF
+  port: 7004
+  password: di15PV
   cipher: chacha20-ietf
-  protocol: auth_aes128_sha1
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  obfs-param: 665203463.douyin.com
+- name: 🇭🇰HK_83 ⇽中转_1@82
+  server: api.meituan88.com
+  type: ssr
+  country: 🇭🇰HK
+  port: 41181
+  password: di15PV
+  cipher: chacha20-ietf
+  protocol: auth_aes128_md5
   obfs: plain
-- name: 🇭🇰HK_64 ⇽中转_1@63
+  obfs-param: 665203463.douyin.com
+- name: 🇭🇰HK_84 ⇽中转_1@83
   server: api.meituan88.com
   type: ssr
   country: 🇭🇰HK
@@ -1073,21 +1106,17 @@ proxies:
   protocol: auth_aes128_md5
   obfs: tls1.2_ticket_auth
   obfs-param: 87c276924.douyin.com
-- name: 🇭🇰HK_65_1@64
-  server: 47.244.120.197
-  type: vmess
+- name: 🇭🇰HK_85 ⇽中转_1@84
+  server: api.meituan88.com
+  type: ssr
   country: 🇭🇰HK
-  port: 44867
-  uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
-  alterId: 0
-  cipher: auto
-  network: ws
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-  ws-opts:
-    path: /arki?ed=2048
-- name: 🇭🇰HK_66_1@65
+  port: 2205
+  password: di15PV
+  cipher: chacha20-ietf
+  protocol: auth_aes128_md5
+  obfs: plain
+  obfs-param: 99e144391.douyin.com
+- name: 🇭🇰HK_86_1@85
   server: 47.244.120.197
   type: vmess
   country: 🇭🇰HK
@@ -1101,12 +1130,12 @@ proxies:
   skip-cert-verify: true
   ws-opts:
     path: /arki?ed=2048
-- name: 🇭🇰HK_67_1@66
-  server: 156.245.232.239
+- name: 🇭🇰HK_87_1@86
+  server: 47.244.120.197
   type: vmess
   country: 🇭🇰HK
-  port: 35043
-  uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
+  port: 44867
+  uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
   alterId: 0
   cipher: auto
   network: ws
@@ -1114,20 +1143,8 @@ proxies:
   h2-opts: {}
   skip-cert-verify: true
   ws-opts:
-    path: /
-- name: 🇭🇰HK_69_1@68
-  server: 165.154.195.38
-  type: vmess
-  country: 🇭🇰HK
-  port: 35034
-  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
-  alterId: 0
-  cipher: auto
-  network: tcp
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 🇮🇪IE_70 ⇽中转_1@69
+    path: /arki?ed=2048
+- name: 🇮🇪IE_88 ⇽中转_1@87
   server: kind-stork.rooster465.autos
   type: trojan
   country: 🇮🇪IE
@@ -1136,7 +1153,7 @@ proxies:
   sni: kind-stork.rooster465.autos
   skip-cert-verify: true
   udp: true
-- name: 🇮🇳IN_71_1@70
+- name: 🇮🇳IN_89_1@88
   server: 152.67.8.205
   type: vmess
   country: 🇮🇳IN
@@ -1153,7 +1170,7 @@ proxies:
     path: /
     headers:
       HOST: 152.67.8.205
-- name: 🇮🇳IN_72 ⇽中转_1@71
+- name: 🇮🇳IN_90 ⇽中转_1@89
   server: relaxed-gull.rooster465.autos
   type: trojan
   country: 🇮🇳IN
@@ -1162,7 +1179,7 @@ proxies:
   sni: relaxed-gull.rooster465.autos
   skip-cert-verify: true
   udp: true
-- name: 🇮🇳IN_73 ⇽中转_1@72
+- name: 🇮🇳IN_91 ⇽中转_1@90
   server: discrete-basilisk.rooster465.autos
   type: trojan
   country: 🇮🇳IN
@@ -1171,7 +1188,7 @@ proxies:
   sni: discrete-basilisk.rooster465.autos
   skip-cert-verify: true
   udp: true
-- name: 🇯🇵JP_74 ⇽中转_1@73
+- name: 🇯🇵JP_92 ⇽中转_1@91
   server: manga.bilibilicloud01.com
   type: ssr
   country: 🇯🇵JP
@@ -1180,16 +1197,7 @@ proxies:
   cipher: chacha20-ietf
   protocol: auth_aes128_sha1
   obfs: plain
-- name: 🇯🇵JP_75 ⇽中转_1@74
-  server: show.bilibilicloud01.com
-  type: ssr
-  country: 🇯🇵JP
-  port: 54101
-  password: Mv4e0QHWPwdbKiCF
-  cipher: chacha20-ietf
-  protocol: auth_aes128_sha1
-  obfs: plain
-- name: 🇯🇵JP_76 ⇽中转_1@75
+- name: 🇯🇵JP_93 ⇽中转_1@92
   server: live.bilibilicloud01.com
   type: ssr
   country: 🇯🇵JP
@@ -1198,34 +1206,7 @@ proxies:
   cipher: chacha20-ietf
   protocol: auth_aes128_sha1
   obfs: plain
-- name: 🇯🇵JP_77 ⇽中转_1@76
-  server: live.bilibilicloud01.com
-  type: ssr
-  country: 🇯🇵JP
-  port: 54113
-  password: Mv4e0QHWPwdbKiCF
-  cipher: chacha20-ietf
-  protocol: auth_aes128_sha1
-  obfs: plain
-- name: 🇯🇵JP_78 ⇽中转_1@77
-  server: live.bilibilicloud01.com
-  type: ssr
-  country: 🇯🇵JP
-  port: 54112
-  password: Mv4e0QHWPwdbKiCF
-  cipher: chacha20-ietf
-  protocol: auth_aes128_sha1
-  obfs: plain
-- name: 🇯🇵JP_79 ⇽中转_1@78
-  server: show.bilibilicloud01.com
-  type: ssr
-  country: 🇯🇵JP
-  port: 54115
-  password: Mv4e0QHWPwdbKiCF
-  cipher: chacha20-ietf
-  protocol: auth_aes128_sha1
-  obfs: plain
-- name: 🇯🇵JP_80 ⇽中转_1@79
+- name: 🇯🇵JP_94 ⇽中转_1@93
   server: show.bilibilicloud01.com
   type: ssr
   country: 🇯🇵JP
@@ -1234,115 +1215,52 @@ proxies:
   cipher: chacha20-ietf
   protocol: auth_aes128_sha1
   obfs: plain
-- name: 🇯🇵JP_81 ⇽中转_1@80
-  server: devoted-heron.rooster465.autos
-  type: trojan
-  country: 🇯🇵JP
-  port: 443
-  password: ND91608427
-  sni: devoted-heron.rooster465.autos
-  skip-cert-verify: true
-  udp: true
-- name: 🇯🇵JP_82 ⇽中转_1@81
-  server: perfect-slug.rooster465.autos
-  type: trojan
-  country: 🇯🇵JP
-  port: 443
-  password: ND91608427
-  sni: perfect-slug.rooster465.autos
-  skip-cert-verify: true
-  udp: true
-- name: 🇯🇵JP_83 ⇽中转_1@82
-  server: thankful-mustang.rooster465.autos
-  type: trojan
-  country: 🇯🇵JP
-  port: 443
-  password: ND91608427
-  sni: thankful-mustang.rooster465.autos
-  skip-cert-verify: true
-  udp: true
-- name: 🇯🇵JP_84 ⇽中转_1@83
-  server: eager-camel.rooster465.autos
-  type: trojan
-  country: 🇯🇵JP
-  port: 443
-  password: AE62539071
-  sni: eager-camel.rooster465.autos
-  skip-cert-verify: true
-  udp: true
-- name: 🇯🇵JP_86 ⇽中转_1@85
-  server: adjusted-labrador.rooster465.autos
-  type: trojan
-  country: 🇯🇵JP
-  port: 443
-  password: ND91608427
-  sni: adjusted-labrador.rooster465.autos
-  skip-cert-verify: true
-  udp: true
-- name: 🇯🇵JP_87 ⇽中转_1@86
-  server: nearby-egret.rooster465.autos
-  type: trojan
-  country: 🇯🇵JP
-  port: 443
-  password: ND91608427
-  sni: nearby-egret.rooster465.autos
-  skip-cert-verify: true
-  udp: true
-- name: 🇯🇵JP_88 ⇽中转_1@87
-  server: moral-buzzard.rooster465.autos
-  type: trojan
-  country: 🇯🇵JP
-  port: 443
-  password: ND91608427
-  sni: moral-buzzard.rooster465.autos
-  skip-cert-verify: true
-  udp: true
-- name: 🇯🇵JP_89 ⇽中转_1@88
-  server: social-mutt.rooster465.autos
-  type: trojan
-  country: 🇯🇵JP
-  port: 443
-  password: ND91608427
-  sni: social-mutt.rooster465.autos
-  skip-cert-verify: true
-  udp: true
-- name: 🇯🇵JP_90 ⇽中转_1@89
-  server: stunning-mite.rooster465.autos
-  type: trojan
-  country: 🇯🇵JP
-  port: 443
-  password: ND91608427
-  sni: stunning-mite.rooster465.autos
-  skip-cert-verify: true
-  udp: true
-- name: 🇯🇵JP_91 ⇽中转_1@90
-  server: sure-humpback.rooster465.autos
-  type: trojan
-  country: 🇯🇵JP
-  port: 443
-  password: ND91608427
-  sni: sure-humpback.rooster465.autos
-  skip-cert-verify: true
-  udp: true
-- name: 🇯🇵JP_93 ⇽中转_1@92
-  server: internal-sunbird.rooster465.autos
-  type: trojan
-  country: 🇯🇵JP
-  port: 443
-  password: ND91608427
-  sni: internal-sunbird.rooster465.autos
-  skip-cert-verify: true
-  udp: true
-- name: 🇯🇵JP_94 ⇽中转_1@93
-  server: great-wasp.rooster465.autos
-  type: trojan
-  country: 🇯🇵JP
-  port: 443
-  password: FH72359861
-  sni: great-wasp.rooster465.autos
-  skip-cert-verify: true
-  udp: true
 - name: 🇯🇵JP_95 ⇽中转_1@94
+  server: show.bilibilicloud01.com
+  type: ssr
+  country: 🇯🇵JP
+  port: 54101
+  password: Mv4e0QHWPwdbKiCF
+  cipher: chacha20-ietf
+  protocol: auth_aes128_sha1
+  obfs: plain
+- name: 🇯🇵JP_96 ⇽中转_1@95
+  server: show.bilibilicloud01.com
+  type: ssr
+  country: 🇯🇵JP
+  port: 54114
+  password: Mv4e0QHWPwdbKiCF
+  cipher: chacha20-ietf
+  protocol: auth_aes128_sha1
+  obfs: plain
+- name: 🇯🇵JP_97 ⇽中转_1@96
+  server: show.bilibilicloud01.com
+  type: ssr
+  country: 🇯🇵JP
+  port: 54115
+  password: Mv4e0QHWPwdbKiCF
+  cipher: chacha20-ietf
+  protocol: auth_aes128_sha1
+  obfs: plain
+- name: 🇯🇵JP_98 ⇽中转_1@97
+  server: show.bilibilicloud01.com
+  type: ssr
+  country: 🇯🇵JP
+  port: 54103
+  password: Mv4e0QHWPwdbKiCF
+  cipher: chacha20-ietf
+  protocol: auth_aes128_sha1
+  obfs: plain
+- name: 🇯🇵JP_99 ⇽中转_1@98
+  server: live.bilibilicloud01.com
+  type: ssr
+  country: 🇯🇵JP
+  port: 54112
+  password: Mv4e0QHWPwdbKiCF
+  cipher: chacha20-ietf
+  protocol: auth_aes128_sha1
+  obfs: plain
+- name: 🇯🇵JP_100 ⇽中转_1@99
   server: real-werewolf.rooster465.autos
   type: trojan
   country: 🇯🇵JP
@@ -1351,7 +1269,16 @@ proxies:
   sni: real-werewolf.rooster465.autos
   skip-cert-verify: true
   udp: true
-- name: 🇯🇵JP_96 ⇽中转_1@95
+- name: 🇯🇵JP_101 ⇽中转_1@100
+  server: great-wasp.rooster465.autos
+  type: trojan
+  country: 🇯🇵JP
+  port: 443
+  password: FH72359861
+  sni: great-wasp.rooster465.autos
+  skip-cert-verify: true
+  udp: true
+- name: 🇯🇵JP_102 ⇽中转_1@101
   server: better-molly.rooster465.autos
   type: trojan
   country: 🇯🇵JP
@@ -1360,21 +1287,159 @@ proxies:
   sni: better-molly.rooster465.autos
   skip-cert-verify: true
   udp: true
-- name: 🇰🇷KR_97_1@96
-  server: 221.139.79.57
-  type: ss
-  country: 🇰🇷KR
-  port: 13979
-  password: qwerREWQ@@
-  cipher: aes-256-cfb
-- name: 🇰🇷KR_98_1@97
+- name: 🇯🇵JP_103 ⇽中转_1@102
+  server: moral-buzzard.rooster465.autos
+  type: trojan
+  country: 🇯🇵JP
+  port: 443
+  password: ND91608427
+  sni: moral-buzzard.rooster465.autos
+  skip-cert-verify: true
+  udp: true
+- name: 🇯🇵JP_104 ⇽中转_1@103
+  server: internal-sunbird.rooster465.autos
+  type: trojan
+  country: 🇯🇵JP
+  port: 443
+  password: ND91608427
+  sni: internal-sunbird.rooster465.autos
+  skip-cert-verify: true
+  udp: true
+- name: 🇯🇵JP_105 ⇽中转_1@104
+  server: perfect-slug.rooster465.autos
+  type: trojan
+  country: 🇯🇵JP
+  port: 443
+  password: ND91608427
+  sni: perfect-slug.rooster465.autos
+  skip-cert-verify: true
+  udp: true
+- name: 🇯🇵JP_106 ⇽中转_1@105
+  server: devoted-heron.rooster465.autos
+  type: trojan
+  country: 🇯🇵JP
+  port: 443
+  password: ND91608427
+  sni: devoted-heron.rooster465.autos
+  skip-cert-verify: true
+  udp: true
+- name: 🇯🇵JP_107 ⇽中转_1@106
+  server: adjusted-labrador.rooster465.autos
+  type: trojan
+  country: 🇯🇵JP
+  port: 443
+  password: ND91608427
+  sni: adjusted-labrador.rooster465.autos
+  skip-cert-verify: true
+  udp: true
+- name: 🇯🇵JP_108 ⇽中转_1@107
+  server: eager-camel.rooster465.autos
+  type: trojan
+  country: 🇯🇵JP
+  port: 443
+  password: AE62539071
+  sni: eager-camel.rooster465.autos
+  skip-cert-verify: true
+  udp: true
+- name: 🇯🇵JP_109 ⇽中转_1@108
+  server: social-mutt.rooster465.autos
+  type: trojan
+  country: 🇯🇵JP
+  port: 443
+  password: ND91608427
+  sni: social-mutt.rooster465.autos
+  skip-cert-verify: true
+  udp: true
+- name: 🇯🇵JP_110 ⇽中转_1@109
+  server: merry-falcon.rooster465.autos
+  type: trojan
+  country: 🇯🇵JP
+  port: 443
+  password: PQ05174892
+  sni: merry-falcon.rooster465.autos
+  skip-cert-verify: true
+  udp: true
+- name: 🇯🇵JP_111 ⇽中转_1@110
+  server: stunning-mite.rooster465.autos
+  type: trojan
+  country: 🇯🇵JP
+  port: 443
+  password: ND91608427
+  sni: stunning-mite.rooster465.autos
+  skip-cert-verify: true
+  udp: true
+- name: 🇯🇵JP_112 ⇽中转_1@111
+  server: sure-humpback.rooster465.autos
+  type: trojan
+  country: 🇯🇵JP
+  port: 443
+  password: ND91608427
+  sni: sure-humpback.rooster465.autos
+  skip-cert-verify: true
+  udp: true
+- name: 🇯🇵JP_113 ⇽中转_1@112
+  server: clear-heron.rooster465.autos
+  type: trojan
+  country: 🇯🇵JP
+  port: 443
+  password: AE62539071
+  sni: clear-heron.rooster465.autos
+  skip-cert-verify: true
+  udp: true
+- name: 🇯🇵JP_114 ⇽中转_1@113
+  server: nearby-egret.rooster465.autos
+  type: trojan
+  country: 🇯🇵JP
+  port: 443
+  password: ND91608427
+  sni: nearby-egret.rooster465.autos
+  skip-cert-verify: true
+  udp: true
+- name: 🇯🇵JP_115 ⇽中转_1@114
+  server: thankful-mustang.rooster465.autos
+  type: trojan
+  country: 🇯🇵JP
+  port: 443
+  password: ND91608427
+  sni: thankful-mustang.rooster465.autos
+  skip-cert-verify: true
+  udp: true
+- name: 🇰🇷KR_116_1@115
   server: 218.237.185.230
   type: ss
   country: 🇰🇷KR
   port: 4652
   password: qwerREWQ@@
   cipher: aes-256-cfb
-- name: 🇰🇷KR_102_1@101
+- name: 🇰🇷KR_117_1@116
+  server: 221.139.79.57
+  type: ss
+  country: 🇰🇷KR
+  port: 13979
+  password: qwerREWQ@@
+  cipher: aes-256-cfb
+- name: 🇰🇷KR_118_1@117
+  server: 141.164.45.187
+  type: ss
+  country: 🇰🇷KR
+  port: 6679
+  password: TEzjfAYq2IjtuoS
+  cipher: aes-256-gcm
+- name: 🇰🇷KR_120_1@119
+  server: 141.164.45.187
+  type: ss
+  country: 🇰🇷KR
+  port: 7001
+  password: RexnBgU7EV5ADxG
+  cipher: aes-256-gcm
+- name: 🇰🇷KR_121 ⇽中转_1@120
+  server: p141.panda001.net
+  type: ss
+  country: 🇰🇷KR
+  port: 4652
+  password: qwerREWQ@@
+  cipher: aes-256-cfb
+- name: 🇰🇷KR_122_1@121
   server: 150.109.240.179
   type: vmess
   country: 🇰🇷KR
@@ -1392,7 +1457,7 @@ proxies:
     path: /wsproxy
     headers:
       HOST: www.bing.com
-- name: 🇰🇷KR_103_1@102
+- name: 🇰🇷KR_123_1@122
   server: 140.238.2.250
   type: vmess
   country: 🇰🇷KR
@@ -1404,34 +1469,25 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 🇰🇷KR_106 ⇽中转_1@105
-  server: pure-ram.rooster465.autos
+- name: 🇰🇷KR_124 ⇽中转_1@123
+  server: absolute-bobcat.rooster465.autos
   type: trojan
   country: 🇰🇷KR
   port: 443
-  password: ND91608427
-  sni: pure-ram.rooster465.autos
+  password: FH72359861
+  sni: absolute-bobcat.rooster465.autos
   skip-cert-verify: true
   udp: true
-- name: 🇰🇷KR_108 ⇽中转_1@107
-  server: capable-jay.rooster465.autos
+- name: 🇰🇷KR_125 ⇽中转_1@124
+  server: apt-whippet.rooster465.autos
   type: trojan
   country: 🇰🇷KR
   port: 443
-  password: AE62539071
-  sni: capable-jay.rooster465.autos
+  password: FH72359861
+  sni: apt-whippet.rooster465.autos
   skip-cert-verify: true
   udp: true
-- name: 🇰🇷KR_109 ⇽中转_1@108
-  server: viable-serval.rooster465.autos
-  type: trojan
-  country: 🇰🇷KR
-  port: 443
-  password: AE62539071
-  sni: viable-serval.rooster465.autos
-  skip-cert-verify: true
-  udp: true
-- name: 🇰🇷KR_110 ⇽中转_1@109
+- name: 🇰🇷KR_126 ⇽中转_1@125
   server: select-ferret.rooster465.autos
   type: trojan
   country: 🇰🇷KR
@@ -1440,7 +1496,7 @@ proxies:
   sni: select-ferret.rooster465.autos
   skip-cert-verify: true
   udp: true
-- name: 🇰🇷KR_111 ⇽中转_1@110
+- name: 🇰🇷KR_127 ⇽中转_1@126
   server: communal-sunbird.rooster465.autos
   type: trojan
   country: 🇰🇷KR
@@ -1449,7 +1505,7 @@ proxies:
   sni: communal-sunbird.rooster465.autos
   skip-cert-verify: true
   udp: true
-- name: 🇰🇷KR_112 ⇽中转_1@111
+- name: 🇰🇷KR_128 ⇽中转_1@127
   server: humorous-malamute.rooster465.autos
   type: trojan
   country: 🇰🇷KR
@@ -1458,7 +1514,43 @@ proxies:
   sni: humorous-malamute.rooster465.autos
   skip-cert-verify: true
   udp: true
-- name: 🇲🇾MY_113_1@112
+- name: 🇰🇷KR_129 ⇽中转_1@128
+  server: pure-ram.rooster465.autos
+  type: trojan
+  country: 🇰🇷KR
+  port: 443
+  password: ND91608427
+  sni: pure-ram.rooster465.autos
+  skip-cert-verify: true
+  udp: true
+- name: 🇰🇷KR_130 ⇽中转_1@129
+  server: viable-serval.rooster465.autos
+  type: trojan
+  country: 🇰🇷KR
+  port: 443
+  password: AE62539071
+  sni: viable-serval.rooster465.autos
+  skip-cert-verify: true
+  udp: true
+- name: 🇰🇷KR_131 ⇽中转_1@130
+  server: good-hound.rooster465.autos
+  type: trojan
+  country: 🇰🇷KR
+  port: 443
+  password: FH72359861
+  sni: good-hound.rooster465.autos
+  skip-cert-verify: true
+  udp: true
+- name: 🇰🇷KR_132 ⇽中转_1@131
+  server: capable-jay.rooster465.autos
+  type: trojan
+  country: 🇰🇷KR
+  port: 443
+  password: AE62539071
+  sni: capable-jay.rooster465.autos
+  skip-cert-verify: true
+  udp: true
+- name: 🇲🇾MY_133_1@132
   server: 47.250.45.234
   type: vmess
   country: 🇲🇾MY
@@ -1472,7 +1564,7 @@ proxies:
   skip-cert-verify: true
   ws-opts:
     path: /arki?ed=2048
-- name: 🇲🇾MY_115_1@114
+- name: 🇲🇾MY_134_1@133
   server: 47.250.45.234
   type: vmess
   country: 🇲🇾MY
@@ -1486,14 +1578,7 @@ proxies:
   skip-cert-verify: true
   ws-opts:
     path: /arki?ed=2048
-- name: 🇳🇱NL_120_1@119
-  server: 193.29.139.168
-  type: ss
-  country: 🇳🇱NL
-  port: 8080
-  password: QCXDxuDlTTMD7jtgHUjIoj
-  cipher: chacha20-ietf-poly1305
-- name: 🇳🇱NL_122 ⇽中转_1@121
+- name: 🇳🇱NL_141 ⇽中转_1@140
   server: 185.246.152.159
   type: vmess
   country: 🇳🇱NL
@@ -1511,7 +1596,7 @@ proxies:
     path: /5f72f180-b21b-4b7a-8484-240759096785
     headers:
       HOST: apjhdggyx.com
-- name: 🇷🇴RO_123 ⇽中转_1@122
+- name: 🇷🇴RO_142 ⇽中转_1@141
   server: ace-starling.rooster465.autos
   type: trojan
   country: 🇷🇴RO
@@ -1520,28 +1605,35 @@ proxies:
   sni: ace-starling.rooster465.autos
   skip-cert-verify: true
   udp: true
-- name: 🇺🇦UA_124 ⇽中转_1@123
+- name: 🇺🇦UA_144 ⇽中转_1@143
   server: switcher-nick-croquet.freesocks.work
   type: ss
   country: 🇺🇦UA
   port: 443
   password: 9tqhMdIrTkgQ46PvhyAtMH
   cipher: chacha20-ietf-poly1305
-- name: 🇺🇸US_125_1@124
-  server: 156.146.38.169
-  type: ss
-  country: 🇺🇸US
-  port: 443
-  password: shadowsocks
-  cipher: aes-128-gcm
-- name: 🇺🇸US_136_1@135
+- name: 🇺🇸US_148_1@147
   server: 137.184.174.93
   type: ss
   country: 🇺🇸US
   port: 8080
   password: 14fFPrbezE3HDZzsMOr6
   cipher: rc4-md5
-- name: 🇺🇸US_139 ⇽中转_1@138
+- name: 🇺🇸US_155_1@154
+  server: 156.146.38.169
+  type: ss
+  country: 🇺🇸US
+  port: 443
+  password: shadowsocks
+  cipher: aes-128-gcm
+- name: 🇺🇸US_157_1@156
+  server: 37.19.198.236
+  type: ss
+  country: 🇺🇸US
+  port: 443
+  password: shadowsocks
+  cipher: aes-128-gcm
+- name: 🇺🇸US_160 ⇽中转_1@159
   server: nm3.boom.party
   type: ssr
   country: 🇺🇸US
@@ -1550,16 +1642,45 @@ proxies:
   cipher: aes-256-cfb
   protocol: auth_aes128_sha1
   obfs: http_simple
-- name: 🇯🇵JP_140 ⇽中转_1@139
-  server: show.bilibilicloud01.com
-  type: ssr
+- name: 🇺🇸US_161_1@160
+  server: 67.220.95.3
+  type: vmess
   country: 🇺🇸US
-  port: 54114
-  password: Mv4e0QHWPwdbKiCF
-  cipher: chacha20-ietf
-  protocol: auth_aes128_sha1
-  obfs: plain
-- name: 🇺🇸US_141_1@140
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  network: tcp
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 🇺🇸US_162_1@161
+  server: 173.249.209.146
+  type: vmess
+  country: 🇺🇸US
+  port: 20086
+  uuid: 3935c2dc-dbb0-43f7-b367-fe89abe87fdf
+  alterId: 0
+  cipher: auto
+  network: ws
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+  ws-opts:
+    path: /
+- name: 🇺🇸US_165_1@164
+  server: 38.110.1.246
+  type: vmess
+  country: 🇺🇸US
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  network: tcp
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 🇺🇸US_166_1@165
   server: 157.254.227.87
   type: vmess
   country: 🇺🇸US
@@ -1574,7 +1695,7 @@ proxies:
   skip-cert-verify: true
   ws-opts:
     path: /d252e35bb475
-- name: 🇺🇸US_142_1@141
+- name: 🇺🇸US_167_1@166
   server: guanwang.awsno.com
   type: vmess
   country: 🇺🇸US
@@ -1587,102 +1708,31 @@ proxies:
   h2-opts: {}
   tls: true
   skip-cert-verify: true
-- name: 🇺🇸US_143_1@142
-  server: 173.249.209.146
+- name: 🇺🇸US_168_1@167
+  server: 67.220.72.237
   type: vmess
   country: 🇺🇸US
-  port: 20086
-  uuid: 3935c2dc-dbb0-43f7-b367-fe89abe87fdf
-  alterId: 0
+  port: 22324
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  alterId: 1
   cipher: auto
-  network: ws
+  network: tcp
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-  ws-opts:
-    path: /
-- name: 🇺🇸US_149_1@148
-  server: 43.203.119.20
-  type: trojan
+- name: 🇺🇸US_169_1@168
+  server: 67.220.85.46
+  type: vmess
   country: 🇺🇸US
-  port: 443
-  password: ND91608427
-  sni: uncommon-feline.rooster465.autos
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  network: tcp
+  http-opts: {}
+  h2-opts: {}
   skip-cert-verify: true
-  udp: true
-- name: 🇺🇸US_150 ⇽中转_1@149
-  server: sharing-duck.rooster465.autos
-  type: trojan
-  country: 🇺🇸US
-  port: 443
-  password: AE62539071
-  sni: sharing-duck.rooster465.autos
-  skip-cert-verify: true
-  udp: true
-- name: 🇺🇸US_151 ⇽中转_1@150
-  server: exotic-chow.rooster465.autos
-  type: trojan
-  country: 🇺🇸US
-  port: 443
-  password: ND91608427
-  sni: exotic-chow.rooster465.autos
-  skip-cert-verify: true
-  udp: true
-- name: 🇺🇸US_152 ⇽中转_1@151
-  server: intimate-moray.rooster465.autos
-  type: trojan
-  country: 🇺🇸US
-  port: 443
-  password: ND91608427
-  sni: intimate-moray.rooster465.autos
-  skip-cert-verify: true
-  udp: true
-- name: 🇺🇸US_153 ⇽中转_1@152
-  server: great-krill.rooster465.autos
-  type: trojan
-  country: 🇺🇸US
-  port: 443
-  password: QV31589740
-  sni: great-krill.rooster465.autos
-  skip-cert-verify: true
-  udp: true
-- name: 🇺🇸US_154_1@153
-  server: 43.203.244.203
-  type: trojan
-  country: 🇺🇸US
-  port: 443
-  password: ND91608427
-  sni: grateful-owl.rooster465.autos
-  skip-cert-verify: true
-  udp: true
-- name: 🇺🇸US_155 ⇽中转_1@154
-  server: striking-maggot.rooster465.autos
-  type: trojan
-  country: 🇺🇸US
-  port: 443
-  password: ND91608427
-  sni: striking-maggot.rooster465.autos
-  skip-cert-verify: true
-  udp: true
-- name: 🇺🇸US_157 ⇽中转_1@156
-  server: firm-krill.rooster465.autos
-  type: trojan
-  country: 🇺🇸US
-  port: 443
-  password: AE62539071
-  sni: firm-krill.rooster465.autos
-  skip-cert-verify: true
-  udp: true
-- name: 🇺🇸US_158 ⇽中转_1@157
-  server: distinct-llama.rooster465.autos
-  type: trojan
-  country: 🇺🇸US
-  port: 443
-  password: ND91608427
-  sni: distinct-llama.rooster465.autos
-  skip-cert-verify: true
-  udp: true
-- name: 🇭🇰HK_159 ⇽中转_1@158
+- name: 🇭🇰HK_170 ⇽中转_1@169
   server: 2c.fast9988.com
   type: trojan
   country: 🇺🇸US
@@ -1691,41 +1741,111 @@ proxies:
   sni: www.nintendogames.net
   skip-cert-verify: true
   udp: true
-- name: 🇿🇦ZA_162 ⇽中转_1@161
-  server: 231103.level3.sdl-sz.com
-  type: ssr
+- name: 🇺🇸US_171 ⇽中转_1@170
+  server: great-krill.rooster465.autos
+  type: trojan
+  country: 🇺🇸US
+  port: 443
+  password: QV31589740
+  sni: great-krill.rooster465.autos
+  skip-cert-verify: true
+  udp: true
+- name: 🇺🇸US_172 ⇽中转_1@171
+  server: distinct-llama.rooster465.autos
+  type: trojan
+  country: 🇺🇸US
+  port: 443
+  password: ND91608427
+  sni: distinct-llama.rooster465.autos
+  skip-cert-verify: true
+  udp: true
+- name: 🇺🇸US_173_1@172
+  server: 43.203.119.20
+  type: trojan
+  country: 🇺🇸US
+  port: 443
+  password: ND91608427
+  sni: uncommon-feline.rooster465.autos
+  skip-cert-verify: true
+  udp: true
+- name: 🇺🇸US_174 ⇽中转_1@173
+  server: intimate-moray.rooster465.autos
+  type: trojan
+  country: 🇺🇸US
+  port: 443
+  password: ND91608427
+  sni: intimate-moray.rooster465.autos
+  skip-cert-verify: true
+  udp: true
+- name: 🇺🇸US_175 ⇽中转_1@174
+  server: striking-maggot.rooster465.autos
+  type: trojan
+  country: 🇺🇸US
+  port: 443
+  password: ND91608427
+  sni: striking-maggot.rooster465.autos
+  skip-cert-verify: true
+  udp: true
+- name: 🇺🇸US_176 ⇽中转_1@175
+  server: firm-krill.rooster465.autos
+  type: trojan
+  country: 🇺🇸US
+  port: 443
+  password: AE62539071
+  sni: firm-krill.rooster465.autos
+  skip-cert-verify: true
+  udp: true
+- name: 🇺🇸US_177 ⇽中转_1@176
+  server: exotic-chow.rooster465.autos
+  type: trojan
+  country: 🇺🇸US
+  port: 443
+  password: ND91608427
+  sni: exotic-chow.rooster465.autos
+  skip-cert-verify: true
+  udp: true
+- name: 🇺🇸US_178_1@177
+  server: 43.203.244.203
+  type: trojan
+  country: 🇺🇸US
+  port: 443
+  password: ND91608427
+  sni: grateful-owl.rooster465.autos
+  skip-cert-verify: true
+  udp: true
+- name: Pool_🇺🇸US_179_1@178
+  server: 64.94.95.118
+  type: trojan
+  country: 🇺🇸US
+  port: 57142
+  password: kkzh2prsyr2ik47as615
+  sni: 64.94.95.118
+  skip-cert-verify: true
+  udp: true
+- name: 🇺🇸US_180 ⇽中转_1@179
+  server: sharing-duck.rooster465.autos
+  type: trojan
+  country: 🇺🇸US
+  port: 443
+  password: AE62539071
+  sni: sharing-duck.rooster465.autos
+  skip-cert-verify: true
+  udp: true
+- name: 🇿🇦ZA_181_1@180
+  server: 102.37.156.224
+  type: ss
   country: 🇿🇦ZA
-  port: 2212
-  password: dajkdkjda&dj23gsa
-  cipher: aes-256-cfb
-  protocol: auth_aes128_md5
-  protocol-param: 11275:KWQHheqWo8
-  obfs: http_simple
-  obfs-param: d300c11275.microsoft.com
-  group: Update-bulianglin
-- name: 🇿🇦ZA_163 ⇽中转_1@162
-  server: glimmerdsds.sdl-sz.com
-  type: ssr
+  port: 443
+  password: aduB9HGxQHjA2SBMRjkHX6
+  cipher: chacha20-ietf-poly1305
+- name: 🇺🇸US_182 ⇽中转_1@181
+  server: 102.133.165.160
+  type: ss
   country: 🇿🇦ZA
-  port: 39007
-  password: dajkd*/?
-  cipher: aes-256-cfb
-  protocol: auth_aes128_md5
-  obfs: http_simple
-  obfs-param: 1f4c39347.microsoft.com
-- name: 🇿🇦ZA_164 ⇽中转_1@163
-  server: 231103levelx.unclemanco.com
-  type: ssr
-  country: 🇿🇦ZA
-  port: 37866
-  password: dajkdkjd2a&dj23gsa
-  cipher: aes-256-cfb
-  protocol: auth_aes128_md5
-  protocol-param: 11275:KWQHheqWo8
-  obfs: http_simple
-  obfs-param: d300c11275.microsoft.com
-  group: Update-bulianglin
-- name: 🇿🇦ZA_165 ⇽中转_1@164
+  port: 16233
+  password: Xsy8Ox4yOV3xLlpxtjzs3X
+  cipher: chacha20-ietf-poly1305
+- name: 🇿🇦ZA_183 ⇽中转_1@182
   server: 231103.level3.sdl-sz.com
   type: ssr
   country: 🇿🇦ZA
@@ -1737,7 +1857,48 @@ proxies:
   obfs: http_simple
   obfs-param: d300c11275.microsoft.com
   group: Update-二爷
-- name: Pool_🏁ZZ_167_1@166
+- name: 🇿🇦ZA_184 ⇽中转_1@183
+  server: 231103.level3.sdl-sz.com
+  type: ssr
+  country: 🇿🇦ZA
+  port: 2212
+  password: dajkdkjda&dj23gsa
+  cipher: aes-256-cfb
+  protocol: auth_aes128_md5
+  protocol-param: 11275:KWQHheqWo8
+  obfs: http_simple
+  obfs-param: d300c11275.microsoft.com
+  group: Update-bulianglin
+- name: 🇿🇦ZA_185 ⇽中转_1@184
+  server: 231103levelx.unclemanco.com
+  type: ssr
+  country: 🇿🇦ZA
+  port: 37866
+  password: dajkdkjd2a&dj23gsa
+  cipher: aes-256-cfb
+  protocol: auth_aes128_md5
+  protocol-param: 11275:KWQHheqWo8
+  obfs: http_simple
+  obfs-param: d300c11275.microsoft.com
+  group: Update-bulianglin
+- name: 🇿🇦ZA_186 ⇽中转_1@185
+  server: glimmerdsds.sdl-sz.com
+  type: ssr
+  country: 🇿🇦ZA
+  port: 39007
+  password: dajkd*/?
+  cipher: aes-256-cfb
+  protocol: auth_aes128_md5
+  obfs: http_simple
+  obfs-param: 1f4c39347.microsoft.com
+- name: 🏁ZZ_187_1@186
+  server: 213.109.147.242
+  type: ss
+  country: 🏁ZZ
+  port: 62685
+  password: VpKABcOpNNA0l5G2AVOmw8
+  cipher: chacha20-ietf-poly1305
+- name: Pool_🏁ZZ_189_1@188
   server: 165.140.216.141
   type: vmess
   country: 🏁ZZ
@@ -1749,7 +1910,7 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 🇺🇸US_168 ⇽中转_1@167
+- name: 🇺🇸US_190 ⇽中转_1@189
   server: 104.17.77.77
   type: vmess
   country: 🏁ZZ
