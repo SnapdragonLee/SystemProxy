@@ -15,126 +15,197 @@ geo-update-interval: 48
 log-level: silent
 external-controller: :9090
 proxies:
-- name: 🇺🇸US_210_0@209
-  server: 149.22.87.204
-  type: ss
-  country: 🇺🇸US
-  port: 443
-  password: shadowsocks
-  cipher: aes-128-gcm
-- name: 🇺🇸US_211_0@210
-  server: 156.146.38.168
-  type: ss
-  country: 🇺🇸US
-  port: 443
-  password: shadowsocks
-  cipher: aes-128-gcm
-- name: 🇺🇸US_212_0@211
-  server: 139.84.247.164
-  type: ss
-  country: 🇺🇸US
-  port: 8388
-  password: tfAcRikawhNoZAhu
-  cipher: chacha20-ietf-poly1305
-- name: 🇺🇸US_213_0@212
-  server: 140.82.63.79
-  type: ss
-  country: 🇺🇸US
-  port: 8388
-  password: ZoZtfPOyVvmKARUN
-  cipher: chacha20-ietf-poly1305
-- name: 🇺🇸US_214_0@213
-  server: 15.204.247.206
-  type: ss
-  country: 🇺🇸US
-  port: 4444
-  password: pKEW8JPByTVTLtM
-  cipher: aes-256-gcm
-- name: 🇺🇸US_215_0@214
-  server: 51.20.86.152
-  type: ss
-  country: 🇺🇸US
-  port: 443
-  password: amazonskr05
-  cipher: aes-256-cfb
-- name: 🇺🇸US_216_0@215
-  server: 51.20.72.15
-  type: ss
-  country: 🇺🇸US
-  port: 443
-  password: amazonskr05
-  cipher: aes-256-cfb
-- name: 🇺🇸US_217_0@216
-  server: 216.105.168.18
-  type: ss
-  country: 🇺🇸US
-  port: 443
-  password: hCCWOcIsK5wrFz4OX70rWf
-  cipher: chacha20-ietf-poly1305
-- name: 🇺🇸US_218_0@217
-  server: 156.146.38.167
-  type: ss
-  country: 🇺🇸US
-  port: 443
-  password: shadowsocks
-  cipher: aes-128-gcm
-- name: 🇺🇸US_219_0@218
-  server: 149.22.87.240
-  type: ss
-  country: 🇺🇸US
-  port: 443
-  password: shadowsocks
-  cipher: aes-128-gcm
-- name: 🇺🇸US_220_0@219
-  server: 149.22.87.241
-  type: ss
-  country: 🇺🇸US
-  port: 443
-  password: shadowsocks
-  cipher: aes-128-gcm
-- name: 🇺🇸US_221_0@220
-  server: 156.146.38.170
-  type: ss
-  country: 🇺🇸US
-  port: 443
-  password: shadowsocks
-  cipher: aes-128-gcm
-- name: 🇺🇸US_222_0@221
+- name: 🇺🇸US_116_0@115
   server: 173.244.56.6
   type: ss
   country: 🇺🇸US
   port: 443
   password: shadowsocks
   cipher: aes-128-gcm
-- name: 🇺🇸US_223_0@222
-  server: 173.244.56.9
+- name: 🇺🇸US_117_0@116
+  server: 156.146.38.167
   type: ss
   country: 🇺🇸US
   port: 443
   password: shadowsocks
   cipher: aes-128-gcm
-- name: 🇺🇸US_224_0@223
+- name: 🇺🇸US_118_0@117
+  server: 139.84.247.164
+  type: ss
+  country: 🇺🇸US
+  port: 8388
+  password: tfAcRikawhNoZAhu
+  cipher: chacha20-ietf-poly1305
+- name: 🇺🇸US_119_0@118
+  server: 216.105.168.18
+  type: ss
+  country: 🇺🇸US
+  port: 443
+  password: hCCWOcIsK5wrFz4OX70rWf
+  cipher: chacha20-ietf-poly1305
+- name: 🇺🇸US_120_0@119
+  server: 37.19.198.160
+  type: ss
+  country: 🇺🇸US
+  port: 443
+  password: shadowsocks
+  cipher: aes-128-gcm
+- name: 🇺🇸US_121_0@120
   server: 209.46.102.22
   type: ss
   country: 🇺🇸US
   port: 8388
   password: 1hhrqrokj3ag
   cipher: chacha20-ietf-poly1305
-- name: 🇺🇸US_225_0@224
-  server: 149.22.95.183
+- name: 🇺🇸US_122_0@121
+  server: 51.20.86.152
+  type: ss
+  country: 🇺🇸US
+  port: 443
+  password: amazonskr05
+  cipher: aes-256-cfb
+- name: 🇺🇸US_123_0@122
+  server: 98.89.22.134
+  type: ss
+  country: 🇺🇸US
+  port: 443
+  password: amazonskr05
+  cipher: aes-256-cfb
+- name: 🇺🇸US_124_0@123
+  server: 15.204.247.206
+  type: ss
+  country: 🇺🇸US
+  port: 4444
+  password: pKEW8JPByTVTLtM
+  cipher: aes-256-gcm
+- name: 🇺🇸US_125_0@124
+  server: 137.184.174.93
+  type: ss
+  country: 🇺🇸US
+  port: 8080
+  password: 14fFPrbezE3HDZzsMOr6
+  cipher: rc4-md5
+- name: 🇺🇸US_126_0@125
+  server: 140.82.63.79
+  type: ss
+  country: 🇺🇸US
+  port: 8388
+  password: ZoZtfPOyVvmKARUN
+  cipher: chacha20-ietf-poly1305
+- name: 🇺🇸US_127_0@126
+  server: 156.146.38.170
   type: ss
   country: 🇺🇸US
   port: 443
   password: shadowsocks
   cipher: aes-128-gcm
-- name: 🇺🇸US_226_0@225
+- name: 🇺🇸US_128_0@127
+  server: 156.146.38.168
+  type: ss
+  country: 🇺🇸US
+  port: 443
+  password: shadowsocks
+  cipher: aes-128-gcm
+- name: 🇺🇸US_129_0@128
+  server: 37.19.198.236
+  type: ss
+  country: 🇺🇸US
+  port: 443
+  password: shadowsocks
+  cipher: aes-128-gcm
+- name: 🇺🇸US_130_0@129
   server: 198.98.53.130
   type: ss
   country: 🇺🇸US
   port: 443
   password: eDfN7SODQceIOmIAbtJJtK
   cipher: chacha20-ietf-poly1305
-- name: 🇺🇸US_227_0@226
+- name: 🇺🇸US_131_0@130
+  server: 173.244.56.9
+  type: ss
+  country: 🇺🇸US
+  port: 443
+  password: shadowsocks
+  cipher: aes-128-gcm
+- name: 🇺🇸US_132_0@131
+  server: 37.19.198.243
+  type: ss
+  country: 🇺🇸US
+  port: 443
+  password: shadowsocks
+  cipher: aes-128-gcm
+- name: 🇺🇸US_133_0@132
+  server: 37.19.198.244
+  type: ss
+  country: 🇺🇸US
+  port: 443
+  password: shadowsocks
+  cipher: aes-128-gcm
+- name: 🇺🇸US_134_0@133
+  server: 156.146.38.169
+  type: ss
+  country: 🇺🇸US
+  port: 443
+  password: shadowsocks
+  cipher: aes-128-gcm
+- name: 🇺🇸US_136 ⇽中转_0@135
+  server: nm3.boom.party
+  type: ssr
+  country: 🇺🇸US
+  port: 13000
+  password: Uk92CS
+  cipher: aes-256-cfb
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+- name: 🇺🇸US_137_0@136
+  server: 67.220.85.46
+  type: vmess
+  country: 🇺🇸US
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  network: tcp
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 🇺🇸US_138_0@137
+  server: 67.220.95.3
+  type: vmess
+  country: 🇺🇸US
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  network: tcp
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 🇺🇸US_139_0@138
+  server: 149.88.23.202
+  type: vmess
+  country: 🇺🇸US
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  network: tcp
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 🇺🇸US_140_0@139
+  server: 149.88.23.207
+  type: vmess
+  country: 🇺🇸US
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  network: tcp
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 🇺🇸US_141_0@140
   server: 38.110.1.246
   type: vmess
   country: 🇺🇸US
@@ -143,11 +214,35 @@ proxies:
   alterId: 0
   cipher: auto
   network: tcp
-  ws-path: /
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 🇺🇸US_228_0@227
+- name: 🇺🇸US_143 ⇽中转_0@142
+  server: 102.133.165.160
+  type: ss
+  country: 🇿🇦ZA
+  port: 16233
+  password: Xsy8Ox4yOV3xLlpxtjzs3X
+  cipher: chacha20-ietf-poly1305
+- name: 🇺🇸US_144 ⇽中转_0@143
+  server: 104.17.77.77
+  type: vmess
+  country: 🏁ZZ
+  port: 8443
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  alterId: 0
+  cipher: auto
+  network: ws
+  servername: v2ray1.dozapp.xyz
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+  ws-opts:
+    path: /lMnsZUN4/
+    headers:
+      HOST: v2ray1.dozapp.xyz
+- name: 🇺🇸US_185_1@184
   server: 67.220.72.237
   type: vmess
   country: 🇺🇸US
@@ -160,91 +255,47 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 🇺🇸US_229_0@228
-  server: 67.220.85.46
-  type: vmess
-  country: 🇺🇸US
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 🇺🇸US_230_0@229
-  server: 67.220.95.3
-  type: vmess
-  country: 🇺🇸US
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 🇺🇸US_231_0@230
-  server: 154.3.32.164
-  type: trojan
-  country: 🇺🇸US
-  port: 8443
-  password: '162534'
-  sni: cchh2.pages.dev
-  skip-cert-verify: true
-  udp: true
-- name: 🇺🇸US_232_0@231
-  server: sincere-gelding.rooster465.autos
+- name: 🇺🇸US_187_1@186
+  server: eager-platypus.rooster465.autos
   type: trojan
   country: 🇺🇸US
   port: 443
-  password: ND91608427
+  password: CF68213490
   skip-cert-verify: true
   udp: true
-- name: 🇺🇸US_233_0@232
-  server: frank-turtle.rooster465.autos
+- name: 🇺🇸US_188_1@187
+  server: nnnmjju.131.pp.ua
   type: trojan
   country: 🇺🇸US
   port: 443
-  password: PD07395842
+  password: 98b419ef-83a2-4d1b-a23d-566b7f24477b
   skip-cert-verify: true
   udp: true
-- name: 🇺🇸US_234_0@233
-  server: 152.53.138.238
+- name: 🇺🇸US_189_1@188
+  server: caring-wallaby.rooster465.autos
   type: trojan
   country: 🇺🇸US
   port: 443
-  password: '1234567890'
-  sni: kfm-bn0.pages.dev
+  password: CF68213490
   skip-cert-verify: true
   udp: true
-- name: 🇺🇸US_236_0@235
-  server: humorous-malamute.rooster465.autos
+- name: 🇺🇸US_190_1@189
+  server: definite-ladybird.rooster465.autos
   type: trojan
   country: 🇺🇸US
   port: 443
-  password: ND91608427
+  password: CF68213490
   skip-cert-verify: true
   udp: true
-- name: 🇺🇸US_237_0@236
-  server: apt-whippet.rooster465.autos
+- name: 🇺🇸US_191_1@190
+  server: helping-shark.rooster465.autos
   type: trojan
   country: 🇺🇸US
   port: 443
-  password: FH72359861
+  password: CF68213490
   skip-cert-verify: true
   udp: true
-- name: 🇺🇸US_238_0@237
-  server: warm-bass.rooster465.autos
-  type: trojan
-  country: 🇺🇸US
-  port: 443
-  password: NQ26071394
-  skip-cert-verify: true
-  udp: true
-- name: 🇺🇸US_239_0@238
+- name: 🇺🇸US_192_1@191
   server: 47.76.218.163
   type: trojan
   country: 🇺🇸US
@@ -252,56 +303,31 @@ proxies:
   password: 8r<[9'l6hAO#8ZQi
   skip-cert-verify: true
   udp: true
-- name: 🇺🇸US_240_0@239
-  server: pet-ghost.rooster465.autos
-  type: trojan
-  country: 🇺🇸US
-  port: 443
-  password: ND91608427
-  skip-cert-verify: true
-  udp: true
-- name: 🇺🇸US_241_0@240
-  server: 152.53.228.86
-  type: trojan
-  country: 🇺🇸US
-  port: 443
-  password: '1234567890'
-  sni: kfm-bn0.pages.dev
-  skip-cert-verify: true
-  udp: true
-- name: 🇺🇸US_242_0@241
-  server: bold-eagle.rooster465.autos
-  type: trojan
-  country: 🇺🇸US
-  port: 443
-  password: FH72359861
-  skip-cert-verify: true
-  udp: true
-- name: 🇺🇸US_243_0@242
-  server: sharing-duck.rooster465.autos
-  type: trojan
-  country: 🇺🇸US
-  port: 443
-  password: AE62539071
-  skip-cert-verify: true
-  udp: true
-- name: 🇺🇸US_244_0@243
-  server: on-roughy.rooster465.autos
+- name: 🇺🇸US_193_1@192
+  server: excited-ghoul.rooster465.autos
   type: trojan
   country: 🇺🇸US
   port: 443
   password: PD07395842
   skip-cert-verify: true
   udp: true
-- name: 🇺🇸US_245_0@244
-  server: gentle-raptor.rooster465.autos
+- name: 🇺🇸US_194_1@193
+  server: internal-peacock.rooster465.autos
   type: trojan
   country: 🇺🇸US
   port: 443
-  password: ND91608427
+  password: NQ26071394
   skip-cert-verify: true
   udp: true
-- name: 🇺🇸US_246_0@245
+- name: 🇺🇸US_195_1@194
+  server: warm-bass.rooster465.autos
+  type: trojan
+  country: 🇺🇸US
+  port: 443
+  password: NQ26071394
+  skip-cert-verify: true
+  udp: true
+- name: 🇺🇸US_196_1@195
   server: 64.188.89.147
   type: trojan
   country: 🇺🇸US
@@ -310,71 +336,7 @@ proxies:
   sni: kfm-bn0.pages.dev
   skip-cert-verify: true
   udp: true
-- name: 🇺🇸US_247_0@246
-  server: internal-peacock.rooster465.autos
-  type: trojan
-  country: 🇺🇸US
-  port: 443
-  password: NQ26071394
-  skip-cert-verify: true
-  udp: true
-- name: 🇺🇸US_248_0@247
-  server: large-baboon.rooster465.autos
-  type: trojan
-  country: 🇺🇸US
-  port: 443
-  password: ND91608427
-  skip-cert-verify: true
-  udp: true
-- name: 🇺🇸US_249_0@248
-  server: helping-shark.rooster465.autos
-  type: trojan
-  country: 🇺🇸US
-  port: 443
-  password: CF68213490
-  skip-cert-verify: true
-  udp: true
-- name: 🇺🇸US_250_0@249
-  server: caring-wallaby.rooster465.autos
-  type: trojan
-  country: 🇺🇸US
-  port: 443
-  password: CF68213490
-  skip-cert-verify: true
-  udp: true
-- name: 🇺🇸US_251_0@250
-  server: brief-warthog.rooster465.autos
-  type: trojan
-  country: 🇺🇸US
-  port: 443
-  password: CF68213490
-  skip-cert-verify: true
-  udp: true
-- name: 🇺🇸US_252_0@251
-  server: well-goshawk.rooster465.autos
-  type: trojan
-  country: 🇺🇸US
-  port: 443
-  password: EQ30679154
-  skip-cert-verify: true
-  udp: true
-- name: 🇺🇸US_253_0@252
-  server: select-ferret.rooster465.autos
-  type: trojan
-  country: 🇺🇸US
-  port: 443
-  password: ND91608427
-  skip-cert-verify: true
-  udp: true
-- name: 🇺🇸US_254_0@253
-  server: immense-gnu.rooster465.autos
-  type: trojan
-  country: 🇺🇸US
-  port: 443
-  password: ND91608427
-  skip-cert-verify: true
-  udp: true
-- name: 🇺🇸US_255_0@254
+- name: 🇺🇸US_197_1@196
   server: 64.176.36.61
   type: trojan
   country: 🇺🇸US
@@ -382,15 +344,7 @@ proxies:
   password: 8r<[9'l6hAO#8ZQi
   skip-cert-verify: true
   udp: true
-- name: 🇺🇸US_257_0@256
-  server: 47.250.84.25
-  type: trojan
-  country: 🇺🇸US
-  port: 443
-  password: 5931134d1cde66bf83a54acdfebe7ab2
-  skip-cert-verify: true
-  udp: true
-- name: 🇺🇸US_258_0@257
+- name: 🇺🇸US_199_1@198
   server: 209.248.32.116
   type: trojan
   country: 🇺🇸US
@@ -398,7 +352,33 @@ proxies:
   password: i99Cef
   skip-cert-verify: true
   udp: true
-- name: 🇺🇸US_260_0@259
+- name: 🇺🇸US_200_1@199
+  server: bbbnhj.131.pp.ua
+  type: trojan
+  country: 🇺🇸US
+  port: 443
+  password: 98b419ef-83a2-4d1b-a23d-566b7f24477b
+  skip-cert-verify: true
+  udp: true
+- name: 🇺🇸US_201_1@200
+  server: 138.2.23.80
+  type: trojan
+  country: 🇺🇸US
+  port: 21044
+  password: 8r<[9'l6hAO#8ZQi
+  sni: Koma-YT.PAGeS.Dev
+  skip-cert-verify: true
+  udp: true
+- name: 🇺🇸US_202_1@201
+  server: 152.53.138.238
+  type: trojan
+  country: 🇺🇸US
+  port: 443
+  password: '1234567890'
+  sni: kfm-bn0.pages.dev
+  skip-cert-verify: true
+  udp: true
+- name: 🇺🇸US_203_1@202
   server: 13.39.249.40
   type: trojan
   country: 🇺🇸US
@@ -406,67 +386,47 @@ proxies:
   password: AE62539071
   skip-cert-verify: true
   udp: true
-- name: 🇺🇸US_261_0@260
-  server: sacred-treefrog.rooster465.autos
+- name: 🇺🇸US_205_1@204
+  server: bbbnnmj.131.pp.ua
   type: trojan
   country: 🇺🇸US
   port: 443
-  password: ND91608427
+  password: 98b419ef-83a2-4d1b-a23d-566b7f24477b
   skip-cert-verify: true
   udp: true
-- name: 🇺🇸US_91 ⇽中转_1@90
-  server: v24.hdacd.com
-  type: vmess
-  country: 🇭🇰HK
-  port: 30824
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  network: tcp
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 🇺🇸US_127_1@126
-  server: 156.146.38.169
-  type: ss
+- name: 🇺🇸US_207_1@206
+  server: vvbgh.131.pp.ua
+  type: trojan
   country: 🇺🇸US
   port: 443
-  password: shadowsocks
-  cipher: aes-128-gcm
-- name: 🇺🇸US_130_1@129
-  server: 137.184.174.93
-  type: ss
-  country: 🇺🇸US
-  port: 8080
-  password: 14fFPrbezE3HDZzsMOr6
-  cipher: rc4-md5
-- name: 🇺🇸US_136 ⇽中转_1@135
-  server: nm3.boom.party
-  type: ssr
-  country: 🇺🇸US
-  port: 13000
-  password: Uk92CS
-  cipher: aes-256-cfb
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-- name: 🇺🇸US_140_1@139
-  server: www.shopify.com
-  type: vmess
+  password: 98b419ef-83a2-4d1b-a23d-566b7f24477b
+  skip-cert-verify: true
+  udp: true
+- name: 🇺🇸US_208_1@207
+  server: brief-warthog.rooster465.autos
+  type: trojan
   country: 🇺🇸US
   port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  alterId: 0
-  cipher: auto
-  network: ws
-  servername: guanwang.awsno.com
-  http-opts: {}
-  h2-opts: {}
-  tls: true
+  password: CF68213490
   skip-cert-verify: true
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      HOST: guanwang.awsno.com
+  udp: true
+- name: 🇺🇸US_209_1@208
+  server: well-goshawk.rooster465.autos
+  type: trojan
+  country: 🇺🇸US
+  port: 443
+  password: EQ30679154
+  skip-cert-verify: true
+  udp: true
+- name: 🇺🇸US_211_1@210
+  server: 152.53.228.86
+  type: trojan
+  country: 🇺🇸US
+  port: 443
+  password: '1234567890'
+  sni: kfm-bn0.pages.dev
+  skip-cert-verify: true
+  udp: true
 proxy-groups:
 - name: 🚀 节点选择
   type: select
