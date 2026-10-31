@@ -24,13 +24,15 @@ proxies:
   cipher: chacha20-ietf
   protocol: auth_chain_a
   obfs: tls1.2_ticket_auth
-- name: 🇧🇪BE_02_0@1
-  server: 57.131.48.45
-  type: ss
+- name: 🇯🇵JP_02 ⇽中转_0@1
+  server: live.bilibilicloud01.com
+  type: ssr
   country: 🇧🇪BE
-  port: 8388
-  password: itzvpn@321
-  cipher: aes-256-gcm
+  port: 53845
+  password: Mv4e0QHWPwdbKiCF
+  cipher: chacha20-ietf
+  protocol: auth_aes128_sha1
+  obfs: plain
 - name: 🇧🇬BG_03_0@2
   server: 94.156.250.148
   type: ss
@@ -42,113 +44,13 @@ proxies:
   server: api.meituan88.com
   type: ssr
   country: 🇨🇦CA
-  port: 19623
-  password: di15PV
-  cipher: chacha20-ietf
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  obfs-param: 665203463.douyin.com
-- name: 🇨🇦CA_05 ⇽中转_0@4
-  server: api.meituan88.com
-  type: ssr
-  country: 🇨🇦CA
-  port: 41155
-  password: di15PV
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  obfs-param: 99e144391.douyin.com
-- name: 🇨🇦CA_06 ⇽中转_0@5
-  server: api.meituan88.com
-  type: ssr
-  country: 🇨🇦CA
-  port: 17348
-  password: di15PV
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  obfs-param: 99e144391.douyin.com
-- name: 🇨🇦CA_07 ⇽中转_0@6
-  server: api.meituan88.com
-  type: ssr
-  country: 🇨🇦CA
-  port: 7003
-  password: di15PV
-  cipher: chacha20-ietf
-  protocol: auth_aes128_md5
-  obfs: plain
-  obfs-param: 33f313723.douyin.com
-- name: 🇨🇦CA_08 ⇽中转_0@7
-  server: api.meituan88.com
-  type: ssr
-  country: 🇨🇦CA
-  port: 7004
-  password: di15PV
-  cipher: chacha20-ietf
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  obfs-param: 665203463.douyin.com
-- name: 🇨🇦CA_09 ⇽中转_0@8
-  server: api.meituan88.com
-  type: ssr
-  country: 🇨🇦CA
-  port: 61714
-  password: di15PV
-  cipher: chacha20-ietf
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  obfs-param: 33f313723.douyin.com
-- name: 🇨🇦CA_10 ⇽中转_0@9
-  server: api.meituan88.com
-  type: ssr
-  country: 🇨🇦CA
-  port: 37398
-  password: di15PV
-  cipher: chacha20-ietf
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  obfs-param: 99e144391.douyin.com
-- name: 🇨🇦CA_11 ⇽中转_0@10
-  server: api.meituan88.com
-  type: ssr
-  country: 🇨🇦CA
-  port: 7015
-  password: di15PV
-  cipher: chacha20-ietf
-  protocol: auth_aes128_md5
-  obfs: plain
-  obfs-param: 33f313723.douyin.com
-- name: 🇨🇦CA_12 ⇽中转_0@11
-  server: api.meituan88.com
-  type: ssr
-  country: 🇨🇦CA
-  port: 29790
-  password: di15PV
-  cipher: chacha20-ietf
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  obfs-param: f7d23929.douyin.com
-- name: 🇨🇦CA_13 ⇽中转_0@12
-  server: api.meituan88.com
-  type: ssr
-  country: 🇨🇦CA
   port: 2112
   password: di15PV
   cipher: chacha20-ietf
   protocol: auth_aes128_md5
   obfs: plain
   obfs-param: 87c276924.douyin.com
-- name: 🇨🇦CA_14 ⇽中转_0@13
-  server: api.meituan88.com
-  type: ssr
-  country: 🇨🇦CA
-  port: 14048
-  password: di15PV
-  cipher: chacha20-ietf
-  protocol: auth_aes128_md5
-  obfs: plain
-  obfs-param: 14e116735.douyin.com
-- name: 🇨🇦CA_15 ⇽中转_0@14
+- name: 🇨🇦CA_05 ⇽中转_0@4
   server: api.meituan88.com
   type: ssr
   country: 🇨🇦CA
@@ -158,27 +60,67 @@ proxies:
   protocol: auth_aes128_md5
   obfs: plain
   obfs-param: 33f313723.douyin.com
-- name: 🇨🇦CA_16 ⇽中转_0@15
+- name: 🇨🇦CA_06 ⇽中转_0@5
   server: api.meituan88.com
   type: ssr
   country: 🇨🇦CA
-  port: 28150
+  port: 46736
   password: di15PV
-  cipher: rc4-md5
+  cipher: chacha20-ietf
   protocol: auth_aes128_md5
   obfs: tls1.2_ticket_auth
-  obfs-param: 665203463.douyin.com
-- name: 🇨🇦CA_17 ⇽中转_0@16
+  obfs-param: 33f313723.douyin.com
+- name: 🇨🇦CA_07 ⇽中转_0@6
   server: api.meituan88.com
   type: ssr
   country: 🇨🇦CA
-  port: 7016
+  port: 14048
   password: di15PV
   cipher: chacha20-ietf
   protocol: auth_aes128_md5
   obfs: plain
-  obfs-param: 33f313723.douyin.com
-- name: 🇨🇦CA_18 ⇽中转_0@17
+  obfs-param: 14e116735.douyin.com
+- name: 🇨🇦CA_08 ⇽中转_0@7
+  server: api.meituan88.com
+  type: ssr
+  country: 🇨🇦CA
+  port: 44883
+  password: di15PV
+  cipher: chacha20-ietf
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  obfs-param: 6f5218522.douyin.com
+- name: 🇨🇦CA_09 ⇽中转_0@8
+  server: api.meituan88.com
+  type: ssr
+  country: 🇨🇦CA
+  port: 37398
+  password: di15PV
+  cipher: chacha20-ietf
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  obfs-param: 99e144391.douyin.com
+- name: 🇨🇦CA_10 ⇽中转_0@9
+  server: api.meituan88.com
+  type: ssr
+  country: 🇨🇦CA
+  port: 2103
+  password: di15PV
+  cipher: aes-256-cfb
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  obfs-param: 87c276924.douyin.com
+- name: 🇨🇦CA_11 ⇽中转_0@10
+  server: api.meituan88.com
+  type: ssr
+  country: 🇨🇦CA
+  port: 7004
+  password: di15PV
+  cipher: chacha20-ietf
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  obfs-param: 665203463.douyin.com
+- name: 🇨🇦CA_12 ⇽中转_0@11
   server: api.meituan88.com
   type: ssr
   country: 🇨🇦CA
@@ -188,249 +130,311 @@ proxies:
   protocol: auth_aes128_md5
   obfs: tls1.2_ticket_auth
   obfs-param: 87c276924.douyin.com
-- name: 🇨🇦CA_19 ⇽中转_0@18
+- name: 🇨🇦CA_13 ⇽中转_0@12
   server: api.meituan88.com
   type: ssr
   country: 🇨🇦CA
-  port: 18566
+  port: 59430
+  password: di15PV
+  cipher: chacha20-ietf
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  obfs-param: 99e144391.douyin.com
+- name: 🇨🇦CA_14 ⇽中转_0@13
+  server: api.meituan88.com
+  type: ssr
+  country: 🇨🇦CA
+  port: 26774
   password: di15PV
   cipher: chacha20-ietf
   protocol: auth_aes128_md5
   obfs: plain
   obfs-param: 33f313723.douyin.com
-- name: 🇨🇦CA_20_0@19
-  server: 134.195.196.211
-  type: vmess
+- name: 🇨🇦CA_15 ⇽中转_0@14
+  server: api.meituan88.com
+  type: ssr
   country: 🇨🇦CA
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  network: tcp
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
+  port: 49997
+  password: di15PV
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  obfs-param: 33f313723.douyin.com
+- name: 🇨🇦CA_16 ⇽中转_0@15
+  server: api.meituan88.com
+  type: ssr
+  country: 🇨🇦CA
+  port: 29790
+  password: di15PV
+  cipher: chacha20-ietf
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  obfs-param: f7d23929.douyin.com
+- name: 🇨🇦CA_17 ⇽中转_0@16
+  server: api.meituan88.com
+  type: ssr
+  country: 🇨🇦CA
+  port: 2205
+  password: di15PV
+  cipher: chacha20-ietf
+  protocol: auth_aes128_md5
+  obfs: plain
+  obfs-param: 99e144391.douyin.com
+- name: 🇨🇦CA_18 ⇽中转_0@17
+  server: api.meituan88.com
+  type: ssr
+  country: 🇨🇦CA
+  port: 61558
+  password: di15PV
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  obfs-param: 6f5218522.douyin.com
+- name: 🇨🇦CA_19 ⇽中转_0@18
+  server: api.meituan88.com
+  type: ssr
+  country: 🇨🇦CA
+  port: 7016
+  password: di15PV
+  cipher: chacha20-ietf
+  protocol: auth_aes128_md5
+  obfs: plain
+  obfs-param: 33f313723.douyin.com
+- name: 🇨🇦CA_20 ⇽中转_0@19
+  server: api.meituan88.com
+  type: ssr
+  country: 🇨🇦CA
+  port: 59382
+  password: di15PV
+  cipher: chacha20-ietf
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  obfs-param: 99e144391.douyin.com
 - name: 🇨🇦CA_21 ⇽中转_0@20
-  server: ca.tronsg.com
-  type: trojan
+  server: api.meituan88.com
+  type: ssr
   country: 🇨🇦CA
-  port: 443
-  password: Trojan@82164024
-  sni: ca.tronsg.com
-  skip-cert-verify: true
-  udp: true
-- name: 🇩🇰DK_22_0@21
-  server: 158.173.20.171
-  type: ss
-  country: 🇩🇰DK
-  port: 443
-  password: shadowsocks
-  cipher: aes-128-gcm
+  port: 7007
+  password: di15PV
+  cipher: chacha20-ietf
+  protocol: auth_aes128_md5
+  obfs: plain
+  obfs-param: 33f313723.douyin.com
+- name: 🇨🇦CA_22 ⇽中转_0@21
+  server: api.meituan88.com
+  type: ssr
+  country: 🇨🇦CA
+  port: 61714
+  password: di15PV
+  cipher: chacha20-ietf
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  obfs-param: 33f313723.douyin.com
 - name: 🇪🇸ES_23_0@22
   server: 5.188.181.201
   type: ss
   country: 🇪🇸ES
-  port: 9025
-  password: XPtzA9sCug3SPR4c
+  port: 9005
+  password: ZET59LF6DvCC8KVt
   cipher: aes-256-cfb
-- name: 🇳🇱NL_24 ⇽中转_0@23
-  server: 82.38.31.216
+- name: 🇪🇸ES_24_0@23
+  server: 5.188.181.201
   type: ss
-  country: 🇬🇧GB
-  port: 8080
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  cipher: chacha20-ietf-poly1305
+  country: 🇪🇸ES
+  port: 9019
+  password: GA9KzeEgvfxNrgmM
+  cipher: aes-256-cfb
 - name: 🇳🇱NL_25 ⇽中转_0@24
-  server: 82.38.31.49
-  type: ss
-  country: 🇬🇧GB
-  port: 8080
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  cipher: chacha20-ietf-poly1305
-- name: 🇬🇧GB_26_0@25
-  server: 82.38.31.207
-  type: ss
-  country: 🇬🇧GB
-  port: 8080
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  cipher: chacha20-ietf-poly1305
-- name: 🇬🇧GB_27_0@26
-  server: 82.38.31.208
-  type: ss
-  country: 🇬🇧GB
-  port: 8080
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  cipher: chacha20-ietf-poly1305
-- name: 🇬🇧GB_28_0@27
-  server: 82.38.31.206
-  type: ss
-  country: 🇬🇧GB
-  port: 8080
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  cipher: chacha20-ietf-poly1305
-- name: 🇬🇧GB_29_0@28
-  server: 82.38.31.219
-  type: ss
-  country: 🇬🇧GB
-  port: 8080
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  cipher: chacha20-ietf-poly1305
-- name: 🇬🇧GB_30_0@29
-  server: 82.38.31.218
-  type: ss
-  country: 🇬🇧GB
-  port: 8080
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  cipher: chacha20-ietf-poly1305
-- name: 🇬🇧GB_31_0@30
-  server: 82.38.31.180
-  type: ss
-  country: 🇬🇧GB
-  port: 8080
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  cipher: chacha20-ietf-poly1305
-- name: 🇬🇧GB_32_0@31
-  server: 82.38.31.176
-  type: ss
-  country: 🇬🇧GB
-  port: 8080
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  cipher: chacha20-ietf-poly1305
-- name: 🇬🇧GB_33_0@32
-  server: 82.38.31.212
-  type: ss
-  country: 🇬🇧GB
-  port: 8080
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  cipher: chacha20-ietf-poly1305
-- name: 🇬🇧GB_34_0@33
-  server: 82.38.31.205
-  type: ss
-  country: 🇬🇧GB
-  port: 8080
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  cipher: chacha20-ietf-poly1305
-- name: 🇳🇱NL_35 ⇽中转_0@34
-  server: 82.38.31.184
-  type: ss
-  country: 🇬🇧GB
-  port: 8080
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  cipher: chacha20-ietf-poly1305
-- name: 🇬🇧GB_36_0@35
-  server: 82.38.31.214
-  type: ss
-  country: 🇬🇧GB
-  port: 8080
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  cipher: chacha20-ietf-poly1305
-- name: 🇬🇧GB_37_0@36
-  server: 82.38.31.179
-  type: ss
-  country: 🇬🇧GB
-  port: 8080
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  cipher: chacha20-ietf-poly1305
-- name: 🇳🇱NL_38 ⇽中转_0@37
-  server: 82.38.31.192
-  type: ss
-  country: 🇬🇧GB
-  port: 8080
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  cipher: chacha20-ietf-poly1305
-- name: 🇳🇱NL_39 ⇽中转_0@38
-  server: 82.38.31.217
-  type: ss
-  country: 🇬🇧GB
-  port: 8080
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  cipher: chacha20-ietf-poly1305
-- name: 🇳🇱NL_40 ⇽中转_0@39
-  server: 82.38.31.48
-  type: ss
-  country: 🇬🇧GB
-  port: 8080
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  cipher: chacha20-ietf-poly1305
-- name: 🇳🇱NL_41 ⇽中转_0@40
-  server: 82.38.31.186
-  type: ss
-  country: 🇬🇧GB
-  port: 8080
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  cipher: chacha20-ietf-poly1305
-- name: 🇳🇱NL_42 ⇽中转_0@41
   server: 82.38.31.10
   type: ss
   country: 🇬🇧GB
   port: 8080
   password: oZIoA69Q8yhcQV8ka3Pa3A
   cipher: chacha20-ietf-poly1305
-- name: 🇳🇱NL_43 ⇽中转_0@42
-  server: 82.38.31.16
+- name: 🇬🇧GB_26_0@25
+  server: 146.70.61.37
   type: ss
   country: 🇬🇧GB
   port: 8080
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  cipher: chacha20-ietf-poly1305
-- name: 🇬🇧GB_44_0@43
+  password: 14fFPrbezE3HDZzsMOr6
+  cipher: rc4-md5
+- name: 🇬🇧GB_27_0@26
   server: 82.38.31.189
   type: ss
   country: 🇬🇧GB
   port: 8080
   password: k1dBOmOB4oqi7Ump37a1bQ
   cipher: chacha20-ietf-poly1305
-- name: 🇳🇱NL_45 ⇽中转_0@44
+- name: 🇬🇧GB_28_0@27
+  server: 82.38.31.190
+  type: ss
+  country: 🇬🇧GB
+  port: 8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  cipher: chacha20-ietf-poly1305
+- name: 🇬🇧GB_29_0@28
+  server: 82.38.31.194
+  type: ss
+  country: 🇬🇧GB
+  port: 8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  cipher: chacha20-ietf-poly1305
+- name: 🇳🇱NL_30 ⇽中转_0@29
   server: 82.38.31.193
   type: ss
   country: 🇬🇧GB
   port: 8080
   password: k1dBOmOB4oqi7Ump37a1bQ
   cipher: chacha20-ietf-poly1305
-- name: 🇳🇱NL_46 ⇽中转_0@45
-  server: 82.38.31.47
+- name: 🇬🇧GB_31_0@30
+  server: 82.38.31.219
+  type: ss
+  country: 🇬🇧GB
+  port: 8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  cipher: chacha20-ietf-poly1305
+- name: 🇬🇧GB_32_0@31
+  server: 82.38.31.208
+  type: ss
+  country: 🇬🇧GB
+  port: 8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  cipher: chacha20-ietf-poly1305
+- name: 🇬🇧GB_33_0@32
+  server: 82.38.31.155
   type: ss
   country: 🇬🇧GB
   port: 8080
   password: oZIoA69Q8yhcQV8ka3Pa3A
   cipher: chacha20-ietf-poly1305
-- name: 🇳🇱NL_47 ⇽中转_0@46
+- name: 🇳🇱NL_34 ⇽中转_0@33
   server: 82.38.31.174
   type: ss
   country: 🇬🇧GB
+  port: 443
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  cipher: chacha20-ietf-poly1305
+- name: 🇬🇧GB_35_0@34
+  server: 82.38.31.203
+  type: ss
+  country: 🇬🇧GB
+  port: 8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  cipher: chacha20-ietf-poly1305
+- name: 🇳🇱NL_36 ⇽中转_0@35
+  server: 82.38.31.216
+  type: ss
+  country: 🇬🇧GB
+  port: 8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  cipher: chacha20-ietf-poly1305
+- name: 🇬🇧GB_37_0@36
+  server: 82.38.31.176
+  type: ss
+  country: 🇬🇧GB
+  port: 8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  cipher: chacha20-ietf-poly1305
+- name: 🇬🇧GB_38_0@37
+  server: 82.38.31.210
+  type: ss
+  country: 🇬🇧GB
+  port: 8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  cipher: chacha20-ietf-poly1305
+- name: 🇳🇱NL_39 ⇽中转_0@38
+  server: 82.38.31.149
+  type: ss
+  country: 🇬🇧GB
   port: 8080
   password: oZIoA69Q8yhcQV8ka3Pa3A
   cipher: chacha20-ietf-poly1305
-- name: 🇳🇱NL_48 ⇽中转_0@47
+- name: 🇳🇱NL_40 ⇽中转_0@39
+  server: 82.38.31.217
+  type: ss
+  country: 🇬🇧GB
+  port: 8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  cipher: chacha20-ietf-poly1305
+- name: 🇬🇧GB_41_0@40
+  server: 82.38.31.214
+  type: ss
+  country: 🇬🇧GB
+  port: 8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  cipher: chacha20-ietf-poly1305
+- name: 🇳🇱NL_42 ⇽中转_0@41
+  server: 82.38.31.186
+  type: ss
+  country: 🇬🇧GB
+  port: 8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  cipher: chacha20-ietf-poly1305
+- name: 🇳🇱NL_43 ⇽中转_0@42
+  server: 82.38.31.192
+  type: ss
+  country: 🇬🇧GB
+  port: 8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  cipher: chacha20-ietf-poly1305
+- name: 🇳🇱NL_44 ⇽中转_0@43
   server: 82.38.31.35
   type: ss
   country: 🇬🇧GB
   port: 8080
   password: oZIoA69Q8yhcQV8ka3Pa3A
   cipher: chacha20-ietf-poly1305
-- name: 🇳🇱NL_49 ⇽中转_0@48
-  server: 82.38.31.34
+- name: 🇬🇧GB_45_0@44
+  server: 82.38.31.207
+  type: ss
+  country: 🇬🇧GB
+  port: 8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  cipher: chacha20-ietf-poly1305
+- name: 🇳🇱NL_46 ⇽中转_0@45
+  server: 82.38.31.48
   type: ss
   country: 🇬🇧GB
   port: 8080
   password: oZIoA69Q8yhcQV8ka3Pa3A
   cipher: chacha20-ietf-poly1305
-- name: 🇳🇱NL_50 ⇽中转_0@49
-  server: 82.38.31.2
+- name: 🇳🇱NL_47 ⇽中转_0@46
+  server: 82.38.31.199
   type: ss
   country: 🇬🇧GB
   port: 8080
-  password: oZIoA69Q8yhcQV8ka3Pa3A
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  cipher: chacha20-ietf-poly1305
+- name: 🇳🇱NL_48 ⇽中转_0@47
+  server: 82.38.31.187
+  type: ss
+  country: 🇬🇧GB
+  port: 8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  cipher: chacha20-ietf-poly1305
+- name: 🇬🇧GB_49_0@48
+  server: 82.38.31.179
+  type: ss
+  country: 🇬🇧GB
+  port: 8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  cipher: chacha20-ietf-poly1305
+- name: 🇬🇧GB_50_0@49
+  server: 82.38.31.206
+  type: ss
+  country: 🇬🇧GB
+  port: 8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
   cipher: chacha20-ietf-poly1305
 - name: 🇬🇧GB_51_0@50
-  server: 149.22.87.204
+  server: 149.22.87.241
   type: ss
   country: 🇬🇧GB
   port: 443
   password: shadowsocks
   cipher: aes-128-gcm
 - name: 🇬🇧GB_52_0@51
-  server: 149.22.87.241
+  server: 149.22.87.204
   type: ss
   country: 🇬🇧GB
   port: 443
@@ -443,146 +447,146 @@ proxies:
   port: 443
   password: shadowsocks
   cipher: aes-128-gcm
-- name: 🇬🇧GB_54_0@53
-  server: 141.98.101.181
+- name: 🇳🇱NL_54 ⇽中转_0@53
+  server: 82.38.31.34
   type: ss
   country: 🇬🇧GB
-  port: 443
-  password: shadowsocks
-  cipher: aes-128-gcm
+  port: 8080
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  cipher: chacha20-ietf-poly1305
 - name: 🇳🇱NL_55 ⇽中转_0@54
-  server: 82.38.31.191
+  server: 82.38.31.184
   type: ss
   country: 🇬🇧GB
   port: 8080
   password: k1dBOmOB4oqi7Ump37a1bQ
   cipher: chacha20-ietf-poly1305
 - name: 🇬🇧GB_56_0@55
-  server: 146.70.61.37
-  type: ss
-  country: 🇬🇧GB
-  port: 8080
-  password: 14fFPrbezE3HDZzsMOr6
-  cipher: rc4-md5
-- name: 🇬🇧GB_57_0@56
-  server: 82.38.31.203
-  type: ss
-  country: 🇬🇧GB
-  port: 8080
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  cipher: chacha20-ietf-poly1305
-- name: 🇳🇱NL_58 ⇽中转_0@57
-  server: 82.38.31.46
-  type: ss
-  country: 🇬🇧GB
-  port: 8080
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  cipher: chacha20-ietf-poly1305
-- name: 🇳🇱NL_59 ⇽中转_0@58
-  server: 82.38.31.3
-  type: ss
-  country: 🇬🇧GB
-  port: 8080
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  cipher: chacha20-ietf-poly1305
-- name: 🇳🇱NL_60 ⇽中转_0@59
-  server: 82.38.31.162
-  type: ss
-  country: 🇬🇧GB
-  port: 443
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  cipher: chacha20-ietf-poly1305
-- name: 🇬🇧GB_61_0@60
-  server: 82.38.31.202
-  type: ss
-  country: 🇬🇧GB
-  port: 8080
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  cipher: chacha20-ietf-poly1305
-- name: 🇬🇧GB_62_0@61
   server: 82.38.31.181
   type: ss
   country: 🇬🇧GB
   port: 8080
   password: k1dBOmOB4oqi7Ump37a1bQ
   cipher: chacha20-ietf-poly1305
-- name: 🇬🇧GB_63_0@62
-  server: 82.38.31.194
+- name: 🇳🇱NL_57 ⇽中转_0@56
+  server: 82.38.31.49
+  type: ss
+  country: 🇬🇧GB
+  port: 8080
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  cipher: chacha20-ietf-poly1305
+- name: 🇳🇱NL_58 ⇽中转_0@57
+  server: 82.38.31.191
   type: ss
   country: 🇬🇧GB
   port: 8080
   password: k1dBOmOB4oqi7Ump37a1bQ
   cipher: chacha20-ietf-poly1305
+- name: 🇳🇱NL_59 ⇽中转_0@58
+  server: 82.38.31.162
+  type: ss
+  country: 🇬🇧GB
+  port: 443
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  cipher: chacha20-ietf-poly1305
+- name: 🇳🇱NL_60 ⇽中转_0@59
+  server: 82.38.31.3
+  type: ss
+  country: 🇬🇧GB
+  port: 8080
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  cipher: chacha20-ietf-poly1305
+- name: 🇳🇱NL_61 ⇽中转_0@60
+  server: 82.38.31.16
+  type: ss
+  country: 🇬🇧GB
+  port: 8080
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  cipher: chacha20-ietf-poly1305
+- name: 🇬🇧GB_62_0@61
+  server: 82.38.31.202
+  type: ss
+  country: 🇬🇧GB
+  port: 8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  cipher: chacha20-ietf-poly1305
+- name: 🇳🇱NL_63 ⇽中转_0@62
+  server: 82.38.31.47
+  type: ss
+  country: 🇬🇧GB
+  port: 8080
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  cipher: chacha20-ietf-poly1305
 - name: 🇬🇧GB_64_0@63
-  server: 149.22.95.183
+  server: 82.38.31.180
+  type: ss
+  country: 🇬🇧GB
+  port: 8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  cipher: chacha20-ietf-poly1305
+- name: 🇬🇧GB_65_0@64
+  server: 141.98.101.181
   type: ss
   country: 🇬🇧GB
   port: 443
   password: shadowsocks
   cipher: aes-128-gcm
-- name: 🇳🇱NL_65 ⇽中转_0@64
-  server: 82.38.31.149
-  type: ss
-  country: 🇬🇧GB
-  port: 8080
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  cipher: chacha20-ietf-poly1305
-- name: 🇬🇧GB_66_0@65
-  server: 82.38.31.190
-  type: ss
-  country: 🇬🇧GB
-  port: 8080
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  cipher: chacha20-ietf-poly1305
-- name: 🇬🇧GB_67_0@66
-  server: 82.38.31.155
-  type: ss
-  country: 🇬🇧GB
-  port: 8080
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  cipher: chacha20-ietf-poly1305
-- name: 🇳🇱NL_68 ⇽中转_0@67
+- name: 🇳🇱NL_66 ⇽中转_0@65
   server: 82.38.31.42
   type: ss
   country: 🇬🇧GB
   port: 8080
   password: oZIoA69Q8yhcQV8ka3Pa3A
   cipher: chacha20-ietf-poly1305
-- name: 🇳🇱NL_69 ⇽中转_0@68
-  server: 82.38.31.187
+- name: 🇳🇱NL_67 ⇽中转_0@66
+  server: 82.38.31.46
+  type: ss
+  country: 🇬🇧GB
+  port: 8080
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  cipher: chacha20-ietf-poly1305
+- name: 🇳🇱NL_68 ⇽中转_0@67
+  server: 82.38.31.2
+  type: ss
+  country: 🇬🇧GB
+  port: 8080
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  cipher: chacha20-ietf-poly1305
+- name: 🇬🇧GB_69_0@68
+  server: 82.38.31.205
   type: ss
   country: 🇬🇧GB
   port: 8080
   password: k1dBOmOB4oqi7Ump37a1bQ
   cipher: chacha20-ietf-poly1305
-- name: 🇳🇱NL_70 ⇽中转_0@69
-  server: 82.38.31.174
+- name: 🇬🇧GB_70_0@69
+  server: 82.38.31.218
+  type: ss
+  country: 🇬🇧GB
+  port: 8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  cipher: chacha20-ietf-poly1305
+- name: 🇬🇧GB_71_0@70
+  server: 82.38.31.212
+  type: ss
+  country: 🇬🇧GB
+  port: 8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  cipher: chacha20-ietf-poly1305
+- name: 🇬🇧GB_72_0@71
+  server: 149.22.95.183
   type: ss
   country: 🇬🇧GB
   port: 443
+  password: shadowsocks
+  cipher: aes-128-gcm
+- name: 🇳🇱NL_73 ⇽中转_0@72
+  server: 82.38.31.174
+  type: ss
+  country: 🇬🇧GB
+  port: 8080
   password: oZIoA69Q8yhcQV8ka3Pa3A
   cipher: chacha20-ietf-poly1305
-- name: 🇬🇧GB_71_0@70
-  server: 82.38.31.210
-  type: ss
-  country: 🇬🇧GB
-  port: 8080
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  cipher: chacha20-ietf-poly1305
-- name: 🇳🇱NL_72 ⇽中转_0@71
-  server: 82.38.31.199
-  type: ss
-  country: 🇬🇧GB
-  port: 8080
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  cipher: chacha20-ietf-poly1305
-- name: 🇭🇰HK_73 ⇽中转_0@72
-  server: 103.149.182.105
-  type: ss
-  country: 🇭🇰HK
-  port: 8388
-  password: asd123456
-  cipher: chacha20-ietf
 - name: 🇭🇰HK_74_0@73
   server: 103.36.91.32
   type: ss
@@ -590,20 +594,28 @@ proxies:
   port: 8388
   password: asd123456
   cipher: chacha20-ietf
-- name: Pool_🇭🇰HK_75_0@74
-  server: 103.141.221.124
-  type: ss
+- name: 🇭🇰HK_75 ⇽中转_0@74
+  server: 231103.level3.sdl-sz.com
+  type: ssr
   country: 🇭🇰HK
-  port: 8388
-  password: asd123456
-  cipher: chacha20-ietf
-- name: 🇭🇰HK_76_0@75
-  server: 103.149.182.79
-  type: ss
+  port: 19970
+  password: dajkdkjda&dj23gsa
+  cipher: aes-256-cfb
+  protocol: auth_aes128_md5
+  protocol-param: 11275:KWQHheqWo8
+  obfs: http_simple
+  obfs-param: d300c11275.microsoft.com
+  group: Update-二爷
+- name: 🇭🇰HK_76 ⇽中转_0@75
+  server: glimmerdsds.sdl-sz.com
+  type: ssr
   country: 🇭🇰HK
-  port: 8388
-  password: asd123456
-  cipher: chacha20-ietf
+  port: 39007
+  password: dajkd*/?
+  cipher: aes-256-cfb
+  protocol: auth_aes128_md5
+  obfs: http_simple
+  obfs-param: 1f4c39347.microsoft.com
 - name: 🇭🇰HK_77 ⇽中转_0@76
   server: 231103levelx.unclemanco.com
   type: ssr
@@ -616,69 +628,7 @@ proxies:
   obfs: http_simple
   obfs-param: d300c11275.microsoft.com
   group: Update-bulianglin
-- name: 🇭🇰HK_78 ⇽中转_0@77
-  server: 231103.level3.sdl-sz.com
-  type: ssr
-  country: 🇭🇰HK
-  port: 2212
-  password: dajkdkjda&dj23gsa
-  cipher: aes-256-cfb
-  protocol: auth_aes128_md5
-  protocol-param: 11275:KWQHheqWo8
-  obfs: http_simple
-  obfs-param: d300c11275.microsoft.com
-  group: Update-bulianglin
-- name: 🇭🇰HK_79 ⇽中转_0@78
-  server: 231103.level3.sdl-sz.com
-  type: ssr
-  country: 🇭🇰HK
-  port: 19970
-  password: dajkdkjda&dj23gsa
-  cipher: aes-256-cfb
-  protocol: auth_aes128_md5
-  protocol-param: 11275:KWQHheqWo8
-  obfs: http_simple
-  obfs-param: d300c11275.microsoft.com
-  group: Update-二爷
-- name: 🇭🇰HK_80 ⇽中转_0@79
-  server: glimmerdsds.sdl-sz.com
-  type: ssr
-  country: 🇭🇰HK
-  port: 39007
-  password: dajkd*/?
-  cipher: aes-256-cfb
-  protocol: auth_aes128_md5
-  obfs: http_simple
-  obfs-param: 1f4c39347.microsoft.com
-- name: 🇭🇰HK_81_0@80
-  server: 47.244.120.197
-  type: vmess
-  country: 🇭🇰HK
-  port: 44867
-  uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
-  alterId: 0
-  cipher: auto
-  network: ws
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-  ws-opts:
-    path: /arki?ed=2048
-- name: 🇭🇰HK_82_0@81
-  server: 47.244.120.197
-  type: vmess
-  country: 🇭🇰HK
-  port: 36703
-  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
-  alterId: 0
-  cipher: auto
-  network: ws
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-  ws-opts:
-    path: /arki?ed=2048
-- name: 🇭🇰HK_83_0@82
+- name: 🇭🇰HK_78_0@77
   server: 156.245.232.239
   type: vmess
   country: 🇭🇰HK
@@ -692,25 +642,7 @@ proxies:
   skip-cert-verify: true
   ws-opts:
     path: /
-- name: 🇯🇵JP_84 ⇽中转_0@83
-  server: show.bilibilicloud01.com
-  type: ssr
-  country: 🇯🇵JP
-  port: 54115
-  password: Mv4e0QHWPwdbKiCF
-  cipher: chacha20-ietf
-  protocol: auth_aes128_sha1
-  obfs: plain
-- name: 🇯🇵JP_85 ⇽中转_0@84
-  server: show.bilibilicloud01.com
-  type: ssr
-  country: 🇯🇵JP
-  port: 54114
-  password: Mv4e0QHWPwdbKiCF
-  cipher: chacha20-ietf
-  protocol: auth_aes128_sha1
-  obfs: plain
-- name: 🇯🇵JP_86 ⇽中转_0@85
+- name: 🇯🇵JP_79 ⇽中转_0@78
   server: show.bilibilicloud01.com
   type: ssr
   country: 🇯🇵JP
@@ -719,16 +651,16 @@ proxies:
   cipher: chacha20-ietf
   protocol: auth_aes128_sha1
   obfs: plain
-- name: 🇯🇵JP_87 ⇽中转_0@86
-  server: live.bilibilicloud01.com
+- name: 🇯🇵JP_80 ⇽中转_0@79
+  server: show.bilibilicloud01.com
   type: ssr
   country: 🇯🇵JP
-  port: 54112
+  port: 54114
   password: Mv4e0QHWPwdbKiCF
   cipher: chacha20-ietf
   protocol: auth_aes128_sha1
   obfs: plain
-- name: 🇯🇵JP_88 ⇽中转_0@87
+- name: 🇯🇵JP_81 ⇽中转_0@80
   server: show.bilibilicloud01.com
   type: ssr
   country: 🇯🇵JP
@@ -737,7 +669,7 @@ proxies:
   cipher: chacha20-ietf
   protocol: auth_aes128_sha1
   obfs: plain
-- name: 🇯🇵JP_89 ⇽中转_0@88
+- name: 🇯🇵JP_82 ⇽中转_0@81
   server: live.bilibilicloud01.com
   type: ssr
   country: 🇯🇵JP
@@ -746,30 +678,43 @@ proxies:
   cipher: chacha20-ietf
   protocol: auth_aes128_sha1
   obfs: plain
-- name: 🇯🇵JP_90 ⇽中转_0@89
-  server: live.bilibilicloud01.com
+- name: 🇯🇵JP_83 ⇽中转_0@82
+  server: manga.bilibilicloud01.com
   type: ssr
   country: 🇯🇵JP
-  port: 53845
+  port: 49434
   password: Mv4e0QHWPwdbKiCF
   cipher: chacha20-ietf
   protocol: auth_aes128_sha1
   obfs: plain
-- name: 🇯🇵JP_91_0@90
-  server: 172.111.146.64
-  type: vmess
+- name: 🇯🇵JP_84 ⇽中转_0@83
+  server: show.bilibilicloud01.com
+  type: ssr
   country: 🇯🇵JP
-  port: 80
-  uuid: 05b8c783-7f59-47f9-9923-06a465679f6a
-  alterId: 0
-  cipher: auto
-  network: ws
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-  ws-opts:
-    path: /vmess/
-- name: 🇯🇵JP_92_0@91
+  port: 54101
+  password: Mv4e0QHWPwdbKiCF
+  cipher: chacha20-ietf
+  protocol: auth_aes128_sha1
+  obfs: plain
+- name: 🇯🇵JP_85 ⇽中转_0@84
+  server: live.bilibilicloud01.com
+  type: ssr
+  country: 🇯🇵JP
+  port: 54112
+  password: Mv4e0QHWPwdbKiCF
+  cipher: chacha20-ietf
+  protocol: auth_aes128_sha1
+  obfs: plain
+- name: 🇯🇵JP_86 ⇽中转_0@85
+  server: show.bilibilicloud01.com
+  type: ssr
+  country: 🇯🇵JP
+  port: 54115
+  password: Mv4e0QHWPwdbKiCF
+  cipher: chacha20-ietf
+  protocol: auth_aes128_sha1
+  obfs: plain
+- name: 🇯🇵JP_87_0@86
   server: 45.32.52.173
   type: trojan
   country: 🇯🇵JP
@@ -778,21 +723,35 @@ proxies:
   sni: 45.32.52.173
   skip-cert-verify: true
   udp: true
-- name: 🇰🇷KR_93 ⇽中转_0@92
-  server: p141.panda001.net
-  type: ss
-  country: 🇰🇷KR
-  port: 4652
-  password: qwerREWQ@@
-  cipher: aes-256-cfb
-- name: 🇰🇷KR_94_0@93
+- name: 🇰🇷KR_88_0@87
   server: 211.178.105.134
   type: ss
   country: 🇰🇷KR
   port: 6123
   password: qwerREWQ@@
   cipher: aes-256-cfb
-- name: 🇰🇷KR_95_0@94
+- name: 🇰🇷KR_89_0@88
+  server: 141.164.45.187
+  type: ss
+  country: 🇰🇷KR
+  port: 6679
+  password: TEzjfAYq2IjtuoS
+  cipher: aes-256-gcm
+- name: 🇰🇷KR_90 ⇽中转_0@89
+  server: p141.panda001.net
+  type: ss
+  country: 🇰🇷KR
+  port: 4652
+  password: qwerREWQ@@
+  cipher: aes-256-cfb
+- name: 🇰🇷KR_91_0@90
+  server: 141.164.45.187
+  type: ss
+  country: 🇰🇷KR
+  port: 7001
+  password: RexnBgU7EV5ADxG
+  cipher: aes-256-gcm
+- name: 🇰🇷KR_92_0@91
   server: 140.238.2.250
   type: vmess
   country: 🇰🇷KR
@@ -804,31 +763,7 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 🇰🇷KR_96_0@95
-  server: 146.56.112.110
-  type: vmess
-  country: 🇰🇷KR
-  port: 8888
-  uuid: e7c302f3-90d6-42dd-9d7d-94a3683a3707
-  alterId: 0
-  cipher: auto
-  network: tcp
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 🇲🇾MY_97_0@96
-  server: 47.250.135.244
-  type: vmess
-  country: 🇲🇾MY
-  port: 10000
-  uuid: aedc66b8-99d7-4a21-8310-61870e7f870d
-  alterId: 0
-  cipher: auto
-  network: tcp
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 🇲🇾MY_98_0@97
+- name: 🇲🇾MY_93_0@92
   server: 47.250.84.25
   type: trojan
   country: 🇲🇾MY
@@ -837,80 +772,124 @@ proxies:
   sni: moltbot.doctoroyy.net
   skip-cert-verify: true
   udp: true
-- name: 🇳🇱NL_99_0@98
-  server: 193.29.139.168
-  type: ss
-  country: 🇳🇱NL
-  port: 8080
-  password: QCXDxuDlTTMD7jtgHUjIoj
-  cipher: chacha20-ietf-poly1305
-- name: 🇳🇱NL_100_0@99
-  server: 193.29.139.235
-  type: ss
-  country: 🇳🇱NL
-  port: 8080
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  cipher: chacha20-ietf-poly1305
-- name: 🇳🇱NL_101_0@100
+- name: 🇳🇱NL_94_0@93
   server: 193.29.139.223
   type: ss
   country: 🇳🇱NL
   port: 8080
   password: k1dBOmOB4oqi7Ump37a1bQ
   cipher: chacha20-ietf-poly1305
-- name: 🇳🇱NL_102_0@101
+- name: 🇳🇱NL_95_0@94
+  server: 193.29.139.168
+  type: ss
+  country: 🇳🇱NL
+  port: 8080
+  password: QCXDxuDlTTMD7jtgHUjIoj
+  cipher: chacha20-ietf-poly1305
+- name: 🇳🇱NL_96_0@95
   server: 193.29.139.204
   type: ss
   country: 🇳🇱NL
   port: 8080
   password: oZIoA69Q8yhcQV8ka3Pa3A
   cipher: chacha20-ietf-poly1305
-- name: 🇳🇱NL_103_0@102
-  server: 193.29.139.147
-  type: ss
-  country: 🇳🇱NL
-  port: 8080
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  cipher: chacha20-ietf-poly1305
-- name: 🇳🇱NL_104_0@103
+- name: 🇳🇱NL_97_0@96
   server: 193.29.139.151
   type: ss
   country: 🇳🇱NL
   port: 8080
   password: oZIoA69Q8yhcQV8ka3Pa3A
   cipher: chacha20-ietf-poly1305
-- name: 🇪🇸ES_105 ⇽中转_0@104
-  server: 202.50.253.90
+- name: 🇳🇱NL_98_0@97
+  server: 193.29.139.147
   type: ss
-  country: 🇳🇿NZ
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-- name: 🇪🇸ES_106 ⇽中转_0@105
+  country: 🇳🇱NL
+  port: 8080
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  cipher: chacha20-ietf-poly1305
+- name: 🇳🇱NL_99_0@98
+  server: 193.29.139.235
+  type: ss
+  country: 🇳🇱NL
+  port: 8080
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  cipher: chacha20-ietf-poly1305
+- name: 🇪🇸ES_100 ⇽中转_0@99
   server: 202.50.253.54
   type: ss
   country: 🇳🇿NZ
   port: 19999
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   cipher: aes-256-gcm
-- name: 🇪🇸ES_107 ⇽中转_0@106
+- name: 🇪🇸ES_101 ⇽中转_0@100
+  server: 202.50.253.90
+  type: ss
+  country: 🇳🇿NZ
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+- name: 🇪🇸ES_102 ⇽中转_0@101
   server: 202.50.253.72
   type: ss
   country: 🇳🇿NZ
   port: 19999
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   cipher: aes-256-gcm
-- name: 🇧🇷BR_108 ⇽中转_0@107
-  server: de-bots4.h1cloud.net
-  type: trojan
-  country: 🇷🇺RU
-  port: 25267
-  password: happybirthdaydaniel
-  sni: t.me/FuckTheWall
+- name: 🇸🇬SG_103 ⇽中转_0@102
+  server: wjofHsQtEuEywxEq.v.3dns.vip
+  type: vmess
+  country: 🇸🇬SG
+  port: 443
+  uuid: a9f4de8b-68f1-44b6-b6a2-1db60940503a
+  alterId: 0
+  cipher: auto
+  network: ws
+  servername: wjofHsQtEuEywxEq.v.3dns.vip
+  http-opts: {}
+  h2-opts: {}
+  tls: true
   skip-cert-verify: true
-  udp: true
-- name: 🇺🇸US_109_0@108
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      HOST: wjofHsQtEuEywxEq.v.3dns.vip
+- name: 🇺🇸US_104_0@103
+  server: 139.84.247.164
+  type: ss
+  country: 🇺🇸US
+  port: 8388
+  password: tfAcRikawhNoZAhu
+  cipher: chacha20-ietf-poly1305
+- name: 🇺🇸US_105_0@104
+  server: 156.146.38.168
+  type: ss
+  country: 🇺🇸US
+  port: 443
+  password: shadowsocks
+  cipher: aes-128-gcm
+- name: 🇺🇸US_106_0@105
   server: 156.146.38.169
+  type: ss
+  country: 🇺🇸US
+  port: 443
+  password: shadowsocks
+  cipher: aes-128-gcm
+- name: 🇺🇸US_107_0@106
+  server: 156.146.38.170
+  type: ss
+  country: 🇺🇸US
+  port: 443
+  password: shadowsocks
+  cipher: aes-128-gcm
+- name: 🇺🇸US_108_0@107
+  server: 216.105.168.18
+  type: ss
+  country: 🇺🇸US
+  port: 443
+  password: hCCWOcIsK5wrFz4OX70rWf
+  cipher: chacha20-ietf-poly1305
+- name: 🇺🇸US_109_0@108
+  server: 173.244.56.9
   type: ss
   country: 🇺🇸US
   port: 443
@@ -924,180 +903,72 @@ proxies:
   password: shadowsocks
   cipher: aes-128-gcm
 - name: 🇺🇸US_111_0@110
-  server: 37.19.198.243
-  type: ss
-  country: 🇺🇸US
-  port: 443
-  password: shadowsocks
-  cipher: aes-128-gcm
-- name: 🇺🇸US_112_0@111
-  server: 37.19.198.236
-  type: ss
-  country: 🇺🇸US
-  port: 443
-  password: shadowsocks
-  cipher: aes-128-gcm
-- name: 🇺🇸US_113_0@112
   server: 173.244.56.6
   type: ss
   country: 🇺🇸US
   port: 443
   password: shadowsocks
   cipher: aes-128-gcm
-- name: 🇺🇸US_114_0@113
-  server: 216.105.168.18
+- name: 🇺🇸US_112_0@111
+  server: 37.19.198.243
   type: ss
   country: 🇺🇸US
   port: 443
-  password: hCCWOcIsK5wrFz4OX70rWf
+  password: shadowsocks
+  cipher: aes-128-gcm
+- name: 🇺🇸US_113_0@112
+  server: 37.19.198.236
+  type: ss
+  country: 🇺🇸US
+  port: 443
+  password: shadowsocks
+  cipher: aes-128-gcm
+- name: 🇺🇸US_114_0@113
+  server: 198.98.53.130
+  type: ss
+  country: 🇺🇸US
+  port: 443
+  password: eDfN7SODQceIOmIAbtJJtK
   cipher: chacha20-ietf-poly1305
 - name: 🇺🇸US_115_0@114
-  server: 156.146.38.167
-  type: ss
-  country: 🇺🇸US
-  port: 443
-  password: shadowsocks
-  cipher: aes-128-gcm
-- name: 🇺🇸US_116_0@115
-  server: 37.19.198.160
-  type: ss
-  country: 🇺🇸US
-  port: 443
-  password: shadowsocks
-  cipher: aes-128-gcm
-- name: 🇺🇸US_117_0@116
   server: 15.204.247.206
   type: ss
   country: 🇺🇸US
   port: 4444
   password: pKEW8JPByTVTLtM
   cipher: aes-256-gcm
-- name: 🇺🇸US_118_0@117
+- name: 🇺🇸US_116_0@115
   server: 137.184.174.93
   type: ss
   country: 🇺🇸US
   port: 8080
   password: 14fFPrbezE3HDZzsMOr6
   cipher: rc4-md5
-- name: 🇺🇸US_119_0@118
-  server: 156.146.38.170
+- name: 🇺🇸US_117_0@116
+  server: 156.146.38.167
   type: ss
   country: 🇺🇸US
   port: 443
   password: shadowsocks
   cipher: aes-128-gcm
-- name: 🇺🇸US_120_0@119
-  server: 156.146.38.168
+- name: 🇺🇸US_118_0@117
+  server: 37.19.198.160
   type: ss
   country: 🇺🇸US
   port: 443
   password: shadowsocks
   cipher: aes-128-gcm
-- name: 🇺🇸US_121_0@120
-  server: 173.244.56.9
-  type: ss
-  country: 🇺🇸US
-  port: 443
-  password: shadowsocks
-  cipher: aes-128-gcm
-- name: 🇨🇦CA_122 ⇽中转_0@121
+- name: 🇨🇦CA_119 ⇽中转_0@118
   server: api.meituan88.com
   type: ssr
   country: 🇺🇸US
-  port: 59430
-  password: di15PV
-  cipher: chacha20-ietf
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  obfs-param: 99e144391.douyin.com
-- name: 🇨🇦CA_123 ⇽中转_0@122
-  server: api.meituan88.com
-  type: ssr
-  country: 🇺🇸US
-  port: 60213
+  port: 19623
   password: di15PV
   cipher: chacha20-ietf
   protocol: auth_aes128_md5
   obfs: tls1.2_ticket_auth
   obfs-param: 665203463.douyin.com
-- name: 🇨🇦CA_124 ⇽中转_0@123
-  server: api.meituan88.com
-  type: ssr
-  country: 🇺🇸US
-  port: 29392
-  password: di15PV
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  obfs-param: 6f5218522.douyin.com
-- name: 🇨🇦CA_125 ⇽中转_0@124
-  server: api.meituan88.com
-  type: ssr
-  country: 🇺🇸US
-  port: 7007
-  password: di15PV
-  cipher: chacha20-ietf
-  protocol: auth_aes128_md5
-  obfs: plain
-  obfs-param: 33f313723.douyin.com
-- name: 🇺🇸US_126 ⇽中转_0@125
-  server: manga.bilibilicloud01.com
-  type: ssr
-  country: 🇺🇸US
-  port: 49434
-  password: Mv4e0QHWPwdbKiCF
-  cipher: chacha20-ietf
-  protocol: auth_aes128_sha1
-  obfs: plain
-- name: 🇨🇦CA_127 ⇽中转_0@126
-  server: api.meituan88.com
-  type: ssr
-  country: 🇺🇸US
-  port: 53465
-  password: di15PV
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  obfs: plain
-  obfs-param: 87c276924.douyin.com
-- name: 🇨🇦CA_128 ⇽中转_0@127
-  server: api.meituan88.com
-  type: ssr
-  country: 🇺🇸US
-  port: 44883
-  password: di15PV
-  cipher: chacha20-ietf
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  obfs-param: 6f5218522.douyin.com
-- name: 🇨🇦CA_129 ⇽中转_0@128
-  server: api.meituan88.com
-  type: ssr
-  country: 🇺🇸US
-  port: 2103
-  password: di15PV
-  cipher: aes-256-cfb
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  obfs-param: 87c276924.douyin.com
-- name: 🇯🇵JP_130 ⇽中转_0@129
-  server: show.bilibilicloud01.com
-  type: ssr
-  country: 🇺🇸US
-  port: 54101
-  password: Mv4e0QHWPwdbKiCF
-  cipher: chacha20-ietf
-  protocol: auth_aes128_sha1
-  obfs: plain
-- name: 🇺🇸US_131 ⇽中转_0@130
-  server: nm3.boom.party
-  type: ssr
-  country: 🇺🇸US
-  port: 13000
-  password: Uk92CS
-  cipher: aes-256-cfb
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-- name: 🇨🇦CA_132 ⇽中转_0@131
+- name: 🇨🇦CA_120 ⇽中转_0@119
   server: api.meituan88.com
   type: ssr
   country: 🇺🇸US
@@ -1107,31 +978,156 @@ proxies:
   protocol: auth_aes128_md5
   obfs: plain
   obfs-param: 33f313723.douyin.com
-- name: 🇺🇸US_133_0@132
-  server: 149.88.23.207
-  type: vmess
+- name: 🇺🇸US_121 ⇽中转_0@120
+  server: nm3.boom.party
+  type: ssr
   country: 🇺🇸US
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  network: tcp
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 🇺🇸US_134_0@133
-  server: 67.220.85.46
-  type: vmess
+  port: 13000
+  password: Uk92CS
+  cipher: aes-256-cfb
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+- name: 🇨🇦CA_122 ⇽中转_0@121
+  server: api.meituan88.com
+  type: ssr
   country: 🇺🇸US
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  network: tcp
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 🇺🇸US_135_0@134
+  port: 41155
+  password: di15PV
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  obfs-param: 99e144391.douyin.com
+- name: 🇨🇦CA_123 ⇽中转_0@122
+  server: api.meituan88.com
+  type: ssr
+  country: 🇺🇸US
+  port: 7015
+  password: di15PV
+  cipher: chacha20-ietf
+  protocol: auth_aes128_md5
+  obfs: plain
+  obfs-param: 33f313723.douyin.com
+- name: 🇨🇦CA_124 ⇽中转_0@123
+  server: api.meituan88.com
+  type: ssr
+  country: 🇺🇸US
+  port: 28150
+  password: di15PV
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  obfs-param: 665203463.douyin.com
+- name: 🇨🇦CA_125 ⇽中转_0@124
+  server: api.meituan88.com
+  type: ssr
+  country: 🇺🇸US
+  port: 53465
+  password: di15PV
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  obfs: plain
+  obfs-param: 87c276924.douyin.com
+- name: 🇨🇦CA_126 ⇽中转_0@125
+  server: api.meituan88.com
+  type: ssr
+  country: 🇺🇸US
+  port: 7003
+  password: di15PV
+  cipher: chacha20-ietf
+  protocol: auth_aes128_md5
+  obfs: plain
+  obfs-param: 33f313723.douyin.com
+- name: 🇨🇦CA_127 ⇽中转_0@126
+  server: api.meituan88.com
+  type: ssr
+  country: 🇺🇸US
+  port: 17348
+  password: di15PV
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  obfs-param: 99e144391.douyin.com
+- name: 🇨🇦CA_128 ⇽中转_0@127
+  server: api.meituan88.com
+  type: ssr
+  country: 🇺🇸US
+  port: 60213
+  password: di15PV
+  cipher: chacha20-ietf
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  obfs-param: 665203463.douyin.com
+- name: 🇨🇦CA_129 ⇽中转_0@128
+  server: api.meituan88.com
+  type: ssr
+  country: 🇺🇸US
+  port: 2107
+  password: di15PV
+  cipher: aes-256-cfb
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  obfs-param: 87c276924.douyin.com
+- name: 🇨🇦CA_130 ⇽中转_0@129
+  server: api.meituan88.com
+  type: ssr
+  country: 🇺🇸US
+  port: 7018
+  password: di15PV
+  cipher: chacha20-ietf
+  protocol: auth_aes128_md5
+  obfs: plain
+  obfs-param: 33f313723.douyin.com
+- name: 🇨🇦CA_131 ⇽中转_0@130
+  server: api.meituan88.com
+  type: ssr
+  country: 🇺🇸US
+  port: 41181
+  password: di15PV
+  cipher: chacha20-ietf
+  protocol: auth_aes128_md5
+  obfs: plain
+  obfs-param: 665203463.douyin.com
+- name: 🇨🇦CA_132 ⇽中转_0@131
+  server: api.meituan88.com
+  type: ssr
+  country: 🇺🇸US
+  port: 18566
+  password: di15PV
+  cipher: chacha20-ietf
+  protocol: auth_aes128_md5
+  obfs: plain
+  obfs-param: 33f313723.douyin.com
+- name: 🇨🇦CA_133 ⇽中转_0@132
+  server: api.meituan88.com
+  type: ssr
+  country: 🇺🇸US
+  port: 29392
+  password: di15PV
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  obfs-param: 6f5218522.douyin.com
+- name: 🇨🇦CA_134 ⇽中转_0@133
+  server: api.meituan88.com
+  type: ssr
+  country: 🇺🇸US
+  port: 32414
+  password: di15PV
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  obfs: plain
+  obfs-param: 99e144391.douyin.com
+- name: 🇨🇦CA_135 ⇽中转_0@134
+  server: api.meituan88.com
+  type: ssr
+  country: 🇺🇸US
+  port: 39514
+  password: di15PV
+  cipher: chacha20-ietf
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  obfs-param: 99e144391.douyin.com
+- name: 🇺🇸US_136_0@135
   server: 149.88.23.202
   type: vmess
   country: 🇺🇸US
@@ -1143,7 +1139,19 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 🇺🇸US_136_0@135
+- name: 🇺🇸US_137_0@136
+  server: 149.88.23.207
+  type: vmess
+  country: 🇺🇸US
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  network: tcp
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 🇺🇸US_138_0@137
   server: www.shopify.com
   type: vmess
   country: 🇺🇸US
@@ -1161,7 +1169,7 @@ proxies:
     path: /hls/cctv5phd.m3u8
     headers:
       HOST: guanwang.awsno.com
-- name: 🇺🇸US_137_0@136
+- name: 🇺🇸US_139_0@138
   server: 67.220.95.3
   type: vmess
   country: 🇺🇸US
@@ -1173,8 +1181,26 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 🇺🇸US_138_0@137
-  server: 38.110.1.246
+- name: 🇭🇰HK_140 ⇽中转_0@139
+  server: 20.235.220.189
+  type: vmess
+  country: 🇺🇸US
+  port: 443
+  uuid: f23bb427c1f94373876c2f43e9f790f3
+  alterId: 0
+  cipher: auto
+  network: ws
+  servername: 6JDvArazgU3qQR6Q.v.3dns.vip
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      HOST: 6JDvArazgU3qQR6Q.v.3dns.vip
+- name: 🇺🇸US_141_0@140
+  server: 67.220.85.46
   type: vmess
   country: 🇺🇸US
   port: 18000
@@ -1185,16 +1211,7 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 🇺🇸US_139 ⇽中转_0@138
-  server: resources.findlocaljobnetworkandbuildcommunityconnections.com
-  type: trojan
-  country: 🇺🇸US
-  port: 443
-  password: f0eb8c92ce8946aaba856569cff1a16b
-  sni: resources.findlocaljobnetworkandbuildcommunityconnections.com
-  skip-cert-verify: true
-  udp: true
-- name: Pool_🇺🇸US_140_0@139
+- name: Pool_🇺🇸US_142_0@141
   server: 66.23.203.21
   type: trojan
   country: 🇺🇸US
@@ -1203,131 +1220,30 @@ proxies:
   sni: 66.23.203.21
   skip-cert-verify: true
   udp: true
-- name: 🇺🇸US_141 ⇽中转_0@140
+- name: 🇺🇸US_143 ⇽中转_0@142
+  server: resources.findlocaljobnetworkandbuildcommunityconnections.com
+  type: trojan
+  country: 🇺🇸US
+  port: 443
+  password: f0eb8c92ce8946aaba856569cff1a16b
+  sni: resources.findlocaljobnetworkandbuildcommunityconnections.com
+  skip-cert-verify: true
+  udp: true
+- name: 🇺🇸US_144 ⇽中转_0@143
   server: 102.133.165.160
   type: ss
   country: 🇿🇦ZA
   port: 16233
   password: Xsy8Ox4yOV3xLlpxtjzs3X
   cipher: chacha20-ietf-poly1305
-- name: 🇿🇦ZA_142_0@141
+- name: 🇿🇦ZA_145_0@144
   server: 102.37.156.224
   type: ss
   country: 🇿🇦ZA
   port: 443
   password: aduB9HGxQHjA2SBMRjkHX6
   cipher: chacha20-ietf-poly1305
-- name: 🇨🇦CA_143 ⇽中转_0@142
-  server: api.meituan88.com
-  type: ssr
-  country: 🏁ZZ
-  port: 26774
-  password: di15PV
-  cipher: chacha20-ietf
-  protocol: auth_aes128_md5
-  obfs: plain
-  obfs-param: 33f313723.douyin.com
-- name: 🇨🇦CA_144 ⇽中转_0@143
-  server: api.meituan88.com
-  type: ssr
-  country: 🏁ZZ
-  port: 49997
-  password: di15PV
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  obfs-param: 33f313723.douyin.com
-- name: 🇨🇦CA_145 ⇽中转_0@144
-  server: api.meituan88.com
-  type: ssr
-  country: 🏁ZZ
-  port: 61558
-  password: di15PV
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  obfs-param: 6f5218522.douyin.com
-- name: 🇨🇦CA_146 ⇽中转_0@145
-  server: api.meituan88.com
-  type: ssr
-  country: 🏁ZZ
-  port: 46736
-  password: di15PV
-  cipher: chacha20-ietf
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  obfs-param: 33f313723.douyin.com
-- name: 🇨🇦CA_147 ⇽中转_0@146
-  server: api.meituan88.com
-  type: ssr
-  country: 🏁ZZ
-  port: 2205
-  password: di15PV
-  cipher: chacha20-ietf
-  protocol: auth_aes128_md5
-  obfs: plain
-  obfs-param: 99e144391.douyin.com
-- name: 🇨🇦CA_148 ⇽中转_0@147
-  server: api.meituan88.com
-  type: ssr
-  country: 🏁ZZ
-  port: 32414
-  password: di15PV
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  obfs: plain
-  obfs-param: 99e144391.douyin.com
-- name: 🇨🇦CA_149 ⇽中转_0@148
-  server: api.meituan88.com
-  type: ssr
-  country: 🏁ZZ
-  port: 59382
-  password: di15PV
-  cipher: chacha20-ietf
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  obfs-param: 99e144391.douyin.com
-- name: 🇨🇦CA_150 ⇽中转_0@149
-  server: api.meituan88.com
-  type: ssr
-  country: 🏁ZZ
-  port: 2107
-  password: di15PV
-  cipher: aes-256-cfb
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  obfs-param: 87c276924.douyin.com
-- name: 🇨🇦CA_151 ⇽中转_0@150
-  server: api.meituan88.com
-  type: ssr
-  country: 🏁ZZ
-  port: 7018
-  password: di15PV
-  cipher: chacha20-ietf
-  protocol: auth_aes128_md5
-  obfs: plain
-  obfs-param: 33f313723.douyin.com
-- name: 🇨🇦CA_152 ⇽中转_0@151
-  server: api.meituan88.com
-  type: ssr
-  country: 🏁ZZ
-  port: 39514
-  password: di15PV
-  cipher: chacha20-ietf
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  obfs-param: 99e144391.douyin.com
-- name: 🇨🇦CA_153 ⇽中转_0@152
-  server: api.meituan88.com
-  type: ssr
-  country: 🏁ZZ
-  port: 41181
-  password: di15PV
-  cipher: chacha20-ietf
-  protocol: auth_aes128_md5
-  obfs: plain
-  obfs-param: 665203463.douyin.com
-- name: 🇯🇵JP_154 ⇽中转_0@153
+- name: 🇯🇵JP_146 ⇽中转_0@145
   server: cdn.sfacg.uk
   type: vmess
   country: 🏁ZZ
@@ -1345,7 +1261,7 @@ proxies:
     path: /or3
     headers:
       HOST: or3.sfacg.uk
-- name: 🇺🇸US_155 ⇽中转_0@154
+- name: 🇺🇸US_147 ⇽中转_0@146
   server: 104.17.77.77
   type: vmess
   country: 🏁ZZ
@@ -1379,35 +1295,50 @@ proxies:
   password: 38f169d6-d202-4b1b-8db8-e6eb1648f5cf
   skip-cert-verify: true
   udp: true
-- name: 🇬🇧GB_47_1@46
+- name: 🇨🇳CN_04_1@3
+  server: a12.taipeicitygovernment.org.ua
+  type: trojan
+  country: 🇨🇳CN
+  port: 3462
+  password: 736cd94d-7b94-3e44-8106-3419f64eaf09
+  skip-cert-verify: true
+  udp: true
+- name: 🇪🇸ES_05_1@4
+  server: 5.188.181.201
+  type: ss
+  country: 🇪🇸ES
+  port: 9003
+  password: JdmRK9gMEqFgs8nP
+  cipher: aes-256-cfb
+- name: 🇪🇸ES_06_1@5
+  server: 5.188.181.201
+  type: ss
+  country: 🇪🇸ES
+  port: 9054
+  password: VcFuyXvND2yQWSFY
+  cipher: aes-256-cfb
+- name: 🇬🇧GB_35_1@34
   server: 82.38.31.61
   type: ss
   country: 🇬🇧GB
   port: 8080
   password: oZIoA69Q8yhcQV8ka3Pa3A
   cipher: chacha20-ietf-poly1305
-- name: 🇬🇧GB_49_1@48
-  server: 82.38.31.82
-  type: ss
-  country: 🇬🇧GB
-  port: 8080
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  cipher: chacha20-ietf-poly1305
-- name: 🇬🇧GB_50_1@49
-  server: 82.38.31.66
-  type: ss
-  country: 🇬🇧GB
-  port: 8080
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  cipher: chacha20-ietf-poly1305
-- name: 🇬🇧GB_51_1@50
+- name: 🇬🇧GB_36_1@35
   server: 82.38.31.62
   type: ss
   country: 🇬🇧GB
   port: 8080
   password: oZIoA69Q8yhcQV8ka3Pa3A
   cipher: chacha20-ietf-poly1305
-- name: 🇬🇧GB_52_1@51
+- name: 🇬🇧GB_37_1@36
+  server: 82.38.31.66
+  type: ss
+  country: 🇬🇧GB
+  port: 8080
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  cipher: chacha20-ietf-poly1305
+- name: 🇬🇧GB_55_1@54
   server: nl-1.tr202607.com
   type: trojan
   country: 🇬🇧GB
@@ -1415,7 +1346,16 @@ proxies:
   password: LSS6HLnp7IeEEJUcox
   skip-cert-verify: true
   udp: true
-- name: 🇬🇧GB_53_1@52
+- name: 🇬🇧GB_56_1@55
+  server: free-v7-09.elbrusway.online
+  type: trojan
+  country: 🇬🇧GB
+  port: 443
+  password: 11559103-9993-4d00-b599-d6bcd8db2197
+  sni: free-v7-09.elbrusway.online
+  skip-cert-verify: true
+  udp: true
+- name: 🇬🇧GB_57_1@56
   server: 148.253.215.61
   type: trojan
   country: 🇬🇧GB
@@ -1424,28 +1364,19 @@ proxies:
   sni: kfm-bn0.pages.dev
   skip-cert-verify: true
   udp: true
-- name: 🇭🇰HK_55_1@54
-  server: 103.149.183.80
-  type: ss
-  country: 🇭🇰HK
-  port: 8388
-  password: asd123456
-  cipher: chacha20-ietf
-- name: 🇭🇰HK_57_1@56
-  server: 103.149.183.113
-  type: ss
-  country: 🇭🇰HK
-  port: 8388
-  password: asd123456
-  cipher: chacha20-ietf
 - name: 🇭🇰HK_59_1@58
-  server: 58.152.53.45
-  type: trojan
+  server: 47.244.120.197
+  type: vmess
   country: 🇭🇰HK
-  port: 443
-  password: BxceQaOe
+  port: 44867
+  uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /arki
+  http-opts: {}
+  h2-opts: {}
   skip-cert-verify: true
-  udp: true
 - name: 🇮🇹IT_62_1@61
   server: 185.213.23.63
   type: ss
@@ -1454,6 +1385,20 @@ proxies:
   password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
   cipher: chacha20-ietf-poly1305
 - name: 🇯🇵 JP_63_1@62
+  server: or.521166.xyz
+  type: vmess
+  country: 🇯🇵 JP
+  port: 2083
+  uuid: ac251237-576f-40c8-a543-554960c958b1
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /or3
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 🇯🇵 JP_64_1@63
   server: 54.65.177.190
   type: trojan
   country: 🇯🇵 JP
@@ -1461,13 +1406,6 @@ proxies:
   password: UX82473651
   skip-cert-verify: true
   udp: true
-- name: 🇯🇵JP_64_1@63
-  server: 141.164.45.187
-  type: ss
-  country: 🇯🇵JP
-  port: 6679
-  password: TEzjfAYq2IjtuoS
-  cipher: aes-256-gcm
 - name: 🇯🇵JP_65_1@64
   server: 18.179.31.199
   type: trojan
@@ -1477,11 +1415,11 @@ proxies:
   skip-cert-verify: true
   udp: true
 - name: 🇯🇵JP_67_1@66
-  server: 52.195.11.84
+  server: v2jp.k1.ssnss.live
   type: trojan
   country: 🇯🇵JP
-  port: 443
-  password: JA96378052
+  port: 44184
+  password: d050aca3-9df2-4461-90ec-92373c1d7636
   skip-cert-verify: true
   udp: true
 - name: 🇳🇬NG_70_1@69
@@ -1501,29 +1439,36 @@ proxies:
   sni: kfm-bn0.pages.dev
   skip-cert-verify: true
   udp: true
-- name: 🇳🇿NZ_80_1@79
-  server: 202.50.253.45
+- name: 🇳🇴 NO_78_1@77
+  server: 84.247.155.196
   type: ss
-  country: 🇳🇿NZ
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  country: 🇳🇴 NO
+  port: 443
+  password: 3eOFeNssde7PYYMv
+  cipher: aes-256-gcm
+- name: 🇳🇴 NO_79_1@78
+  server: 84.247.155.196
+  type: ss
+  country: 🇳🇴 NO
+  port: 80
+  password: 3eOFeNssde7PYYMv
   cipher: aes-256-gcm
 - name: 🇳🇿NZ_81_1@80
-  server: 202.50.253.63
-  type: ss
-  country: 🇳🇿NZ
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-- name: 🇳🇿NZ_82_1@81
   server: 202.50.253.81
   type: ss
   country: 🇳🇿NZ
   port: 19999
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   cipher: aes-256-gcm
-- name: 🇳🇿NZ_84_1@83
-  server: 202.50.253.18
+- name: 🇳🇿NZ_82_1@81
+  server: 202.50.253.45
+  type: ss
+  country: 🇳🇿NZ
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+- name: 🇳🇿NZ_83_1@82
+  server: 202.50.253.63
   type: ss
   country: 🇳🇿NZ
   port: 19999
@@ -1536,35 +1481,87 @@ proxies:
   port: 19999
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   cipher: aes-256-gcm
-- name: 🇸🇬SG_86_1@85
-  server: 68.183.227.4
+- name: 🇳🇿NZ_87_1@86
+  server: 202.50.253.18
   type: ss
-  country: 🇸🇬SG
-  port: 8080
-  password: 14fFPrbezE3HDZzsMOr6
-  cipher: rc4-md5
-- name: 🇺🇸 US_91_1@90
+  country: 🇳🇿NZ
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+- name: 🇸🇬 SG_88_1@87
+  server: 139.180.220.175
+  type: ss
+  country: 🇸🇬 SG
+  port: 8388
+  password: qpSevKaUXYQKvSjp
+  cipher: aes-256-gcm
+- name: 🇺🇸 US_93_1@92
   server: 154.36.158.197
   type: ss
   country: 🇺🇸 US
   port: 8388
   password: BeaUf9c0AEWH40Pu
   cipher: aes-256-gcm
-- name: 🇺🇸US_95_1@94
-  server: 198.98.53.130
-  type: ss
+- name: 🇺🇸US_106_1@105
+  server: 47.250.135.244
+  type: vmess
+  country: 🇺🇸US
+  port: 10000
+  uuid: aedc66b8-99d7-4a21-8310-61870e7f870d
+  alterId: 0
+  cipher: auto
+  network: tcp
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 🇺🇸US_108_1@107
+  server: 38.110.1.246
+  type: vmess
+  country: 🇺🇸US
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  network: tcp
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 🇺🇸US_110_1@109
+  server: www.ubuntuupdates.com
+  type: vmess
   country: 🇺🇸US
   port: 443
-  password: eDfN7SODQceIOmIAbtJJtK
-  cipher: chacha20-ietf-poly1305
-- name: 🇺🇸US_97_1@96
-  server: 139.84.247.164
-  type: ss
+  uuid: 83b09a64-1eaf-4c4d-89ed-866d4b6b8115
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /truth
+  servername: www.ubuntuupdates.com
+  ws-headers:
+    HOST: www.ubuntuupdates.com
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 🇺🇸US_111_1@110
+  server: 192.236.151.43
+  type: trojan
   country: 🇺🇸US
-  port: 8388
-  password: tfAcRikawhNoZAhu
-  cipher: chacha20-ietf-poly1305
-- name: 🇺🇸US_107_1@106
+  port: 443
+  password: OnHLrkVqZVtZyulTwC4bHrIbW7GyUDttKVNGEYVR12Y=
+  skip-cert-verify: true
+  udp: true
+- name: 🇺🇸US_113_1@112
+  server: bbbnhj.131.pp.ua
+  type: trojan
+  country: 🇺🇸US
+  port: 443
+  password: 98b419ef-83a2-4d1b-a23d-566b7f24477b
+  skip-cert-verify: true
+  udp: true
+- name: 🇺🇸US_114_1@113
   server: 152.53.228.86
   type: trojan
   country: 🇺🇸US
@@ -1573,7 +1570,15 @@ proxies:
   sni: kfm-bn0.pages.dev
   skip-cert-verify: true
   udp: true
-- name: 🇺🇸US_111_1@110
+- name: 🇺🇸US_117_1@116
+  server: 38.180.137.196
+  type: trojan
+  country: 🇺🇸US
+  port: 443
+  password: c1d83c0c7d57cead4379ba14a82df69b
+  skip-cert-verify: true
+  udp: true
+- name: 🇺🇸US_118_1@117
   server: 152.53.138.238
   type: trojan
   country: 🇺🇸US
@@ -1582,29 +1587,34 @@ proxies:
   sni: kfm-bn0.pages.dev
   skip-cert-verify: true
   udp: true
-- name: 🇺🇸US_112_1@111
-  server: 38.180.137.196
-  type: trojan
-  country: 🇺🇸US
-  port: 443
-  password: c1d83c0c7d57cead4379ba14a82df69b
-  skip-cert-verify: true
-  udp: true
-- name: 🇺🇸US_113_1@112
-  server: 192.236.151.43
-  type: trojan
-  country: 🇺🇸US
-  port: 443
-  password: OnHLrkVqZVtZyulTwC4bHrIbW7GyUDttKVNGEYVR12Y=
-  skip-cert-verify: true
-  udp: true
-- name: 🏁ZZ_116_1@115
+- name: 🏁ZZ_121_1@120
   server: staging.lastilhame.monster
   type: ss
   country: 🏁ZZ
   port: 49917
   password: G9ZuLN5DE9qqouTZwYUcvYsDJx8gyL1nCu3N7yRZFjPmYKhzSi8GkpVuexmTHAz2uvcErKkex1K2ceR2GH3L444HRNnN1YpP
   cipher: chacha20-ietf-poly1305
+- name: 🏁ZZ_123_1@122
+  server: 134.195.196.211
+  type: vmess
+  country: 🏁ZZ
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  network: tcp
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 🏁ZZ_124_1@123
+  server: 23.149.28.8.sslip.io
+  type: trojan
+  country: 🏁ZZ
+  port: 8443
+  password: 78c6cf8f30399bad3f63f15a9600a8ef
+  skip-cert-verify: true
+  udp: true
 proxy-groups:
 - name: 🚀 节点选择
   type: select
